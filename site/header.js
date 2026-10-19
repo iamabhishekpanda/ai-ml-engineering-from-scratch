@@ -200,6 +200,38 @@
     document.head.appendChild(script);
   }
 
+  function syncThemeControls() {
+    var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    var controls = document.querySelectorAll('.theme-toggle:not(.tts-toggle)');
+    for (var i = 0; i < controls.length; i++) {
+      var control = controls[i];
+      var label = 'Switch to ' + next + ' theme';
+      control.setAttribute('aria-label', label);
+      control.setAttribute('title', label);
+      control.setAttribute('aria-pressed', current === 'dark' ? 'true' : 'false');
+      var icon = control.querySelector('.theme-icon');
+      if (icon) {
+        icon.textContent = next === 'light' ? '\u2600' : '\u263E';
+        icon.setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+
+  function setupThemeControls() {
+    syncThemeControls();
+    if (typeof MutationObserver !== 'function') return;
+    var observer = new MutationObserver(function (mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        if (mutations[i].attributeName === 'data-theme') {
+          syncThemeControls();
+          return;
+        }
+      }
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
   function pageFile(url) {
     try {
       var parsed = new URL(url, location.href);
@@ -450,6 +482,7 @@
     ensureUiI18n();
     ensureNewsletter();
     ensureStarNudge();
+    setupThemeControls();
   }
 
   setupRouteLinks();

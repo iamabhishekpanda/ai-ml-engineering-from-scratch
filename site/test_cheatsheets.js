@@ -206,10 +206,10 @@ test('the search index stays small and still finds flags in long cells', () => {
 test('the print edition carries the attribution and renders math ahead of time', () => {
   const built = sheets.buildCheatsheets({ edition: '2026-10-01' });
   const html = sheets.printHtml(built);
-  assert.match(html, /<meta name="author" content="Rohit Ghumare">/);
+  assert.match(html, /<meta name="author" content="Abhishek Panda">/);
   assert.match(html, /<meta name="subject" content="[^"]+edition 2026-10-01">/);
   assert.match(html, /<meta name="keywords" content="[^"]+">/);
-  assert.match(html, /class="cs-cover-copy">© 2026 Rohit Ghumare · MIT license</);
+  assert.match(html, /class="cs-cover-copy">© 2026 Abhishek Panda · MIT license</);
   const printer = fs.readFileSync(path.join(__dirname, '..', 'scripts', 'print_cheatsheets.js'), 'utf8');
   assert.match(printer, /querySelector\('\.cs-cover-copy'\)/);
   assert.match(html, /Keep this page and the copyright line with them/);

@@ -1484,7 +1484,7 @@ test('homepage preserves live GitHub CTAs and the motion-aware learner marquee',
   );
   assert.match(
     mastheadCta[0],
-    /<a class="masthead-btn" href="https:\/\/github\.com\/iamabhishekpanda"[^>]*aria-label="Follow Rohit Ghumare on GitHub"[^>]*>[\s\S]*?<span>Follow @rohitg00<\/span>/
+    /<a class="masthead-btn" href="https:\/\/github\.com\/iamabhishekpanda"[^>]*aria-label="Follow Abhishek Panda on GitHub"[^>]*>[\s\S]*?<span>Follow @iamabhishekpanda<\/span>/
   );
   assert.match(homepage, /<script src="header\.js\?v=[^"]+" defer><\/script>/);
   assert.match(headerSource, /\[data-gh-stars="' \+ REPO \+ '"\]/);

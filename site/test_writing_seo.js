@@ -19,7 +19,7 @@ test('search crawlers receive an authored collection and current local article U
   const collection = graph.find(node => node['@type'] === 'CollectionPage');
   const breadcrumbs = graph.find(node => node['@type'] === 'BreadcrumbList');
   assert.equal(collection.url, origin + '/blogs');
-  assert.equal(collection.author.name, 'Rohit Ghumare');
+  assert.equal(collection.author.name, 'Abhishek Panda');
   assert.equal(collection.author.url, origin + '/about');
   assert.equal(collection.mainEntity.numberOfItems, 1);
   assert.deepEqual(collection.mainEntity.itemListElement, [

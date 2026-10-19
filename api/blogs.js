@@ -39,7 +39,7 @@ function renderCollection(template, items) {
         ...collection,
         '@id': collection.url + '#collection',
         inLanguage: 'en',
-        author: { '@type': 'Person', name: 'Rohit Ghumare', url: origin + '/about' },
+        author: { '@type': 'Person', name: 'Abhishek Panda', url: origin + '/about' },
         breadcrumb: { '@id': breadcrumbId },
         mainEntity: {
           '@type': 'ItemList',
