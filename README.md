@@ -15,12 +15,12 @@ This is **Abhishek Panda's learning workspace**: an independently maintained, br
 
 Free, open source, MIT. Learn on the website, with a coding agent, or by running local code.
 
-> 556 lessons. 20 phases. Python, TypeScript, Rust, Julia.
+> 556 lessons. 21 phases. Python, TypeScript, Rust, Julia.
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-556-3553ff?style=flat-square&labelColor=fafaf5" alt="556 lessons"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/phases-21-3553ff?style=flat-square&labelColor=fafaf5" alt="21 phases"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
   <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
 </p>
@@ -409,19 +409,20 @@ flowchart TB
   P15 --> P16["Phase 16 — Multi-Agent &amp; Swarms"]
   P14 --> P17["Phase 17 — Infrastructure &amp; Production"]
   P15 --> P18["Phase 18 — Ethics &amp; Alignment"]
-  P16 --> P19["Phase 19 — Capstone Projects"]
+  P18 --> P19["Phase 19 — Capstone Projects"]
   P17 --> P19
   P18 --> P19
+  P19 --> P20["Phase 20 — Azure AI Engineering"]
 ```
 
 <a id="contents"></a>
 
 ## Contents
 
-Twenty phases. Click any phase to expand its lesson list.
+Twenty-one phases. Click any phase to expand its lesson list.
 
 <a id="phase-0"></a>
-### Phase 0: Setup & Tooling `27 lessons`
+### Phase 0: Setup & Tooling `13 lessons`
 > Get your environment ready for everything that follows.
 
 | # | Lesson | Type | Lang |
@@ -439,20 +440,6 @@ Twenty phases. Click any phase to expand its lesson list.
 | 11 | [Linux for AI](phases/00-setup-and-tooling/11-linux-for-ai/) | Learn | — |
 | 12 | [Debugging & Profiling](phases/00-setup-and-tooling/12-debugging-and-profiling/) | Build | Python |
 | 13 | [Python for AI Engineering](phases/00-setup-and-tooling/13-python-for-ai-engineering/) | Build | Python |
-| 14 | [Azure AI Engineering Fundamentals](phases/00-setup-and-tooling/14-azure-fundamentals/) | Learn | Python |
-| 15 | [Azure Identity & Networking](phases/00-setup-and-tooling/15-azure-identity-and-networking/) | Build | Python |
-| 16 | [Azure OpenAI](phases/00-setup-and-tooling/16-azure-openai/) | Build | Python |
-| 17 | [Azure AI Foundry](phases/00-setup-and-tooling/17-azure-ai-foundry/) | Build | Python |
-| 18 | [Azure AI Search](phases/00-setup-and-tooling/18-azure-ai-search/) | Build | Python |
-| 19 | [Azure Storage & Data Contracts](phases/00-setup-and-tooling/19-azure-storage-and-data/) | Build | Python |
-| 20 | [Azure Container Apps](phases/00-setup-and-tooling/20-azure-container-apps/) | Build | Python |
-| 21 | [Azure Functions for AI Workloads](phases/00-setup-and-tooling/21-azure-functions/) | Build | Python |
-| 22 | [Azure Observability](phases/00-setup-and-tooling/22-azure-observability/) | Build | Python |
-| 23 | [Azure Security & Secrets](phases/00-setup-and-tooling/23-azure-security-and-secrets/) | Build | Python |
-| 24 | [Azure Prompt Operations](phases/00-setup-and-tooling/24-azure-prompt-ops/) | Build | Python |
-| 25 | [Azure RAG Deployment](phases/00-setup-and-tooling/25-azure-rag-deployment/) | Build | Python |
-| 26 | [Azure Agent Deployment](phases/00-setup-and-tooling/26-azure-agent-deployment/) | Build | Python |
-| 27 | [Azure AI Architecture Capstone](phases/00-setup-and-tooling/27-azure-architecture-capstone/) | Build | Python |
 
 <details id="phase-1">
 <summary><b>Phase 1 — Math Foundations</b> &nbsp;<code>22 lessons</code>&nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
@@ -1179,12 +1166,35 @@ through evidence, risk, scope, measurement, staged release, and feedback ownersh
 
 </details>
 
+<details id="phase-20">
+<summary><b>Phase 20 — Azure AI Engineering</b> &nbsp;<code>14 lessons</code>&nbsp; <em>Deploy, secure, evaluate, and operate AI systems on Azure.</em></summary>
+<br/>
+
+| # | Lesson | Type | Lang |
+|:---:|--------|:----:|------|
+| 01 | [Azure AI Engineering Fundamentals](phases/20-azure-ai-engineering/14-azure-fundamentals/) | Learn | Python |
+| 02 | [Azure Identity & Networking](phases/20-azure-ai-engineering/15-azure-identity-and-networking/) | Build | Python |
+| 03 | [Azure OpenAI](phases/20-azure-ai-engineering/16-azure-openai/) | Build | Python |
+| 04 | [Azure AI Foundry](phases/20-azure-ai-engineering/17-azure-ai-foundry/) | Build | Python |
+| 05 | [Azure AI Search](phases/20-azure-ai-engineering/18-azure-ai-search/) | Build | Python |
+| 06 | [Azure Storage & Data Contracts](phases/20-azure-ai-engineering/19-azure-storage-and-data/) | Build | Python |
+| 07 | [Azure Container Apps](phases/20-azure-ai-engineering/20-azure-container-apps/) | Build | Python |
+| 08 | [Azure Functions for AI Workloads](phases/20-azure-ai-engineering/21-azure-functions/) | Build | Python |
+| 09 | [Azure Observability](phases/20-azure-ai-engineering/22-azure-observability/) | Build | Python |
+| 10 | [Azure Security & Secrets](phases/20-azure-ai-engineering/23-azure-security-and-secrets/) | Build | Python |
+| 11 | [Azure Prompt Operations](phases/20-azure-ai-engineering/24-azure-prompt-ops/) | Build | Python |
+| 12 | [Azure RAG Deployment](phases/20-azure-ai-engineering/25-azure-rag-deployment/) | Build | Python |
+| 13 | [Azure Agent Deployment](phases/20-azure-ai-engineering/26-azure-agent-deployment/) | Build | Python |
+| 14 | [Azure AI Architecture Capstone](phases/20-azure-ai-engineering/27-azure-architecture-capstone/) | Build | Python |
+
+</details>
+
 ## Books and certifications
 
 <details>
 <summary>Read the core curriculum as a book</summary>
 
-The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
+The 21-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
 
 Certification curricula are intentionally not converted into the books. Their
 AI tutor state, runnable labs, interactive figures, diagnostics, and timed mocks

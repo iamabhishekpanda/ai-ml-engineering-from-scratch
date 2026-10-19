@@ -8,7 +8,7 @@ Total estimated time: ~332 hours, at your own pace.
 
 **Legend:** ✅ Complete &nbsp;·&nbsp; 🚧 In Progress &nbsp;·&nbsp; ⬚ Planned
 
-## Phase 0: Setup & Tooling — ✅ (~30 hours)
+## Phase 0: Setup & Tooling — ✅ (~16 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -25,20 +25,6 @@ Total estimated time: ~332 hours, at your own pace.
 | 11 | Linux for AI | ✅ | ~45 min |
 | 12 | Debugging & Profiling | ✅ | ~75 min |
 | 13 | Python for AI Engineering | ✅ | ~120 min |
-| 14 | Azure AI Engineering Fundamentals | ✅ | ~60 min |
-| 15 | Azure Identity & Networking | ✅ | ~60 min |
-| 16 | Azure OpenAI | ✅ | ~60 min |
-| 17 | Azure AI Foundry | ✅ | ~60 min |
-| 18 | Azure AI Search | ✅ | ~60 min |
-| 19 | Azure Storage & Data Contracts | ✅ | ~60 min |
-| 20 | Azure Container Apps | ✅ | ~60 min |
-| 21 | Azure Functions for AI Workloads | ✅ | ~60 min |
-| 22 | Azure Observability | ✅ | ~60 min |
-| 23 | Azure Security & Secrets | ✅ | ~60 min |
-| 24 | Azure Prompt Operations | ✅ | ~60 min |
-| 25 | Azure RAG Deployment | ✅ | ~75 min |
-| 26 | Azure Agent Deployment | ✅ | ~75 min |
-| 27 | Azure AI Architecture Capstone | ✅ | ~120 min |
 
 ## Phase 1: Math Foundations — ✅ (~23 hours)
 
@@ -666,6 +652,25 @@ Total estimated time: ~332 hours, at your own pace.
 
 ---
 
-**Total: 20 phases, 523 lessons | 523 complete | ~1,081 hours estimated**
+**Total: 21 phases, 537 lessons | 537 complete | ~1,097 hours estimated**
+
+## Phase 20: Azure AI Engineering — ✅ (~16 hours)
+
+| # | Lesson | Status | Est. |
+|---|--------|--------|------|
+| 01 | Azure AI Engineering Fundamentals | ✅ | ~60 min |
+| 02 | Azure Identity & Networking | ✅ | ~60 min |
+| 03 | Azure OpenAI | ✅ | ~60 min |
+| 04 | Azure AI Foundry | ✅ | ~60 min |
+| 05 | Azure AI Search | ✅ | ~60 min |
+| 06 | Azure Storage & Data Contracts | ✅ | ~60 min |
+| 07 | Azure Container Apps | ✅ | ~60 min |
+| 08 | Azure Functions for AI Workloads | ✅ | ~60 min |
+| 09 | Azure Observability | ✅ | ~60 min |
+| 10 | Azure Security & Secrets | ✅ | ~60 min |
+| 11 | Azure Prompt Operations | ✅ | ~60 min |
+| 12 | Azure RAG Deployment | ✅ | ~75 min |
+| 13 | Azure Agent Deployment | ✅ | ~75 min |
+| 14 | Azure AI Architecture Capstone | ✅ | ~120 min |
 
 Want to help? Pick any ⬚ lesson and submit a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).

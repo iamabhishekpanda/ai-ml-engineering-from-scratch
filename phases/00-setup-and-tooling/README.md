@@ -1,6 +1,6 @@
 # Phase 0: Setup & Tooling
 
-> Get your environment ready for everything that follows, including Azure AI delivery.
+> Get your environment ready for everything that follows.
 
 ## Start this phase on GitHub
 
@@ -8,8 +8,6 @@
 tools are installed only when your route needs them.
 
 **First lesson:** [Dev Environment](01-dev-environment/)
-
-**Azure route:** Start at [Azure AI Engineering Fundamentals](14-azure-fundamentals/) after completing the first 13 setup lessons.
 
 From the repository root, run the route-aware preflight:
 

@@ -17,12 +17,12 @@
 
 免费、开源、MIT 许可。你可以在网站学习、使用编程代理辅助学习，或在本地运行代码。
 
-> 556 节课. 20 个阶段. Python, TypeScript, Rust, Julia.
+> 556 节课. 21 个阶段. Python, TypeScript, Rust, Julia.
 
 <p align="center">
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT 许可证"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-556-3553ff?style=flat-square&labelColor=fafaf5" alt="556 节课"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 个阶段"></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/phases-21-3553ff?style=flat-square&labelColor=fafaf5" alt="21 个阶段"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星标"></a>
   <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
 </p>
@@ -323,7 +323,7 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 ## 课程结构
 
-20 个阶段层层衔接：数学是地基，智能体与生产部署是上层。如果你已经掌握前面的基础，可以直接进入更高阶段；遇到困难时，也能沿着课程依赖回到缺失的知识点。
+21 个阶段层层衔接：数学是地基，智能体与生产部署是上层。如果你已经掌握前面的基础，可以直接进入更高阶段；遇到困难时，也能沿着课程依赖回到缺失的知识点。
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'12px'}}}%%
@@ -346,19 +346,20 @@ flowchart TB
   P15 --> P16["阶段 16：多智能体与群体智能"]
   P14 --> P17["阶段 17：基础设施与生产部署"]
   P15 --> P18["阶段 18：伦理、安全与对齐"]
-  P16 --> P19["阶段 19：综合项目"]
+  P18 --> P19["阶段 19：综合项目"]
   P17 --> P19
   P18 --> P19
+  P19 --> P20["阶段 20：Azure AI 工程"]
 ```
 
 <a id="contents"></a>
 
 ## 课程目录
 
-课程共分 20 个阶段；点击任一阶段即可展开其课程列表。
+课程共分 21 个阶段；点击任一阶段即可展开其课程列表。
 
 <a id="phase-0"></a>
-### 阶段 0：环境与工具 `27 节课`
+### 阶段 0：环境与工具 `13 节课`
 > 配好学习后续所有内容所需的环境与工具。
 
 | # | 课程 | 类型 | 语言 |
@@ -376,20 +377,6 @@ flowchart TB
 | 11 | [用于 AI 的 Linux](../../phases/00-setup-and-tooling/11-linux-for-ai/) | 学习 | — |
 | 12 | [调试与性能分析](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | 构建 | Python |
 | 13 | [面向 AI 工程的 Python](../../phases/00-setup-and-tooling/13-python-for-ai-engineering/) | 构建 | Python |
-| 14 | [Azure AI 工程基础](../../phases/00-setup-and-tooling/14-azure-fundamentals/) | 学习 | Python |
-| 15 | [Azure 身份与网络](../../phases/00-setup-and-tooling/15-azure-identity-and-networking/) | 构建 | Python |
-| 16 | [Azure 模型服务](../../phases/00-setup-and-tooling/16-azure-openai/) | 构建 | Python |
-| 17 | [Azure 人工智能工作台](../../phases/00-setup-and-tooling/17-azure-ai-foundry/) | 构建 | Python |
-| 18 | [Azure 搜索服务](../../phases/00-setup-and-tooling/18-azure-ai-search/) | 构建 | Python |
-| 19 | [Azure 存储与数据契约](../../phases/00-setup-and-tooling/19-azure-storage-and-data/) | 构建 | Python |
-| 20 | [Azure 容器应用](../../phases/00-setup-and-tooling/20-azure-container-apps/) | 构建 | Python |
-| 21 | [用于 AI 工作负载的 Azure Functions](../../phases/00-setup-and-tooling/21-azure-functions/) | 构建 | Python |
-| 22 | [Azure 可观测性](../../phases/00-setup-and-tooling/22-azure-observability/) | 构建 | Python |
-| 23 | [Azure 安全与密钥](../../phases/00-setup-and-tooling/23-azure-security-and-secrets/) | 构建 | Python |
-| 24 | [Azure 提示词运营](../../phases/00-setup-and-tooling/24-azure-prompt-ops/) | 构建 | Python |
-| 25 | [Azure RAG 部署](../../phases/00-setup-and-tooling/25-azure-rag-deployment/) | 构建 | Python |
-| 26 | [Azure 智能体部署](../../phases/00-setup-and-tooling/26-azure-agent-deployment/) | 构建 | Python |
-| 27 | [Azure AI 架构师结业项目](../../phases/00-setup-and-tooling/27-azure-architecture-capstone/) | 构建 | Python |
 
 <details id="phase-1">
 <summary><b>阶段 1 — 数学基础</b> &nbsp;<code>22 节课</code>&nbsp; <em>用代码建立理解 AI 算法所需的数学直觉。</em></summary>
@@ -1104,12 +1091,35 @@ flowchart TB
 
 </details>
 
+<details id="phase-20">
+<summary><b>阶段 20 — Azure AI 工程</b> &nbsp;<code>14 节课</code>&nbsp; <em>在 Azure 上部署、保护、评估和运营 AI 系统。</em></summary>
+<br/>
+
+| # | 课程 | 类型 | 语言 |
+|:---:|--------|:----:|------|
+| 01 | [Azure AI 工程基础](../../phases/20-azure-ai-engineering/14-azure-fundamentals/) | 学习 | Python |
+| 02 | [Azure 身份与网络](../../phases/20-azure-ai-engineering/15-azure-identity-and-networking/) | 构建 | Python |
+| 03 | [Azure 模型服务](../../phases/20-azure-ai-engineering/16-azure-openai/) | 构建 | Python |
+| 04 | [Azure 人工智能工作台](../../phases/20-azure-ai-engineering/17-azure-ai-foundry/) | 构建 | Python |
+| 05 | [Azure 搜索服务](../../phases/20-azure-ai-engineering/18-azure-ai-search/) | 构建 | Python |
+| 06 | [Azure 存储与数据契约](../../phases/20-azure-ai-engineering/19-azure-storage-and-data/) | 构建 | Python |
+| 07 | [Azure 容器应用](../../phases/20-azure-ai-engineering/20-azure-container-apps/) | 构建 | Python |
+| 08 | [用于 AI 工作负载的云函数](../../phases/20-azure-ai-engineering/21-azure-functions/) | 构建 | Python |
+| 09 | [Azure 可观测性](../../phases/20-azure-ai-engineering/22-azure-observability/) | 构建 | Python |
+| 10 | [Azure 安全与密钥](../../phases/20-azure-ai-engineering/23-azure-security-and-secrets/) | 构建 | Python |
+| 11 | [Azure 提示词运营](../../phases/20-azure-ai-engineering/24-azure-prompt-ops/) | 构建 | Python |
+| 12 | [Azure RAG 部署](../../phases/20-azure-ai-engineering/25-azure-rag-deployment/) | 构建 | Python |
+| 13 | [Azure 智能体部署](../../phases/20-azure-ai-engineering/26-azure-agent-deployment/) | 构建 | Python |
+| 14 | [Azure AI 架构师结业项目](../../phases/20-azure-ai-engineering/27-azure-architecture-capstone/) | 构建 | Python |
+
+</details>
+
 ## 书籍与认证
 
 <details>
 <summary>将核心课程当作一本书来读</summary>
 
-`phases/` 下的 20 个阶段可编成六卷电子书。CI 使用同一份课程源文件构建 EPUB 和 PDF，并把它们附在每次 [GitHub 发布](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)中；下表链接始终指向最新版本。卷号表示系列顺序，不是版本号；每份文件都标注编制日期，旧版本仍可从历史发布页下载。
+`phases/` 下的 21 个阶段可编成六卷电子书。CI 使用同一份课程源文件构建 EPUB 和 PDF，并把它们附在每次 [GitHub 发布](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)中；下表链接始终指向最新版本。卷号表示系列顺序，不是版本号；每份文件都标注编制日期，旧版本仍可从历史发布页下载。
 
 认证课程不会编入这套电子书。它们的 AI 导师进度、可运行实验、交互图示、诊断测验和限时模拟考试仍保留在 GitHub 与课程网站上。
 
