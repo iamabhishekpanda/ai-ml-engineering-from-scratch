@@ -9,7 +9,7 @@
 
 Toteuta mallien sisäiset mekanismit, hakuprosessit ja agenttien suoritusympäristöt. Testaa niitä, tutki virheitä ja säilytä koodi sekä arviointitulokset.
 
-**[Aloita oppiminen](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Valitse polku](#learning-routes)** · **[Kokeile harjoitusta](#interactive-lab)** · **[Rakenna projekti](#project-challenges)** · **[Selaa opetussuunnitelmaa](#contents)**
+**[Aloita oppiminen](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Valitse polku](#learning-routes)** · **[Kokeile harjoitusta](#interactive-lab)** · **[Rakenna projekti](#project-challenges)** · **[Selaa opetussuunnitelmaa](#contents)**
 
 Maksuton, avoin lähdekoodi, MIT-lisenssi. Opi verkkosivustolla, koodausagentin kanssa tai suorittamalla koodia paikallisesti.
 
@@ -20,7 +20,7 @@ Maksuton, avoin lähdekoodi, MIT-lisenssi. Opi verkkosivustolla, koodausagentin 
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 oppituntia"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 vaihetta"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-tähdet"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Verkkosivusto"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Verkkosivusto"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Maksuton, avoin lähdekoodi, MIT-lisenssi. Opi verkkosivustolla, koodausagentin 
 
 | Polku | Ensimmäinen oppitunti |
 |---|---|
-| Mallien perusteet | [Asennus ja työkalut](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM-järjestelmät | [Kehotteiden suunnittelu](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agentit ja järjestelmien toimitus | [Agenttisilmukka](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Mallien perusteet | [Asennus ja työkalut](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-järjestelmät | [Kehotteiden suunnittelu](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agentit ja järjestelmien toimitus | [Agenttisilmukka](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Vertaa urapolkuja](https://aiengineeringfromscratch.com/learning-paths.html) · [Esitiedot ja opiskeluaika](#study-guide)
+[Vertaa urapolkuja](https://iamabhishekpanda.com/learning-paths.html) · [Esitiedot ja opiskeluaika](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Maksuton, avoin lähdekoodi, MIT-lisenssi. Opi verkkosivustolla, koodausagentin 
 Kaksikymmentä aloituspistettä etenee gradienttilaskeutumisella neliöllisellä häviöfunktiolla. Kuvaaja näyttää niiden sijainnit ja keskimääräisen häviön jokaisen päivityksen jälkeen.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Kaksikymmentä aloituspistettä etenee gradienttilaskeutumisella neliöllisellä
   </a>
 </p>
 
-[Säädä oppimisnopeutta oppitunnilla](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Vertaa gradienttilaskeutumista, momenttia ja Adamia koodissa](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Säädä oppimisnopeutta oppitunnilla](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Vertaa gradienttilaskeutumista, momenttia ja Adamia koodissa](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Säilytä:** toistettava vertailu, kyselykohtaiset erot ja pisteytykseen käytetyt relevanssiarviot. Mittarit kuvaavat näitä arvioita; ne eivät osoita vastausten oikeellisuutta.
 
-[Aloita projekti](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Tutki viiteratkaisua](../../projects/retrieval-evaluation-lab/solution/) · [Suorita omilla syötteilläsi](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Aloita projekti](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Tutki viiteratkaisua](../../projects/retrieval-evaluation-lab/solution/) · [Suorita omilla syötteilläsi](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Säilytä:** syötejälki, HTML-aikajana ja JSON-regressioraportti. Säilytä kunkin spanin omat tokenimäärät ilman alispaneja, jotta ylä- ja alispanien käyttöä ei lasketa kahdesti.
 
-[Aloita projekti](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Tutki viiteratkaisua](../../projects/agent-trace-debugger/solution/) · [Tutki ajankäyttöä vuorovaikutteisesti](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Aloita projekti](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Tutki viiteratkaisua](../../projects/agent-trace-debugger/solution/) · [Tutki ajankäyttöä vuorovaikutteisesti](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Säilytä:** auditointitosite, joka näyttää pyydetyn operaation ja käytäntöpäätöksen. Hyväksynnät ovat kertakäyttöisiä yhden kutsun sisällä; tämä projekti ei tarjoa pysyvää valtuutusta eikä käyttöjärjestelmätason hiekkalaatikkoa.
 
-[Aloita projekti](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Tutki viiteratkaisua](../../projects/tool-call-firewall/solution/) · [Tutki hyväksynnän rajoja](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Aloita projekti](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Tutki viiteratkaisua](../../projects/tool-call-firewall/solution/) · [Tutki hyväksynnän rajoja](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Selaa kaikkia projekteja](https://aiengineeringfromscratch.com/projects.html) · [Uraharjoittelun opas](../../learning-paths/CAREER-PRACTICE.md)
+[Selaa kaikkia projekteja](https://iamabhishekpanda.com/projects.html) · [Uraharjoittelun opas](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Valitse oppimistapa
 
 ### Verkkosivustolla
 
-Avaa valmis oppitunti sivustolla [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) tai laajenna vaihe kohdasta [Sisältö](#contents). Ei asennusta eikä kloonausta.
+Avaa valmis oppitunti sivustolla [iamabhishekpanda.com](https://iamabhishekpanda.com) tai laajenna vaihe kohdasta [Sisältö](#contents). Ei asennusta eikä kloonausta.
 
 ### Tekoälytutorin kanssa
 
@@ -194,9 +194,9 @@ Kymmenen kysymyksen tasotesti määrittää lähtövaiheen osaamisesi perusteell
 
 Haluatko opiskella vain Model Context Protocolia (MCP)? Käytä isäntäsovelluksesi MCP-kutsua. Se luo tiedoston `MCP-LEARNING.md` ja seuraa 17 oppitunnin polkua, joka käsittelee tilattomia pyyntöjä, siirtotapoja, kaksisuuntaista työtä, turvallisuutta, luotettavuutta, rekisterin hallintaa ja vaatimustenmukaisuuden näyttöä. Tarkka järjestys ja tarkistuspisteet ovat [Model Context Protocolin (MCP) manifestissa](../../learning-paths/model-context-protocol.json).
 
-Haluatko opiskella vain Agent Skillsiä? Käytä isäntäsovelluksesi Agent Skills -kutsua. Se luo tiedoston `AGENT-SKILLS-LEARNING.md` ja seuraa viiden oppitunnin kokonaisuutta: sopimus, löytäminen, kutsuminen, hiekkalaatikon rajat sekä julkaisuarviointi ja siirrettävyys oikeiden isäntäsovellusten välillä. Aloita verkossa [Agent Skills -polulta](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Haluatko opiskella vain Agent Skillsiä? Käytä isäntäsovelluksesi Agent Skills -kutsua. Se luo tiedoston `AGENT-SKILLS-LEARNING.md` ja seuraa viiden oppitunnin kokonaisuutta: sopimus, löytäminen, kutsuminen, hiekkalaatikon rajat sekä julkaisuarviointi ja siirrettävyys oikeiden isäntäsovellusten välillä. Aloita verkossa [Agent Skills -polulta](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Asennusohjelma näyttää tukemansa isäntäsovellukset ja kysyy asennuspaikkaa. Jos Node.js, `npx`, `python3`, tuettu isäntäsovellus tai kirjoitettava hakemisto vielä puuttuu, käytä verkkosivustoa tai lue `docs/en.md` itse. Näin opit käsitteet, mutta todellisen isäntäsovelluksen löytämis-, kutsumis-, skripti- ja poistotestien näyttö odottaa, kunnes esitarkistus on mahdollista tehdä. Lue oppitunnit osoitteessa [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Asennusohjelma näyttää tukemansa isäntäsovellukset ja kysyy asennuspaikkaa. Jos Node.js, `npx`, `python3`, tuettu isäntäsovellus tai kirjoitettava hakemisto vielä puuttuu, käytä verkkosivustoa tai lue `docs/en.md` itse. Näin opit käsitteet, mutta todellisen isäntäsovelluksen löytämis-, kutsumis-, skripti- ja poistotestien näyttö odottaa, kunnes esitarkistus on mahdollista tehdä. Lue oppitunnit osoitteessa [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Oppimistaidot
 
@@ -251,25 +251,25 @@ Sinun ei tarvitse käydä läpi 542 oppituntia ennen aloittamista. Valitse yksi 
 
 | Tavoitteesi | Opi GitHubissa | Opi verkkosivustolla |
 |---|---|---|
-| Olen aloittelija ja haluan kattavan perustan | [Vaihe 0: Asennus ja työkalut](../../phases/00-setup-and-tooling/) | [Kehitysympäristö](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Osaan Pythonia ja haluan oppia matematiikan ja koneoppimisen perusteet | [Vaihe 1: Matematiikan perusteet](../../phases/01-math-foundations/) | [Lineaarialgebran intuitio](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Haluan rakentaa LLM-sovelluksia tuotantokäyttöön | [Vaihe 11: LLM-kehitys](../../phases/11-llm-engineering/) | [Kehotteiden suunnittelu](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Haluan rakentaa agentteja | [Vaihe 14: Agenttikehitys](../../phases/14-agent-engineering/) | [Agentin toimintasilmukka](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Haluan käyttää ohjelmointiagentteja oikeissa koodivarastoissa | [Agenttiavusteisen kehityksen oppimispolku](../../learning-paths/using-coding-agents.json) | [Agenttiavusteinen kehitys](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Haluan määritellä oikean toteutuskohteen ennen ohjelmointia | [Tuotepäätösten ja toimituksen oppimispolku](../../learning-paths/shaping-the-build.json) | [Tuotepäätökset ja toimitus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Olen aloittelija ja haluan kattavan perustan | [Vaihe 0: Asennus ja työkalut](../../phases/00-setup-and-tooling/) | [Kehitysympäristö](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Osaan Pythonia ja haluan oppia matematiikan ja koneoppimisen perusteet | [Vaihe 1: Matematiikan perusteet](../../phases/01-math-foundations/) | [Lineaarialgebran intuitio](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Haluan rakentaa LLM-sovelluksia tuotantokäyttöön | [Vaihe 11: LLM-kehitys](../../phases/11-llm-engineering/) | [Kehotteiden suunnittelu](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Haluan rakentaa agentteja | [Vaihe 14: Agenttikehitys](../../phases/14-agent-engineering/) | [Agentin toimintasilmukka](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Haluan käyttää ohjelmointiagentteja oikeissa koodivarastoissa | [Agenttiavusteisen kehityksen oppimispolku](../../learning-paths/using-coding-agents.json) | [Agenttiavusteinen kehitys](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Haluan määritellä oikean toteutuskohteen ennen ohjelmointia | [Tuotepäätösten ja toimituksen oppimispolku](../../learning-paths/shaping-the-build.json) | [Tuotepäätökset ja toimitus](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Etkö tiedä, mistä aloittaa? Käytä [`start-learning`-tasokartoitustuutoria](../../skills/start-learning/SKILL.md) tai [verkkosivuston esitieto-opasta](https://aiengineeringfromscratch.com/prereqs.html).
+Etkö tiedä, mistä aloittaa? Käytä [`start-learning`-tasokartoitustuutoria](../../skills/start-learning/SKILL.md) tai [verkkosivuston esitieto-opasta](https://iamabhishekpanda.com/prereqs.html).
 
-Vertaa neljää ydinaluetta ja kuutta urapolkua [tekoälykehityksen oppimispoluissa](https://aiengineeringfromscratch.com/learning-paths.html).
+Vertaa neljää ydinaluetta ja kuutta urapolkua [tekoälykehityksen oppimispoluissa](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Kohdennetut MCP-, Agent Skills- ja takaisinmallinnuspolut</summary>
 
 | Tavoitteesi | Opi GitHubissa | Opi verkkosivustolla |
 |---|---|---|
-| Haluan rakentaa Model Context Protocol (MCP) -protokollalla | [Model Context Protocol (MCP) -polku](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) -oppimispolku](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Haluan kirjoittaa ja julkaista Agent Skills -taitoja | [Agent Skills -täsmäpolku](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills -oppimispolku](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Haluan lukea käännettyjä ohjelmia | [Takaisinmallinnuksen polku](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Takaisinmallinnuksen oppimispolku](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Haluan rakentaa Model Context Protocol (MCP) -protokollalla | [Model Context Protocol (MCP) -polku](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) -oppimispolku](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Haluan kirjoittaa ja julkaista Agent Skills -taitoja | [Agent Skills -täsmäpolku](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills -oppimispolku](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Haluan lukea käännettyjä ohjelmia | [Takaisinmallinnuksen polku](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Takaisinmallinnuksen oppimispolku](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Kirja on tilannekuva; tämä tietovarasto on elävä painos. Jokainen luku pää
 
 [Claude Certification Academy](../../certifications/claude/README.md) on maksuton, avoimen lähdekoodin valmistautumisohjelma kaikille neljälle viralliselle Claude-sertifiointipolulle: Associate Foundations, Developer Foundations, Architect Foundations ja Architect Professional. Jokainen polku yhdistää koesuunnitelmaan sidotut oppitunnit, suoritettavat harjoitukset, lähtötasotestin, lopputyön ja täyspitkän itse laaditun harjoituskokeen.
 
-Käytä [AI-avusteista GitHub-aloitusopasta](../../certifications/claude/GETTING_STARTED.md) Claude Coden, Codexin, ChatGPT:n, Cursorin tai muun agentin kanssa. Suorita `claude-certification` Codexissa, `/claude-certification` Claude Codessa tai pyydä muuta isäntäsovellusta käyttämään `claude-certification`-taitoa. Se valitsee polun, luo pysyvän opiskelureitin tiedostoon `CLAUDE-CERTIFICATION.md`, opettaa yhden vaiheen kerrallaan, suorittaa oikeat harjoitukset ja antaa palautetta tuotoksista. Sama opetussuunnitelma on saatavilla [sertifiointisivustolla](https://aiengineeringfromscratch.com/certifications.html).
+Käytä [AI-avusteista GitHub-aloitusopasta](../../certifications/claude/GETTING_STARTED.md) Claude Coden, Codexin, ChatGPT:n, Cursorin tai muun agentin kanssa. Suorita `claude-certification` Codexissa, `/claude-certification` Claude Codessa tai pyydä muuta isäntäsovellusta käyttämään `claude-certification`-taitoa. Se valitsee polun, luo pysyvän opiskelureitin tiedostoon `CLAUDE-CERTIFICATION.md`, opettaa yhden vaiheen kerrallaan, suorittaa oikeat harjoitukset ja antaa palautetta tuotoksista. Sama opetussuunnitelma on saatavilla [sertifiointisivustolla](https://iamabhishekpanda.com/certifications.html).
 
 Akatemia on riippumatonta opiskelumateriaalia, joka perustuu julkisiin koetavoitteisiin. Se ei ole sidoksissa Anthropiciin, ei toista oikeita koekysymyksiä eikä voi taata kokeen läpäisyä.
 
@@ -1103,7 +1103,7 @@ Akatemia on riippumatonta opiskelumateriaalia, joka perustuu julkisiin koetavoit
 
 [MCPA-sertifioinnin opetussuunnitelma](../../certifications/mcpa/README.md) on maksuton, avoimen lähdekoodin valmistautumisohjelma Agentic AI Foundationin Model Context Protocol Associate -kokeeseen, jota tarjoaa Linux Foundation Training. Sen 34 oppituntia käsittelevät tilatonta 2026-07-28-protokollaa kokeen viidellä osa-alueella: pyyntökohtainen `_meta` ja `server/discover` vanhan kättelyn sijaan, usean kierroksen pyynnöt, tilaukset, välimuisti, Tasks- ja MCP Apps -laajennukset, OAuth-valtuutus sekä rekisteri- ja SDK-tasot. Jokaisessa oppitunnissa on pelkällä standardikirjastolla toimiva harjoitus, jonka tuloste tarkistetaan nykyistä viestimuotoa vasten. Polku sisältää lisäksi lähtötasotestin, lopputyön ja kolme täyspitkää itse laadittua harjoituskoetta, joiden kysymysjakauma noudattaa julkaistun koesuunnitelman painotuksia.
 
-Käytä [AI-avusteista GitHub-aloitusopasta](../../certifications/mcpa/GETTING_STARTED.md) Claude Coden, Codexin, ChatGPT:n, Cursorin tai muun agentin kanssa. Suorita `mcpa-certification` Codexissa, `/mcpa-certification` Claude Codessa tai pyydä muuta isäntäsovellusta käyttämään `mcpa-certification`-taitoa. Se luo pysyvän opiskelureitin tiedostoon `MCPA-CERTIFICATION.md`, opettaa yhden vaiheen kerrallaan, suorittaa oikeat harjoitukset ja antaa palautetta tuotoksista. Sama opetussuunnitelma on [MCPA-polun sivulla](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Käytä [AI-avusteista GitHub-aloitusopasta](../../certifications/mcpa/GETTING_STARTED.md) Claude Coden, Codexin, ChatGPT:n, Cursorin tai muun agentin kanssa. Suorita `mcpa-certification` Codexissa, `/mcpa-certification` Claude Codessa tai pyydä muuta isäntäsovellusta käyttämään `mcpa-certification`-taitoa. Se luo pysyvän opiskelureitin tiedostoon `MCPA-CERTIFICATION.md`, opettaa yhden vaiheen kerrallaan, suorittaa oikeat harjoitukset ja antaa palautetta tuotoksista. Sama opetussuunnitelma on [MCPA-polun sivulla](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Opetussuunnitelma on riippumatonta opiskelumateriaalia, joka perustuu julkisiin koetavoitteisiin. Se ei ole sidoksissa Agentic AI Foundationiin eikä Linux Foundationiin, ei toista oikeita koekysymyksiä eikä voi taata kokeen läpäisyä.
 
@@ -1297,5 +1297,5 @@ MIT. Käytä materiaalia miten haluat: haarauta, opeta, myy tai julkaise. Lähte
 Ylläpidosta vastaavat [Rohit Ghumare](https://github.com/iamabhishekpanda) ja yhteisö.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Ilmoita / ehdota</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Ilmoita / ehdota</a>
 </sub>

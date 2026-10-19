@@ -1,6 +1,6 @@
 # A2A 101
 
-The Agent2Agent protocol at v1.0.1, from its purpose to each request and response. The web edition is at [aiengineeringfromscratch.com/manual-a2a-101.html](https://aiengineeringfromscratch.com/manual-a2a-101.html), and each release of the course attaches the PDF as `aiefs-manual-a2a-101.pdf`.
+The Agent2Agent protocol at v1.0.1, from its purpose to each request and response. The web edition is at [iamabhishekpanda.com/manual-a2a-101.html](https://iamabhishekpanda.com/manual-a2a-101.html), and each release of the course attaches the PDF as `aiefs-manual-a2a-101.pdf`.
 
 ## What is in it
 

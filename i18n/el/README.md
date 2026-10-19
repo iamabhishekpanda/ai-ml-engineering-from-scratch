@@ -1,4 +1,4 @@
-<p align="center" lang="el"><sub>Πλήρης ελληνική μετάφραση του README. Το <a href="../../README.md">αγγλικό πρωτότυπο</a> αποτελεί την έκδοση αναφοράς · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center" lang="el"><sub>Πλήρης ελληνική μετάφραση του README. Το <a href="../../README.md">αγγλικό πρωτότυπο</a> αποτελεί την έκδοση αναφοράς · <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a></sub></p>
 
 <p align="center">
   <picture>
@@ -9,7 +9,7 @@
 
 Υλοποίησε εσωτερικούς μηχανισμούς μοντέλων, ροές ανάκτησης και περιβάλλοντα εκτέλεσης πρακτόρων. Δοκίμασέ τα, εξέτασε αστοχίες και κράτησε τον κώδικα και τα αποτελέσματα αξιολόγησης.
 
-**[Ξεκινήστε τη μάθηση](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Επίλεξε διαδρομή](#learning-routes)** · **[Δοκίμασε ένα εργαστήριο](#interactive-lab)** · **[Υλοποίησε ένα έργο](#project-challenges)** · **[Περιηγηθείτε στο πρόγραμμα](#contents)**
+**[Ξεκινήστε τη μάθηση](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Επίλεξε διαδρομή](#learning-routes)** · **[Δοκίμασε ένα εργαστήριο](#interactive-lab)** · **[Υλοποίησε ένα έργο](#project-challenges)** · **[Περιηγηθείτε στο πρόγραμμα](#contents)**
 
 Δωρεάν, ανοικτού κώδικα, με άδεια MIT. Μάθετε στον ιστότοπο, με έναν πράκτορα προγραμματισμού ή εκτελώντας κώδικα τοπικά.
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 μαθήματα"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 φάσεις"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Αστέρια στο GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Ιστότοπος"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Ιστότοπος"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | Διαδρομή | Αρχικό μάθημα |
 |---|---|
-| Θεμέλια μοντέλων | [Ρύθμιση και εργαλεία](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Συστήματα LLM | [Σχεδίαση προτροπών](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Πράκτορες και παράδοση | [Ο βρόχος του πράκτορα](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Θεμέλια μοντέλων | [Ρύθμιση και εργαλεία](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Συστήματα LLM | [Σχεδίαση προτροπών](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Πράκτορες και παράδοση | [Ο βρόχος του πράκτορα](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Σύγκρινε επαγγελματικές διαδρομές](https://aiengineeringfromscratch.com/learning-paths.html) · [Προαπαιτούμενα και χρόνος μελέτης](#study-guide)
+[Σύγκρινε επαγγελματικές διαδρομές](https://iamabhishekpanda.com/learning-paths.html) · [Προαπαιτούμενα και χρόνος μελέτης](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 Είκοσι αρχικά σημεία ακολουθούν κάθοδο κλίσης σε τετραγωνική συνάρτηση απώλειας. Το γράφημα δείχνει τις θέσεις τους και τη μέση απώλεια μετά από κάθε ενημέρωση.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[Ρύθμισε τον ρυθμό μάθησης στο μάθημα](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Σύγκρινε GD, momentum και Adam στον κώδικα](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Ρύθμισε τον ρυθμό μάθησης στο μάθημα](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Σύγκρινε GD, momentum και Adam στον κώδικα](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Διατήρησε:** αναπαραγώγιμη σύγκριση με διαφορές ανά ερώτημα και τις κρίσεις που χρησιμοποιήθηκαν στη βαθμολόγηση. Οι μετρικές περιγράφουν αυτές τις κρίσεις· δεν αποδεικνύουν την ορθότητα των απαντήσεων.
 
-[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Εξέτασε την αναφορά](../../projects/retrieval-evaluation-lab/solution/) · [Εκτέλεσε με δικές σου εισόδους](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Ξεκίνα το έργο](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Εξέτασε την αναφορά](../../projects/retrieval-evaluation-lab/solution/) · [Εκτέλεσε με δικές σου εισόδους](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Διατήρησε:** το ίχνος εισόδου, μια χρονική ακολουθία HTML και μια αναφορά υποβάθμισης JSON. Διατήρησε αποκλειστικές μετρήσεις token ανά span, ώστε η χρήση γονέα και παιδιού να μη μετριέται δύο φορές.
 
-[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Εξέτασε την αναφορά](../../projects/agent-trace-debugger/solution/) · [Εξερεύνησε τον χρονισμό διαδραστικά](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Ξεκίνα το έργο](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Εξέτασε την αναφορά](../../projects/agent-trace-debugger/solution/) · [Εξερεύνησε τον χρονισμό διαδραστικά](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Διατήρησε:** αποδεικτικό ελέγχου με τη ζητούμενη πράξη και την απόφαση της πολιτικής. Οι εγκρίσεις χρησιμοποιούνται μία φορά μέσα σε μία κλήση· αυτό το έργο δεν παρέχει μόνιμη εξουσιοδότηση ή απομόνωση σε επίπεδο λειτουργικού συστήματος.
 
-[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Εξέτασε την αναφορά](../../projects/tool-call-firewall/solution/) · [Εξερεύνησε τα όρια έγκρισης](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Ξεκίνα το έργο](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Εξέτασε την αναφορά](../../projects/tool-call-firewall/solution/) · [Εξερεύνησε τα όρια έγκρισης](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Περιηγήσου σε όλα τα έργα](https://aiengineeringfromscratch.com/projects.html) · [Οδηγός επαγγελματικής εξάσκησης](../../learning-paths/CAREER-PRACTICE.md)
+[Περιηγήσου σε όλα τα έργα](https://iamabhishekpanda.com/projects.html) · [Οδηγός επαγγελματικής εξάσκησης](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Επιλέξτε πώς θα μάθετε
 
 ### Στον ιστότοπο
 
-Άνοιξε ολοκληρωμένο μάθημα στο [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) ή ανάπτυξε μια φάση στα [περιεχόμενα](#contents). Χωρίς ρυθμίσεις ή κλωνοποίηση.
+Άνοιξε ολοκληρωμένο μάθημα στο [iamabhishekpanda.com](https://iamabhishekpanda.com) ή ανάπτυξε μια φάση στα [περιεχόμενα](#contents). Χωρίς ρυθμίσεις ή κλωνοποίηση.
 
 ### Με εκπαιδευτή AI
 
@@ -194,9 +194,9 @@ python3 --version
 
 Θέλεις μόνο Model Context Protocol (MCP); Χρησιμοποίησε την κλήση MCP της εφαρμογής σου. Δημιουργεί `MCP-LEARNING.md` και ακολουθεί διαδρομή 17 μαθημάτων για αιτήματα χωρίς κατάσταση, μεταφορές, αμφίδρομη εργασία, ασφάλεια, αξιοπιστία, διακυβέρνηση μητρώου και αποδείξεις συμμόρφωσης. Η ακριβής σειρά και τα σημεία ελέγχου βρίσκονται στο [δηλωτικό Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Θέλεις μόνο Agent Skills; Χρησιμοποίησε την αντίστοιχη κλήση της εφαρμογής σου. Δημιουργεί `AGENT-SKILLS-LEARNING.md` και ακολουθεί πέντε συνδεδεμένα μαθήματα: συμβόλαιο, ανακάλυψη, κλήση, όρια απομόνωσης και κατόπιν αξιολόγηση έκδοσης και φορητότητα μεταξύ πραγματικών εφαρμογών. Στον ιστό ξεκίνα από τη [διαδρομή Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Θέλεις μόνο Agent Skills; Χρησιμοποίησε την αντίστοιχη κλήση της εφαρμογής σου. Δημιουργεί `AGENT-SKILLS-LEARNING.md` και ακολουθεί πέντε συνδεδεμένα μαθήματα: συμβόλαιο, ανακάλυψη, κλήση, όρια απομόνωσης και κατόπιν αξιολόγηση έκδοσης και φορητότητα μεταξύ πραγματικών εφαρμογών. Στον ιστό ξεκίνα από τη [διαδρομή Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Το πρόγραμμα εγκατάστασης εμφανίζει τις εφαρμογές που μπορεί να ρυθμίσει και ρωτά πού να εγκαταστήσει. Αν δεν έχεις Node.js, `npx`, `python3`, υποστηριζόμενη εφαρμογή ή εγγράψιμο πεδίο, χρησιμοποίησε τον ιστότοπο ή διάβασε το `docs/en.md` μόνος σου. Έτσι μαθαίνεις τις έννοιες, αλλά οι αποδείξεις ανακάλυψης, κλήσης, εκτέλεσης σεναρίων και απεγκατάστασης σε πραγματική εφαρμογή εκκρεμούν ώσπου να είναι διαθέσιμος ο αρχικός έλεγχος. Διάβασε τα μαθήματα στο [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Το πρόγραμμα εγκατάστασης εμφανίζει τις εφαρμογές που μπορεί να ρυθμίσει και ρωτά πού να εγκαταστήσει. Αν δεν έχεις Node.js, `npx`, `python3`, υποστηριζόμενη εφαρμογή ή εγγράψιμο πεδίο, χρησιμοποίησε τον ιστότοπο ή διάβασε το `docs/en.md` μόνος σου. Έτσι μαθαίνεις τις έννοιες, αλλά οι αποδείξεις ανακάλυψης, κλήσης, εκτέλεσης σεναρίων και απεγκατάστασης σε πραγματική εφαρμογή εκκρεμούν ώσπου να είναι διαθέσιμος ο αρχικός έλεγχος. Διάβασε τα μαθήματα στο [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Οι εκπαιδευτικές δεξιότητες
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | Ο στόχος σου | Μάθηση στο GitHub | Μάθηση στον ιστότοπο |
 |---|---|---|
-| Ξεκινώ τώρα και θέλω πλήρεις βάσεις | [Στάδιο 0: Εγκατάσταση και εργαλεία](../../phases/00-setup-and-tooling/) | [Περιβάλλον ανάπτυξης](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Γνωρίζω Python και θέλω βάσεις στα μαθηματικά και στο ML | [Στάδιο 1: Μαθηματικά θεμέλια](../../phases/01-math-foundations/) | [Διαισθητική κατανόηση της γραμμικής άλγεβρας](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Θέλω να φτιάξω εφαρμογές LLM για παραγωγική χρήση | [Στάδιο 11: Μηχανική LLM](../../phases/11-llm-engineering/) | [Μηχανική προτροπών](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Θέλω να φτιάξω πράκτορες | [Στάδιο 14: Μηχανική πρακτόρων](../../phases/14-agent-engineering/) | [Ο βρόχος του πράκτορα](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Θέλω να χρησιμοποιώ πράκτορες προγραμματισμού σε πραγματικά αποθετήρια | [Διαδρομή μηχανικής με τη βοήθεια πρακτόρων](../../learning-paths/using-coding-agents.json) | [Μηχανική με τη βοήθεια πρακτόρων](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Θέλω να καθορίσω τι αξίζει να φτιαχτεί πριν από την υλοποίηση | [Διαδρομή αποφάσεων και παράδοσης προϊόντος](../../learning-paths/shaping-the-build.json) | [Αποφάσεις και παράδοση προϊόντος](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Ξεκινώ τώρα και θέλω πλήρεις βάσεις | [Στάδιο 0: Εγκατάσταση και εργαλεία](../../phases/00-setup-and-tooling/) | [Περιβάλλον ανάπτυξης](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Γνωρίζω Python και θέλω βάσεις στα μαθηματικά και στο ML | [Στάδιο 1: Μαθηματικά θεμέλια](../../phases/01-math-foundations/) | [Διαισθητική κατανόηση της γραμμικής άλγεβρας](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Θέλω να φτιάξω εφαρμογές LLM για παραγωγική χρήση | [Στάδιο 11: Μηχανική LLM](../../phases/11-llm-engineering/) | [Μηχανική προτροπών](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Θέλω να φτιάξω πράκτορες | [Στάδιο 14: Μηχανική πρακτόρων](../../phases/14-agent-engineering/) | [Ο βρόχος του πράκτορα](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Θέλω να χρησιμοποιώ πράκτορες προγραμματισμού σε πραγματικά αποθετήρια | [Διαδρομή μηχανικής με τη βοήθεια πρακτόρων](../../learning-paths/using-coding-agents.json) | [Μηχανική με τη βοήθεια πρακτόρων](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Θέλω να καθορίσω τι αξίζει να φτιαχτεί πριν από την υλοποίηση | [Διαδρομή αποφάσεων και παράδοσης προϊόντος](../../learning-paths/shaping-the-build.json) | [Αποφάσεις και παράδοση προϊόντος](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Δεν ξέρεις από πού να ξεκινήσεις; Χρησιμοποίησε τον [εκπαιδευτή αξιολόγησης επιπέδου `start-learning`](../../skills/start-learning/SKILL.md) ή τον [οδηγό προαπαιτούμενων του ιστοτόπου](https://aiengineeringfromscratch.com/prereqs.html).
+Δεν ξέρεις από πού να ξεκινήσεις; Χρησιμοποίησε τον [εκπαιδευτή αξιολόγησης επιπέδου `start-learning`](../../skills/start-learning/SKILL.md) ή τον [οδηγό προαπαιτούμενων του ιστοτόπου](https://iamabhishekpanda.com/prereqs.html).
 
-Σύγκρινε τέσσερις βασικούς τομείς και έξι επαγγελματικές διαδρομές στο [Διαδρομές μάθησης μηχανικής ΤΝ](https://aiengineeringfromscratch.com/learning-paths.html).
+Σύγκρινε τέσσερις βασικούς τομείς και έξι επαγγελματικές διαδρομές στο [Διαδρομές μάθησης μηχανικής ΤΝ](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Εστιασμένες διαδρομές MCP, Agent Skills και αντίστροφης μηχανικής</summary>
 
 | Ο στόχος σου | Μάθηση στο GitHub | Μάθηση στον ιστότοπο |
 |---|---|---|
-| Θέλω να αναπτύξω λύσεις με Model Context Protocol (MCP) | [Διαδρομή Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Μαθησιακή διαδρομή Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Θέλω να γράψω και να διαθέσω Agent Skills | [Εστιασμένη διαδρομή Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Μαθησιακή διαδρομή Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Θέλω να διαβάζω μεταγλωττισμένα προγράμματα | [Διαδρομή αντίστροφης μηχανικής](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Μαθησιακή διαδρομή αντίστροφης μηχανικής](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Θέλω να αναπτύξω λύσεις με Model Context Protocol (MCP) | [Διαδρομή Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Μαθησιακή διαδρομή Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Θέλω να γράψω και να διαθέσω Agent Skills | [Εστιασμένη διαδρομή Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Μαθησιακή διαδρομή Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Θέλω να διαβάζω μεταγλωττισμένα προγράμματα | [Διαδρομή αντίστροφης μηχανικής](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Μαθησιακή διαδρομή αντίστροφης μηχανικής](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ flowchart TB
 
 Η [Ακαδημία Πιστοποίησης Claude](../../certifications/claude/README.md) είναι δωρεάν πρόγραμμα ανοικτού κώδικα για τις τέσσερις επίσημες διαδρομές: Associate Foundations, Developer Foundations, Architect Foundations και Architect Professional. Κάθε διαδρομή συνδυάζει μαθήματα αντιστοιχισμένα στην εξεταστέα ύλη, εκτελέσιμα εργαστήρια, διαγνωστικό τεστ, τελικό έργο και πλήρη πρωτότυπη δοκιμαστική εξέταση.
 
-Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/claude/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `claude-certification` στο Codex, `/claude-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `claude-certification`. Επιλέγει διαδρομή, δημιουργεί μόνιμο σχέδιο στο `CLAUDE-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και αξιολογεί τα παραδοτέα. Το ίδιο πρόγραμμα είναι διαθέσιμο στον [ιστότοπο πιστοποιήσεων](https://aiengineeringfromscratch.com/certifications.html).
+Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/claude/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `claude-certification` στο Codex, `/claude-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `claude-certification`. Επιλέγει διαδρομή, δημιουργεί μόνιμο σχέδιο στο `CLAUDE-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και αξιολογεί τα παραδοτέα. Το ίδιο πρόγραμμα είναι διαθέσιμο στον [ιστότοπο πιστοποιήσεων](https://iamabhishekpanda.com/certifications.html).
 
 Η ακαδημία είναι ανεξάρτητο υλικό μελέτης βασισμένο σε δημόσιους εξεταστικούς στόχους. Δεν συνδέεται με την Anthropic, δεν αναπαράγει πραγματικές εξεταστικές ερωτήσεις και δεν εγγυάται επιτυχία.
 
@@ -1103,7 +1103,7 @@ flowchart TB
 
 Το [Πρόγραμμα Πιστοποίησης MCPA](../../certifications/mcpa/README.md) είναι δωρεάν προετοιμασία ανοικτού κώδικα για την εξέταση Model Context Protocol Associate της Agentic AI Foundation, μέσω Linux Foundation Training. Τα 34 μαθήματα διδάσκουν το πρωτόκολλο χωρίς κατάσταση 2026-07-28 στους πέντε εξεταστικούς τομείς: `_meta` ανά αίτημα και `server/discover` αντί της παλιάς χειραψίας, αιτήματα πολλών γύρων, συνδρομές, προσωρινή αποθήκευση, επεκτάσεις εργασιών και MCP Apps, εξουσιοδότηση OAuth και επίπεδα μητρώου και SDK. Κάθε μάθημα δίνει εκτελέσιμο εργαστήριο τυπικής βιβλιοθήκης, του οποίου η καταγραφή ελέγχεται για την τρέχουσα μορφή επικοινωνίας. Η διαδρομή προσθέτει διαγνωστικό τεστ, τελικό έργο και τρεις πλήρεις πρωτότυπες δοκιμαστικές εξετάσεις με κατανομή ερωτήσεων σύμφωνα με τα δημοσιευμένα βάρη.
 
-Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/mcpa/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `mcpa-certification` στο Codex, `/mcpa-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `mcpa-certification`. Δημιουργεί μόνιμη διαδρομή στο `MCPA-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και δίνει ανατροφοδότηση πάνω στα παραδοτέα. Το ίδιο πρόγραμμα βρίσκεται στη [σελίδα διαδρομής MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/mcpa/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `mcpa-certification` στο Codex, `/mcpa-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `mcpa-certification`. Δημιουργεί μόνιμη διαδρομή στο `MCPA-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και δίνει ανατροφοδότηση πάνω στα παραδοτέα. Το ίδιο πρόγραμμα βρίσκεται στη [σελίδα διαδρομής MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Αυτό είναι ανεξάρτητο υλικό μελέτης βασισμένο σε δημόσιους εξεταστικούς στόχους. Δεν συνδέεται με την Agentic AI Foundation ή το Linux Foundation, δεν αναπαράγει πραγματικές εξεταστικές ερωτήσεις και δεν εγγυάται επιτυχία.
 
@@ -1297,5 +1297,5 @@ MIT. Χρησιμοποίησέ το όπως θέλεις: κάνε fork, δί�
 Συντηρείται από τον [Rohit Ghumare](https://github.com/iamabhishekpanda) και την κοινότητα.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Αναφορά / Πρόταση</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Αναφορά / Πρόταση</a>
 </sub>

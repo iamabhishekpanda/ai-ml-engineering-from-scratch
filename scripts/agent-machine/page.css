@@ -230,7 +230,7 @@ body[data-am-exporting] .am-stage { pointer-events: none; }
 :root[data-poster] .am h1 { font-size: 5.4rem; margin-bottom: 22px; }
 :root[data-poster] .am-hook { font-size: 1.45rem; }
 :root[data-poster] .am-sub { display: block; margin: 10px 0 0; font-size: 0.86rem; }
-:root[data-poster] .am-hero::after { content: "aiengineeringfromscratch.com · interactive"; display: block; margin-top: 150px; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.08em; color: var(--blueprint); }
+:root[data-poster] .am-hero::after { content: "iamabhishekpanda.com · interactive"; display: block; margin-top: 150px; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.08em; color: var(--blueprint); }
 :root[data-poster] .am-app { display: block; height: auto; min-height: 0; border: 0; }
 :root[data-poster] .am-center { position: absolute; right: -96px; top: 6px; width: 940px; padding: 0; }
 :root[data-poster] .am-figure .iso-plate { box-shadow: none; background: transparent; padding: 0; height: auto; display: block; }

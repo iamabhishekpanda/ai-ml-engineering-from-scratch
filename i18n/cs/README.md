@@ -9,7 +9,7 @@
 
 Implementujte vnitřní mechanismy modelů, vyhledávací pipeline a běhová prostředí agentů. Testujte je, zkoumejte chyby a uchovávejte kód i výsledky hodnocení.
 
-**[Začít se učit](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Vyberte si cestu](#learning-routes)** · **[Vyzkoušejte laboratoř](#interactive-lab)** · **[Vytvořte projekt](#project-challenges)** · **[Prohlédnout osnovy](#contents)**
+**[Začít se učit](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Vyberte si cestu](#learning-routes)** · **[Vyzkoušejte laboratoř](#interactive-lab)** · **[Vytvořte projekt](#project-challenges)** · **[Prohlédnout osnovy](#contents)**
 
 Zdarma, s otevřeným zdrojovým kódem, pod licencí MIT. Učte se na webu, s programovacím agentem nebo spouštěním místního kódu.
 
@@ -20,7 +20,7 @@ Zdarma, s otevřeným zdrojovým kódem, pod licencí MIT. Učte se na webu, s p
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lekcí"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 fází"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Hvězdičky na GitHubu"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webové stránky"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webové stránky"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Zdarma, s otevřeným zdrojovým kódem, pod licencí MIT. Učte se na webu, s p
 
 | Cesta | První lekce |
 |---|---|
-| Základy modelů | [Nastavení a nástroje](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Systémy LLM | [Návrh promptů](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agenti a dodávání systémů | [Smyčka agenta](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Základy modelů | [Nastavení a nástroje](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Systémy LLM | [Návrh promptů](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agenti a dodávání systémů | [Smyčka agenta](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Porovnat kariérní cesty](https://aiengineeringfromscratch.com/learning-paths.html) · [Předpoklady a doba studia](#study-guide)
+[Porovnat kariérní cesty](https://iamabhishekpanda.com/learning-paths.html) · [Předpoklady a doba studia](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Zdarma, s otevřeným zdrojovým kódem, pod licencí MIT. Učte se na webu, s p
 Dvacet počátečních bodů postupuje gradientním sestupem po kvadratické ztrátové funkci. Graf ukazuje jejich polohy a průměrnou ztrátu po každé aktualizaci.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Dvacet počátečních bodů postupuje gradientním sestupem po kvadratické ztr
   </a>
 </p>
 
-[Upravte rychlost učení v lekci](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Porovnejte v kódu gradientní sestup, hybnost a Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Upravte rychlost učení v lekci](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Porovnejte v kódu gradientní sestup, hybnost a Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Uchovejte:** reprodukovatelné porovnání se změnami pro každý dotaz a hodnoceními relevance použitými ke skórování. Metriky popisují tato hodnocení; neprokazují správnost odpovědí.
 
-[Zahájit projekt](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Prozkoumat referenční řešení](../../projects/retrieval-evaluation-lab/solution/) · [Spustit s vlastními vstupy](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Zahájit projekt](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Prozkoumat referenční řešení](../../projects/retrieval-evaluation-lab/solution/) · [Spustit s vlastními vstupy](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Uchovejte:** vstupní trasu, časovou osu HTML a zprávu o regresi v JSON. Zachovejte vlastní počty tokenů každého spanu bez podřízených spanů, aby se využití rodiče a potomků nepočítalo dvakrát.
 
-[Zahájit projekt](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Prozkoumat referenční řešení](../../projects/agent-trace-debugger/solution/) · [Prozkoumat časování interaktivně](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Zahájit projekt](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Prozkoumat referenční řešení](../../projects/agent-trace-debugger/solution/) · [Prozkoumat časování interaktivně](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Uchovejte:** auditní potvrzení s požadovanou operací a rozhodnutím politiky. Schválení jsou jednorázová v rámci jednoho vyvolání; projekt neposkytuje trvalou autorizaci ani sandbox operačního systému.
 
-[Zahájit projekt](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Prozkoumat referenční řešení](../../projects/tool-call-firewall/solution/) · [Prozkoumat hranice schvalování](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Zahájit projekt](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Prozkoumat referenční řešení](../../projects/tool-call-firewall/solution/) · [Prozkoumat hranice schvalování](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Procházet všechny projekty](https://aiengineeringfromscratch.com/projects.html) · [Průvodce kariérní praxí](../../learning-paths/CAREER-PRACTICE.md)
+[Procházet všechny projekty](https://iamabhishekpanda.com/projects.html) · [Průvodce kariérní praxí](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Vyberte si způsob učení
 
 ### Na webových stránkách
 
-Otevřete dokončenou lekci na [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) nebo rozbalte fázi v [obsahu](#contents). Bez nastavování a klonování.
+Otevřete dokončenou lekci na [iamabhishekpanda.com](https://iamabhishekpanda.com) nebo rozbalte fázi v [obsahu](#contents). Bez nastavování a klonování.
 
 ### S AI tutorem
 
@@ -194,9 +194,9 @@ Rozřazovací kvíz s deseti otázkami přiřadí vaše znalosti k počáteční
 
 Chcete pouze Model Context Protocol (MCP)? Použijte vyvolání MCP pro svého hostitele. Vytvoří `MCP-LEARNING.md` a provede vás 17 lekcemi o bezstavových požadavcích, transportech, obousměrné práci, bezpečnosti, spolehlivosti, správě registru a důkazech shody. Přesné pořadí a kontrolní body jsou v [manifestu Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Chcete pouze Agent Skills? Použijte vyvolání Agent Skills pro svého hostitele. Vytvoří `AGENT-SKILLS-LEARNING.md` a nabídne souvislou cestu pěti lekcí: kontrakt, objevování, vyvolání, hranice sandboxu a následně hodnocení vydání a přenositelnost mezi skutečnými hostiteli. Na webu začněte [cestou Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Chcete pouze Agent Skills? Použijte vyvolání Agent Skills pro svého hostitele. Vytvoří `AGENT-SKILLS-LEARNING.md` a nabídne souvislou cestu pěti lekcí: kontrakt, objevování, vyvolání, hranice sandboxu a následně hodnocení vydání a přenositelnost mezi skutečnými hostiteli. Na webu začněte [cestou Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Instalátor uvede podporované hostitele a zeptá se na místo instalace. Pokud ještě nemáte Node.js, `npx`, `python3`, podporovaného hostitele nebo zapisovatelný rozsah, použijte web nebo čtěte `docs/en.md` ručně. Tak poznáte koncepty, ale důkazy objevování, vyvolání, skriptů a odinstalace na skutečném hostiteli zůstanou nevyřízené, dokud nebude dostupná vstupní kontrola. Lekce najdete na [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Instalátor uvede podporované hostitele a zeptá se na místo instalace. Pokud ještě nemáte Node.js, `npx`, `python3`, podporovaného hostitele nebo zapisovatelný rozsah, použijte web nebo čtěte `docs/en.md` ručně. Tak poznáte koncepty, ale důkazy objevování, vyvolání, skriptů a odinstalace na skutečném hostiteli zůstanou nevyřízené, dokud nebude dostupná vstupní kontrola. Lekce najdete na [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Výukové dovednosti
 
@@ -251,25 +251,25 @@ Než začnete, nemusíte procházet všech 542 lekcí. Vyberte si jeden cíl. Ka
 
 | Váš cíl | Učení na GitHub | Učení na webu |
 |---|---|---|
-| Začínám a chci získat úplné základy | [Etapa 0: Nastavení a nástroje](../../phases/00-setup-and-tooling/) | [Vývojové prostředí](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Znám Python a chci základy matematiky a ML | [Etapa 1: Matematické základy](../../phases/01-math-foundations/) | [Intuitivní pochopení lineární algebry](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Chci vytvářet aplikace LLM pro produkční nasazení | [Etapa 11: Inženýrství LLM](../../phases/11-llm-engineering/) | [Návrh promptů](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Chci vytvářet agenty | [Etapa 14: Inženýrství agentů](../../phases/14-agent-engineering/) | [Smyčka agenta](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Chci používat programovací agenty ve skutečných repozitářích | [Studijní cesta vývoje s pomocí agentů](../../learning-paths/using-coding-agents.json) | [Vývoj s pomocí agentů](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Chci před implementací určit, co má smysl vytvořit | [Studijní cesta produktového rozhodování a dodání](../../learning-paths/shaping-the-build.json) | [Produktové rozhodování a dodání](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Začínám a chci získat úplné základy | [Etapa 0: Nastavení a nástroje](../../phases/00-setup-and-tooling/) | [Vývojové prostředí](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Znám Python a chci základy matematiky a ML | [Etapa 1: Matematické základy](../../phases/01-math-foundations/) | [Intuitivní pochopení lineární algebry](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Chci vytvářet aplikace LLM pro produkční nasazení | [Etapa 11: Inženýrství LLM](../../phases/11-llm-engineering/) | [Návrh promptů](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Chci vytvářet agenty | [Etapa 14: Inženýrství agentů](../../phases/14-agent-engineering/) | [Smyčka agenta](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Chci používat programovací agenty ve skutečných repozitářích | [Studijní cesta vývoje s pomocí agentů](../../learning-paths/using-coding-agents.json) | [Vývoj s pomocí agentů](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Chci před implementací určit, co má smysl vytvořit | [Studijní cesta produktového rozhodování a dodání](../../learning-paths/shaping-the-build.json) | [Produktové rozhodování a dodání](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Nevíte, kde začít? Použijte [tutora `start-learning` pro určení úrovně](../../skills/start-learning/SKILL.md) nebo [průvodce vstupními znalostmi na webu](https://aiengineeringfromscratch.com/prereqs.html).
+Nevíte, kde začít? Použijte [tutora `start-learning` pro určení úrovně](../../skills/start-learning/SKILL.md) nebo [průvodce vstupními znalostmi na webu](https://iamabhishekpanda.com/prereqs.html).
 
-Porovnejte čtyři hlavní oblasti a šest kariérních cest v [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
+Porovnejte čtyři hlavní oblasti a šest kariérních cest v [AI Engineering Learning Paths](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Zaměřené cesty MCP, Agent Skills a reverzního inženýrství</summary>
 
 | Váš cíl | Učení na GitHub | Učení na webu |
 |---|---|---|
-| Chci vyvíjet s Model Context Protocol (MCP) | [Trasa Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studijní cesta Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Chci psát a vydávat Agent Skills | [Zaměřená trasa Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studijní cesta Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Chci číst zkompilované programy | [Trasa reverzního inženýrství](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Studijní cesta reverzního inženýrství](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Chci vyvíjet s Model Context Protocol (MCP) | [Trasa Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studijní cesta Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Chci psát a vydávat Agent Skills | [Zaměřená trasa Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studijní cesta Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Chci číst zkompilované programy | [Trasa reverzního inženýrství](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Studijní cesta reverzního inženýrství](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Kniha je snímek, repozitář živá edice. Každá kapitola končí odkazy na a
 
 [Certifikační akademie Claude](../../certifications/claude/README.md) je bezplatný otevřený přípravný program pro všechny čtyři oficiální cesty: Associate Foundations, Developer Foundations, Architect Foundations a Architect Professional. Každá kombinuje lekce navázané na osnovu zkoušky, spustitelná cvičení, diagnostiku, závěrečný projekt a úplnou původní cvičnou zkoušku.
 
-Používejte [úvodního průvodce GitHubem s AI](../../certifications/claude/GETTING_STARTED.md) v Claude Code, Codexu, ChatGPT, Cursoru nebo jiném agentovi. Spusťte `claude-certification` v Codexu, `/claude-certification` v Claude Code nebo požádejte jiného hostitele o `claude-certification`. Dovednost vybere cestu, vytvoří trvalý plán v `CLAUDE-CERTIFICATION.md`, učí krok za krokem, spouští skutečná cvičení a poskytuje zpětnou vazbu podle artefaktů. Stejný program je na [certifikačním webu](https://aiengineeringfromscratch.com/certifications.html).
+Používejte [úvodního průvodce GitHubem s AI](../../certifications/claude/GETTING_STARTED.md) v Claude Code, Codexu, ChatGPT, Cursoru nebo jiném agentovi. Spusťte `claude-certification` v Codexu, `/claude-certification` v Claude Code nebo požádejte jiného hostitele o `claude-certification`. Dovednost vybere cestu, vytvoří trvalý plán v `CLAUDE-CERTIFICATION.md`, učí krok za krokem, spouští skutečná cvičení a poskytuje zpětnou vazbu podle artefaktů. Stejný program je na [certifikačním webu](https://iamabhishekpanda.com/certifications.html).
 
 Akademie je nezávislý studijní materiál založený na veřejných cílech zkoušek. Není spojena s Anthropic, nereprodukuje skutečné zkušební otázky a nemůže zaručit úspěšný výsledek.
 
@@ -1103,7 +1103,7 @@ Akademie je nezávislý studijní materiál založený na veřejných cílech zk
 
 [Certifikační program MCPA](../../certifications/mcpa/README.md) je bezplatná otevřená příprava na zkoušku Model Context Protocol Associate od Agentic AI Foundation, poskytovanou přes Linux Foundation Training. Jeho 34 lekcí učí bezstavový protokol 2026-07-28 v pěti zkušebních oblastech: `_meta` pro každý požadavek a `server/discover` místo starého navazování spojení, vícerundové požadavky, odběry, cachování, rozšíření úloh a MCP Apps, autorizaci OAuth a úrovně registru a SDK. Každá lekce obsahuje spustitelné cvičení se standardní knihovnou, jehož přepis se kontroluje vůči aktuálnímu formátu komunikace. Cesta přidává diagnostiku, závěrečný projekt a tři úplné původní cvičné zkoušky s rozložením otázek podle zveřejněných vah osnovy.
 
-Používejte [úvodního průvodce GitHubem s AI](../../certifications/mcpa/GETTING_STARTED.md) v Claude Code, Codexu, ChatGPT, Cursoru nebo jiném agentovi. Spusťte `mcpa-certification` v Codexu, `/mcpa-certification` v Claude Code nebo požádejte jiného hostitele o `mcpa-certification`. Vytvoří trvalou cestu v `MCPA-CERTIFICATION.md`, učí krok za krokem, spouští skutečná cvičení a hodnotí vzniklé artefakty. Stejný program je na [stránce cesty MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Používejte [úvodního průvodce GitHubem s AI](../../certifications/mcpa/GETTING_STARTED.md) v Claude Code, Codexu, ChatGPT, Cursoru nebo jiném agentovi. Spusťte `mcpa-certification` v Codexu, `/mcpa-certification` v Claude Code nebo požádejte jiného hostitele o `mcpa-certification`. Vytvoří trvalou cestu v `MCPA-CERTIFICATION.md`, učí krok za krokem, spouští skutečná cvičení a hodnotí vzniklé artefakty. Stejný program je na [stránce cesty MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Tento program je nezávislý studijní materiál založený na veřejných cílech zkoušek. Není spojen s Agentic AI Foundation ani Linux Foundation, nereprodukuje skutečné zkušební otázky a nemůže zaručit úspěch.
 
@@ -1297,5 +1297,5 @@ MIT. Používejte podle libosti: vytvořte fork, vyučujte, prodávejte nebo vyd
 Spravují [Rohit Ghumare](https://github.com/iamabhishekpanda) a komunita.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Nahlásit / Navrhnout</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Nahlásit / Navrhnout</a>
 </sub>

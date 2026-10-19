@@ -9,7 +9,7 @@
 
 Реалізуйте внутрішні механізми моделей, пошукові конвеєри та середовища виконання агентів. Тестуйте їх, досліджуйте збої та зберігайте код і результати оцінювання.
 
-**[Почати навчання](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Виберіть шлях](#learning-routes)** · **[Спробуйте лабораторну роботу](#interactive-lab)** · **[Створіть проєкт](#project-challenges)** · **[Переглянути програму](#contents)**
+**[Почати навчання](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Виберіть шлях](#learning-routes)** · **[Спробуйте лабораторну роботу](#interactive-lab)** · **[Створіть проєкт](#project-challenges)** · **[Переглянути програму](#contents)**
 
 Безкоштовно, з відкритим кодом, за ліцензією MIT. Навчайтеся на вебсайті, з агентом програмування або запускаючи код локально.
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 уроків"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 етапів"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Зірки GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Вебсайт"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Вебсайт"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | Маршрут | Перший урок |
 |---|---|
-| Основи моделей | [Налаштування та інструменти](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Системи на основі LLM | [Інженерія промптів](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Агенти та постачання систем | [Цикл агента](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Основи моделей | [Налаштування та інструменти](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Системи на основі LLM | [Інженерія промптів](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Агенти та постачання систем | [Цикл агента](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Порівняти кар’єрні шляхи](https://aiengineeringfromscratch.com/learning-paths.html) · [Попередні знання та час навчання](#study-guide)
+[Порівняти кар’єрні шляхи](https://iamabhishekpanda.com/learning-paths.html) · [Попередні знання та час навчання](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 Двадцять початкових точок рухаються за методом градієнтного спуску на квадратичній функції втрат. Графік показує їхні положення та середні втрати після кожного оновлення.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[Змініть швидкість навчання в уроці](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Порівняйте в коді градієнтний спуск, метод імпульсу та Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Змініть швидкість навчання в уроці](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Порівняйте в коді градієнтний спуск, метод імпульсу та Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Збережіть:** відтворюване порівняння зі змінами для кожного запиту й оцінками релевантності, використаними для підрахунку. Метрики описують ці оцінки; вони не встановлюють правильність відповідей.
 
-[Розпочати проєкт](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Переглянути еталонний розв’язок](../../projects/retrieval-evaluation-lab/solution/) · [Запустити на власних вхідних даних](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Розпочати проєкт](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Переглянути еталонний розв’язок](../../projects/retrieval-evaluation-lab/solution/) · [Запустити на власних вхідних даних](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Збережіть:** вхідне трасування, часову шкалу HTML і звіт про регресію в JSON. Зберігайте власні кількості токенів кожного span без дочірніх span, щоб не рахувати використання батьків і нащадків двічі.
 
-[Розпочати проєкт](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Переглянути еталонний розв’язок](../../projects/agent-trace-debugger/solution/) · [Дослідити час виконання інтерактивно](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Розпочати проєкт](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Переглянути еталонний розв’язок](../../projects/agent-trace-debugger/solution/) · [Дослідити час виконання інтерактивно](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Збережіть:** запис аудиту із запитаною операцією та рішенням політики. Схвалення одноразові в межах одного виклику; проєкт не надає постійної авторизації або пісочниці операційної системи.
 
-[Розпочати проєкт](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Переглянути еталонний розв’язок](../../projects/tool-call-firewall/solution/) · [Дослідити межі схвалення](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Розпочати проєкт](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Переглянути еталонний розв’язок](../../projects/tool-call-firewall/solution/) · [Дослідити межі схвалення](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Переглянути всі проєкти](https://aiengineeringfromscratch.com/projects.html) · [Посібник із кар’єрної практики](../../learning-paths/CAREER-PRACTICE.md)
+[Переглянути всі проєкти](https://iamabhishekpanda.com/projects.html) · [Посібник із кар’єрної практики](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Оберіть спосіб навчання
 
 ### На вебсайті
 
-Відкрийте готовий урок на [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) або розгорніть етап у [змісті](#contents). Налаштування й клонування не потрібні.
+Відкрийте готовий урок на [iamabhishekpanda.com](https://iamabhishekpanda.com) або розгорніть етап у [змісті](#contents). Налаштування й клонування не потрібні.
 
 ### Із ШІ-наставником
 
@@ -194,9 +194,9 @@ python3 --version
 
 Потрібен лише Model Context Protocol (MCP)? Використайте виклик MCP для свого хоста. Він створює `MCP-LEARNING.md` і веде єдиним маршрутом із 17 уроків: запити без стану, транспорт, двобічна робота, безпека, надійність, керування реєстром і докази відповідності протоколу. Точний порядок і контрольні точки наведено в [маніфесті Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Потрібні лише Agent Skills? Використайте відповідний виклик для свого хоста. Він створює `AGENT-SKILLS-LEARNING.md` і веде послідовним маршрутом із п'яти уроків: контракт, виявлення, виклик, межі пісочниці, а потім оцінювання перед випуском і переносність між реальними хостами. Почніть у вебверсії з [маршруту Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Потрібні лише Agent Skills? Використайте відповідний виклик для свого хоста. Він створює `AGENT-SKILLS-LEARNING.md` і веде послідовним маршрутом із п'яти уроків: контракт, виявлення, виклик, межі пісочниці, а потім оцінювання перед випуском і переносність між реальними хостами. Почніть у вебверсії з [маршруту Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Інсталятор перелічує хости, які може налаштувати, і запитує місце встановлення. Якщо у вас ще немає Node.js, `npx`, `python3`, підтримуваного хоста або доступного для запису каталогу, скористайтеся сайтом чи самостійно прочитайте `docs/en.md`. Так ви вивчите поняття, але докази виявлення, виклику, запуску скриптів і видалення на реальному хості залишаться неперевіреними, доки не стане доступною попередня перевірка. Читайте уроки на [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Інсталятор перелічує хости, які може налаштувати, і запитує місце встановлення. Якщо у вас ще немає Node.js, `npx`, `python3`, підтримуваного хоста або доступного для запису каталогу, скористайтеся сайтом чи самостійно прочитайте `docs/en.md`. Так ви вивчите поняття, але докази виявлення, виклику, запуску скриптів і видалення на реальному хості залишаться неперевіреними, доки не стане доступною попередня перевірка. Читайте уроки на [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Навчальні навички
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | Ваша мета | Навчайтеся на GitHub | Навчайтеся на сайті |
 |---|---|---|
-| Я новачок і хочу отримати ґрунтовну базу | [Етап 0: Налаштування та інструменти](../../phases/00-setup-and-tooling/) | [Середовище розробки](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Я знаю Python і хочу опанувати основи математики та машинного навчання | [Етап 1: Математичні основи](../../phases/01-math-foundations/) | [Інтуїтивне розуміння лінійної алгебри](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Я хочу створювати LLM-застосунки для промислової експлуатації | [Етап 11: Інженерія LLM](../../phases/11-llm-engineering/) | [Інженерія промптів](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Я хочу створювати агентів | [Етап 14: Інженерія агентів](../../phases/14-agent-engineering/) | [Цикл роботи агента](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Я хочу використовувати агентів програмування в реальних репозиторіях | [Навчальний шлях інженерії за допомогою агентів](../../learning-paths/using-coding-agents.json) | [Інженерія за допомогою агентів](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Я хочу визначити, що варто створювати, до початку реалізації | [Навчальний шлях продуктових рішень і постачання](../../learning-paths/shaping-the-build.json) | [Продуктові рішення та постачання](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Я новачок і хочу отримати ґрунтовну базу | [Етап 0: Налаштування та інструменти](../../phases/00-setup-and-tooling/) | [Середовище розробки](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Я знаю Python і хочу опанувати основи математики та машинного навчання | [Етап 1: Математичні основи](../../phases/01-math-foundations/) | [Інтуїтивне розуміння лінійної алгебри](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Я хочу створювати LLM-застосунки для промислової експлуатації | [Етап 11: Інженерія LLM](../../phases/11-llm-engineering/) | [Інженерія промптів](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Я хочу створювати агентів | [Етап 14: Інженерія агентів](../../phases/14-agent-engineering/) | [Цикл роботи агента](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Я хочу використовувати агентів програмування в реальних репозиторіях | [Навчальний шлях інженерії за допомогою агентів](../../learning-paths/using-coding-agents.json) | [Інженерія за допомогою агентів](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Я хочу визначити, що варто створювати, до початку реалізації | [Навчальний шлях продуктових рішень і постачання](../../learning-paths/shaping-the-build.json) | [Продуктові рішення та постачання](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Не знаєте, з чого почати? Скористайтеся [тьютором для визначення рівня `start-learning`](../../skills/start-learning/SKILL.md) або [посібником із попередніх знань на сайті](https://aiengineeringfromscratch.com/prereqs.html).
+Не знаєте, з чого почати? Скористайтеся [тьютором для визначення рівня `start-learning`](../../skills/start-learning/SKILL.md) або [посібником із попередніх знань на сайті](https://iamabhishekpanda.com/prereqs.html).
 
-Порівняйте чотири основні напрями та шість кар’єрних маршрутів у [навчальних шляхах інженерії ШІ](https://aiengineeringfromscratch.com/learning-paths.html).
+Порівняйте чотири основні напрями та шість кар’єрних маршрутів у [навчальних шляхах інженерії ШІ](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Спеціалізовані маршрути MCP, Agent Skills і зворотної розробки</summary>
 
 | Ваша мета | Навчайтеся на GitHub | Навчайтеся на сайті |
 |---|---|---|
-| Я хочу розробляти з Model Context Protocol (MCP) | [Маршрут Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Навчальний шлях Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Я хочу писати й публікувати Agent Skills | [Спеціалізований маршрут Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Навчальний шлях Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Я хочу читати скомпільовані програми | [Маршрут зворотної розробки](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Навчальний шлях зворотної розробки](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Я хочу розробляти з Model Context Protocol (MCP) | [Маршрут Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Навчальний шлях Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Я хочу писати й публікувати Agent Skills | [Спеціалізований маршрут Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Навчальний шлях Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Я хочу читати скомпільовані програми | [Маршрут зворотної розробки](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Навчальний шлях зворотної розробки](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ flowchart TB
 
 [Академія сертифікації Claude](../../certifications/claude/README.md) є безкоштовною програмою підготовки з відкритим кодом для всіх чотирьох офіційних напрямів: Associate Foundations, Developer Foundations, Architect Foundations і Architect Professional. Кожен маршрут поєднує уроки за планом іспиту, виконувані лабораторні роботи, діагностичний тест, підсумковий проєкт і повний оригінальний тренувальний іспит.
 
-Використовуйте [посібник із початку роботи в GitHub за допомогою AI](../../certifications/claude/GETTING_STARTED.md) з Claude Code, Codex, ChatGPT, Cursor або іншим агентом. Запустіть `claude-certification` у Codex, `/claude-certification` у Claude Code або попросіть інший хост застосувати `claude-certification`. Навичка вибирає напрям, створює постійний маршрут у `CLAUDE-CERTIFICATION.md`, навчає крок за кроком, запускає справжні лабораторні роботи й надає відгук за результатами роботи. Той самий курс доступний на [сайті сертифікацій](https://aiengineeringfromscratch.com/certifications.html).
+Використовуйте [посібник із початку роботи в GitHub за допомогою AI](../../certifications/claude/GETTING_STARTED.md) з Claude Code, Codex, ChatGPT, Cursor або іншим агентом. Запустіть `claude-certification` у Codex, `/claude-certification` у Claude Code або попросіть інший хост застосувати `claude-certification`. Навичка вибирає напрям, створює постійний маршрут у `CLAUDE-CERTIFICATION.md`, навчає крок за кроком, запускає справжні лабораторні роботи й надає відгук за результатами роботи. Той самий курс доступний на [сайті сертифікацій](https://iamabhishekpanda.com/certifications.html).
 
 Академія є незалежним навчальним матеріалом на основі публічних цілей іспитів. Вона не пов'язана з Anthropic, не відтворює справжніх екзаменаційних запитань і не гарантує успішного складання.
 
@@ -1103,7 +1103,7 @@ flowchart TB
 
 [Навчальна програма сертифікації MCPA](../../certifications/mcpa/README.md) є безкоштовною програмою з відкритим кодом для підготовки до іспиту Model Context Protocol Associate від Agentic AI Foundation, який пропонує Linux Foundation Training. Її 34 уроки викладають протокол без стану від 2026-07-28 у п'яти екзаменаційних розділах: `_meta` для кожного запиту й `server/discover` замість старого рукостискання, багатораундові запити, підписки, кешування, розширення Tasks і MCP Apps, авторизація OAuth, а також рівні реєстру й SDK. Кожен урок містить виконувану лабораторну роботу лише зі стандартною бібліотекою; її протокол виконання перевіряється на відповідність актуальному формату повідомлень. Додатково маршрут містить діагностичний тест, підсумковий проєкт і три повні оригінальні тренувальні іспити, у яких розподіл запитань відповідає опублікованим вагам тем.
 
-Використовуйте [посібник із початку роботи в GitHub за допомогою AI](../../certifications/mcpa/GETTING_STARTED.md) з Claude Code, Codex, ChatGPT, Cursor або іншим агентом. Запустіть `mcpa-certification` у Codex, `/mcpa-certification` у Claude Code або попросіть інший хост застосувати `mcpa-certification`. Навичка створює постійний маршрут у `MCPA-CERTIFICATION.md`, навчає крок за кроком, запускає справжні лабораторні роботи й надає відгук за результатами роботи. Той самий курс є на [сторінці маршруту MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Використовуйте [посібник із початку роботи в GitHub за допомогою AI](../../certifications/mcpa/GETTING_STARTED.md) з Claude Code, Codex, ChatGPT, Cursor або іншим агентом. Запустіть `mcpa-certification` у Codex, `/mcpa-certification` у Claude Code або попросіть інший хост застосувати `mcpa-certification`. Навичка створює постійний маршрут у `MCPA-CERTIFICATION.md`, навчає крок за кроком, запускає справжні лабораторні роботи й надає відгук за результатами роботи. Той самий курс є на [сторінці маршруту MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Це незалежний навчальний матеріал на основі публічних цілей іспиту. Він не пов'язаний з Agentic AI Foundation або Linux Foundation, не відтворює справжніх екзаменаційних запитань і не гарантує успішного складання.
 
@@ -1297,5 +1297,5 @@ MIT. Використовуйте як завгодно: робіть форки
 Підтримують [Rohit Ghumare](https://github.com/iamabhishekpanda) і спільнота.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Повідомити / запропонувати</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Повідомити / запропонувати</a>
 </sub>

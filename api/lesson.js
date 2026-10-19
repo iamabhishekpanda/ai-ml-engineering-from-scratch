@@ -8,7 +8,7 @@ const { readTranslation: readTranslationFromSource, TRANSLATION_LANGUAGES, isInd
 const { phaseHubPath, phaseLabel } = require('../lib/hub-routes');
 
 const REPO_ROOT = path.join(__dirname, '..');
-const ORIGIN = 'https://aiengineeringfromscratch.com';
+const ORIGIN = 'https://iamabhishekpanda.com';
 const SEO_START = '<!-- AIFS:LESSON-SEO:START -->';
 const SEO_END = '<!-- AIFS:LESSON-SEO:END -->';
 const FALLBACK_START = '<!-- AIFS:LESSON-FALLBACK:START -->';

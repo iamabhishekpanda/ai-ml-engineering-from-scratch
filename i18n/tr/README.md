@@ -9,7 +9,7 @@
 
 Modellerin iç mekanizmalarını, bilgi erişim işlem hatlarını ve ajan çalışma ortamlarını uygulayın. Bunları test edin, hataları inceleyin, kodu ve değerlendirme sonuçlarını saklayın.
 
-**[Öğrenmeye başlayın](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Bir yol seçin](#learning-routes)** · **[Bir laboratuvar deneyin](#interactive-lab)** · **[Bir proje geliştirin](#project-challenges)** · **[Müfredatı inceleyin](#contents)**
+**[Öğrenmeye başlayın](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Bir yol seçin](#learning-routes)** · **[Bir laboratuvar deneyin](#interactive-lab)** · **[Bir proje geliştirin](#project-challenges)** · **[Müfredatı inceleyin](#contents)**
 
 Ücretsiz, açık kaynaklı, MIT lisanslı. Web sitesinde, bir kodlama ajanıyla veya yerel kod çalıştırarak öğrenin.
 
@@ -20,7 +20,7 @@ Modellerin iç mekanizmalarını, bilgi erişim işlem hatlarını ve ajan çal�
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 ders"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 aşama"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub yıldızları"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Web sitesi"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Web sitesi"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Modellerin iç mekanizmalarını, bilgi erişim işlem hatlarını ve ajan çal�
 
 | Rota | Başlangıç dersi |
 |---|---|
-| Model temelleri | [Kurulum ve araçlar](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM sistemleri | [İstem mühendisliği](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ajanlar ve sistem teslimi | [Ajan döngüsü](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Model temelleri | [Kurulum ve araçlar](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM sistemleri | [İstem mühendisliği](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ajanlar ve sistem teslimi | [Ajan döngüsü](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Kariyer yollarını karşılaştırın](https://aiengineeringfromscratch.com/learning-paths.html) · [Ön koşullar ve çalışma süresi](#study-guide)
+[Kariyer yollarını karşılaştırın](https://iamabhishekpanda.com/learning-paths.html) · [Ön koşullar ve çalışma süresi](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Modellerin iç mekanizmalarını, bilgi erişim işlem hatlarını ve ajan çal�
 Yirmi başlangıç noktası, ikinci dereceden bir kayıp fonksiyonu üzerinde gradyan inişini izler. Grafik, her güncellemeden sonra konumlarını ve ortalama kaybı gösterir.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Yirmi başlangıç noktası, ikinci dereceden bir kayıp fonksiyonu üzerinde gr
   </a>
 </p>
 
-[Derste öğrenme oranını ayarlayın](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Gradyan inişi, momentum ve Adam yöntemlerini kodda karşılaştırın](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Derste öğrenme oranını ayarlayın](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Gradyan inişi, momentum ve Adam yöntemlerini kodda karşılaştırın](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Saklayın:** sorgu bazındaki farkları ve puanlama için kullanılan ilgililik değerlendirmelerini içeren, yeniden üretilebilir bir karşılaştırma. Metrikler bu değerlendirmeleri açıklar; yanıtın doğruluğunu kanıtlamaz.
 
-[Projeye başlayın](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Referansı inceleyin](../../projects/retrieval-evaluation-lab/solution/) · [Kendi girdilerinizle çalıştırın](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Projeye başlayın](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Referansı inceleyin](../../projects/retrieval-evaluation-lab/solution/) · [Kendi girdilerinizle çalıştırın](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Saklayın:** girdi iz kaydını, HTML zaman çizelgesini ve JSON gerileme raporunu. Üst ve alt span kullanımı iki kez sayılmasın diye her span’ın alt spanları içermeyen kendi token sayısını koruyun.
 
-[Projeye başlayın](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Referansı inceleyin](../../projects/agent-trace-debugger/solution/) · [Zamanlamayı etkileşimli inceleyin](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Projeye başlayın](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Referansı inceleyin](../../projects/agent-trace-debugger/solution/) · [Zamanlamayı etkileşimli inceleyin](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Saklayın:** istenen işlemi ve politika kararını gösteren bir denetim kaydı. Onaylar tek bir çağrı içinde bir kez kullanılabilir; bu proje kalıcı yetkilendirme veya işletim sistemi korumalı alanı sağlamaz.
 
-[Projeye başlayın](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Referansı inceleyin](../../projects/tool-call-firewall/solution/) · [Onay sınırlarını inceleyin](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Projeye başlayın](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Referansı inceleyin](../../projects/tool-call-firewall/solution/) · [Onay sınırlarını inceleyin](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Tüm projeleri inceleyin](https://aiengineeringfromscratch.com/projects.html) · [Kariyer uygulama rehberi](../../learning-paths/CAREER-PRACTICE.md)
+[Tüm projeleri inceleyin](https://iamabhishekpanda.com/projects.html) · [Kariyer uygulama rehberi](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Nasıl öğreneceğinizi seçin
 
 ### Web sitesinde
 
-Tamamlanmış dersleri [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) adresinde okuyun veya [İçindekiler](#contents) bölümünden bir aşamayı açın. Kurulum veya klonlama gerekmez.
+Tamamlanmış dersleri [iamabhishekpanda.com](https://iamabhishekpanda.com) adresinde okuyun veya [İçindekiler](#contents) bölümünden bir aşamayı açın. Kurulum veya klonlama gerekmez.
 
 ### Bir AI eğitmeniyle
 
@@ -194,9 +194,9 @@ On soruluk seviye belirleme sınavı, bildiklerinizi değerlendirerek uygun baş
 
 Yalnızca Model Context Protocol (MCP) yolunu mu istiyorsunuz? Kullandığınız hosta uygun MCP çağrısını kullanın. Bu çağrı `MCP-LEARNING.md` oluşturur ve durumsuz istekler, aktarım yöntemleri, çift yönlü işler, güvenlik, güvenilirlik, kayıt defteri yönetişimi ve uygunluk kanıtlarını kapsayan 17 derslik bir yol izler. Ders sırası ve kontrol noktaları [MCP yol tanımında](../../learning-paths/model-context-protocol.json) yer alır.
 
-Yalnızca Agent Skills yolunu mu istiyorsunuz? Kullandığınız hosta uygun Agent Skills çağrısını kullanın. `AGENT-SKILLS-LEARNING.md` oluşturulur ve beceri sözleşmesi, keşif, çağırma, korumalı alan sınırları, yayımlama değerlendirmeleri ve gerçek hostlarda taşınabilirlik konularını tutarlı bir beş derslik sırayla işler. Web üzerinden [Agent Skills yoluna](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) başlayabilirsiniz.
+Yalnızca Agent Skills yolunu mu istiyorsunuz? Kullandığınız hosta uygun Agent Skills çağrısını kullanın. `AGENT-SKILLS-LEARNING.md` oluşturulur ve beceri sözleşmesi, keşif, çağırma, korumalı alan sınırları, yayımlama değerlendirmeleri ve gerçek hostlarda taşınabilirlik konularını tutarlı bir beş derslik sırayla işler. Web üzerinden [Agent Skills yoluna](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) başlayabilirsiniz.
 
-Yükleyici, yapılandırabildiği hostları listeler ve yükleme konumunu sorar. Node.js, `npx`, `python3`, desteklenen bir host veya yazılabilir bir kapsam henüz yoksa web sitesini kullanın ya da `docs/en.md` dosyasını elle okuyun. Böylece kavramları öğrenebilirsiniz; gerçek hostta keşif, çağırma, betik çalıştırma ve kaldırma kanıtlarını ise ön denetim tamamlanınca toplayabilirsiniz. [Dersleri aiengineeringfromscratch.com adresinde okuyun](https://aiengineeringfromscratch.com).
+Yükleyici, yapılandırabildiği hostları listeler ve yükleme konumunu sorar. Node.js, `npx`, `python3`, desteklenen bir host veya yazılabilir bir kapsam henüz yoksa web sitesini kullanın ya da `docs/en.md` dosyasını elle okuyun. Böylece kavramları öğrenebilirsiniz; gerçek hostta keşif, çağırma, betik çalıştırma ve kaldırma kanıtlarını ise ön denetim tamamlanınca toplayabilirsiniz. [Dersleri iamabhishekpanda.com adresinde okuyun](https://iamabhishekpanda.com).
 
 ### Öğrenme becerileri
 
@@ -251,25 +251,25 @@ Başlamadan önce 542 dersin hepsine göz atmanız gerekmez. Bir hedef seçin. H
 
 | Hedefiniz | GitHub'da öğrenin | Web sitesinde öğrenin |
 |---|---|---|
-| Yeni başlıyorum ve temeli eksiksiz kurmak istiyorum | [Aşama 0: Kurulum ve Araçlar](../../phases/00-setup-and-tooling/) | [Geliştirme Ortamı](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Python biliyorum, matematik ve makine öğrenmesi temellerini istiyorum | [Aşama 1: Matematik Temelleri](../../phases/01-math-foundations/) | [Lineer Cebir Sezgisi](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Üretime hazır LLM uygulamaları geliştirmek istiyorum | [Aşama 11: LLM Mühendisliği](../../phases/11-llm-engineering/) | [Prompt Mühendisliği](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ajan geliştirmek istiyorum | [Aşama 14: Ajan Mühendisliği](../../phases/14-agent-engineering/) | [Ajan Döngüsü](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Kodlama ajanlarını gerçek depolarda kullanmak istiyorum | [Ajan Destekli Mühendislik yolu](../../learning-paths/using-coding-agents.json) | [Ajan Destekli Mühendislik](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Uygulamaya geçmeden önce doğru şeyi tasarlamak istiyorum | [Ürün Muhakemesi ve Teslimat yolu](../../learning-paths/shaping-the-build.json) | [Ürün Muhakemesi ve Teslimat](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Yeni başlıyorum ve temeli eksiksiz kurmak istiyorum | [Aşama 0: Kurulum ve Araçlar](../../phases/00-setup-and-tooling/) | [Geliştirme Ortamı](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Python biliyorum, matematik ve makine öğrenmesi temellerini istiyorum | [Aşama 1: Matematik Temelleri](../../phases/01-math-foundations/) | [Lineer Cebir Sezgisi](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Üretime hazır LLM uygulamaları geliştirmek istiyorum | [Aşama 11: LLM Mühendisliği](../../phases/11-llm-engineering/) | [Prompt Mühendisliği](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ajan geliştirmek istiyorum | [Aşama 14: Ajan Mühendisliği](../../phases/14-agent-engineering/) | [Ajan Döngüsü](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Kodlama ajanlarını gerçek depolarda kullanmak istiyorum | [Ajan Destekli Mühendislik yolu](../../learning-paths/using-coding-agents.json) | [Ajan Destekli Mühendislik](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Uygulamaya geçmeden önce doğru şeyi tasarlamak istiyorum | [Ürün Muhakemesi ve Teslimat yolu](../../learning-paths/shaping-the-build.json) | [Ürün Muhakemesi ve Teslimat](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Nereden başlayacağınızdan emin değil misiniz? [`start-learning` seviye belirleme rehberini](../../skills/start-learning/SKILL.md) ya da [web sitesindeki ön koşullar kılavuzunu](https://aiengineeringfromscratch.com/prereqs.html) kullanın.
+Nereden başlayacağınızdan emin değil misiniz? [`start-learning` seviye belirleme rehberini](../../skills/start-learning/SKILL.md) ya da [web sitesindeki ön koşullar kılavuzunu](https://iamabhishekpanda.com/prereqs.html) kullanın.
 
-[AI Engineering öğrenme yollarında](https://aiengineeringfromscratch.com/learning-paths.html) dört temel alanı ve altı kariyer rotasını karşılaştırın.
+[AI Engineering öğrenme yollarında](https://iamabhishekpanda.com/learning-paths.html) dört temel alanı ve altı kariyer rotasını karşılaştırın.
 
 <details>
 <summary>Odaklanmış MCP, Agent Skills ve Tersine Mühendislik yolları</summary>
 
 | Hedefiniz | GitHub'da öğrenin | Web sitesinde öğrenin |
 |---|---|---|
-| Model Context Protocol (MCP) ile geliştirmek istiyorum | [Model Context Protocol (MCP) rotası](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) yolu](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Agent Skills yazıp yayımlamak istiyorum | [Odaklı Agent Skills rotası](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills yolu](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Derlenmiş programları okumak istiyorum | [Odaklı Tersine Mühendislik rotası](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Tersine Mühendislik yolu](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Model Context Protocol (MCP) ile geliştirmek istiyorum | [Model Context Protocol (MCP) rotası](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) yolu](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Agent Skills yazıp yayımlamak istiyorum | [Odaklı Agent Skills rotası](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills yolu](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Derlenmiş programları okumak istiyorum | [Odaklı Tersine Mühendislik rotası](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Tersine Mühendislik yolu](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Kitaplar müfredatın anlık görüntüsünü, depo ise güncel sürümünü sun
 
 [Claude Certification Academy](../../certifications/claude/README.md), dört resmî Claude sertifika sınavı için ücretsiz, açık kaynaklı bir hazırlık programıdır: Associate Foundations, Developer Foundations, Architect Foundations ve Architect Professional. Her öğrenme yolu, sınav hedefleriyle eşleştirilmiş dersleri, çalıştırılabilir laboratuvarları, bir tanılama sınavını, bitirme projesini ve özgün, tam uzunlukta bir deneme sınavını bir araya getirir.
 
-[Ajan destekli GitHub başlangıç rehberini](../../certifications/claude/GETTING_STARTED.md) Claude Code, Codex, ChatGPT, Cursor veya başka bir ajanla kullanın. Codex’te `claude-certification`, Claude Code’da `/claude-certification` komutunu çalıştırın ya da başka bir hosttan `claude-certification` becerisini kullanmasını isteyin. Beceri bir sertifika yolu seçer, `CLAUDE-CERTIFICATION.md` dosyasında kalıcı bir plan oluşturur, sizi adım adım eğitir, gerçek laboratuvarları çalıştırır ve ürettiğiniz eserlere göre geri bildirim verir. Program [sertifika web sitesinde](https://aiengineeringfromscratch.com/certifications.html) da kullanılabilir.
+[Ajan destekli GitHub başlangıç rehberini](../../certifications/claude/GETTING_STARTED.md) Claude Code, Codex, ChatGPT, Cursor veya başka bir ajanla kullanın. Codex’te `claude-certification`, Claude Code’da `/claude-certification` komutunu çalıştırın ya da başka bir hosttan `claude-certification` becerisini kullanmasını isteyin. Beceri bir sertifika yolu seçer, `CLAUDE-CERTIFICATION.md` dosyasında kalıcı bir plan oluşturur, sizi adım adım eğitir, gerçek laboratuvarları çalıştırır ve ürettiğiniz eserlere göre geri bildirim verir. Program [sertifika web sitesinde](https://iamabhishekpanda.com/certifications.html) da kullanılabilir.
 
 Akademi, yayımlanmış sınav hedeflerine dayalı bağımsız bir çalışma kaynağıdır. Anthropic ile bağlantılı değildir, gerçek sınav sorularını yayımlamaz ve sınavı geçmenizi garanti etmez.
 
@@ -1103,7 +1103,7 @@ Akademi, yayımlanmış sınav hedeflerine dayalı bağımsız bir çalışma ka
 
 [MCPA Sertifikasyon Müfredatı](../../certifications/mcpa/README.md), Agentic AI Foundation’ın Linux Foundation Training üzerinden sunduğu Model Context Protocol Associate sınavı için ücretsiz, açık kaynaklı bir hazırlık programıdır. Otuz dört ders, 2026-07-28 tarihli durumsuz protokolü beş sınav alanı boyunca öğretir: eski el sıkışma yerine istek başına `_meta` ve `server/discover`, birden çok gidiş-dönüş gerektiren istekler, abonelikler, önbellekleme, Tasks ve MCP Apps uzantıları, OAuth yetkilendirmesi, kayıt defteri ve SDK katmanları. Her ders, dökümü güncel kablo biçimine göre doğrulanan standart kütüphane laboratuvarı içerir. Program ayrıca bir tanılama sınavı, bitirme projesi ve yayımlanmış sınav dağılımını izleyen üç özgün, tam uzunlukta deneme sınavı sunar.
 
-[Ajan destekli GitHub başlangıç rehberini](../../certifications/mcpa/GETTING_STARTED.md) Claude Code, Codex, ChatGPT, Cursor veya başka bir ajanla kullanın. Codex’te `mcpa-certification`, Claude Code’da `/mcpa-certification` komutunu çalıştırın ya da başka bir hosttan `mcpa-certification` becerisini kullanmasını isteyin. Beceri bir öğrenme yolu seçer, `MCPA-CERTIFICATION.md` dosyasında kalıcı bir plan oluşturur, sizi adım adım eğitir, gerçek laboratuvarları çalıştırır ve ürettiğiniz eserlere göre geri bildirim verir. Ayrıntılar [MCPA sertifika sayfasında](https://aiengineeringfromscratch.com/certification?id=mcpa-f) yer alır.
+[Ajan destekli GitHub başlangıç rehberini](../../certifications/mcpa/GETTING_STARTED.md) Claude Code, Codex, ChatGPT, Cursor veya başka bir ajanla kullanın. Codex’te `mcpa-certification`, Claude Code’da `/mcpa-certification` komutunu çalıştırın ya da başka bir hosttan `mcpa-certification` becerisini kullanmasını isteyin. Beceri bir öğrenme yolu seçer, `MCPA-CERTIFICATION.md` dosyasında kalıcı bir plan oluşturur, sizi adım adım eğitir, gerçek laboratuvarları çalıştırır ve ürettiğiniz eserlere göre geri bildirim verir. Ayrıntılar [MCPA sertifika sayfasında](https://iamabhishekpanda.com/certification?id=mcpa-f) yer alır.
 
 Bu müfredat, yayımlanmış sınav hedeflerine dayalı bağımsız bir çalışma kaynağıdır. Agentic AI Foundation veya Linux Foundation ile bağlantılı değildir, gerçek sınav sorularını yayımlamaz ve sınavı geçmenizi garanti etmez.
 
@@ -1297,5 +1297,5 @@ MIT. İstediğiniz gibi kullanın: fork'layın, öğretin, satın, yayımlayın.
 [Rohit Ghumare](https://github.com/iamabhishekpanda) ve topluluk tarafından sürdürülmektedir.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Bildirim / Öneri</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Bildirim / Öneri</a>
 </sub>

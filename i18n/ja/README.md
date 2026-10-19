@@ -9,7 +9,7 @@
 
 モデルの内部処理、検索パイプライン、エージェントの実行環境を実装します。テストして失敗を調べ、コードと評価結果を残してください。
 
-**[学習を始める](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[学習パスを選ぶ](#learning-routes)** · **[ラボを試す](#interactive-lab)** · **[プロジェクトを作る](#project-challenges)** · **[カリキュラムを見る](#contents)**
+**[学習を始める](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[学習パスを選ぶ](#learning-routes)** · **[ラボを試す](#interactive-lab)** · **[プロジェクトを作る](#project-challenges)** · **[カリキュラムを見る](#contents)**
 
 無料、オープンソース、MIT ライセンスです。ウェブサイト、コーディングエージェント、ローカルでのコード実行から学び方を選べます。
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 授業"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20段階"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHubのスター"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="ウェブサイト"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="ウェブサイト"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | ルート | 最初のレッスン |
 |---|---|
-| モデルの基礎 | [環境構築とツール](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM システム | [プロンプトエンジニアリング](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| エージェントとデリバリー | [エージェントループ](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| モデルの基礎 | [環境構築とツール](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM システム | [プロンプトエンジニアリング](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| エージェントとデリバリー | [エージェントループ](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[キャリアパスを比較する](https://aiengineeringfromscratch.com/learning-paths.html) · [前提知識と学習時間](#study-guide)
+[キャリアパスを比較する](https://iamabhishekpanda.com/learning-paths.html) · [前提知識と学習時間](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 20 個の開始点が二次損失関数上で勾配降下法に従って移動します。グラフには各更新後の位置と平均損失が表示されます。
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[レッスンで学習率を調整する](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [コードで GD、モメンタム、Adam を比較する](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[レッスンで学習率を調整する](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [コードで GD、モメンタム、Adam を比較する](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **残すもの：**クエリごとの差分と採点に使った関連度判定を含む、再現可能な比較結果。指標が表すのはその判定に対する結果であり、回答の正しさを証明するものではありません。
 
-[プロジェクトを始める](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [参照実装を確認する](../../projects/retrieval-evaluation-lab/solution/) · [自分の入力で実行する](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[プロジェクトを始める](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [参照実装を確認する](../../projects/retrieval-evaluation-lab/solution/) · [自分の入力で実行する](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **残すもの：**入力トレース、HTML タイムライン、JSON の品質低下レポート。親子の使用量を二重計上しないよう、各スパン自身が消費したトークン数だけを記録します。
 
-[プロジェクトを始める](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [参照実装を確認する](../../projects/agent-trace-debugger/solution/) · [時間の計算を対話的に調べる](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[プロジェクトを始める](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [参照実装を確認する](../../projects/agent-trace-debugger/solution/) · [時間の計算を対話的に調べる](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **残すもの：**要求された操作とポリシー判定を示す監査記録。承認は 1 回の呼び出しの中で一度だけ使用できます。このプロジェクトは永続的な認可や OS のサンドボックスを提供しません。
 
-[プロジェクトを始める](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [参照実装を確認する](../../projects/tool-call-firewall/solution/) · [承認の境界を調べる](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[プロジェクトを始める](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [参照実装を確認する](../../projects/tool-call-firewall/solution/) · [承認の境界を調べる](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[すべてのプロジェクトを見る](https://aiengineeringfromscratch.com/projects.html) · [キャリア実践ガイド](../../learning-paths/CAREER-PRACTICE.md)
+[すべてのプロジェクトを見る](https://iamabhishekpanda.com/projects.html) · [キャリア実践ガイド](../../learning-paths/CAREER-PRACTICE.md)
 
 ## 学び方を選ぶ
 
 ### ウェブサイトで学ぶ
 
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com)で完了したレッスンを開くか、[目次](#contents)からフェーズを展開してください。セットアップもクローンも不要です。
+[iamabhishekpanda.com](https://iamabhishekpanda.com)で完了したレッスンを開くか、[目次](#contents)からフェーズを展開してください。セットアップもクローンも不要です。
 
 ### AI チューターと学ぶ
 
@@ -194,9 +194,9 @@ python3 --version
 
 Model Context Protocol（MCP）だけを学ぶ場合は、ホストに対応したMCPの呼び出し方法を使ってください。`MCP-LEARNING.md`を作成し、ステートレスなリクエスト、トランスポート、双方向処理、セキュリティ、信頼性、レジストリガバナンス、適合性の証跡を扱う17レッスンのパスを進みます。正確な順序とチェックポイントは[Model Context Protocol（MCP）マニフェスト](../../learning-paths/model-context-protocol.json)に記載されています。
 
-Agent Skillsだけを学ぶ場合は、ホストに対応したAgent Skillsの呼び出し方法を使ってください。`AGENT-SKILLS-LEARNING.md`を作成し、契約、発見、呼び出し、サンドボックス境界、評価によるリリースと実ホストでの移植性を扱う、一貫した5レッスンのパスを進みます。ウェブでは[Agent Skillsのパス](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)から始められます。
+Agent Skillsだけを学ぶ場合は、ホストに対応したAgent Skillsの呼び出し方法を使ってください。`AGENT-SKILLS-LEARNING.md`を作成し、契約、発見、呼び出し、サンドボックス境界、評価によるリリースと実ホストでの移植性を扱う、一貫した5レッスンのパスを進みます。ウェブでは[Agent Skillsのパス](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)から始められます。
 
-インストーラーは設定可能なホストを一覧表示し、インストール先を尋ねます。Node.js、`npx`、`python3`、対応ホスト、書き込み可能なスコープのいずれかをまだ利用できない場合は、ウェブサイトを使うか、`docs/en.md`を手動で読んでください。そこで概念は学べますが、実ホストでの検出、呼び出し、スクリプト実行、アンインストールの証跡は、事前チェックを実行できるようになるまで取得できません。[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com)でレッスンを読むこともできます。
+インストーラーは設定可能なホストを一覧表示し、インストール先を尋ねます。Node.js、`npx`、`python3`、対応ホスト、書き込み可能なスコープのいずれかをまだ利用できない場合は、ウェブサイトを使うか、`docs/en.md`を手動で読んでください。そこで概念は学べますが、実ホストでの検出、呼び出し、スクリプト実行、アンインストールの証跡は、事前チェックを実行できるようになるまで取得できません。[iamabhishekpanda.com](https://iamabhishekpanda.com)でレッスンを読むこともできます。
 
 ### 学習スキル
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | 目標 | GitHubで学ぶ | ウェブサイトで学ぶ |
 |---|---|---|
-| 初心者として、基礎を一通り学びたい | [フェーズ0：セットアップとツール](../../phases/00-setup-and-tooling/) | [開発環境](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Pythonは知っていて、数学と機械学習の基礎を学びたい | [フェーズ1：数学の基礎](../../phases/01-math-foundations/) | [線形代数の直観](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| 本番向けのLLMアプリケーションを構築したい | [フェーズ11：LLMエンジニアリング](../../phases/11-llm-engineering/) | [プロンプトエンジニアリング](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| エージェントを構築したい | [フェーズ14：エージェントエンジニアリング](../../phases/14-agent-engineering/) | [エージェントループ](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| 実際のリポジトリでコーディングエージェントを使いたい | [エージェント支援エンジニアリングの学習パス](../../learning-paths/using-coding-agents.json) | [エージェント支援エンジニアリング](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| 実装に着手する前に、適切なものを作る判断をしたい | [プロダクト判断とデリバリーの学習パス](../../learning-paths/shaping-the-build.json) | [プロダクト判断とデリバリー](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| 初心者として、基礎を一通り学びたい | [フェーズ0：セットアップとツール](../../phases/00-setup-and-tooling/) | [開発環境](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Pythonは知っていて、数学と機械学習の基礎を学びたい | [フェーズ1：数学の基礎](../../phases/01-math-foundations/) | [線形代数の直観](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| 本番向けのLLMアプリケーションを構築したい | [フェーズ11：LLMエンジニアリング](../../phases/11-llm-engineering/) | [プロンプトエンジニアリング](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| エージェントを構築したい | [フェーズ14：エージェントエンジニアリング](../../phases/14-agent-engineering/) | [エージェントループ](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 実際のリポジトリでコーディングエージェントを使いたい | [エージェント支援エンジニアリングの学習パス](../../learning-paths/using-coding-agents.json) | [エージェント支援エンジニアリング](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| 実装に着手する前に、適切なものを作る判断をしたい | [プロダクト判断とデリバリーの学習パス](../../learning-paths/shaping-the-build.json) | [プロダクト判断とデリバリー](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-自分に合う内容がわからない場合は、[`start-learning`レベル判定チューター](../../skills/start-learning/SKILL.md)または[ウェブサイトの前提条件ガイド](https://aiengineeringfromscratch.com/prereqs.html)を使ってください。
+自分に合う内容がわからない場合は、[`start-learning`レベル判定チューター](../../skills/start-learning/SKILL.md)または[ウェブサイトの前提条件ガイド](https://iamabhishekpanda.com/prereqs.html)を使ってください。
 
-4つの主要分野と6つのキャリアパスを[AIエンジニアリング学習パス](https://aiengineeringfromscratch.com/learning-paths.html)で比較できます。
+4つの主要分野と6つのキャリアパスを[AIエンジニアリング学習パス](https://iamabhishekpanda.com/learning-paths.html)で比較できます。
 
 <details>
 <summary>MCP、Agent Skills、リバースエンジニアリングの専門学習パス</summary>
 
 | 目標 | GitHubで学ぶ | ウェブサイトで学ぶ |
 |---|---|---|
-| Model Context Protocol（MCP）を使って構築したい | [Model Context Protocol（MCP）の学習パス](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol（MCP）のパス](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Agent Skillsを書いて公開したい | [Agent Skills集中学習パス](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skillsのパス](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| コンパイル済みプログラムを読み解きたい | [リバースエンジニアリング学習ルート](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [リバースエンジニアリングのパス](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Model Context Protocol（MCP）を使って構築したい | [Model Context Protocol（MCP）の学習パス](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol（MCP）のパス](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Agent Skillsを書いて公開したい | [Agent Skills集中学習パス](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skillsのパス](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| コンパイル済みプログラムを読み解きたい | [リバースエンジニアリング学習ルート](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [リバースエンジニアリングのパス](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1093,7 +1093,7 @@ flowchart TB
 
 [Claude認定アカデミー](../../certifications/claude/README.md)は、公式のClaude認定資格4種類（Associate Foundations、Developer Foundations、Architect Foundations、Architect Professional）に向けた無料のオープンソース教材です。各学習パスには、試験要項に対応したレッスン、実行可能なラボ、診断テスト、総合課題、オリジナルの模擬試験が含まれます。
 
-[AIネイティブなGitHub受講ガイド](../../certifications/claude/GETTING_STARTED.md)は、Claude Code、Codex、ChatGPT、Cursorなどのエージェントで利用できます。Codexでは`claude-certification`を、Claude Codeでは`/claude-certification`を実行します。その他のホストでは`claude-certification`を使うよう依頼してください。ガイドが認定トラックを選び、`CLAUDE-CERTIFICATION.md`に継続的な学習ルートを作成し、各段階を教え、実際のラボを実行して、成果物に基づくフィードバックを返します。同じカリキュラムは[認定資格ウェブサイト](https://aiengineeringfromscratch.com/certifications.html)でも利用できます。
+[AIネイティブなGitHub受講ガイド](../../certifications/claude/GETTING_STARTED.md)は、Claude Code、Codex、ChatGPT、Cursorなどのエージェントで利用できます。Codexでは`claude-certification`を、Claude Codeでは`/claude-certification`を実行します。その他のホストでは`claude-certification`を使うよう依頼してください。ガイドが認定トラックを選び、`CLAUDE-CERTIFICATION.md`に継続的な学習ルートを作成し、各段階を教え、実際のラボを実行して、成果物に基づくフィードバックを返します。同じカリキュラムは[認定資格ウェブサイト](https://iamabhishekpanda.com/certifications.html)でも利用できます。
 
 アカデミーは公開されている試験要項に基づく自主学習教材です。Anthropicとは提携していません。実際の試験問題を転載せず、合格を保証するものでもありません。
 
@@ -1104,7 +1104,7 @@ flowchart TB
 
 [MCPA認定カリキュラム](../../certifications/mcpa/README.md)は、Linux Foundation Trainingを通じて提供されるAgentic AI FoundationのModel Context Protocol Associate試験に向けた、無料のオープンソース教材です。34レッスンで、2026-07-28版のステートレスプロトコルを5つの試験分野に沿って学びます。内容には、従来のハンドシェイクに代わるリクエストごとの`_meta`と`server/discover`、複数回の往復を行うリクエスト、サブスクリプション、キャッシュ、TasksとMCP Appsの拡張、OAuth認可、レジストリとSDKの各層が含まれます。すべてのレッスンに実行可能な標準ライブラリのラボがあり、実行記録が現在のワイヤ形式に照らして検証されます。さらに、診断テスト、総合課題、公開済みの試験要項に沿った出題比率のオリジナル模擬試験3回分も用意しています。
 
-[AIネイティブなGitHub受講ガイド](../../certifications/mcpa/GETTING_STARTED.md)は、Claude Code、Codex、ChatGPT、Cursorなどのエージェントで利用できます。Codexでは`mcpa-certification`を、Claude Codeでは`/mcpa-certification`を実行します。その他のホストでは`mcpa-certification`を使うよう依頼してください。ガイドが`MCPA-CERTIFICATION.md`に継続的な学習ルートを作成し、各段階を教え、実際のラボを実行して、成果物に基づくフィードバックを返します。同じカリキュラムは[MCPAトラックページ](https://aiengineeringfromscratch.com/certification?id=mcpa-f)でも利用できます。
+[AIネイティブなGitHub受講ガイド](../../certifications/mcpa/GETTING_STARTED.md)は、Claude Code、Codex、ChatGPT、Cursorなどのエージェントで利用できます。Codexでは`mcpa-certification`を、Claude Codeでは`/mcpa-certification`を実行します。その他のホストでは`mcpa-certification`を使うよう依頼してください。ガイドが`MCPA-CERTIFICATION.md`に継続的な学習ルートを作成し、各段階を教え、実際のラボを実行して、成果物に基づくフィードバックを返します。同じカリキュラムは[MCPAトラックページ](https://iamabhishekpanda.com/certification?id=mcpa-f)でも利用できます。
 
 このカリキュラムは公開されている試験要項に基づく自主学習教材です。Agentic AI FoundationまたはLinux Foundationとは提携していません。実際の試験問題を転載せず、合格を保証するものでもありません。
 
@@ -1298,5 +1298,5 @@ MIT。好きなように使ってください。フォークする、教える�
 [Rohit Ghumare](https://github.com/iamabhishekpanda) とコミュニティが保守しています。
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">報告/提案</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">報告/提案</a>
 </sub>

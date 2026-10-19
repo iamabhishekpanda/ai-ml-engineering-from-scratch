@@ -1,6 +1,6 @@
 # Skills · AI Engineering from Scratch
 
-Canonical page: https://aiengineeringfromscratch.com/skills.html
+Canonical page: https://iamabhishekpanda.com/skills.html
 
 Install every skill: `npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch`. One skill: add `--skill <name>`. Works with Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that reads SKILL.md.
 

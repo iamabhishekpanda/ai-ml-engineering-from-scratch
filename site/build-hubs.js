@@ -6,7 +6,7 @@ const { plainMarkdown, truncateText, normalizeWhitespace, wordCount } = require(
 const { phaseSlug, phasePath, phaseLabel, termPath, glossaryLookupKey } = require('../lib/hub-routes');
 const { versionHtml } = require('./version-assets');
 
-const ORIGIN = 'https://aiengineeringfromscratch.com';
+const ORIGIN = 'https://iamabhishekpanda.com';
 const REPO_ROOT = path.resolve(__dirname, '..');
 const GLOSSARY_SOURCE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/glossary/terms.md';
 const MIN_TERM_WORDS = 35;

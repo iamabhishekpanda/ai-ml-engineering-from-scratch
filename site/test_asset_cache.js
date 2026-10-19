@@ -76,7 +76,7 @@ test('the deploy pass writes every card tag with a content version and an unknow
   const root = fixture(t);
   const cards = { 'page/about': pageCard('about', {}) };
   fs.writeFileSync(path.join(root, 'og-cards.json'), JSON.stringify({ version: 1, cards }));
-  const card = 'https://aiengineeringfromscratch.com/og/page/about.png';
+  const card = 'https://iamabhishekpanda.com/og/page/about.png';
   fs.writeFileSync(path.join(root, 'about.html'), [
     '<head>',
     `  <meta property="og:image" content="${card}">`,
@@ -90,7 +90,7 @@ test('the deploy pass writes every card tag with a content version and an unknow
   assert.equal(html, ['<head>'].concat(cardTags(versioned, cards['page/about']).map(tag => `  ${tag}`), '</head>').join('\n'));
   versionSite(root);
   assert.equal(fs.readFileSync(path.join(root, 'about.html'), 'utf8'), html);
-  fs.writeFileSync(path.join(root, 'missing.html'), '<meta property="og:image" content="https://aiengineeringfromscratch.com/og/page/missing.png">');
+  fs.writeFileSync(path.join(root, 'missing.html'), '<meta property="og:image" content="https://iamabhishekpanda.com/og/page/missing.png">');
   assert.throws(() => versionSite(root), /No social card for page\/missing/);
   assert.equal(fs.readFileSync(path.join(root, 'about.html'), 'utf8'), html);
 });

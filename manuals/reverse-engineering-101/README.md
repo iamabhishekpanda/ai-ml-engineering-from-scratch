@@ -1,6 +1,6 @@
 # Reverse Engineering 101
 
-rea, the `rea-agents` package at 6.7.0, with the Ghidra 12.1.4 provider, from the first `rea doctor` to an agent that keeps an evidence ledger over MCP. The web edition is at [aiengineeringfromscratch.com/manual-reverse-engineering-101.html](https://aiengineeringfromscratch.com/manual-reverse-engineering-101.html), and each release of the course attaches the PDF as `aiefs-manual-reverse-engineering-101.pdf`.
+rea, the `rea-agents` package at 6.7.0, with the Ghidra 12.1.4 provider, from the first `rea doctor` to an agent that keeps an evidence ledger over MCP. The web edition is at [iamabhishekpanda.com/manual-reverse-engineering-101.html](https://iamabhishekpanda.com/manual-reverse-engineering-101.html), and each release of the course attaches the PDF as `aiefs-manual-reverse-engineering-101.pdf`.
 
 ## What is in it
 

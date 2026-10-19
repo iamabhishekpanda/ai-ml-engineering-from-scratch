@@ -115,7 +115,7 @@ const FIGURE_PROVIDER_ORDER = [
 
 const GITHUB_BASE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/';
 const GITHUB_BLOB_BASE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/';
-const SITE_ORIGIN = 'https://aiengineeringfromscratch.com';
+const SITE_ORIGIN = 'https://iamabhishekpanda.com';
 
 // GITHUB_BASE lesson url -> site path "phases/<phase>/<lesson>"
 function lessonPath(url) {

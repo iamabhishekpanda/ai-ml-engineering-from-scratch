@@ -6,12 +6,12 @@
     "description": "Read-only, public machine-readable resources for the AI Engineering from Scratch curriculum. Lesson source remains canonical in the GitHub repository. No authentication is required. REST uses /api/v1/ and X-API-Version: 1. Additive changes preserve v1; breaking changes require a new major path. Retirement requires a migration guide and RFC 9745 Deprecation and RFC 8594 Sunset headers with at least 90 days notice. See /docs for quotas and MCP transport details. Platform errors may be non-JSON and omit application headers; honor Retry-After when present.",
     "contact": {
       "name": "AI Engineering from Scratch maintainers",
-      "url": "https://aiengineeringfromscratch.com/contact.html"
+      "url": "https://iamabhishekpanda.com/contact.html"
     }
   },
   "servers": [
     {
-      "url": "https://aiengineeringfromscratch.com"
+      "url": "https://iamabhishekpanda.com"
     }
   ],
   "paths": {
@@ -1667,7 +1667,7 @@
   },
   "externalDocs": {
     "description": "API, authentication, versioning, MCP, and CLI documentation",
-    "url": "https://aiengineeringfromscratch.com/docs"
+    "url": "https://iamabhishekpanda.com/docs"
   },
   "security": []
 }

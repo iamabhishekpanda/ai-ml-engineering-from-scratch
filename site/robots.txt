@@ -133,5 +133,5 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://aiengineeringfromscratch.com/sitemap.xml
-Sitemap: https://aiengineeringfromscratch.com/sitemap-index.xml
+Sitemap: https://iamabhishekpanda.com/sitemap.xml
+Sitemap: https://iamabhishekpanda.com/sitemap-index.xml

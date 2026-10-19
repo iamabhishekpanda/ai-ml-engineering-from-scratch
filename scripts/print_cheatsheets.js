@@ -5,7 +5,7 @@ const path = require('node:path');
 const { pathToFileURL } = require('node:url');
 
 const AUTHOR = 'Rohit Ghumare';
-const SITE = 'aiengineeringfromscratch.com/cheatsheets';
+const SITE = 'iamabhishekpanda.com/cheatsheets';
 
 function footerTemplate(copy) {
   const cell = 'font-family: monospace; font-size: 6.5px; letter-spacing: 0.12em; text-transform: uppercase;';

@@ -9,7 +9,7 @@
 
 نفّذ العمليات الداخلية للنماذج وخطوط معالجة الاسترجاع وبيئات تشغيل الوكلاء. اختبرها وافحص حالات الفشل واحتفظ بالشيفرة ونتائج التقييم.
 
-**[ابدأ التعلّم](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[اختر مسارًا](#learning-routes)** · **[جرّب مختبرًا](#interactive-lab)** · **[ابنِ مشروعًا](#project-challenges)** · **[تصفّح المنهج](#contents)**
+**[ابدأ التعلّم](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[اختر مسارًا](#learning-routes)** · **[جرّب مختبرًا](#interactive-lab)** · **[ابنِ مشروعًا](#project-challenges)** · **[تصفّح المنهج](#contents)**
 
 مجاني ومفتوح المصدر بترخيص MIT. تعلّم عبر الموقع أو مع وكيل برمجة أو بتشغيل الشيفرة محليًا.
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 درساً"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 مرحلة"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="نجوم GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="الموقع الإلكتروني"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="الموقع الإلكتروني"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | المسار | الدرس الأول |
 |---|---|
-| أسس النماذج | [الإعداد والأدوات](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| أنظمة LLM | [هندسة المطالبات](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| الوكلاء والتسليم | [حلقة الوكيل](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| أسس النماذج | [الإعداد والأدوات](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| أنظمة LLM | [هندسة المطالبات](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| الوكلاء والتسليم | [حلقة الوكيل](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[قارن المسارات المهنية](https://aiengineeringfromscratch.com/learning-paths.html) · [المتطلبات السابقة ووقت الدراسة](#study-guide)
+[قارن المسارات المهنية](https://iamabhishekpanda.com/learning-paths.html) · [المتطلبات السابقة ووقت الدراسة](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 تتحرّك 20 نقطة بداية وفق الانحدار المتدرّج على دالة خسارة تربيعية. يعرض الرسم مواقعها ومتوسط الخسارة بعد كل تحديث.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[عدّل معدل التعلّم في الدرس](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [قارن GD والزخم وAdam في الشيفرة](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[عدّل معدل التعلّم في الدرس](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [قارن GD والزخم وAdam في الشيفرة](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **احتفظ بـ:** مقارنة قابلة لإعادة الإنتاج تتضمن الفروق لكل استعلام وأحكام الصلة المستخدمة في التقييم. تصف المقاييس تلك الأحكام؛ ولا تثبت صحة الإجابة.
 
-[ابدأ المشروع](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [افحص الحل المرجعي](../../projects/retrieval-evaluation-lab/solution/) · [شغّل بمدخلاتك](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[ابدأ المشروع](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [افحص الحل المرجعي](../../projects/retrieval-evaluation-lab/solution/) · [شغّل بمدخلاتك](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **احتفظ بـ:** التتبّع المُدخل، وخط زمني بصيغة HTML، وتقرير تراجع بصيغة JSON. سجّل الرموز التي يستهلكها كل مقطع بذاته فقط، حتى لا يُحسب استهلاك المقاطع الأبوية والفرعية مرتين.
 
-[ابدأ المشروع](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [افحص الحل المرجعي](../../projects/agent-trace-debugger/solution/) · [استكشف التوقيت تفاعليًا](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[ابدأ المشروع](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [افحص الحل المرجعي](../../projects/agent-trace-debugger/solution/) · [استكشف التوقيت تفاعليًا](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **احتفظ بـ:** سجل تدقيق يوضح العملية المطلوبة وقرار السياسة. تُستخدم الموافقة مرة واحدة ضمن استدعاء واحد؛ ولا يوفّر هذا المشروع تفويضًا دائمًا أو بيئة عزل على مستوى نظام التشغيل.
 
-[ابدأ المشروع](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [افحص الحل المرجعي](../../projects/tool-call-firewall/solution/) · [استكشف حدود الموافقة](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[ابدأ المشروع](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [افحص الحل المرجعي](../../projects/tool-call-firewall/solution/) · [استكشف حدود الموافقة](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[تصفّح جميع المشاريع](https://aiengineeringfromscratch.com/projects.html) · [دليل الممارسة المهنية](../../learning-paths/CAREER-PRACTICE.md)
+[تصفّح جميع المشاريع](https://iamabhishekpanda.com/projects.html) · [دليل الممارسة المهنية](../../learning-paths/CAREER-PRACTICE.md)
 
 ## اختر طريقة التعلّم
 
 ### عبر الموقع الإلكتروني
 
-افتح أي درس مكتمل على [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com)، أو وسّع إحدى المراحل في [المحتويات](#contents). لا إعداد ولا استنساخ.
+افتح أي درس مكتمل على [iamabhishekpanda.com](https://iamabhishekpanda.com)، أو وسّع إحدى المراحل في [المحتويات](#contents). لا إعداد ولا استنساخ.
 
 ### مع معلّم بالذكاء الاصطناعي
 
@@ -194,9 +194,9 @@ python3 --version
 
 إذا كنت تريد Model Context Protocol (MCP) فقط، فاستخدم استدعاء MCP الخاص بمضيفك. ينشئ الملف `MCP-LEARNING.md` ويتبع مسارًا من 17 درسًا يغطي الطلبات عديمة الحالة ووسائل النقل والعمل ثنائي الاتجاه والأمن والموثوقية وحوكمة السجل وأدلة المطابقة. يوضح [ملف Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json) ترتيب الدروس ونقاط التحقق.
 
-إذا كنت تريد Agent Skills فقط، فاستخدم الاستدعاء المخصص لها في مضيفك. ينشئ الملف `AGENT-SKILLS-LEARNING.md` ويتبع مسارًا مترابطًا من خمسة دروس: العقد والاكتشاف والاستدعاء وحدود العزل، ثم اختبارات التقييم قبل الإصدار وقابلية التشغيل على مضيف حقيقي. ابدأ عبر [مسار Agent Skills على الموقع](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+إذا كنت تريد Agent Skills فقط، فاستخدم الاستدعاء المخصص لها في مضيفك. ينشئ الملف `AGENT-SKILLS-LEARNING.md` ويتبع مسارًا مترابطًا من خمسة دروس: العقد والاكتشاف والاستدعاء وحدود العزل، ثم اختبارات التقييم قبل الإصدار وقابلية التشغيل على مضيف حقيقي. ابدأ عبر [مسار Agent Skills على الموقع](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-يعرض المثبّت المضيفين الذين يستطيع إعدادهم ويسألك عن موضع التثبيت. إذا لم يتوفر لديك Node.js أو `npx` أو `python3` أو مضيف مدعوم أو نطاق قابل للكتابة، فاستخدم الموقع أو اقرأ `docs/en.md` يدويًا. يشرح هذا المسار المفاهيم، لكن أدلة الاكتشاف والاستدعاء والبرامج النصية وإلغاء التثبيت على مضيف حقيقي تظل معلّقة إلى أن يصبح الفحص الأولي متاحًا. اقرأ الدروس على [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+يعرض المثبّت المضيفين الذين يستطيع إعدادهم ويسألك عن موضع التثبيت. إذا لم يتوفر لديك Node.js أو `npx` أو `python3` أو مضيف مدعوم أو نطاق قابل للكتابة، فاستخدم الموقع أو اقرأ `docs/en.md` يدويًا. يشرح هذا المسار المفاهيم، لكن أدلة الاكتشاف والاستدعاء والبرامج النصية وإلغاء التثبيت على مضيف حقيقي تظل معلّقة إلى أن يصبح الفحص الأولي متاحًا. اقرأ الدروس على [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### مهارات التعلّم
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | هدفك | تعلّم على GitHub | تعلّم على الموقع |
 |---|---|---|
-| أنا مبتدئ وأريد الأساس كاملًا | [المرحلة 0: الإعداد والأدوات](../../phases/00-setup-and-tooling/) | [بيئة التطوير](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| أعرف Python وأريد أساسيات الرياضيات وML | [المرحلة 1: أسس الرياضيات](../../phases/01-math-foundations/) | [حدس الجبر الخطي](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| أريد بناء تطبيقات LLM جاهزة للإنتاج | [المرحلة 11: هندسة LLM](../../phases/11-llm-engineering/) | [هندسة الموجّهات](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| أريد بناء وكلاء | [المرحلة 14: هندسة الوكلاء](../../phases/14-agent-engineering/) | [حلقة الوكيل](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| أريد استخدام وكلاء البرمجة على مستودعات حقيقية | [مسار الهندسة بمساعدة الوكلاء](../../learning-paths/using-coding-agents.json) | [الهندسة بمساعدة الوكلاء](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| أريد تحديد ما ينبغي بناؤه قبل التنفيذ | [مسار تقدير المنتج وتسليمه](../../learning-paths/shaping-the-build.json) | [تقدير المنتج وتسليمه](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| أنا مبتدئ وأريد الأساس كاملًا | [المرحلة 0: الإعداد والأدوات](../../phases/00-setup-and-tooling/) | [بيئة التطوير](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| أعرف Python وأريد أساسيات الرياضيات وML | [المرحلة 1: أسس الرياضيات](../../phases/01-math-foundations/) | [حدس الجبر الخطي](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| أريد بناء تطبيقات LLM جاهزة للإنتاج | [المرحلة 11: هندسة LLM](../../phases/11-llm-engineering/) | [هندسة الموجّهات](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| أريد بناء وكلاء | [المرحلة 14: هندسة الوكلاء](../../phases/14-agent-engineering/) | [حلقة الوكيل](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| أريد استخدام وكلاء البرمجة على مستودعات حقيقية | [مسار الهندسة بمساعدة الوكلاء](../../learning-paths/using-coding-agents.json) | [الهندسة بمساعدة الوكلاء](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| أريد تحديد ما ينبغي بناؤه قبل التنفيذ | [مسار تقدير المنتج وتسليمه](../../learning-paths/shaping-the-build.json) | [تقدير المنتج وتسليمه](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-لست متأكدًا من نقطة البداية المناسبة؟ استخدم [مدرّب تحديد المستوى `start-learning`](../../skills/start-learning/SKILL.md) أو [دليل المتطلبات السابقة على الموقع](https://aiengineeringfromscratch.com/prereqs.html).
+لست متأكدًا من نقطة البداية المناسبة؟ استخدم [مدرّب تحديد المستوى `start-learning`](../../skills/start-learning/SKILL.md) أو [دليل المتطلبات السابقة على الموقع](https://iamabhishekpanda.com/prereqs.html).
 
-قارن بين أربعة مجالات أساسية وستة مسارات مهنية في [مسارات تعلّم هندسة الذكاء الاصطناعي](https://aiengineeringfromscratch.com/learning-paths.html).
+قارن بين أربعة مجالات أساسية وستة مسارات مهنية في [مسارات تعلّم هندسة الذكاء الاصطناعي](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>مسارات مركّزة لـ MCP وAgent Skills والهندسة العكسية</summary>
 
 | هدفك | تعلّم على GitHub | تعلّم على الموقع |
 |---|---|---|
-| أريد البناء باستخدام Model Context Protocol (MCP) | [مسار Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [مسار Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| أريد كتابة Agent Skills وإصدارها | [مسار Agent Skills المركّز](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [مسار Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| أريد قراءة البرامج المترجمة | [مسار الهندسة العكسية المركّز](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [مسار الهندسة العكسية](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| أريد البناء باستخدام Model Context Protocol (MCP) | [مسار Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [مسار Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| أريد كتابة Agent Skills وإصدارها | [مسار Agent Skills المركّز](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [مسار Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| أريد قراءة البرامج المترجمة | [مسار الهندسة العكسية المركّز](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [مسار الهندسة العكسية](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ flowchart TB
 
 [أكاديمية شهادات Claude](../../certifications/claude/README.md) برنامج مجاني ومفتوح المصدر للاستعداد لمسارات Claude الرسمية الأربعة: Associate Foundations وDeveloper Foundations وArchitect Foundations وArchitect Professional. يجمع كل مسار بين دروس مرتبطة بمخطط الاختبار، ومختبرات قابلة للتشغيل، واختبار تشخيصي، ومشروع ختامي، واختبار تدريبي أصلي كامل.
 
-استخدم [دليل التهيئة على GitHub المدعوم بالذكاء الاصطناعي](../../certifications/claude/GETTING_STARTED.md) مع Claude Code أو Codex أو ChatGPT أو Cursor أو وكيل آخر. في Codex شغّل `claude-certification`؛ وفي Claude Code شغّل `/claude-certification`؛ أو اطلب من مضيف آخر استخدام المهارة `claude-certification`. يختار الدليل مسارًا، وينشئ رحلة مستمرة في `CLAUDE-CERTIFICATION.md`، ويعلّمك خطوةً كل مرة، ويشغّل المختبرات الفعلية، ويقدّم ملاحظات تستند إلى ما أنجزته. المنهج نفسه متاح على [موقع الشهادات](https://aiengineeringfromscratch.com/certifications.html).
+استخدم [دليل التهيئة على GitHub المدعوم بالذكاء الاصطناعي](../../certifications/claude/GETTING_STARTED.md) مع Claude Code أو Codex أو ChatGPT أو Cursor أو وكيل آخر. في Codex شغّل `claude-certification`؛ وفي Claude Code شغّل `/claude-certification`؛ أو اطلب من مضيف آخر استخدام المهارة `claude-certification`. يختار الدليل مسارًا، وينشئ رحلة مستمرة في `CLAUDE-CERTIFICATION.md`، ويعلّمك خطوةً كل مرة، ويشغّل المختبرات الفعلية، ويقدّم ملاحظات تستند إلى ما أنجزته. المنهج نفسه متاح على [موقع الشهادات](https://iamabhishekpanda.com/certifications.html).
 
 الأكاديمية مادة دراسية مستقلة مبنية على أهداف الاختبارات المنشورة. لا تتبع Anthropic، ولا تعيد نشر أسئلة الاختبارات الفعلية، ولا تضمن اجتياز الاختبار.
 
@@ -1103,7 +1103,7 @@ flowchart TB
 
 [منهج شهادة MCPA](../../certifications/mcpa/README.md) برنامج مجاني ومفتوح المصدر للاستعداد لاختبار Model Context Protocol Associate من Agentic AI Foundation، ويُقدَّم عبر Linux Foundation Training. تعلّم دروسه الـ34 بروتوكول 2026-07-28 عديم الحالة ضمن مجالات الاختبار الخمسة: `_meta` لكل طلب و`server/discover` بدل المصافحة القديمة؛ والطلبات متعددة الجولات؛ والاشتراكات؛ والتخزين المؤقت؛ وامتدادا Tasks وMCP Apps؛ وتفويض OAuth؛ ومستويي السجل وSDK. يوفّر كل درس مختبرًا قابلًا للتشغيل بمكتبات Python القياسية ويُفحص سجله للتأكد من مطابقته لتنسيق الاتصال الحالي. ويضم المسار اختبارًا تشخيصيًا ومشروعًا ختاميًا وثلاثة اختبارات تدريبية أصلية كاملة تتبع أوزان مخطط الاختبار المنشور.
 
-استخدم [دليل التهيئة على GitHub المدعوم بالذكاء الاصطناعي](../../certifications/mcpa/GETTING_STARTED.md) مع Claude Code أو Codex أو ChatGPT أو Cursor أو وكيل آخر. في Codex شغّل `mcpa-certification`؛ وفي Claude Code شغّل `/mcpa-certification`؛ أو اطلب من مضيف آخر استخدام المهارة `mcpa-certification`. ينشئ الدليل مسارًا مستمرًا في `MCPA-CERTIFICATION.md`، ويعلّم خطوةً كل مرة، ويشغّل المختبرات الفعلية، ويقدّم ملاحظات تستند إلى المخرجات. المنهج متاح أيضًا في [صفحة مسار MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+استخدم [دليل التهيئة على GitHub المدعوم بالذكاء الاصطناعي](../../certifications/mcpa/GETTING_STARTED.md) مع Claude Code أو Codex أو ChatGPT أو Cursor أو وكيل آخر. في Codex شغّل `mcpa-certification`؛ وفي Claude Code شغّل `/mcpa-certification`؛ أو اطلب من مضيف آخر استخدام المهارة `mcpa-certification`. ينشئ الدليل مسارًا مستمرًا في `MCPA-CERTIFICATION.md`، ويعلّم خطوةً كل مرة، ويشغّل المختبرات الفعلية، ويقدّم ملاحظات تستند إلى المخرجات. المنهج متاح أيضًا في [صفحة مسار MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 هذا المنهج مادة دراسية مستقلة تستند إلى أهداف الاختبار المنشورة. لا يتبع Agentic AI Foundation أو Linux Foundation، ولا يعيد نشر أسئلة الاختبار الفعلية، ولا يضمن اجتياز الاختبار.
 
@@ -1297,5 +1297,5 @@ MIT. استخدمه كيفما تشاء: أنشئ fork أو درّسه أو بِ
 يتولى [Rohit Ghumare](https://github.com/iamabhishekpanda) والمجتمع صيانة المشروع.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">تقرير / اقتراح</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">تقرير / اقتراح</a>
 </sub>

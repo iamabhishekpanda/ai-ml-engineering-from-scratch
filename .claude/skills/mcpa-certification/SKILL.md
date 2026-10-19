@@ -63,7 +63,7 @@ the brief and the specification pages it cites win.
 The website is an optional interactive view, not a dependency:
 
 ```text
-https://aiengineeringfromscratch.com/certification?id=mcpa-f
+https://iamabhishekpanda.com/certification?id=mcpa-f
 ```
 
 GitHub learners must be able to complete the full tutor loop without opening

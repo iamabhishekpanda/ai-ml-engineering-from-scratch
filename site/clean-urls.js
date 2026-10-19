@@ -1,7 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const ORIGIN = 'https://aiengineeringfromscratch.com';
+const ORIGIN = 'https://iamabhishekpanda.com';
 
 function cleanHref(value, pages) {
   const match = value.match(/^(https:\/\/aiengineeringfromscratch\.com\/|\/|\.\/)?([a-z0-9-]+)\.html([?#].*)?$/);

@@ -1,6 +1,6 @@
 # AI Engineering from Scratch API and MCP documentation
 
-Canonical documentation: https://aiengineeringfromscratch.com/developer.html
+Canonical documentation: https://iamabhishekpanda.com/developer.html
 
 Search the public curriculum and read its original Markdown from your own tools.
 The API and MCP server are read-only. They do not run lesson code, grade
@@ -11,11 +11,11 @@ learners, store progress, or access accounts.
 No API key or login is required. All returned material is already public.
 There are no write endpoints or webhooks. Browser progress stays in the browser.
 Do not send credentials or learner data. Contact the maintainers through the
-[public contact page](https://aiengineeringfromscratch.com/contact.html).
+[public contact page](https://iamabhishekpanda.com/contact.html).
 
 ## REST API v1
 
-- [OpenAPI 3.1](https://aiengineeringfromscratch.com/openapi.json)
+- [OpenAPI 3.1](https://iamabhishekpanda.com/openapi.json)
 - `GET /api/v1/catalog?q=attention&kind=lesson&limit=10&offset=0`
 - `GET /api/v1/resource?path=phases%2F00-setup-and-tooling%2F01-dev-environment`
 - `GET /api/v1/resource?path=phases%2F00-setup-and-tooling%2F01-dev-environment&lang=hi`
@@ -31,7 +31,7 @@ JSON responses are objects with typed fields, not HTML wrapped in JSON.
 
 ```bash
 curl -H 'Accept: application/json' \
-  'https://aiengineeringfromscratch.com/api/v1/catalog?q=attention&limit=3'
+  'https://iamabhishekpanda.com/api/v1/catalog?q=attention&limit=3'
 ```
 
 All REST operations support GET and HEAD. HEAD returns metadata without a body.
@@ -100,8 +100,8 @@ also available through `/api/v1/resource`. Certification routes keep their HTML
 rendering and canonical redirects.
 
 ```bash
-curl -H 'Accept: text/markdown' https://aiengineeringfromscratch.com/docs
-curl -i -H 'Accept: text/markdown' https://aiengineeringfromscratch.com/api/v1/markdown?path=/missing-page
+curl -H 'Accept: text/markdown' https://iamabhishekpanda.com/docs
+curl -i -H 'Accept: text/markdown' https://iamabhishekpanda.com/api/v1/markdown?path=/missing-page
 ```
 
 ## Lesson translations
@@ -128,13 +128,13 @@ lessons, projects, and site pages are English only.
 
 Missing pages return a real 404: the HTML recovery page for browsers, and short
 Markdown recovery links from `/api/v1/markdown`. Start at the
-[curriculum index](https://aiengineeringfromscratch.com/llms.txt),
-[sitemap](https://aiengineeringfromscratch.com/sitemap.xml), or
-[API docs](https://aiengineeringfromscratch.com/docs).
+[curriculum index](https://iamabhishekpanda.com/llms.txt),
+[sitemap](https://iamabhishekpanda.com/sitemap.xml), or
+[API docs](https://iamabhishekpanda.com/docs).
 
 ## Hosted MCP server
 
-Connect a Streamable HTTP MCP client to `https://aiengineeringfromscratch.com/mcp`.
+Connect a Streamable HTTP MCP client to `https://iamabhishekpanda.com/mcp`.
 The server supports protocol revisions `2025-11-25` and `2025-03-26`, negotiates
 the version during initialization, and exposes `search_curriculum` and
 `read_resource`. Tools have input/output JSON schemas and read-only annotations.
@@ -150,7 +150,7 @@ prompt-injection exposure without claiming that a warning can sandbox an agent.
   "mcpServers": {
     "ai-engineering-from-scratch": {
       "type": "http",
-      "url": "https://aiengineeringfromscratch.com/mcp"
+      "url": "https://iamabhishekpanda.com/mcp"
     }
   }
 }
@@ -165,7 +165,7 @@ It has no session IDs, server-initiated requests, subscriptions, or resumable
 streams. POST bodies are limited to 64 KiB. Requests with an Origin header are
 accepted only from the canonical website; server-side clients may omit Origin.
 
-The [server manifest](https://aiengineeringfromscratch.com/server.json) uses the
+The [server manifest](https://iamabhishekpanda.com/server.json) uses the
 official MCP Registry server schema. `/.well-known/mcp.json` is a discovery alias;
 it does not imply publication in the MCP Registry or a universal discovery standard.
 The [transport specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports)

@@ -144,7 +144,7 @@ Include one user outcome, one quality or safety guardrail, and total human revie
 
 Estimate cost per successfully completed task using model calls, retries, supporting services, and human review. State the labor-rate assumption and separate measured usage from estimates. Compare that cost with the manual alternative or the value assumption behind the project.
 
-Use the existing [FinOps for LLMs lesson](https://aiengineeringfromscratch.com/lesson?path=phases/17-infrastructure-and-production/27-finops-llms) to deepen attribution and unit economics. Changing the model is only one possible response; narrowing the workflow or retaining a manual step may be the better product decision.
+Use the existing [FinOps for LLMs lesson](https://iamabhishekpanda.com/lesson?path=phases/17-infrastructure-and-production/27-finops-llms) to deepen attribution and unit economics. Changing the model is only one possible response; narrowing the workflow or retaining a manual step may be the better product decision.
 
 ### 6. Close the Loop
 

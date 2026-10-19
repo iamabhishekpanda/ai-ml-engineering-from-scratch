@@ -9,7 +9,7 @@ Every manual follows the same rules:
 - Every claim traces to a ranked source, and every section ends with the files it was written from.
 - Figures use one colour code and one arrow grammar, so a colour or a dashed line means the same thing on every page.
 
-Each manual has a web edition at `aiengineeringfromscratch.com/manual-<id>.html` and a PDF attached to every release as `aiefs-manual-<id>.pdf`.
+Each manual has a web edition at `iamabhishekpanda.com/manual-<id>.html` and a PDF attached to every release as `aiefs-manual-<id>.pdf`.
 
 ## Writing a manual
 

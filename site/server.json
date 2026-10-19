@@ -4,10 +4,10 @@
   "title": "AI Engineering from Scratch",
   "description": "Search free AI engineering lessons and projects and read their original Markdown.",
   "version": "1.0.0",
-  "websiteUrl": "https://aiengineeringfromscratch.com/docs",
+  "websiteUrl": "https://iamabhishekpanda.com/docs",
   "repository": {
     "url": "https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch",
     "source": "github"
   },
-  "remotes": [{ "type": "streamable-http", "url": "https://aiengineeringfromscratch.com/mcp" }]
+  "remotes": [{ "type": "streamable-http", "url": "https://iamabhishekpanda.com/mcp" }]
 }

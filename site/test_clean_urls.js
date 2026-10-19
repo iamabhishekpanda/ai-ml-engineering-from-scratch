@@ -36,7 +36,7 @@ test('page links preserve query encoding, fragments and external destinations', 
   assert.equal(cleanHref('project.html?id=dataset-split-auditor&stage=03-split-groups#main', pages), 'project?id=dataset-split-auditor&stage=03-split-groups#main');
   assert.equal(cleanHref('/catalog.html?q=a%26b', pages), '/catalog?q=a%26b');
   assert.equal(cleanHref('index.html#contents', pages), './#contents');
-  assert.equal(cleanHref('https://aiengineeringfromscratch.com/index.html', pages), 'https://aiengineeringfromscratch.com/');
+  assert.equal(cleanHref('https://iamabhishekpanda.com/index.html', pages), 'https://iamabhishekpanda.com/');
   for (const href of ['https://example.com/project.html', '../examples/project.html', 'style.css', 'missing.html', '/project-content/demo.html']) {
     assert.equal(cleanHref(href, pages), href);
   }
@@ -44,12 +44,12 @@ test('page links preserve query encoding, fragments and external destinations', 
 
 test('built HTML publishes clean links and identities without rewriting inline code or assets', () => {
   const pages = new Set(['index', 'projects']);
-  const source = '<link rel="canonical" href="https://aiengineeringfromscratch.com/projects.html">'
+  const source = '<link rel="canonical" href="https://iamabhishekpanda.com/projects.html">'
     + '<a href="projects.html#ladder">Projects</a><a href="index.html#contents">Home</a>'
     + '<script>const example = \'<a href="projects.html">example</a>\';</script>'
     + '<script src="header.js?v=abc"></script><!-- <a href="projects.html"> -->';
   const output = cleanHtml(source, pages);
-  assert.match(output, /rel="canonical" href="https:\/\/aiengineeringfromscratch.com\/projects"/);
+  assert.match(output, /rel="canonical" href="https:\/\/iamabhishekpanda.com\/projects"/);
   assert.match(output, /href="projects#ladder"/);
   assert.match(output, /href="\.\/#contents"/);
   assert.match(output, /const example = '<a href="projects.html">example<\/a>'/);
@@ -62,20 +62,20 @@ test('build output keeps sitemap, discovery links and HTML identities consistent
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'aiefs-clean-urls-'));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
   fs.writeFileSync(path.join(root, 'index.html'), '<a href="projects.html">Projects</a>');
-  fs.writeFileSync(path.join(root, 'projects.html'), '<link rel="canonical" href="https://aiengineeringfromscratch.com/projects.html">');
-  fs.writeFileSync(path.join(root, 'manuals.html'), '<link rel="canonical" href="https://aiengineeringfromscratch.com/manuals.html">');
-  fs.writeFileSync(path.join(root, 'manual-demo-101.html'), '<link rel="canonical" href="https://aiengineeringfromscratch.com/manual-demo-101.html">');
-  fs.writeFileSync(path.join(root, 'sitemap.xml'), '<urlset><url><loc>https://aiengineeringfromscratch.com/index.html</loc></url>'
-    + '<url><loc>https://aiengineeringfromscratch.com/manuals.html</loc></url>'
-    + '<url><loc>https://aiengineeringfromscratch.com/manual-demo-101.html</loc></url></urlset>');
-  fs.writeFileSync(path.join(root, 'llms.txt'), '[Projects](https://aiengineeringfromscratch.com/projects.html)');
+  fs.writeFileSync(path.join(root, 'projects.html'), '<link rel="canonical" href="https://iamabhishekpanda.com/projects.html">');
+  fs.writeFileSync(path.join(root, 'manuals.html'), '<link rel="canonical" href="https://iamabhishekpanda.com/manuals.html">');
+  fs.writeFileSync(path.join(root, 'manual-demo-101.html'), '<link rel="canonical" href="https://iamabhishekpanda.com/manual-demo-101.html">');
+  fs.writeFileSync(path.join(root, 'sitemap.xml'), '<urlset><url><loc>https://iamabhishekpanda.com/index.html</loc></url>'
+    + '<url><loc>https://iamabhishekpanda.com/manuals.html</loc></url>'
+    + '<url><loc>https://iamabhishekpanda.com/manual-demo-101.html</loc></url></urlset>');
+  fs.writeFileSync(path.join(root, 'llms.txt'), '[Projects](https://iamabhishekpanda.com/projects.html)');
   cleanSite(root);
   const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
-  assert.match(sitemap, /<loc>https:\/\/aiengineeringfromscratch.com\/<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/aiengineeringfromscratch.com\/projects<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/aiengineeringfromscratch.com\/manuals<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/aiengineeringfromscratch.com\/manual-demo-101<\/loc>/);
-  assert.match(fs.readFileSync(path.join(root, 'manual-demo-101.html'), 'utf8'), /href="https:\/\/aiengineeringfromscratch.com\/manual-demo-101"/);
+  assert.match(sitemap, /<loc>https:\/\/iamabhishekpanda.com\/<\/loc>/);
+  assert.match(sitemap, /<loc>https:\/\/iamabhishekpanda.com\/projects<\/loc>/);
+  assert.match(sitemap, /<loc>https:\/\/iamabhishekpanda.com\/manuals<\/loc>/);
+  assert.match(sitemap, /<loc>https:\/\/iamabhishekpanda.com\/manual-demo-101<\/loc>/);
+  assert.match(fs.readFileSync(path.join(root, 'manual-demo-101.html'), 'utf8'), /href="https:\/\/iamabhishekpanda.com\/manual-demo-101"/);
   assert.doesNotMatch(fs.readFileSync(path.join(root, 'llms.txt'), 'utf8'), /\.html/);
   cleanSite(root);
   assert.equal(fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8'), sitemap);
@@ -97,17 +97,17 @@ test('agent discovery uses clean URLs without changing lesson or project source 
   fs.mkdirSync(path.join(root, 'generated'));
   fs.writeFileSync(path.join(site, 'project.html'), '');
   fs.writeFileSync(path.join(site, 'projects.html'), '');
-  const markdown = '[Example](https://aiengineeringfromscratch.com/project.html?id=demo)';
-  const resources = [{ url: 'https://aiengineeringfromscratch.com/project.html?id=demo', markdown,
+  const markdown = '[Example](https://iamabhishekpanda.com/project.html?id=demo)';
+  const resources = [{ url: 'https://iamabhishekpanda.com/project.html?id=demo', markdown,
     sourceUrl: 'https://github.com/example/repo/blob/main/project.html' }];
   const resourcesPath = path.join(root, 'generated/agent-content.json');
   fs.writeFileSync(resourcesPath, JSON.stringify(resources));
   const pagePath = path.join(site, 'agent-pages/projects.md');
-  fs.writeFileSync(pagePath, '[Projects](https://aiengineeringfromscratch.com/projects.html)');
+  fs.writeFileSync(pagePath, '[Projects](https://iamabhishekpanda.com/projects.html)');
   cleanSite(site);
-  assert.equal(fs.readFileSync(pagePath, 'utf8'), '[Projects](https://aiengineeringfromscratch.com/projects)');
+  assert.equal(fs.readFileSync(pagePath, 'utf8'), '[Projects](https://iamabhishekpanda.com/projects)');
   assert.deepEqual(JSON.parse(fs.readFileSync(resourcesPath, 'utf8')), [{ ...resources[0],
-    url: 'https://aiengineeringfromscratch.com/project?id=demo' }]);
+    url: 'https://iamabhishekpanda.com/project?id=demo' }]);
 });
 
 test('glossary term pages and phase hubs route beside /glossary without colliding with it', async t => {

@@ -9,7 +9,7 @@
 
 Implementera modellers interna mekanismer, sökpipelines och körmiljöer för agenter. Testa dem, undersök fel och spara koden och utvärderingsresultaten.
 
-**[Börja lära dig](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Välj en väg](#learning-routes)** · **[Prova ett labb](#interactive-lab)** · **[Bygg ett projekt](#project-challenges)** · **[Bläddra i kursplanen](#contents)**
+**[Börja lära dig](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Välj en väg](#learning-routes)** · **[Prova ett labb](#interactive-lab)** · **[Bygg ett projekt](#project-challenges)** · **[Bläddra i kursplanen](#contents)**
 
 Gratis, öppen källkod, MIT-licens. Lär dig på webbplatsen, med en kodningsagent eller genom att köra kod lokalt.
 
@@ -20,7 +20,7 @@ Gratis, öppen källkod, MIT-licens. Lär dig på webbplatsen, med en kodningsag
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lektioner"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 faser"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-stjärnor"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webbplats"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webbplats"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Gratis, öppen källkod, MIT-licens. Lär dig på webbplatsen, med en kodningsag
 
 | Lärväg | Första lektionen |
 |---|---|
-| Modellernas grunder | [Installation och verktyg](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM-system | [Promptteknik](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agenter och systemleverans | [Agentloopen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Modellernas grunder | [Installation och verktyg](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-system | [Promptteknik](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agenter och systemleverans | [Agentloopen](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Jämför karriärvägar](https://aiengineeringfromscratch.com/learning-paths.html) · [Förkunskaper och studietid](#study-guide)
+[Jämför karriärvägar](https://iamabhishekpanda.com/learning-paths.html) · [Förkunskaper och studietid](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Gratis, öppen källkod, MIT-licens. Lär dig på webbplatsen, med en kodningsag
 Tjugo startpunkter följer gradientnedstigning på en kvadratisk förlustfunktion. Grafen visar deras positioner och medelförlusten efter varje uppdatering.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Tjugo startpunkter följer gradientnedstigning på en kvadratisk förlustfunktio
   </a>
 </p>
 
-[Justera inlärningshastigheten i lektionen](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Jämför gradientnedstigning, momentum och Adam i kod](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Justera inlärningshastigheten i lektionen](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Jämför gradientnedstigning, momentum och Adam i kod](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Spara:** en reproducerbar jämförelse med förändringar per fråga och relevansbedömningarna som används för poängen. Måtten beskriver dessa bedömningar; de fastställer inte att svaren är korrekta.
 
-[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Granska referensen](../../projects/retrieval-evaluation-lab/solution/) · [Kör med egna indata](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Starta projektet](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Granska referensen](../../projects/retrieval-evaluation-lab/solution/) · [Kör med egna indata](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Spara:** indataspåret, en HTML-tidslinje och en regressionsrapport i JSON. Bevara varje spans egna tokenantal utan underordnade span, så att överordnad och underordnad användning inte räknas dubbelt.
 
-[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Granska referensen](../../projects/agent-trace-debugger/solution/) · [Utforska tidsåtgång interaktivt](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Starta projektet](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Granska referensen](../../projects/agent-trace-debugger/solution/) · [Utforska tidsåtgång interaktivt](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Spara:** ett granskningskvitto som visar begärd operation och policybeslutet. Godkännanden får användas en gång inom ett anrop; projektet ger inte bestående auktorisering eller en sandlåda på operativsystemnivå.
 
-[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Granska referensen](../../projects/tool-call-firewall/solution/) · [Utforska godkännandegränser](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Starta projektet](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Granska referensen](../../projects/tool-call-firewall/solution/) · [Utforska godkännandegränser](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Bläddra bland alla projekt](https://aiengineeringfromscratch.com/projects.html) · [Guide till karriärövningar](../../learning-paths/CAREER-PRACTICE.md)
+[Bläddra bland alla projekt](https://iamabhishekpanda.com/projects.html) · [Guide till karriärövningar](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Välj hur du vill lära dig
 
 ### På webbplatsen
 
-Öppna en färdig lektion på [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) eller fäll ut en fas under [Innehåll](#contents). Ingen installation eller kloning behövs.
+Öppna en färdig lektion på [iamabhishekpanda.com](https://iamabhishekpanda.com) eller fäll ut en fas under [Innehåll](#contents). Ingen installation eller kloning behövs.
 
 ### Med en AI-handledare
 
@@ -194,9 +194,9 @@ Ett nivåtest med tio frågor kopplar dina förkunskaper till en lämplig startf
 
 Vill du bara lära dig Model Context Protocol (MCP)? Använd MCP-anropet för din värdapplikation. Det skapar `MCP-LEARNING.md` och följer en sammanhållen väg med 17 lektioner om tillståndslösa förfrågningar, transporter, dubbelriktat arbete, säkerhet, tillförlitlighet, registerstyrning och belägg för protokollefterlevnad. Den exakta ordningen och kontrollpunkterna finns i [manifestet för Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Vill du bara lära dig Agent Skills? Använd Agent Skills-anropet för din värdapplikation. Det skapar `AGENT-SKILLS-LEARNING.md` och följer fem sammanhängande lektioner: kontrakt, upptäckt, anrop, sandlådegränser och slutligen utvärdering inför publicering samt portabilitet mellan riktiga värdapplikationer. Börja på webben med [studievägen för Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Vill du bara lära dig Agent Skills? Använd Agent Skills-anropet för din värdapplikation. Det skapar `AGENT-SKILLS-LEARNING.md` och följer fem sammanhängande lektioner: kontrakt, upptäckt, anrop, sandlådegränser och slutligen utvärdering inför publicering samt portabilitet mellan riktiga värdapplikationer. Börja på webben med [studievägen för Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Installationsprogrammet visar vilka värdapplikationer det kan konfigurera och frågar var färdigheterna ska installeras. Om du ännu saknar Node.js, `npx`, `python3`, en kompatibel värdapplikation eller en skrivbar katalog kan du använda webbplatsen eller läsa `docs/en.md` manuellt. Då lär du dig begreppen, men belägg för upptäckt, anrop, skriptkörning och avinstallation i en riktig värdapplikation får vänta tills förkontrollen kan genomföras. Läs lektionerna på [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Installationsprogrammet visar vilka värdapplikationer det kan konfigurera och frågar var färdigheterna ska installeras. Om du ännu saknar Node.js, `npx`, `python3`, en kompatibel värdapplikation eller en skrivbar katalog kan du använda webbplatsen eller läsa `docs/en.md` manuellt. Då lär du dig begreppen, men belägg för upptäckt, anrop, skriptkörning och avinstallation i en riktig värdapplikation får vänta tills förkontrollen kan genomföras. Läs lektionerna på [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Lärandefärdigheterna
 
@@ -251,25 +251,25 @@ Du behöver inte gå igenom 542 lektioner innan du börjar. Välj ett mål. Varj
 
 | Ditt mål | Lär dig på GitHub | Lär dig på webbplatsen |
 |---|---|---|
-| Jag är nybörjare och vill ha en komplett grund | [Fas 0: Installation och verktyg](../../phases/00-setup-and-tooling/) | [Utvecklingsmiljö](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Jag kan Python och vill lära mig grunderna i matematik och maskininlärning | [Fas 1: Matematiska grunder](../../phases/01-math-foundations/) | [Intuition för linjär algebra](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Jag vill bygga LLM-applikationer för produktion | [Fas 11: LLM-utveckling](../../phases/11-llm-engineering/) | [Promptutveckling](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Jag vill bygga agenter | [Fas 14: Agentutveckling](../../phases/14-agent-engineering/) | [Agentloopen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Jag vill använda kodningsagenter i riktiga kodarkiv | [Studieväg för agentassisterad utveckling](../../learning-paths/using-coding-agents.json) | [Agentassisterad utveckling](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Jag vill avgöra vad som ska byggas före implementationen | [Studieväg för produktbedömning och leverans](../../learning-paths/shaping-the-build.json) | [Produktbedömning och leverans](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Jag är nybörjare och vill ha en komplett grund | [Fas 0: Installation och verktyg](../../phases/00-setup-and-tooling/) | [Utvecklingsmiljö](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Jag kan Python och vill lära mig grunderna i matematik och maskininlärning | [Fas 1: Matematiska grunder](../../phases/01-math-foundations/) | [Intuition för linjär algebra](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Jag vill bygga LLM-applikationer för produktion | [Fas 11: LLM-utveckling](../../phases/11-llm-engineering/) | [Promptutveckling](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Jag vill bygga agenter | [Fas 14: Agentutveckling](../../phases/14-agent-engineering/) | [Agentloopen](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Jag vill använda kodningsagenter i riktiga kodarkiv | [Studieväg för agentassisterad utveckling](../../learning-paths/using-coding-agents.json) | [Agentassisterad utveckling](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Jag vill avgöra vad som ska byggas före implementationen | [Studieväg för produktbedömning och leverans](../../learning-paths/shaping-the-build.json) | [Produktbedömning och leverans](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Osäker på var du ska börja? Använd [handledaren `start-learning` för nivåbedömning](../../skills/start-learning/SKILL.md) eller [webbplatsens guide till förkunskaper](https://aiengineeringfromscratch.com/prereqs.html).
+Osäker på var du ska börja? Använd [handledaren `start-learning` för nivåbedömning](../../skills/start-learning/SKILL.md) eller [webbplatsens guide till förkunskaper](https://iamabhishekpanda.com/prereqs.html).
 
-Jämför fyra kärnområden och sex karriärvägar i [studievägarna för AI-utveckling](https://aiengineeringfromscratch.com/learning-paths.html).
+Jämför fyra kärnområden och sex karriärvägar i [studievägarna för AI-utveckling](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Fokuserade lärvägar för MCP, Agent Skills och reverse engineering</summary>
 
 | Ditt mål | Lär dig på GitHub | Lär dig på webbplatsen |
 |---|---|---|
-| Jag vill bygga med Model Context Protocol (MCP) | [Studieväg för Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studieväg för Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Jag vill skriva och publicera Agent Skills | [Fokuserad studieväg för Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studieväg för Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Jag vill läsa kompilerade program | [Studieväg för reverse engineering](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Studieväg för reverse engineering](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Jag vill bygga med Model Context Protocol (MCP) | [Studieväg för Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studieväg för Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Jag vill skriva och publicera Agent Skills | [Fokuserad studieväg för Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studieväg för Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Jag vill läsa kompilerade program | [Studieväg för reverse engineering](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Studieväg för reverse engineering](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Boken är en ögonblicksbild; arkivet är den levande utgåvan. Varje kapitel sl
 
 [Claude Certification Academy](../../certifications/claude/README.md) är ett kostnadsfritt förberedelseprogram med öppen källkod för alla fyra officiella Claude-certifieringsspår: Associate Foundations, Developer Foundations, Architect Foundations och Architect Professional. Varje väg kombinerar lektioner kopplade till examensplanen, körbara laborationer, ett diagnostiskt prov, ett slutprojekt och ett eget fullängdsövningsprov.
 
-Använd [GitHub-guiden för AI-stött kursstart](../../certifications/claude/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `claude-certification` i Codex, `/claude-certification` i Claude Code eller be en annan värdapplikation att använda `claude-certification`. Den väljer ett spår, skapar en beständig studieväg i `CLAUDE-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [certifieringswebbplatsen](https://aiengineeringfromscratch.com/certifications.html).
+Använd [GitHub-guiden för AI-stött kursstart](../../certifications/claude/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `claude-certification` i Codex, `/claude-certification` i Claude Code eller be en annan värdapplikation att använda `claude-certification`. Den väljer ett spår, skapar en beständig studieväg i `CLAUDE-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [certifieringswebbplatsen](https://iamabhishekpanda.com/certifications.html).
 
 Akademin är oberoende studiematerial baserat på offentliga examensmål. Den är inte knuten till Anthropic, återger inga riktiga examensfrågor och kan inte garantera ett godkänt resultat.
 
@@ -1103,7 +1103,7 @@ Akademin är oberoende studiematerial baserat på offentliga examensmål. Den ä
 
 [MCPA:s certifieringskursplan](../../certifications/mcpa/README.md) är ett kostnadsfritt förberedelseprogram med öppen källkod för Agentic AI Foundations examen Model Context Protocol Associate, som erbjuds genom Linux Foundation Training. De 34 lektionerna lär ut det tillståndslösa protokollet 2026-07-28 inom examens fem områden: `_meta` per förfrågan och `server/discover` i stället för den gamla handskakningen, förfrågningar med flera turer, prenumerationer, cachelagring, tilläggen Tasks och MCP Apps, OAuth-auktorisering samt register- och SDK-nivåerna. Varje lektion innehåller en körbar laboration som bara använder standardbiblioteket och vars utskrift kontrolleras mot det aktuella meddelandeformatet. Spåret innehåller också ett diagnostiskt prov, ett slutprojekt och tre egna fullängdsövningsprov vars frågefördelning följer den publicerade examensplanens viktning.
 
-Använd [GitHub-guiden för AI-stött kursstart](../../certifications/mcpa/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `mcpa-certification` i Codex, `/mcpa-certification` i Claude Code eller be en annan värdapplikation att använda `mcpa-certification`. Den skapar en beständig studieväg i `MCPA-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [MCPA-spårets sida](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Använd [GitHub-guiden för AI-stött kursstart](../../certifications/mcpa/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `mcpa-certification` i Codex, `/mcpa-certification` i Claude Code eller be en annan värdapplikation att använda `mcpa-certification`. Den skapar en beständig studieväg i `MCPA-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [MCPA-spårets sida](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Kursplanen är oberoende studiematerial baserat på offentliga examensmål. Den är inte knuten till Agentic AI Foundation eller Linux Foundation, återger inga riktiga examensfrågor och kan inte garantera ett godkänt resultat.
 
@@ -1297,5 +1297,5 @@ MIT. Använd materialet som du vill: förgrena det, undervisa med det, sälj det
 Underhålls av [Rohit Ghumare](https://github.com/iamabhishekpanda) och gemenskapen.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Rapportera / föreslå</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Rapportera / föreslå</a>
 </sub>

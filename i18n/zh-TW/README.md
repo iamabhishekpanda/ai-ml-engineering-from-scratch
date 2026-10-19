@@ -1,4 +1,4 @@
-<p align="center"><sub>AI 輔助中文譯文，以<a href="../../README.md">英文原文為準</a> · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center"><sub>AI 輔助中文譯文，以<a href="../../README.md">英文原文為準</a> · <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a></sub></p>
 
 <p align="center">
   <picture>
@@ -9,7 +9,7 @@
 
 實作模型內部機制、檢索管線和代理執行環境。測試它們，分析故障，並保留程式碼和評估結果。
 
-**[開始學習](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[選擇學習路徑](#learning-routes)** · **[試做實驗](#interactive-lab)** · **[建構專案](#project-challenges)** · **[瀏覽課程目錄](#contents)**
+**[開始學習](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[選擇學習路徑](#learning-routes)** · **[試做實驗](#interactive-lab)** · **[建構專案](#project-challenges)** · **[瀏覽課程目錄](#contents)**
 
 免費、開放原始碼、MIT 授權。你可以在網站學習、使用程式設計代理輔助學習，或在本機執行程式碼。
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 堂課"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 個階段"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星標"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="網站"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="網站"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | 路線 | 起始課程 |
 |---|---|
-| 模型基礎 | [環境設定與工具](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM 系統 | [提示工程](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 代理與交付 | [代理迴圈](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 模型基礎 | [環境設定與工具](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM 系統 | [提示工程](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 代理與交付 | [代理迴圈](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[比較職涯路徑](https://aiengineeringfromscratch.com/learning-paths.html) · [先備知識與學習時間](#study-guide)
+[比較職涯路徑](https://iamabhishekpanda.com/learning-paths.html) · [先備知識與學習時間](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 20 個起點在二次損失函數上執行梯度下降。圖中顯示每次更新後的位置和平均損失。
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[在課程中調整學習率](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [透過程式碼比較 GD、動量和 Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[在課程中調整學習率](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [透過程式碼比較 GD、動量和 Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **保留：**可重現的比較結果，包括逐查詢差值和評分使用的相關性標註。指標反映的是這些標註，並不能證明答案正確。
 
-[開始專案](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [查看參考實作](../../projects/retrieval-evaluation-lab/solution/) · [使用自己的輸入執行](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[開始專案](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [查看參考實作](../../projects/retrieval-evaluation-lab/solution/) · [使用自己的輸入執行](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **保留：**輸入追蹤、HTML 時間軸和 JSON 退化報告。每個跨度只記錄自身獨占的 token 用量，避免重複計算父子跨度的用量。
 
-[開始專案](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [查看參考實作](../../projects/agent-trace-debugger/solution/) · [互動探索耗時](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[開始專案](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [查看參考實作](../../projects/agent-trace-debugger/solution/) · [互動探索耗時](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **保留：**顯示請求操作和政策決策的稽核憑據。核准只能在一次呼叫中使用一次；本專案不提供持久授權或作業系統沙盒。
 
-[開始專案](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [查看參考實作](../../projects/tool-call-firewall/solution/) · [探索核准邊界](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[開始專案](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [查看參考實作](../../projects/tool-call-firewall/solution/) · [探索核准邊界](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[瀏覽全部專案](https://aiengineeringfromscratch.com/projects.html) · [職涯實作指南](../../learning-paths/CAREER-PRACTICE.md)
+[瀏覽全部專案](https://iamabhishekpanda.com/projects.html) · [職涯實作指南](../../learning-paths/CAREER-PRACTICE.md)
 
 ## 選擇學習方式
 
 ### 在網站上學習
 
-在 [課程網站](https://aiengineeringfromscratch.com)打開任意已完成課程，或從[課程目錄](#contents)展開一個階段。不需要安裝，也不需要複製。
+在 [課程網站](https://iamabhishekpanda.com)打開任意已完成課程，或從[課程目錄](#contents)展開一個階段。不需要安裝，也不需要複製。
 
 ### 使用 AI 導師
 
@@ -194,9 +194,9 @@ python3 --version
 
 只想學習 MCP？使用上表中對應主機的呼叫方式。它會創建 `MCP-LEARNING.md`，帶你沿著 17 堂課的路線學習無狀態請求、傳輸方式、雙向交互、安全、可靠性、註冊表治理和一致性證據。順序與檢查點見 [MCP 路線清單](../../learning-paths/model-context-protocol.json)。
 
-只想學習 Agent Skills？該路線會創建 `AGENT-SKILLS-LEARNING.md`，用五堂課依次學習技能契約、發現、呼叫、沙箱邊界，以及發佈評估和真實主機的可攜性。也可以從網站上的 [Agent Skills 路線](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)開始。
+只想學習 Agent Skills？該路線會創建 `AGENT-SKILLS-LEARNING.md`，用五堂課依次學習技能契約、發現、呼叫、沙箱邊界，以及發佈評估和真實主機的可攜性。也可以從網站上的 [Agent Skills 路線](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)開始。
 
-安裝程式會列出它支援的主機，並詢問安裝位置。如果你暫時沒有 Node.js、`npx`、`python3`、受支援的主機或可寫入的安裝目錄，仍可在網站閱讀課程，或手動打開 `docs/en.md`。這能幫助你學習概念；主機發現、技能呼叫、腳本執行和卸載的真實證據，則要等環境就緒後再完成。[訪問課程網站](https://aiengineeringfromscratch.com)。
+安裝程式會列出它支援的主機，並詢問安裝位置。如果你暫時沒有 Node.js、`npx`、`python3`、受支援的主機或可寫入的安裝目錄，仍可在網站閱讀課程，或手動打開 `docs/en.md`。這能幫助你學習概念；主機發現、技能呼叫、腳本執行和卸載的真實證據，則要等環境就緒後再完成。[訪問課程網站](https://iamabhishekpanda.com)。
 
 ### 學習技能
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | 你的目標 | 在 GitHub 學習 | 在網站學習 |
 |---|---|---|
-| 我剛入門，需要完整的基礎 | [階段 0：環境與工具](../../phases/00-setup-and-tooling/) | [開發環境](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| 我會 Python，想補齊數學與機器學習基礎 | [階段 1：數學基礎](../../phases/01-math-foundations/) | [線性代數的直觀理解](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| 我想建置可用於生產環境的 LLM 應用程式 | [階段 11：LLM 工程](../../phases/11-llm-engineering/) | [Prompt Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 我想建置代理程式 | [階段 14：代理程式工程](../../phases/14-agent-engineering/) | [代理程式迴圈](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| 我想用程式開發代理程式處理真實儲存庫 | [代理程式輔助工程路徑](../../learning-paths/using-coding-agents.json) | [代理程式輔助工程](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| 我想在動手前確定真正該建置甚麼 | [產品判斷與交付路徑](../../learning-paths/shaping-the-build.json) | [產品判斷與交付](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| 我剛入門，需要完整的基礎 | [階段 0：環境與工具](../../phases/00-setup-and-tooling/) | [開發環境](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| 我會 Python，想補齊數學與機器學習基礎 | [階段 1：數學基礎](../../phases/01-math-foundations/) | [線性代數的直觀理解](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| 我想建置可用於生產環境的 LLM 應用程式 | [階段 11：LLM 工程](../../phases/11-llm-engineering/) | [Prompt Engineering](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 我想建置代理程式 | [階段 14：代理程式工程](../../phases/14-agent-engineering/) | [代理程式迴圈](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 我想用程式開發代理程式處理真實儲存庫 | [代理程式輔助工程路徑](../../learning-paths/using-coding-agents.json) | [代理程式輔助工程](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| 我想在動手前確定真正該建置甚麼 | [產品判斷與交付路徑](../../learning-paths/shaping-the-build.json) | [產品判斷與交付](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-不確定從哪裡開始？試試 [`start-learning` 入門測評導師](../../skills/start-learning/SKILL.md)，或查看[網站的先修知識指南](https://aiengineeringfromscratch.com/prereqs.html)。
+不確定從哪裡開始？試試 [`start-learning` 入門測評導師](../../skills/start-learning/SKILL.md)，或查看[網站的先修知識指南](https://iamabhishekpanda.com/prereqs.html)。
 
-在 [AI 工程學習路徑](https://aiengineeringfromscratch.com/learning-paths.html)中，對比四大核心領域和六條職業路線。
+在 [AI 工程學習路徑](https://iamabhishekpanda.com/learning-paths.html)中，對比四大核心領域和六條職業路線。
 
 <details>
 <summary>MCP、Agent Skills 與逆向工程專項路徑</summary>
 
 | 你的目標 | 在 GitHub 學習 | 在網站學習 |
 |---|---|---|
-| 我想用模型上下文協定（MCP）建置系統 | [MCP 學習路線](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) 學習路徑](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| 我想編寫並發布 Agent Skills | [Agent Skills 專項路線](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 學習路徑](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| 我想讀懂編譯後的程式 | [逆向工程專項路線](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [逆向工程學習路徑](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| 我想用模型上下文協定（MCP）建置系統 | [MCP 學習路線](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) 學習路徑](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| 我想編寫並發布 Agent Skills | [Agent Skills 專項路線](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 學習路徑](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| 我想讀懂編譯後的程式 | [逆向工程專項路線](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [逆向工程學習路徑](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ flowchart TB
 
 [Claude 認證學院](../../certifications/claude/README.md)是一套免費、開源的備考課程，覆蓋四條官方認證路線：Associate Foundations、Developer Foundations、Architect Foundations 和 Architect Professional。每條路線都結合考試藍圖對應的課程、可執行實驗、診斷測驗、綜合專案，以及一套原創的完整模擬試卷。
 
-可在 Claude Code、Codex、ChatGPT、Cursor 或其他代理程式中使用 [GitHub 入門指南](../../certifications/claude/GETTING_STARTED.md)。在 Codex 中輸入 `claude-certification`，在 Claude Code 中使用 `/claude-certification`，其他主機則可直接要求使用 `claude-certification` 技能。它會幫你選路線，在 `CLAUDE-CERTIFICATION.md` 中保存持續更新的學習計劃，逐步講解課程、執行真實實驗，並根據成果檔案給出反饋。你也可以在[認證課程網站](https://aiengineeringfromscratch.com/certifications.html)學習同一套內容。
+可在 Claude Code、Codex、ChatGPT、Cursor 或其他代理程式中使用 [GitHub 入門指南](../../certifications/claude/GETTING_STARTED.md)。在 Codex 中輸入 `claude-certification`，在 Claude Code 中使用 `/claude-certification`，其他主機則可直接要求使用 `claude-certification` 技能。它會幫你選路線，在 `CLAUDE-CERTIFICATION.md` 中保存持續更新的學習計劃，逐步講解課程、執行真實實驗，並根據成果檔案給出反饋。你也可以在[認證課程網站](https://iamabhishekpanda.com/certifications.html)學習同一套內容。
 
 這是一套依據公開考試目標編寫的獨立學習資料，與 Anthropic 沒有關聯；它不復現真實考試題目，也不能保證通過考試。
 
@@ -1103,7 +1103,7 @@ flowchart TB
 
 [MCPA 認證課程](../../certifications/mcpa/README.md)是針對 Agentic AI Foundation 的 Model Context Protocol Associate 考試編寫的免費開源備考資料，該考試通過 Linux Foundation Training 提供。34 堂課覆蓋五個考試領域，並圍繞 2026-07-28 版無狀態協定展開：以每次請求的 `_meta` 和 `server/discover` 替代舊握手、多輪請求、訂閱、快取、tasks 與 MCP Apps 擴展、OAuth 授權，以及註冊表和 SDK 分層。每堂課都附有可執行的標準函式庫實驗，檢查執行記錄是否符合當前協定格式；整條路線還包含診斷測驗、綜合專案和三套按公開藍圖權重編排的原創完整模擬試卷。
 
-可在 Claude Code、Codex、ChatGPT、Cursor 或其他代理程式中使用 [GitHub 入門指南](../../certifications/mcpa/GETTING_STARTED.md)。在 Codex 中輸入 `mcpa-certification`，在 Claude Code 中使用 `/mcpa-certification`，其他主機則可直接要求使用 `mcpa-certification` 技能。它會在 `MCPA-CERTIFICATION.md` 中保存學習路線，逐步講解、執行實驗，並根據成果給出反饋。[MCPA 網站路線](https://aiengineeringfromscratch.com/certification?id=mcpa-f)也提供相同課程。
+可在 Claude Code、Codex、ChatGPT、Cursor 或其他代理程式中使用 [GitHub 入門指南](../../certifications/mcpa/GETTING_STARTED.md)。在 Codex 中輸入 `mcpa-certification`，在 Claude Code 中使用 `/mcpa-certification`，其他主機則可直接要求使用 `mcpa-certification` 技能。它會在 `MCPA-CERTIFICATION.md` 中保存學習路線，逐步講解、執行實驗，並根據成果給出反饋。[MCPA 網站路線](https://iamabhishekpanda.com/certification?id=mcpa-f)也提供相同課程。
 
 這是一套依據公開考試目標編寫的獨立資料，與 Agentic AI Foundation 或 Linux Foundation 沒有關聯；它不復現真實考試題目，也不能保證通過考試。
 
@@ -1297,5 +1297,5 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 由 [Rohit Ghumare](https://github.com/iamabhishekpanda) 與社群共同維護。
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">反饋與建議</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">反饋與建議</a>
 </sub>

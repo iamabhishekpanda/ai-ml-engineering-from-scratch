@@ -10,7 +10,7 @@ const ROOT = join(HERE, "..", "..");
 const STUDIO = process.argv.includes("--studio");
 const OUT = STUDIO ? process.argv[process.argv.indexOf("--studio") + 1] : join(ROOT, "site", "inside-an-ai-agent.html");
 if (STUDIO && !OUT) throw new Error("usage: node build.mjs --studio <output.html>");
-const ORIGIN = "https://aiengineeringfromscratch.com";
+const ORIGIN = "https://iamabhishekpanda.com";
 
 const exportsOf = (source) => [...source.matchAll(/^export (?:const|function|let) ([A-Za-z_$][\w$]*)/gm)].map((match) => match[1]);
 function module(file, name) {

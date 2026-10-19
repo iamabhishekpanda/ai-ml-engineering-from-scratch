@@ -1,6 +1,6 @@
 # SGLang 101
 
-SGLang 0.5.22, from one request on a laptop to a fleet of GPUs, with the judgment that the flag list leaves out. The documentation tells you what each of the 535 options of `sglang serve` does. This manual tells you which ones matter, why each feature exists, which defaults assume a machine you do not have, and what we measured when we changed them. The web edition is at [aiengineeringfromscratch.com/manual-sglang-101.html](https://aiengineeringfromscratch.com/manual-sglang-101.html), and each release of the course attaches the PDF as `aiefs-manual-sglang-101.pdf` once the manual is published.
+SGLang 0.5.22, from one request on a laptop to a fleet of GPUs, with the judgment that the flag list leaves out. The documentation tells you what each of the 535 options of `sglang serve` does. This manual tells you which ones matter, why each feature exists, which defaults assume a machine you do not have, and what we measured when we changed them. The web edition is at [iamabhishekpanda.com/manual-sglang-101.html](https://iamabhishekpanda.com/manual-sglang-101.html), and each release of the course attaches the PDF as `aiefs-manual-sglang-101.pdf` once the manual is published.
 
 ## What is in it
 

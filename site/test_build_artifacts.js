@@ -1653,7 +1653,7 @@ test('TTS continuation accepts canonical and legacy lesson routes under one rout
   assert.ok(routeKeySource, 'TTS route key helper is missing');
   assert.ok(continuationSource, 'TTS continuation helper is missing');
 
-  const origin = 'https://aiengineeringfromscratch.com';
+  const origin = 'https://iamabhishekpanda.com';
   const context = {
     URL,
     URLSearchParams,

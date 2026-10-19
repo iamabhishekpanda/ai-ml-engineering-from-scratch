@@ -140,7 +140,7 @@ test('shared adapter covers dynamically inserted links, click races, and command
 });
 
 test('deployed routes and canonical SEO URLs remain extensionless', () => {
-  const production = loadRouteRuntime('https://aiengineeringfromscratch.com/index.html');
+  const production = loadRouteRuntime('https://iamabhishekpanda.com/index.html');
   assert.equal(
     production.api.adaptHref('lesson?path=phases%2F00-setup-and-tooling%2F01-dev-environment'),
     'lesson?path=phases%2F00-setup-and-tooling%2F01-dev-environment'
@@ -159,7 +159,7 @@ test('deployed routes and canonical SEO URLs remain extensionless', () => {
 });
 
 test('all page links use clean production URLs and remain usable in static previews', () => {
-  const production = loadRouteRuntime('https://aiengineeringfromscratch.com/projects');
+  const production = loadRouteRuntime('https://iamabhishekpanda.com/projects');
   const preview = loadRouteRuntime('http://localhost:8000/site/projects.html');
   const pages = fs.readdirSync(__dirname).filter(name => name.endsWith('.html') && name !== '404.html');
   for (const page of pages) {

@@ -9,7 +9,7 @@
 
 Implementa componentes internos de modelos, pipelines de recuperación y entornos de ejecución de agentes. Pruébalos, examina los fallos y conserva el código y los resultados de evaluación.
 
-**[Empieza a aprender](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Elige una ruta](#learning-routes)** · **[Prueba un laboratorio](#interactive-lab)** · **[Construye un proyecto](#project-challenges)** · **[Consulta el programa](#contents)**
+**[Empieza a aprender](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Elige una ruta](#learning-routes)** · **[Prueba un laboratorio](#interactive-lab)** · **[Construye un proyecto](#project-challenges)** · **[Consulta el programa](#contents)**
 
 Gratis, de código abierto y con licencia MIT. Aprende en el sitio web, con un agente de programación o ejecutando código local.
 
@@ -20,7 +20,7 @@ Gratis, de código abierto y con licencia MIT. Aprende en el sitio web, con un a
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lecciones"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 fases"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Estrellas de GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Sitio web"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Sitio web"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Gratis, de código abierto y con licencia MIT. Aprende en el sitio web, con un a
 
 | Ruta | Lección inicial |
 |---|---|
-| Fundamentos de los modelos | [Configuración y herramientas](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Sistemas LLM | [Ingeniería de prompts](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agentes y entrega | [El bucle del agente](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Fundamentos de los modelos | [Configuración y herramientas](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Sistemas LLM | [Ingeniería de prompts](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agentes y entrega | [El bucle del agente](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Compara rutas profesionales](https://aiengineeringfromscratch.com/learning-paths.html) · [Requisitos previos y tiempo de estudio](#study-guide)
+[Compara rutas profesionales](https://iamabhishekpanda.com/learning-paths.html) · [Requisitos previos y tiempo de estudio](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Gratis, de código abierto y con licencia MIT. Aprende en el sitio web, con un a
 Veinte puntos iniciales siguen el descenso de gradiente sobre una pérdida cuadrática. El gráfico muestra sus posiciones y la pérdida media tras cada actualización.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Veinte puntos iniciales siguen el descenso de gradiente sobre una pérdida cuadr
   </a>
 </p>
 
-[Ajusta la tasa de aprendizaje en la lección](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Compara GD, momentum y Adam en el código](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Ajusta la tasa de aprendizaje en la lección](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Compara GD, momentum y Adam en el código](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Conserva:** una comparación reproducible con diferencias por consulta y los juicios utilizados para puntuarlas. Las métricas describen esos juicios; no demuestran que las respuestas sean correctas.
 
-[Empieza el proyecto](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Inspecciona la referencia](../../projects/retrieval-evaluation-lab/solution/) · [Ejecuta con tus propios datos](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Empieza el proyecto](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Inspecciona la referencia](../../projects/retrieval-evaluation-lab/solution/) · [Ejecuta con tus propios datos](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Conserva:** la traza de entrada, una cronología HTML y un informe de regresión JSON. Mantén recuentos exclusivos de tokens por tramo para no contar dos veces el uso del padre y de sus hijos.
 
-[Empieza el proyecto](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Inspecciona la referencia](../../projects/agent-trace-debugger/solution/) · [Explora los tiempos de forma interactiva](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Empieza el proyecto](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Inspecciona la referencia](../../projects/agent-trace-debugger/solution/) · [Explora los tiempos de forma interactiva](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Conserva:** un comprobante de auditoría que muestre la operación solicitada y la decisión de la política. Cada aprobación puede usarse una sola vez dentro de una invocación; este proyecto no proporciona autorización persistente ni un entorno aislado del sistema operativo.
 
-[Empieza el proyecto](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Inspecciona la referencia](../../projects/tool-call-firewall/solution/) · [Explora los límites de aprobación](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Empieza el proyecto](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Inspecciona la referencia](../../projects/tool-call-firewall/solution/) · [Explora los límites de aprobación](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Explora todos los proyectos](https://aiengineeringfromscratch.com/projects.html) · [Guía de práctica profesional](../../learning-paths/CAREER-PRACTICE.md)
+[Explora todos los proyectos](https://iamabhishekpanda.com/projects.html) · [Guía de práctica profesional](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Elige cómo aprender
 
 ### En el sitio web
 
-Abre cualquier lección terminada en [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) o despliega una fase en [Contenido](#contents). No necesitas instalar nada ni clonar el repositorio.
+Abre cualquier lección terminada en [iamabhishekpanda.com](https://iamabhishekpanda.com) o despliega una fase en [Contenido](#contents). No necesitas instalar nada ni clonar el repositorio.
 
 ### Con un tutor de IA
 
@@ -194,9 +194,9 @@ Un cuestionario de nivelación de diez preguntas determina desde qué fase empez
 
 ¿Solo te interesa Model Context Protocol (MCP)? Usa la invocación de MCP correspondiente a tu host. Se crea `MCP-LEARNING.md` y se sigue una ruta de 17 lecciones que cubre solicitudes sin estado, transportes, comunicación bidireccional, seguridad, confiabilidad, gobernanza de registros y evidencias de conformidad. El orden y los puntos de control están definidos en el [manifiesto de Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-¿Solo te interesan las Agent Skills? Usa la invocación de Agent Skills de tu host. Se crea `AGENT-SKILLS-LEARNING.md` y se sigue una ruta coherente de cinco lecciones: contrato, descubrimiento, invocación, límites del entorno aislado y, por último, evaluaciones de publicación y portabilidad entre hosts reales. Empieza en la web con la [ruta de Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+¿Solo te interesan las Agent Skills? Usa la invocación de Agent Skills de tu host. Se crea `AGENT-SKILLS-LEARNING.md` y se sigue una ruta coherente de cinco lecciones: contrato, descubrimiento, invocación, límites del entorno aislado y, por último, evaluaciones de publicación y portabilidad entre hosts reales. Empieza en la web con la [ruta de Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-El instalador muestra los hosts que puede configurar y pregunta dónde quieres instalar las skills. Si todavía no tienes Node.js, `npx`, `python3`, un host compatible o un ámbito con permisos de escritura, usa el sitio web o lee `docs/en.md` manualmente. Así aprenderás los conceptos, pero la evidencia sobre el descubrimiento y la invocación en un host real, la ejecución de scripts y la desinstalación tendrá que esperar hasta que puedas hacer la comprobación previa. Lee las lecciones en [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+El instalador muestra los hosts que puede configurar y pregunta dónde quieres instalar las skills. Si todavía no tienes Node.js, `npx`, `python3`, un host compatible o un ámbito con permisos de escritura, usa el sitio web o lee `docs/en.md` manualmente. Así aprenderás los conceptos, pero la evidencia sobre el descubrimiento y la invocación en un host real, la ejecución de scripts y la desinstalación tendrá que esperar hasta que puedas hacer la comprobación previa. Lee las lecciones en [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Skills de aprendizaje
 
@@ -251,25 +251,25 @@ No hace falta recorrer las 542 lecciones antes de empezar. Elige un objetivo. Ca
 
 | Tu objetivo | Aprende en GitHub | Aprende en el sitio web |
 |---|---|---|
-| Estoy empezando y quiero una base completa | [Fase 0: Configuración y herramientas](../../phases/00-setup-and-tooling/) | [Entorno de desarrollo](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Sé Python y quiero fundamentos de matemáticas y ML | [Fase 1: Fundamentos matemáticos](../../phases/01-math-foundations/) | [Intuición de álgebra lineal](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Quiero crear aplicaciones de LLM para producción | [Fase 11: Ingeniería de LLM](../../phases/11-llm-engineering/) | [Ingeniería de prompts](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Quiero crear agentes | [Fase 14: Ingeniería de agentes](../../phases/14-agent-engineering/) | [El ciclo del agente](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Quiero usar agentes de programación en repositorios reales | [Ruta de ingeniería asistida por agentes](../../learning-paths/using-coding-agents.json) | [Ingeniería asistida por agentes](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Quiero definir la solución antes de implementarla | [Ruta de criterio de producto y entrega](../../learning-paths/shaping-the-build.json) | [Criterio de producto y entrega](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Estoy empezando y quiero una base completa | [Fase 0: Configuración y herramientas](../../phases/00-setup-and-tooling/) | [Entorno de desarrollo](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Sé Python y quiero fundamentos de matemáticas y ML | [Fase 1: Fundamentos matemáticos](../../phases/01-math-foundations/) | [Intuición de álgebra lineal](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Quiero crear aplicaciones de LLM para producción | [Fase 11: Ingeniería de LLM](../../phases/11-llm-engineering/) | [Ingeniería de prompts](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Quiero crear agentes | [Fase 14: Ingeniería de agentes](../../phases/14-agent-engineering/) | [El ciclo del agente](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Quiero usar agentes de programación en repositorios reales | [Ruta de ingeniería asistida por agentes](../../learning-paths/using-coding-agents.json) | [Ingeniería asistida por agentes](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Quiero definir la solución antes de implementarla | [Ruta de criterio de producto y entrega](../../learning-paths/shaping-the-build.json) | [Criterio de producto y entrega](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-¿No sabes por dónde empezar? Usa el [tutor de nivelación `start-learning`](../../skills/start-learning/SKILL.md) o la [guía de requisitos previos del sitio web](https://aiengineeringfromscratch.com/prereqs.html).
+¿No sabes por dónde empezar? Usa el [tutor de nivelación `start-learning`](../../skills/start-learning/SKILL.md) o la [guía de requisitos previos del sitio web](https://iamabhishekpanda.com/prereqs.html).
 
-Compara cuatro áreas fundamentales y seis trayectorias profesionales en las [rutas de aprendizaje de AI Engineering](https://aiengineeringfromscratch.com/learning-paths.html).
+Compara cuatro áreas fundamentales y seis trayectorias profesionales en las [rutas de aprendizaje de AI Engineering](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Rutas específicas de MCP, Agent Skills e ingeniería inversa</summary>
 
 | Tu objetivo | Aprende en GitHub | Aprende en el sitio web |
 |---|---|---|
-| Quiero crear soluciones con Model Context Protocol (MCP) | [Ruta de Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Ruta de Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Quiero crear y publicar Agent Skills | [Ruta enfocada de Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Ruta de Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Quiero leer programas compilados | [Ruta de ingeniería inversa](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Ruta de ingeniería inversa](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Quiero crear soluciones con Model Context Protocol (MCP) | [Ruta de Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Ruta de Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Quiero crear y publicar Agent Skills | [Ruta enfocada de Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Ruta de Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Quiero leer programas compilados | [Ruta de ingeniería inversa](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Ruta de ingeniería inversa](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1076,7 +1076,7 @@ El libro es una instantánea; este repositorio es la edición viva. Cada capítu
 
 La [Academia de certificación Claude](../../certifications/claude/README.md) es un programa de preparación gratuito y de código abierto para las cuatro certificaciones oficiales de Claude: Associate Foundations, Developer Foundations, Architect Foundations y Architect Professional. Cada ruta combina lecciones alineadas con el temario oficial, laboratorios ejecutables, una evaluación diagnóstica, un proyecto final y un examen de práctica original de extensión completa.
 
-Usa la [guía de incorporación a GitHub con tutoría de IA](../../certifications/claude/GETTING_STARTED.md) con Claude Code, Codex, ChatGPT, Cursor u otro agente. Ejecuta `claude-certification` en Codex, `/claude-certification` en Claude Code o pide a otro host que use `claude-certification`. La skill te ayuda a elegir una certificación, crea una ruta persistente en `CLAUDE-CERTIFICATION.md`, avanza paso a paso, ejecuta los laboratorios reales y ofrece comentarios basados en los artefactos. El mismo plan de estudios está disponible en el [sitio web de certificación](https://aiengineeringfromscratch.com/certifications.html).
+Usa la [guía de incorporación a GitHub con tutoría de IA](../../certifications/claude/GETTING_STARTED.md) con Claude Code, Codex, ChatGPT, Cursor u otro agente. Ejecuta `claude-certification` en Codex, `/claude-certification` en Claude Code o pide a otro host que use `claude-certification`. La skill te ayuda a elegir una certificación, crea una ruta persistente en `CLAUDE-CERTIFICATION.md`, avanza paso a paso, ejecuta los laboratorios reales y ofrece comentarios basados en los artefactos. El mismo plan de estudios está disponible en el [sitio web de certificación](https://iamabhishekpanda.com/certifications.html).
 
 La academia ofrece material de estudio independiente basado en los objetivos públicos de los exámenes. No está afiliada a Anthropic, no reproduce preguntas de exámenes reales y no garantiza que apruebes.
 
@@ -1087,7 +1087,7 @@ La academia ofrece material de estudio independiente basado en los objetivos pú
 
 El [plan de estudios de certificación MCPA](../../certifications/mcpa/README.md) es un programa de preparación gratuito y de código abierto para el examen Model Context Protocol Associate de la Agentic AI Foundation, impartido a través de Linux Foundation Training. Sus 34 lecciones enseñan el protocolo sin estado de 2026-07-28 y abarcan los cinco dominios del examen: `_meta` por solicitud y `server/discover` en lugar del antiguo handshake, solicitudes con varios intercambios, suscripciones, caché, las extensiones Tasks y MCP Apps, autorización OAuth y los niveles de registro y SDK. Cada lección incluye un laboratorio ejecutable con la biblioteca estándar; su transcripción se comprueba para verificar el formato actual del protocolo. La ruta también incluye una evaluación diagnóstica, un proyecto final y tres exámenes de práctica originales y completos, con una distribución de preguntas acorde con los pesos publicados del temario.
 
-Usa la [guía de incorporación a GitHub con tutoría de IA](../../certifications/mcpa/GETTING_STARTED.md) con Claude Code, Codex, ChatGPT, Cursor u otro agente. Ejecuta `mcpa-certification` en Codex, `/mcpa-certification` en Claude Code o pide a otro host que use `mcpa-certification`. La skill crea una ruta persistente en `MCPA-CERTIFICATION.md`, avanza paso a paso, ejecuta los laboratorios reales y ofrece comentarios basados en los artefactos. El mismo plan de estudios está disponible en la [página de la ruta MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Usa la [guía de incorporación a GitHub con tutoría de IA](../../certifications/mcpa/GETTING_STARTED.md) con Claude Code, Codex, ChatGPT, Cursor u otro agente. Ejecuta `mcpa-certification` en Codex, `/mcpa-certification` en Claude Code o pide a otro host que use `mcpa-certification`. La skill crea una ruta persistente en `MCPA-CERTIFICATION.md`, avanza paso a paso, ejecuta los laboratorios reales y ofrece comentarios basados en los artefactos. El mismo plan de estudios está disponible en la [página de la ruta MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Este plan de estudios es material de estudio independiente basado en los objetivos públicos de los exámenes. No está afiliado a la Agentic AI Foundation ni a Linux Foundation, no reproduce preguntas de exámenes reales y no garantiza que apruebes.
 
@@ -1281,5 +1281,5 @@ MIT. Úsalo como quieras: haz un fork, enséñalo, véndelo o publícalo. Se agr
 Mantenido por [Rohit Ghumare](https://github.com/iamabhishekpanda) y la comunidad.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Informar / Sugerir</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Informar / Sugerir</a>
 </sub>

@@ -9,7 +9,7 @@
 
 Implementasikan mekanisme internal model, pipeline penelusuran, dan runtime agen. Uji semuanya, periksa kegagalan, serta simpan kode dan hasil evaluasi.
 
-**[Mulai belajar](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Pilih jalur](#learning-routes)** · **[Coba laboratorium](#interactive-lab)** · **[Bangun proyek](#project-challenges)** · **[Lihat kurikulum](#contents)**
+**[Mulai belajar](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Pilih jalur](#learning-routes)** · **[Coba laboratorium](#interactive-lab)** · **[Bangun proyek](#project-challenges)** · **[Lihat kurikulum](#contents)**
 
 Gratis, sumber terbuka, berlisensi MIT. Belajar melalui situs web, bersama agen pemrograman, atau dengan menjalankan kode lokal.
 
@@ -20,7 +20,7 @@ Gratis, sumber terbuka, berlisensi MIT. Belajar melalui situs web, bersama agen 
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 pelajaran"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 tahap"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Bintang GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Situs web"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Situs web"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Gratis, sumber terbuka, berlisensi MIT. Belajar melalui situs web, bersama agen 
 
 | Jalur | Pelajaran awal |
 |---|---|
-| Fondasi model | [Penyiapan dan perangkat](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Sistem LLM | [Rekayasa prompt](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agen dan penyampaian sistem | [Siklus agen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Fondasi model | [Penyiapan dan perangkat](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Sistem LLM | [Rekayasa prompt](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agen dan penyampaian sistem | [Siklus agen](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Bandingkan jalur karier](https://aiengineeringfromscratch.com/learning-paths.html) · [Prasyarat dan waktu belajar](#study-guide)
+[Bandingkan jalur karier](https://iamabhishekpanda.com/learning-paths.html) · [Prasyarat dan waktu belajar](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Gratis, sumber terbuka, berlisensi MIT. Belajar melalui situs web, bersama agen 
 Dua puluh titik awal mengikuti penurunan gradien pada fungsi kerugian kuadratik. Grafik menunjukkan posisi titik-titik tersebut dan rata-rata kerugian setelah setiap pembaruan.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Dua puluh titik awal mengikuti penurunan gradien pada fungsi kerugian kuadratik.
   </a>
 </p>
 
-[Sesuaikan laju pembelajaran dalam pelajaran](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Bandingkan penurunan gradien, momentum, dan Adam dalam kode](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Sesuaikan laju pembelajaran dalam pelajaran](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Bandingkan penurunan gradien, momentum, dan Adam dalam kode](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Simpan:** perbandingan yang dapat direproduksi beserta perubahan per kueri dan penilaian relevansi yang dipakai untuk menghitung skor. Metrik menjelaskan penilaian tersebut; metrik tidak membuktikan kebenaran jawaban.
 
-[Mulai proyek](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Periksa referensi](../../projects/retrieval-evaluation-lab/solution/) · [Jalankan dengan masukan sendiri](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Mulai proyek](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Periksa referensi](../../projects/retrieval-evaluation-lab/solution/) · [Jalankan dengan masukan sendiri](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Simpan:** jejak masukan, linimasa HTML, dan laporan regresi JSON. Pertahankan jumlah token milik setiap span saja, tanpa token span anak, agar penggunaan induk dan anak tidak dihitung dua kali.
 
-[Mulai proyek](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Periksa referensi](../../projects/agent-trace-debugger/solution/) · [Jelajahi waktu eksekusi secara interaktif](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Mulai proyek](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Periksa referensi](../../projects/agent-trace-debugger/solution/) · [Jelajahi waktu eksekusi secara interaktif](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Simpan:** catatan audit yang menunjukkan operasi yang diminta dan keputusan kebijakan. Persetujuan hanya dapat digunakan sekali dalam satu pemanggilan; proyek ini tidak menyediakan otorisasi persisten atau sandbox sistem operasi.
 
-[Mulai proyek](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Periksa referensi](../../projects/tool-call-firewall/solution/) · [Jelajahi batas persetujuan](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Mulai proyek](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Periksa referensi](../../projects/tool-call-firewall/solution/) · [Jelajahi batas persetujuan](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Jelajahi semua proyek](https://aiengineeringfromscratch.com/projects.html) · [Panduan praktik karier](../../learning-paths/CAREER-PRACTICE.md)
+[Jelajahi semua proyek](https://iamabhishekpanda.com/projects.html) · [Panduan praktik karier](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Pilih cara belajar
 
 ### Melalui situs web
 
-Buka pelajaran yang sudah selesai di [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) atau buka tahap pada [Daftar isi](#contents). Tanpa penyiapan, tanpa klon.
+Buka pelajaran yang sudah selesai di [iamabhishekpanda.com](https://iamabhishekpanda.com) atau buka tahap pada [Daftar isi](#contents). Tanpa penyiapan, tanpa klon.
 
 ### Bersama tutor AI
 
@@ -194,9 +194,9 @@ Kuis penempatan berisi sepuluh pertanyaan memetakan pengetahuan Anda ke tahap aw
 
 Hanya ingin mempelajari Model Context Protocol (MCP)? Gunakan pemanggilan MCP untuk host Anda. Pemanggilan ini membuat `MCP-LEARNING.md` dan mengikuti satu jalur berisi 17 pelajaran tentang permintaan tanpa status, transport, komunikasi dua arah, keamanan, keandalan, tata kelola registri, dan bukti kepatuhan. Urutan tepat serta titik pemeriksaannya tersedia dalam [manifes Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Hanya ingin mempelajari Agent Skills? Gunakan pemanggilan Agent Skills untuk host Anda. Pemanggilan ini membuat `AGENT-SKILLS-LEARNING.md` dan mengikuti satu jalur terpadu berisi lima pelajaran: kontrak, penemuan, pemanggilan, batas sandbox, lalu evaluasi rilis dan portabilitas pada host nyata. Mulai di web melalui [jalur Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Hanya ingin mempelajari Agent Skills? Gunakan pemanggilan Agent Skills untuk host Anda. Pemanggilan ini membuat `AGENT-SKILLS-LEARNING.md` dan mengikuti satu jalur terpadu berisi lima pelajaran: kontrak, penemuan, pemanggilan, batas sandbox, lalu evaluasi rilis dan portabilitas pada host nyata. Mulai di web melalui [jalur Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Pemasang menampilkan host yang dapat dikonfigurasi dan menanyakan lokasi pemasangan. Jika Anda belum memiliki Node.js, `npx`, `python3`, host yang didukung, atau lingkup yang dapat ditulis, gunakan situs web atau baca `docs/en.md` secara manual. Jalur itu mengajarkan konsep, tetapi bukti penemuan, pemanggilan, skrip, dan pencopotan pada host nyata masih harus dilengkapi setelah pemeriksaan awal dapat dijalankan. Baca pelajarannya di [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Pemasang menampilkan host yang dapat dikonfigurasi dan menanyakan lokasi pemasangan. Jika Anda belum memiliki Node.js, `npx`, `python3`, host yang didukung, atau lingkup yang dapat ditulis, gunakan situs web atau baca `docs/en.md` secara manual. Jalur itu mengajarkan konsep, tetapi bukti penemuan, pemanggilan, skrip, dan pencopotan pada host nyata masih harus dilengkapi setelah pemeriksaan awal dapat dijalankan. Baca pelajarannya di [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Skill pembelajaran
 
@@ -251,25 +251,25 @@ Anda tidak perlu menelusuri 542 pelajaran sebelum mulai. Pilih satu tujuan. Seti
 
 | Tujuan Anda | Belajar di GitHub | Belajar di situs web |
 |---|---|---|
-| Saya pemula dan ingin membangun dasar yang lengkap | [Tahap 0: Penyiapan dan alat](../../phases/00-setup-and-tooling/) | [Lingkungan pengembangan](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Saya menguasai Python dan ingin mempelajari dasar matematika serta ML | [Tahap 1: Dasar matematika](../../phases/01-math-foundations/) | [Intuisi aljabar linear](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Saya ingin membangun aplikasi LLM untuk penggunaan produksi | [Tahap 11: Rekayasa LLM](../../phases/11-llm-engineering/) | [Rekayasa prompt](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Saya ingin membangun agen | [Tahap 14: Rekayasa agen](../../phases/14-agent-engineering/) | [Perulangan agen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Saya ingin menggunakan agen pemrograman pada repositori nyata | [Jalur rekayasa berbantuan agen](../../learning-paths/using-coding-agents.json) | [Rekayasa berbantuan agen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Saya ingin menentukan solusi yang tepat sebelum implementasi | [Jalur penilaian produk dan penyerahan hasil](../../learning-paths/shaping-the-build.json) | [Penilaian produk dan penyerahan hasil](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Saya pemula dan ingin membangun dasar yang lengkap | [Tahap 0: Penyiapan dan alat](../../phases/00-setup-and-tooling/) | [Lingkungan pengembangan](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Saya menguasai Python dan ingin mempelajari dasar matematika serta ML | [Tahap 1: Dasar matematika](../../phases/01-math-foundations/) | [Intuisi aljabar linear](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Saya ingin membangun aplikasi LLM untuk penggunaan produksi | [Tahap 11: Rekayasa LLM](../../phases/11-llm-engineering/) | [Rekayasa prompt](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Saya ingin membangun agen | [Tahap 14: Rekayasa agen](../../phases/14-agent-engineering/) | [Perulangan agen](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Saya ingin menggunakan agen pemrograman pada repositori nyata | [Jalur rekayasa berbantuan agen](../../learning-paths/using-coding-agents.json) | [Rekayasa berbantuan agen](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Saya ingin menentukan solusi yang tepat sebelum implementasi | [Jalur penilaian produk dan penyerahan hasil](../../learning-paths/shaping-the-build.json) | [Penilaian produk dan penyerahan hasil](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Belum tahu harus mulai dari mana? Gunakan [tutor penempatan `start-learning`](../../skills/start-learning/SKILL.md) atau [panduan prasyarat di situs web](https://aiengineeringfromscratch.com/prereqs.html).
+Belum tahu harus mulai dari mana? Gunakan [tutor penempatan `start-learning`](../../skills/start-learning/SKILL.md) atau [panduan prasyarat di situs web](https://iamabhishekpanda.com/prereqs.html).
 
-Bandingkan empat bidang inti dan enam jalur karier di [Jalur Pembelajaran Rekayasa AI](https://aiengineeringfromscratch.com/learning-paths.html).
+Bandingkan empat bidang inti dan enam jalur karier di [Jalur Pembelajaran Rekayasa AI](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Jalur khusus MCP, Agent Skills, dan rekayasa balik</summary>
 
 | Tujuan Anda | Belajar di GitHub | Belajar di situs web |
 |---|---|---|
-| Saya ingin membangun dengan Model Context Protocol (MCP) | [Rute Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Jalur Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Saya ingin menulis dan merilis Agent Skills | [Rute khusus Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Jalur Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Saya ingin membaca program terkompilasi | [Rute khusus rekayasa balik](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Jalur rekayasa balik](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Saya ingin membangun dengan Model Context Protocol (MCP) | [Rute Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Jalur Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Saya ingin menulis dan merilis Agent Skills | [Rute khusus Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Jalur Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Saya ingin membaca program terkompilasi | [Rute khusus rekayasa balik](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Jalur rekayasa balik](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Buku merupakan potret pada suatu waktu; repositori ini merupakan edisi yang teru
 
 [Claude Certification Academy](../../certifications/claude/README.md) adalah program persiapan gratis dan sumber terbuka untuk keempat jalur sertifikasi resmi Claude: Associate Foundations, Developer Foundations, Architect Foundations, dan Architect Professional. Setiap jalur menggabungkan pelajaran yang sesuai dengan kerangka ujian, praktikum yang dapat dijalankan, tes diagnostik, proyek akhir, dan ujian latihan orisinal berdurasi penuh.
 
-Gunakan [panduan memulai di GitHub dengan AI](../../certifications/claude/GETTING_STARTED.md) bersama Claude Code, Codex, ChatGPT, Cursor, atau agen lain. Jalankan `claude-certification` di Codex, `/claude-certification` di Claude Code, atau minta host lain menggunakan `claude-certification`. Skill ini memilih jalur, membuat rute persisten di `CLAUDE-CERTIFICATION.md`, mengajarkan satu langkah setiap kali, menjalankan praktikum nyata, dan memberikan umpan balik berdasarkan artefak. Kurikulum yang sama tetap tersedia di [situs web sertifikasi](https://aiengineeringfromscratch.com/certifications.html).
+Gunakan [panduan memulai di GitHub dengan AI](../../certifications/claude/GETTING_STARTED.md) bersama Claude Code, Codex, ChatGPT, Cursor, atau agen lain. Jalankan `claude-certification` di Codex, `/claude-certification` di Claude Code, atau minta host lain menggunakan `claude-certification`. Skill ini memilih jalur, membuat rute persisten di `CLAUDE-CERTIFICATION.md`, mengajarkan satu langkah setiap kali, menjalankan praktikum nyata, dan memberikan umpan balik berdasarkan artefak. Kurikulum yang sama tetap tersedia di [situs web sertifikasi](https://iamabhishekpanda.com/certifications.html).
 
 Akademi ini merupakan materi belajar independen berdasarkan tujuan ujian yang tersedia untuk publik. Akademi ini tidak berafiliasi dengan Anthropic, tidak menyalin soal ujian yang sedang digunakan, dan tidak dapat menjamin kelulusan.
 
@@ -1103,7 +1103,7 @@ Akademi ini merupakan materi belajar independen berdasarkan tujuan ujian yang te
 
 [Kurikulum Sertifikasi MCPA](../../certifications/mcpa/README.md) adalah program persiapan gratis dan sumber terbuka untuk ujian Model Context Protocol Associate dari Agentic AI Foundation, yang diselenggarakan melalui Linux Foundation Training. Sebanyak 34 pelajarannya mengajarkan protokol tanpa status versi 2026-07-28 dalam lima bidang ujian: `_meta` per permintaan dan `server/discover` sebagai pengganti handshake lama, permintaan dengan beberapa perjalanan bolak-balik, langganan, caching, ekstensi tasks dan MCP Apps, otorisasi OAuth, serta tingkatan registri dan SDK. Setiap pelajaran menyediakan praktikum pustaka standar yang dapat dijalankan, dengan transkrip yang diperiksa kesesuaiannya dengan format komunikasi terkini. Jalur ini juga menambahkan tes diagnostik, proyek akhir, dan tiga ujian latihan orisinal berdurasi penuh dengan komposisi soal sesuai bobot kerangka ujian yang diterbitkan.
 
-Gunakan [panduan memulai di GitHub dengan AI](../../certifications/mcpa/GETTING_STARTED.md) bersama Claude Code, Codex, ChatGPT, Cursor, atau agen lain. Jalankan `mcpa-certification` di Codex, `/mcpa-certification` di Claude Code, atau minta host lain menggunakan `mcpa-certification`. Skill ini membuat rute persisten di `MCPA-CERTIFICATION.md`, mengajarkan satu langkah setiap kali, menjalankan praktikum nyata, dan memberikan umpan balik berdasarkan artefak. Kurikulum yang sama tersedia di [halaman jalur MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Gunakan [panduan memulai di GitHub dengan AI](../../certifications/mcpa/GETTING_STARTED.md) bersama Claude Code, Codex, ChatGPT, Cursor, atau agen lain. Jalankan `mcpa-certification` di Codex, `/mcpa-certification` di Claude Code, atau minta host lain menggunakan `mcpa-certification`. Skill ini membuat rute persisten di `MCPA-CERTIFICATION.md`, mengajarkan satu langkah setiap kali, menjalankan praktikum nyata, dan memberikan umpan balik berdasarkan artefak. Kurikulum yang sama tersedia di [halaman jalur MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Kurikulum ini merupakan materi belajar independen berdasarkan tujuan ujian yang tersedia untuk publik. Kurikulum ini tidak berafiliasi dengan Agentic AI Foundation maupun Linux Foundation, tidak menyalin soal ujian yang sedang digunakan, dan tidak dapat menjamin kelulusan.
 
@@ -1297,5 +1297,5 @@ MIT. Gunakan sesuka Anda: fork, ajarkan, jual, atau rilis. Atribusi dihargai, te
 Dikelola oleh [Rohit Ghumare](https://github.com/iamabhishekpanda) dan komunitas.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Laporkan / Usulkan</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Laporkan / Usulkan</a>
 </sub>

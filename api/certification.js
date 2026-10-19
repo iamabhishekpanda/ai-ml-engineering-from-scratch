@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { cardTags, cardUrl, trackCard } = require('../lib/og-cards');
 
-const ORIGIN = 'https://aiengineeringfromscratch.com';
+const ORIGIN = 'https://iamabhishekpanda.com';
 const SEO_START = '<!-- AIFS:CERTIFICATION-SEO:START -->';
 const SEO_END = '<!-- AIFS:CERTIFICATION-SEO:END -->';
 const FALLBACK_START = '<!-- AIFS:CERTIFICATION-FALLBACK:START -->';

@@ -155,7 +155,7 @@ credentials, or guarantees of passing.
 ## Use the Website Too
 
 The same curriculum remains available at
-[aiengineeringfromscratch.com/certifications.html](https://aiengineeringfromscratch.com/certifications.html).
+[iamabhishekpanda.com/certifications.html](https://iamabhishekpanda.com/certifications.html).
 Use it for direct-manipulation figures, local browser progress, timers, and
 visual assessment remediation. GitHub remains the better surface when you want
 an AI tutor to run code, inspect artifacts, and preserve a detailed learning

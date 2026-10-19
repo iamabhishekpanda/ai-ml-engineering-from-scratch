@@ -9,7 +9,7 @@
 
 Triển khai cơ chế bên trong mô hình, quy trình truy xuất và môi trường thực thi tác tử. Kiểm thử, phân tích lỗi và lưu lại mã nguồn cùng kết quả đánh giá.
 
-**[Bắt đầu học](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Chọn lộ trình](#learning-routes)** · **[Thử bài thực hành](#interactive-lab)** · **[Xây dựng dự án](#project-challenges)** · **[Xem chương trình học](#contents)**
+**[Bắt đầu học](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Chọn lộ trình](#learning-routes)** · **[Thử bài thực hành](#interactive-lab)** · **[Xây dựng dự án](#project-challenges)** · **[Xem chương trình học](#contents)**
 
 Miễn phí, mã nguồn mở, giấy phép MIT. Học trên trang web, cùng tác tử lập trình hoặc bằng cách chạy mã cục bộ.
 
@@ -20,7 +20,7 @@ Miễn phí, mã nguồn mở, giấy phép MIT. Học trên trang web, cùng t�
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 bài học"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 giai đoạn"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sao GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Trang web"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Trang web"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Miễn phí, mã nguồn mở, giấy phép MIT. Học trên trang web, cùng t�
 
 | Lộ trình | Bài học bắt đầu |
 |---|---|
-| Nền tảng mô hình | [Thiết lập và công cụ](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Hệ thống LLM | [Kỹ thuật viết câu lệnh](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Tác tử và bàn giao hệ thống | [Vòng lặp tác tử](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Nền tảng mô hình | [Thiết lập và công cụ](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Hệ thống LLM | [Kỹ thuật viết câu lệnh](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Tác tử và bàn giao hệ thống | [Vòng lặp tác tử](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[So sánh lộ trình nghề nghiệp](https://aiengineeringfromscratch.com/learning-paths.html) · [Kiến thức tiên quyết và thời gian học](#study-guide)
+[So sánh lộ trình nghề nghiệp](https://iamabhishekpanda.com/learning-paths.html) · [Kiến thức tiên quyết và thời gian học](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Miễn phí, mã nguồn mở, giấy phép MIT. Học trên trang web, cùng t�
 Hai mươi điểm khởi đầu thực hiện hạ gradient trên hàm mất mát bậc hai. Đồ thị hiển thị vị trí của chúng và giá trị mất mát trung bình sau mỗi lần cập nhật.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Hai mươi điểm khởi đầu thực hiện hạ gradient trên hàm mất m�
   </a>
 </p>
 
-[Điều chỉnh tốc độ học trong bài học](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [So sánh hạ gradient, động lượng và Adam trong mã nguồn](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Điều chỉnh tốc độ học trong bài học](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [So sánh hạ gradient, động lượng và Adam trong mã nguồn](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Lưu lại:** phép so sánh có thể tái lập với chênh lệch theo từng truy vấn và các đánh giá độ liên quan dùng để chấm điểm. Chỉ số phản ánh các đánh giá đó; chúng không xác lập tính đúng đắn của câu trả lời.
 
-[Bắt đầu dự án](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Kiểm tra lời giải tham chiếu](../../projects/retrieval-evaluation-lab/solution/) · [Chạy với đầu vào của bạn](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Bắt đầu dự án](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Kiểm tra lời giải tham chiếu](../../projects/retrieval-evaluation-lab/solution/) · [Chạy với đầu vào của bạn](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Lưu lại:** dấu vết đầu vào, dòng thời gian HTML và báo cáo suy giảm JSON. Giữ số token riêng của từng span, không bao gồm span con, để không tính hai lần lượng sử dụng của cha và con.
 
-[Bắt đầu dự án](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Kiểm tra lời giải tham chiếu](../../projects/agent-trace-debugger/solution/) · [Khám phá thời gian thực thi tương tác](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Bắt đầu dự án](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Kiểm tra lời giải tham chiếu](../../projects/agent-trace-debugger/solution/) · [Khám phá thời gian thực thi tương tác](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Lưu lại:** biên nhận kiểm toán cho biết thao tác được yêu cầu và quyết định chính sách. Phê duyệt chỉ dùng một lần trong một lần gọi; dự án này không cung cấp ủy quyền bền vững hoặc sandbox ở cấp hệ điều hành.
 
-[Bắt đầu dự án](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Kiểm tra lời giải tham chiếu](../../projects/tool-call-firewall/solution/) · [Khám phá ranh giới phê duyệt](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Bắt đầu dự án](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Kiểm tra lời giải tham chiếu](../../projects/tool-call-firewall/solution/) · [Khám phá ranh giới phê duyệt](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Xem tất cả dự án](https://aiengineeringfromscratch.com/projects.html) · [Hướng dẫn thực hành nghề nghiệp](../../learning-paths/CAREER-PRACTICE.md)
+[Xem tất cả dự án](https://iamabhishekpanda.com/projects.html) · [Hướng dẫn thực hành nghề nghiệp](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Chọn cách học
 
 ### Trên trang web
 
-Mở bất kỳ bài đã hoàn thành nào trên [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) hoặc mở một giai đoạn trong [Mục lục](#contents). Không cần thiết lập hay clone.
+Mở bất kỳ bài đã hoàn thành nào trên [iamabhishekpanda.com](https://iamabhishekpanda.com) hoặc mở một giai đoạn trong [Mục lục](#contents). Không cần thiết lập hay clone.
 
 ### Cùng gia sư AI
 
@@ -194,9 +194,9 @@ Bài kiểm tra trình độ gồm mười câu hỏi đối chiếu kiến th�
 
 Chỉ muốn học Model Context Protocol (MCP)? Dùng cách gọi MCP dành cho host của bạn. Skill tạo `MCP-LEARNING.md` và theo một lộ trình gồm 17 bài về yêu cầu không trạng thái, kênh truyền, công việc hai chiều, bảo mật, độ tin cậy, quản trị registry và bằng chứng tuân thủ. Thứ tự chính xác và các điểm kiểm tra nằm trong [bản kê Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Chỉ muốn học Agent Skills? Dùng cách gọi Agent Skills dành cho host của bạn. Skill tạo `AGENT-SKILLS-LEARNING.md` và theo một lộ trình liền mạch gồm năm bài: hợp đồng, khám phá, gọi skill, ranh giới sandbox, rồi đánh giá phát hành và tính di động trên host thực tế. Bắt đầu trên web với [lộ trình Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Chỉ muốn học Agent Skills? Dùng cách gọi Agent Skills dành cho host của bạn. Skill tạo `AGENT-SKILLS-LEARNING.md` và theo một lộ trình liền mạch gồm năm bài: hợp đồng, khám phá, gọi skill, ranh giới sandbox, rồi đánh giá phát hành và tính di động trên host thực tế. Bắt đầu trên web với [lộ trình Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Trình cài đặt liệt kê các host có thể cấu hình và hỏi nơi cài. Nếu chưa có Node.js, `npx`, `python3`, host được hỗ trợ hoặc phạm vi có quyền ghi, hãy dùng trang web hoặc tự đọc `docs/en.md`. Cách đó giúp học khái niệm, nhưng bằng chứng khám phá, gọi, chạy script và gỡ cài đặt trên host thực tế vẫn chưa hoàn tất cho đến khi có thể chạy kiểm tra ban đầu. Đọc bài học tại [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Trình cài đặt liệt kê các host có thể cấu hình và hỏi nơi cài. Nếu chưa có Node.js, `npx`, `python3`, host được hỗ trợ hoặc phạm vi có quyền ghi, hãy dùng trang web hoặc tự đọc `docs/en.md`. Cách đó giúp học khái niệm, nhưng bằng chứng khám phá, gọi, chạy script và gỡ cài đặt trên host thực tế vẫn chưa hoàn tất cho đến khi có thể chạy kiểm tra ban đầu. Đọc bài học tại [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Các skill học tập
 
@@ -251,25 +251,25 @@ Bạn không cần xem qua cả 542 bài học trước khi bắt đầu. Hãy c
 
 | Mục tiêu của bạn | Học trên GitHub | Học trên trang web |
 |---|---|---|
-| Tôi mới bắt đầu và muốn có nền tảng đầy đủ | [Giai đoạn 0: Thiết lập và công cụ](../../phases/00-setup-and-tooling/) | [Môi trường phát triển](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Tôi biết Python và muốn học nền tảng toán cùng học máy | [Giai đoạn 1: Nền tảng toán học](../../phases/01-math-foundations/) | [Hiểu trực quan đại số tuyến tính](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Tôi muốn xây dựng ứng dụng LLM để triển khai thực tế | [Giai đoạn 11: Kỹ thuật LLM](../../phases/11-llm-engineering/) | [Kỹ thuật prompt](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Tôi muốn xây dựng agent | [Giai đoạn 14: Kỹ thuật agent](../../phases/14-agent-engineering/) | [Vòng lặp agent](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Tôi muốn dùng agent lập trình trên các kho mã thực tế | [Lộ trình kỹ thuật với sự hỗ trợ của agent](../../learning-paths/using-coding-agents.json) | [Kỹ thuật với sự hỗ trợ của agent](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Tôi muốn xác định đúng thứ cần xây dựng trước khi triển khai | [Lộ trình quyết định và bàn giao sản phẩm](../../learning-paths/shaping-the-build.json) | [Quyết định và bàn giao sản phẩm](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Tôi mới bắt đầu và muốn có nền tảng đầy đủ | [Giai đoạn 0: Thiết lập và công cụ](../../phases/00-setup-and-tooling/) | [Môi trường phát triển](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Tôi biết Python và muốn học nền tảng toán cùng học máy | [Giai đoạn 1: Nền tảng toán học](../../phases/01-math-foundations/) | [Hiểu trực quan đại số tuyến tính](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Tôi muốn xây dựng ứng dụng LLM để triển khai thực tế | [Giai đoạn 11: Kỹ thuật LLM](../../phases/11-llm-engineering/) | [Kỹ thuật prompt](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Tôi muốn xây dựng agent | [Giai đoạn 14: Kỹ thuật agent](../../phases/14-agent-engineering/) | [Vòng lặp agent](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Tôi muốn dùng agent lập trình trên các kho mã thực tế | [Lộ trình kỹ thuật với sự hỗ trợ của agent](../../learning-paths/using-coding-agents.json) | [Kỹ thuật với sự hỗ trợ của agent](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Tôi muốn xác định đúng thứ cần xây dựng trước khi triển khai | [Lộ trình quyết định và bàn giao sản phẩm](../../learning-paths/shaping-the-build.json) | [Quyết định và bàn giao sản phẩm](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Chưa biết nên bắt đầu ở đâu? Dùng [gia sư đánh giá trình độ `start-learning`](../../skills/start-learning/SKILL.md) hoặc [hướng dẫn kiến thức cần có trên trang web](https://aiengineeringfromscratch.com/prereqs.html).
+Chưa biết nên bắt đầu ở đâu? Dùng [gia sư đánh giá trình độ `start-learning`](../../skills/start-learning/SKILL.md) hoặc [hướng dẫn kiến thức cần có trên trang web](https://iamabhishekpanda.com/prereqs.html).
 
-So sánh bốn lĩnh vực cốt lõi và sáu lộ trình nghề nghiệp trong [Lộ trình học kỹ thuật AI](https://aiengineeringfromscratch.com/learning-paths.html).
+So sánh bốn lĩnh vực cốt lõi và sáu lộ trình nghề nghiệp trong [Lộ trình học kỹ thuật AI](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Lộ trình chuyên biệt về MCP, Agent Skills và Reverse Engineering</summary>
 
 | Mục tiêu của bạn | Học trên GitHub | Học trên trang web |
 |---|---|---|
-| Tôi muốn xây dựng với Model Context Protocol (MCP) | [Lộ trình Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Lộ trình học Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Tôi muốn viết và phát hành Agent Skills | [Lộ trình chuyên về Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Lộ trình học Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Tôi muốn đọc chương trình đã biên dịch | [Lộ trình Reverse Engineering](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Lộ trình học Reverse Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Tôi muốn xây dựng với Model Context Protocol (MCP) | [Lộ trình Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Lộ trình học Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Tôi muốn viết và phát hành Agent Skills | [Lộ trình chuyên về Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Lộ trình học Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Tôi muốn đọc chương trình đã biên dịch | [Lộ trình Reverse Engineering](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Lộ trình học Reverse Engineering](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Sách là ảnh chụp tại một thời điểm; kho mã này là phiên bản
 
 [Claude Certification Academy](../../certifications/claude/README.md) là chương trình ôn thi miễn phí, mã nguồn mở cho cả bốn lộ trình chứng chỉ chính thức của Claude: Associate Foundations, Developer Foundations, Architect Foundations và Architect Professional. Mỗi lộ trình kết hợp bài học bám sát khung đề thi, bài thực hành có thể chạy, bài chẩn đoán, đồ án và một đề luyện tập nguyên bản đầy đủ thời lượng.
 
-Dùng [hướng dẫn bắt đầu trên GitHub với AI](../../certifications/claude/GETTING_STARTED.md) cùng Claude Code, Codex, ChatGPT, Cursor hoặc tác tử khác. Chạy `claude-certification` trong Codex, `/claude-certification` trong Claude Code, hoặc yêu cầu host khác dùng `claude-certification`. Skill chọn lộ trình, tạo tuyến học được lưu bền vững trong `CLAUDE-CERTIFICATION.md`, dạy từng bước, chạy bài thực hành thật và phản hồi dựa trên sản phẩm. Cùng chương trình đó vẫn có trên [trang web chứng chỉ](https://aiengineeringfromscratch.com/certifications.html).
+Dùng [hướng dẫn bắt đầu trên GitHub với AI](../../certifications/claude/GETTING_STARTED.md) cùng Claude Code, Codex, ChatGPT, Cursor hoặc tác tử khác. Chạy `claude-certification` trong Codex, `/claude-certification` trong Claude Code, hoặc yêu cầu host khác dùng `claude-certification`. Skill chọn lộ trình, tạo tuyến học được lưu bền vững trong `CLAUDE-CERTIFICATION.md`, dạy từng bước, chạy bài thực hành thật và phản hồi dựa trên sản phẩm. Cùng chương trình đó vẫn có trên [trang web chứng chỉ](https://iamabhishekpanda.com/certifications.html).
 
 Học viện cung cấp tài liệu tự học độc lập dựa trên mục tiêu thi công khai. Học viện không liên kết với Anthropic, không sao chép câu hỏi của kỳ thi đang tổ chức và không bảo đảm đỗ.
 
@@ -1103,7 +1103,7 @@ Học viện cung cấp tài liệu tự học độc lập dựa trên mục ti
 
 [Chương trình Chứng chỉ MCPA](../../certifications/mcpa/README.md) là chương trình ôn thi miễn phí, mã nguồn mở cho kỳ thi Model Context Protocol Associate của Agentic AI Foundation, được triển khai qua Linux Foundation Training. 34 bài học giảng dạy giao thức không trạng thái 2026-07-28 trong năm lĩnh vực thi: `_meta` theo từng yêu cầu và `server/discover` thay cơ chế bắt tay cũ, yêu cầu nhiều lượt trao đổi, đăng ký theo dõi, lưu đệm, phần mở rộng tasks và MCP Apps, ủy quyền OAuth, cùng các cấp registry và SDK. Mỗi bài có thực hành chạy bằng thư viện chuẩn, với bản ghi được kiểm tra theo định dạng giao tiếp hiện hành. Lộ trình còn có bài chẩn đoán, đồ án và ba đề luyện tập nguyên bản đầy đủ thời lượng, với tỷ lệ câu hỏi theo trọng số khung đề đã công bố.
 
-Dùng [hướng dẫn bắt đầu trên GitHub với AI](../../certifications/mcpa/GETTING_STARTED.md) cùng Claude Code, Codex, ChatGPT, Cursor hoặc tác tử khác. Chạy `mcpa-certification` trong Codex, `/mcpa-certification` trong Claude Code, hoặc yêu cầu host khác dùng `mcpa-certification`. Skill tạo tuyến học lưu bền vững trong `MCPA-CERTIFICATION.md`, dạy từng bước, chạy bài thực hành thật và phản hồi dựa trên sản phẩm. Cùng chương trình đó có trên [trang lộ trình MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Dùng [hướng dẫn bắt đầu trên GitHub với AI](../../certifications/mcpa/GETTING_STARTED.md) cùng Claude Code, Codex, ChatGPT, Cursor hoặc tác tử khác. Chạy `mcpa-certification` trong Codex, `/mcpa-certification` trong Claude Code, hoặc yêu cầu host khác dùng `mcpa-certification`. Skill tạo tuyến học lưu bền vững trong `MCPA-CERTIFICATION.md`, dạy từng bước, chạy bài thực hành thật và phản hồi dựa trên sản phẩm. Cùng chương trình đó có trên [trang lộ trình MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Đây là tài liệu tự học độc lập dựa trên mục tiêu thi công khai. Chương trình không liên kết với Agentic AI Foundation hoặc Linux Foundation, không sao chép câu hỏi của kỳ thi đang tổ chức và không bảo đảm đỗ.
 
@@ -1297,5 +1297,5 @@ Giấy phép MIT. Bạn có thể fork, giảng dạy, bán hoặc phát hành t
 Được duy trì bởi [Rohit Ghumare](https://github.com/iamabhishekpanda) và cộng đồng.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Báo lỗi / Đề xuất</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Báo lỗi / Đề xuất</a>
 </sub>

@@ -45,7 +45,7 @@ function makeAssets() {
             learningPathIds: ['math', 'model-context-protocol'],
             fromTrackIds: ['claude-example'],
             sourceUrl: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/phases/01-math/01-vectors',
-            canonicalUrl: 'https://aiengineeringfromscratch.com/lesson?path=phases%2F01-math%2F01-vectors',
+            canonicalUrl: 'https://iamabhishekpanda.com/lesson?path=phases%2F01-math%2F01-vectors',
           },
           'phases/07-transformers/09-vectors': {
             path: 'phases/07-transformers/09-vectors',
@@ -58,7 +58,7 @@ function makeAssets() {
             next: null,
             learningPathIds: [],
             fromTrackIds: [],
-            canonicalUrl: 'https://aiengineeringfromscratch.com/lesson?path=phases%2F07-transformers%2F09-vectors',
+            canonicalUrl: 'https://iamabhishekpanda.com/lesson?path=phases%2F07-transformers%2F09-vectors',
           },
           'certifications/claude/lessons/01-models': {
             path: 'certifications/claude/lessons/01-models',
@@ -82,7 +82,7 @@ function makeAssets() {
             learningPathIds: [],
             fromTrackIds: [],
             sourceUrl: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/certifications/claude/lessons/01-models',
-            canonicalUrl: 'https://aiengineeringfromscratch.com/lesson?path=certifications%2Fclaude%2Flessons%2F01-models',
+            canonicalUrl: 'https://iamabhishekpanda.com/lesson?path=certifications%2Fclaude%2Flessons%2F01-models',
           },
         },
       },
@@ -107,7 +107,7 @@ function makeAssets() {
             seoTitle: 'Example Architecture Track - AI Engineering from Scratch',
             description: 'Independent preparation through practical architecture decisions.',
             excerpt: 'Move from blueprint domains to evidence-backed engineering work.',
-            canonicalUrl: 'https://aiengineeringfromscratch.com/certification?id=claude-example',
+            canonicalUrl: 'https://iamabhishekpanda.com/certification?id=claude-example',
             lessons: [
               { path: 'certifications/claude/lessons/01-models', title: 'Model Decisions' },
               { path: 'phases/14-agent-engineering/01-the-agent-loop', title: 'The Agent Loop' },
@@ -143,7 +143,7 @@ function withSecondProgram(assets) {
     learningPathIds: [],
     fromTrackIds: [],
     sourceUrl: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/certifications/mcpa/lessons/01-discovery',
-    canonicalUrl: 'https://aiengineeringfromscratch.com/lesson?path=certifications%2Fmcpa%2Flessons%2F01-discovery',
+    canonicalUrl: 'https://iamabhishekpanda.com/lesson?path=certifications%2Fmcpa%2Flessons%2F01-discovery',
   };
   assets.certification.manifest.tracks['mcpa-example'] = {
     id: 'mcpa-example',
@@ -153,7 +153,7 @@ function withSecondProgram(assets) {
     seoTitle: 'Example Protocol Track - AI Engineering from Scratch',
     description: 'Independent preparation through practical protocol decisions.',
     excerpt: 'Move from protocol blueprint domains to working hosts, clients, and servers.',
-    canonicalUrl: 'https://aiengineeringfromscratch.com/certification?id=mcpa-example',
+    canonicalUrl: 'https://iamabhishekpanda.com/certification?id=mcpa-example',
     lessons: [
       { path: 'certifications/mcpa/lessons/01-discovery', title: 'Discovery Decisions' },
       { path: 'phases/13-tools-and-protocols/06-mcp-fundamentals', title: 'MCP Fundamentals' },
@@ -340,7 +340,7 @@ test('lesson route normalizes unknown or unsupported query context before cachin
   const deployedTts = invoke(handler, {
     method: 'GET',
     url: '/lesson?path=phases%2F01-math%2F01-vectors&ttsTest=silent',
-    headers: { host: 'aiengineeringfromscratch.com' },
+    headers: { host: 'iamabhishekpanda.com' },
   });
   assert.equal(deployedTts.statusCode, 308);
   assert.equal(deployedTts.headers.location, '/lesson?path=phases%2F01-math%2F01-vectors');
@@ -487,7 +487,7 @@ function productionAssets(readMarkdown) {
 
 test('lesson route serves the full lesson body, headings, and code to crawlers', function () {
   const lessonUrl = '/lesson?path=' + encodeURIComponent(PERCEPTRON);
-  const full = invoke(lessonApi, { method: 'GET', url: lessonUrl, headers: { host: 'aiengineeringfromscratch.com' } });
+  const full = invoke(lessonApi, { method: 'GET', url: lessonUrl, headers: { host: 'iamabhishekpanda.com' } });
   const summary = invoke(lessonApi.createHandler({ loadAssets: function () { return productionAssets(); } }), { method: 'GET', url: lessonUrl });
   assert.equal(full.statusCode, 200);
   assert.equal(summary.statusCode, 200);
@@ -640,7 +640,7 @@ test('sitemap lists ready manuals at their canonical URLs and every ready projec
 
   const projectIds = buildProjectData().projects.map(function (project) { return project.id; }).sort();
   const sitemapProjects = Array.from(locs)
-    .filter(function (loc) { return loc.startsWith('https://aiengineeringfromscratch.com/project?id='); })
+    .filter(function (loc) { return loc.startsWith('https://iamabhishekpanda.com/project?id='); })
     .map(function (loc) { return decodeURIComponent(loc.split('=')[1]); })
     .sort();
   assert.ok(projectIds.length > 0);
@@ -902,7 +902,7 @@ function alternateLinks(html) {
   });
 }
 
-const PERCEPTRON_URL = 'https://aiengineeringfromscratch.com/lesson?path=phases%2F03-deep-learning-core%2F01-the-perceptron';
+const PERCEPTRON_URL = 'https://iamabhishekpanda.com/lesson?path=phases%2F03-deep-learning-core%2F01-the-perceptron';
 
 test('translated lesson pages render the translation with a self canonical, hreflang, lang, and dir', async function () {
   const reads = [];
@@ -1118,9 +1118,9 @@ test('translation coverage comes from translation records and never fails the bu
   assert.match(fs.readFileSync(path.join(site, 'sitemap-lessons-hi.xml'), 'utf8'), /<loc>https:\/\/aiengineeringfromscratch\.com\/lesson\?path=phases%2F01-a%2F01-x&amp;lang=hi<\/loc>/);
   const index = fs.readFileSync(path.join(site, 'sitemap-index.xml'), 'utf8');
   assert.deepEqual(Array.from(index.matchAll(/<loc>([^<]+)<\/loc>/g), function (match) { return match[1]; }), [
-    'https://aiengineeringfromscratch.com/sitemap.xml',
-    'https://aiengineeringfromscratch.com/sitemap-lessons-hi.xml',
-    'https://aiengineeringfromscratch.com/sitemap-lessons-ar.xml',
+    'https://iamabhishekpanda.com/sitemap.xml',
+    'https://iamabhishekpanda.com/sitemap-lessons-hi.xml',
+    'https://iamabhishekpanda.com/sitemap-lessons-ar.xml',
   ]);
 
   build.annotateTranslations(manifest, {});
@@ -1477,7 +1477,7 @@ test('glossary term pages lead with the question, mirror visible FAQ text, and l
   assert.ok(names.includes('adam-optimizer') && names.includes('rag-retrieval-augmented-generation'));
   const titles = new Set();
   for (const page of hubs.termPages) {
-    const canonical = 'https://aiengineeringfromscratch.com/glossary/' + page.name;
+    const canonical = 'https://iamabhishekpanda.com/glossary/' + page.name;
     const title = decodeHtml(page.html.match(/<title>([^<]+)<\/title>/)[1]);
     assert.ok(title.length <= 60 && !titles.has(title), title);
     titles.add(title);
@@ -1491,8 +1491,8 @@ test('glossary term pages lead with the question, mirror visible FAQ text, and l
     const graph = hubGraph(page.html);
     assert.deepEqual(graph.map(function (node) { return node['@type']; }), ['DefinedTerm', 'BreadcrumbList', 'FAQPage']);
     assert.equal(graph[0].url, canonical);
-    assert.equal(graph[0].inDefinedTermSet.url, 'https://aiengineeringfromscratch.com/glossary');
-    assert.deepEqual(graph[1].itemListElement.map(function (item) { return item.item; }), ['https://aiengineeringfromscratch.com/', 'https://aiengineeringfromscratch.com/glossary', canonical]);
+    assert.equal(graph[0].inDefinedTermSet.url, 'https://iamabhishekpanda.com/glossary');
+    assert.deepEqual(graph[1].itemListElement.map(function (item) { return item.item; }), ['https://iamabhishekpanda.com/', 'https://iamabhishekpanda.com/glossary', canonical]);
     assert.equal(graph[2].mainEntity[0].name, heading);
     assertVisibleFaq(page.html, graph[2]);
     assertHubLinksResolve(page.html, hubs, lessonManifest);
@@ -1530,7 +1530,7 @@ test('phase hubs state real lesson counts, link every lesson, and answer a visib
   assert.equal(hubs.phasePages.length, new Set(coursePaths.map(phaseHubPath)).size);
   const titles = new Set();
   for (const page of hubs.phasePages) {
-    const canonical = 'https://aiengineeringfromscratch.com/phase/' + page.name;
+    const canonical = 'https://iamabhishekpanda.com/phase/' + page.name;
     const lessons = coursePaths.filter(function (lessonPath) { return phaseHubPath(lessonPath) === '/phase/' + page.name; });
     const title = decodeHtml(page.html.match(/<title>([^<]+)<\/title>/)[1]);
     assert.ok(title.endsWith(': ' + lessons.length + ' Free Lessons'), title);
@@ -1543,7 +1543,7 @@ test('phase hubs state real lesson counts, link every lesson, and answer a visib
     assert.deepEqual(graph.map(function (node) { return node['@type']; }), ['Course', 'BreadcrumbList', 'FAQPage']);
     assert.equal(graph[0].hasPart.length, lessons.length);
     assert.equal(graph[0].isAccessibleForFree, true);
-    assert.equal(graph[1].itemListElement[1].item, 'https://aiengineeringfromscratch.com/catalog');
+    assert.equal(graph[1].itemListElement[1].item, 'https://iamabhishekpanda.com/catalog');
     assert.equal(graph[1].itemListElement[2].item, canonical);
     assertVisibleFaq(page.html, graph[2]);
     assert.ok(graph[2].mainEntity.some(function (question) { return /^Is Phase \d+ free\?$/.test(question.name) && /free to read/.test(question.acceptedAnswer.text); }));
@@ -1581,9 +1581,9 @@ test('lessons, the glossary page, and sitemaps link the new hubs without changin
   build.writeLanguageSitemaps({ lessons: {} }, root, ['sitemap-phases.xml', 'sitemap-glossary.xml']);
   const index = fs.readFileSync(path.join(root, 'sitemap-index.xml'), 'utf8');
   assert.deepEqual(Array.from(index.matchAll(/<loc>([^<]+)<\/loc>/g), function (match) { return match[1]; }), [
-    'https://aiengineeringfromscratch.com/sitemap.xml',
-    'https://aiengineeringfromscratch.com/sitemap-phases.xml',
-    'https://aiengineeringfromscratch.com/sitemap-glossary.xml',
+    'https://iamabhishekpanda.com/sitemap.xml',
+    'https://iamabhishekpanda.com/sitemap-phases.xml',
+    'https://iamabhishekpanda.com/sitemap-glossary.xml',
   ]);
   assert.doesNotMatch(index, /lastmod/);
 });
@@ -1616,7 +1616,7 @@ test('lesson route breadcrumbs point to the phase hub and list the terms the les
   };
   const course = invoke(handler, { method: 'GET', url: '/lesson?path=phases%2F01-math%2F01-vectors', query: { path: 'phases/01-math/01-vectors' } });
   assert.equal(course.statusCode, 200);
-  assert.deepEqual(breadcrumbs(course.body)[1], { '@type': 'ListItem', position: 2, name: 'Phase 01: Math Foundations', item: 'https://aiengineeringfromscratch.com/phase/math' });
+  assert.deepEqual(breadcrumbs(course.body)[1], { '@type': 'ListItem', position: 2, name: 'Phase 01: Math Foundations', item: 'https://iamabhishekpanda.com/phase/math' });
   assert.match(course.body, /<nav class="lesson-hub-links"[^>]*>[\s\S]*<a href="\/phase\/math">Phase 01: Math Foundations<\/a>/);
   assert.match(course.body, /Terms in this lesson:<\/span> <a href="\/glossary\/vector-space">Vector &lt;Space&gt;<\/a>/);
   assert.doesNotMatch(course.body, /javascript:alert/);

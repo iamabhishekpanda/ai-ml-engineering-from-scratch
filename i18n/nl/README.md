@@ -1,4 +1,4 @@
-<p align="center" lang="nl"><sub>Nederlandse vertaling van de volledige README. Het <a href="../../README.md">Engelse origineel</a> is leidend · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center" lang="nl"><sub>Nederlandse vertaling van de volledige README. Het <a href="../../README.md">Engelse origineel</a> is leidend · <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a></sub></p>
 
 <p align="center">
   <picture>
@@ -9,7 +9,7 @@
 
 Implementeer de interne werking van modellen, zoekpijplijnen en uitvoeringsomgevingen voor agents. Test ze, onderzoek fouten en bewaar de code en evaluatieresultaten.
 
-**[Begin met leren](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Kies een pad](#learning-routes)** · **[Probeer een lab](#interactive-lab)** · **[Bouw een project](#project-challenges)** · **[Bekijk het curriculum](#contents)**
+**[Begin met leren](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Kies een pad](#learning-routes)** · **[Probeer een lab](#interactive-lab)** · **[Bouw een project](#project-challenges)** · **[Bekijk het curriculum](#contents)**
 
 Gratis, open source, met MIT-licentie. Leer op de webpagina, met een programmeeragent of door lokaal code uit te voeren.
 
@@ -20,7 +20,7 @@ Gratis, open source, met MIT-licentie. Leer op de webpagina, met een programmeer
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lessen"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 fasen"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sterren op GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webpagina"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webpagina"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Gratis, open source, met MIT-licentie. Leer op de webpagina, met een programmeer
 
 | Leerroute | Eerste les |
 |---|---|
-| Grondslagen van modellen | [Installatie en hulpmiddelen](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM-systemen | [Promptengineering](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agents en systeemoplevering | [De agentlus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Grondslagen van modellen | [Installatie en hulpmiddelen](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-systemen | [Promptengineering](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agents en systeemoplevering | [De agentlus](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Vergelijk loopbaanpaden](https://aiengineeringfromscratch.com/learning-paths.html) · [Voorkennis en studietijd](#study-guide)
+[Vergelijk loopbaanpaden](https://iamabhishekpanda.com/learning-paths.html) · [Voorkennis en studietijd](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Gratis, open source, met MIT-licentie. Leer op de webpagina, met een programmeer
 Twintig beginpunten volgen gradiëntafdaling op een kwadratische verliesfunctie. De grafiek toont hun posities en het gemiddelde verlies na elke update.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Twintig beginpunten volgen gradiëntafdaling op een kwadratische verliesfunctie.
   </a>
 </p>
 
-[Pas de leersnelheid aan in de les](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Vergelijk gradiëntafdaling, momentum en Adam in code](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Pas de leersnelheid aan in de les](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Vergelijk gradiëntafdaling, momentum en Adam in code](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Bewaar:** een reproduceerbare vergelijking met verschillen per query en de relevantiebeoordelingen voor de scores. De metrieken beschrijven die beoordelingen; ze bewijzen niet dat antwoorden correct zijn.
 
-[Start het project](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Bekijk de referentie](../../projects/retrieval-evaluation-lab/solution/) · [Voer uit met je eigen invoer](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Start het project](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Bekijk de referentie](../../projects/retrieval-evaluation-lab/solution/) · [Voer uit met je eigen invoer](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Bewaar:** de invoertrace, een HTML-tijdlijn en een JSON-regressierapport. Behoud de eigen tokenaantallen per span, zonder onderliggende spans, zodat het gebruik van bovenliggende en onderliggende spans niet dubbel wordt geteld.
 
-[Start het project](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Bekijk de referentie](../../projects/agent-trace-debugger/solution/) · [Verken timing interactief](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Start het project](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Bekijk de referentie](../../projects/agent-trace-debugger/solution/) · [Verken timing interactief](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Bewaar:** een auditbewijs met de aangevraagde bewerking en de beleidsbeslissing. Goedkeuringen zijn binnen één aanroep eenmalig bruikbaar; dit project biedt geen blijvende autorisatie of sandbox op besturingssysteemniveau.
 
-[Start het project](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Bekijk de referentie](../../projects/tool-call-firewall/solution/) · [Verken goedkeuringsgrenzen](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Start het project](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Bekijk de referentie](../../projects/tool-call-firewall/solution/) · [Verken goedkeuringsgrenzen](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Bekijk alle projecten](https://aiengineeringfromscratch.com/projects.html) · [Gids voor loopbaanpraktijk](../../learning-paths/CAREER-PRACTICE.md)
+[Bekijk alle projecten](https://iamabhishekpanda.com/projects.html) · [Gids voor loopbaanpraktijk](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Kies hoe je wilt leren
 
 ### Op de webpagina
 
-Open een afgeronde les op [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) of klap een fase onder [Inhoud](#contents) open. Geen installatie of kloon nodig.
+Open een afgeronde les op [iamabhishekpanda.com](https://iamabhishekpanda.com) of klap een fase onder [Inhoud](#contents) open. Geen installatie of kloon nodig.
 
 ### Met een AI-begeleider
 
@@ -194,9 +194,9 @@ Een plaatsingstoets met tien vragen koppelt je bestaande kennis aan een beginfas
 
 Wil je alleen Model Context Protocol (MCP)? Gebruik de MCP-aanroep voor je host. Die maakt `MCP-LEARNING.md` aan en volgt een route van 17 lessen langs toestandsloze verzoeken, transporten, tweerichtingsverkeer, beveiliging, betrouwbaarheid, registerbeheer en conformiteitsbewijs. De precieze volgorde en controlepunten staan in het [Model Context Protocol (MCP)-manifest](../../learning-paths/model-context-protocol.json).
 
-Wil je alleen Agent Skills? Gebruik de Agent Skills-aanroep voor je host. Die maakt `AGENT-SKILLS-LEARNING.md` aan en volgt één samenhangende route van vijf lessen: contract, ontdekking, aanroep, sandboxgrenzen en vervolgens release-evaluaties en overdraagbaarheid tussen echte hosts. Begin op de website met de [Agent Skills-leerroute](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Wil je alleen Agent Skills? Gebruik de Agent Skills-aanroep voor je host. Die maakt `AGENT-SKILLS-LEARNING.md` aan en volgt één samenhangende route van vijf lessen: contract, ontdekking, aanroep, sandboxgrenzen en vervolgens release-evaluaties en overdraagbaarheid tussen echte hosts. Begin op de website met de [Agent Skills-leerroute](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Het installatieprogramma toont de hosts die het kan configureren en vraagt waar het moet installeren. Heb je nog geen Node.js, `npx`, `python3`, ondersteunde host of beschrijfbare installatiemap, gebruik dan de website of lees `docs/en.md` zelf. Daarmee leer je de concepten, maar bewijs van ontdekking, aanroep, scripts en verwijdering op een echte host blijft uitstaan totdat de voorafgaande controle mogelijk is. Lees de lessen op [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Het installatieprogramma toont de hosts die het kan configureren en vraagt waar het moet installeren. Heb je nog geen Node.js, `npx`, `python3`, ondersteunde host of beschrijfbare installatiemap, gebruik dan de website of lees `docs/en.md` zelf. Daarmee leer je de concepten, maar bewijs van ontdekking, aanroep, scripts en verwijdering op een echte host blijft uitstaan totdat de voorafgaande controle mogelijk is. Lees de lessen op [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### De leerskills
 
@@ -251,25 +251,25 @@ Je hoeft niet alle 542 lessen door te nemen voordat je begint. Kies één doel. 
 
 | Jouw doel | Leren op GitHub | Leren op de website |
 |---|---|---|
-| Ik ben een beginner en wil een volledige basis | [Fase 0: Installatie en gereedschap](../../phases/00-setup-and-tooling/) | [Ontwikkelomgeving](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Ik ken Python en wil een basis in wiskunde en ML | [Fase 1: Wiskundige grondslagen](../../phases/01-math-foundations/) | [Intuïtie voor lineaire algebra](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Ik wil LLM-toepassingen voor productie bouwen | [Fase 11: LLM-engineering](../../phases/11-llm-engineering/) | [Promptengineering](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ik wil agents bouwen | [Fase 14: Agentengineering](../../phases/14-agent-engineering/) | [De agentlus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Ik wil programmeeragents gebruiken in echte repositories | [Leerroute voor engineering met agents](../../learning-paths/using-coding-agents.json) | [Engineering met agents](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Ik wil vóór de implementatie bepalen wat ik moet bouwen | [Leerroute voor productkeuzes en oplevering](../../learning-paths/shaping-the-build.json) | [Productkeuzes en oplevering](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Ik ben een beginner en wil een volledige basis | [Fase 0: Installatie en gereedschap](../../phases/00-setup-and-tooling/) | [Ontwikkelomgeving](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Ik ken Python en wil een basis in wiskunde en ML | [Fase 1: Wiskundige grondslagen](../../phases/01-math-foundations/) | [Intuïtie voor lineaire algebra](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Ik wil LLM-toepassingen voor productie bouwen | [Fase 11: LLM-engineering](../../phases/11-llm-engineering/) | [Promptengineering](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ik wil agents bouwen | [Fase 14: Agentengineering](../../phases/14-agent-engineering/) | [De agentlus](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Ik wil programmeeragents gebruiken in echte repositories | [Leerroute voor engineering met agents](../../learning-paths/using-coding-agents.json) | [Engineering met agents](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Ik wil vóór de implementatie bepalen wat ik moet bouwen | [Leerroute voor productkeuzes en oplevering](../../learning-paths/shaping-the-build.json) | [Productkeuzes en oplevering](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Weet je niet waar je moet beginnen? Gebruik de [`start-learning`-tutor voor niveaubepaling](../../skills/start-learning/SKILL.md) of de [gids met voorkennis op de website](https://aiengineeringfromscratch.com/prereqs.html).
+Weet je niet waar je moet beginnen? Gebruik de [`start-learning`-tutor voor niveaubepaling](../../skills/start-learning/SKILL.md) of de [gids met voorkennis op de website](https://iamabhishekpanda.com/prereqs.html).
 
-Vergelijk vier kerndomeinen en zes loopbaanroutes in de [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
+Vergelijk vier kerndomeinen en zes loopbaanroutes in de [AI Engineering Learning Paths](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Gerichte leerpaden voor MCP, Agent Skills en Reverse Engineering</summary>
 
 | Jouw doel | Leren op GitHub | Leren op de website |
 |---|---|---|
-| Ik wil bouwen met Model Context Protocol (MCP) | [Model Context Protocol (MCP)-route](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP)-leerroute](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Ik wil Agent Skills schrijven en uitbrengen | [Gerichte Agent Skills-route](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills-leerroute](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Ik wil gecompileerde programma's lezen | [Gerichte Reverse Engineering-route](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Reverse Engineering-leerroute](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Ik wil bouwen met Model Context Protocol (MCP) | [Model Context Protocol (MCP)-route](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP)-leerroute](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Ik wil Agent Skills schrijven en uitbrengen | [Gerichte Agent Skills-route](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills-leerroute](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Ik wil gecompileerde programma's lezen | [Gerichte Reverse Engineering-route](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Reverse Engineering-leerroute](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1104,7 +1104,7 @@ Het boek is een momentopname; deze repository is de levende editie. Elk hoofdstu
 
 De [Claude-certificeringsacademie](../../certifications/claude/README.md) is een gratis, open voorbereidingsprogramma voor alle vier officiële Claude-certificeringstrajecten: Associate Foundations, Developer Foundations, Architect Foundations en Architect Professional. Elke route combineert lessen gekoppeld aan de exameneisen, uitvoerbare practica, een diagnostische toets, eindwerk en een volledig origineel oefenexamen.
 
-Gebruik de [AI-gerichte GitHub-startgids](../../certifications/claude/GETTING_STARTED.md) met Claude Code, Codex, ChatGPT, Cursor of een andere agent. Voer `claude-certification` uit in Codex, `/claude-certification` in Claude Code of vraag een andere host om `claude-certification` te gebruiken. De skill kiest een traject, maakt een blijvende route in `CLAUDE-CERTIFICATION.md`, onderwijst stap voor stap, voert de echte practica uit en geeft feedback op je resultaten. Hetzelfde leerprogramma staat op de [certificeringswebsite](https://aiengineeringfromscratch.com/certifications.html).
+Gebruik de [AI-gerichte GitHub-startgids](../../certifications/claude/GETTING_STARTED.md) met Claude Code, Codex, ChatGPT, Cursor of een andere agent. Voer `claude-certification` uit in Codex, `/claude-certification` in Claude Code of vraag een andere host om `claude-certification` te gebruiken. De skill kiest een traject, maakt een blijvende route in `CLAUDE-CERTIFICATION.md`, onderwijst stap voor stap, voert de echte practica uit en geeft feedback op je resultaten. Hetzelfde leerprogramma staat op de [certificeringswebsite](https://iamabhishekpanda.com/certifications.html).
 
 De academie is onafhankelijk studiemateriaal op basis van openbare examendoelen. Zij is niet verbonden aan Anthropic, bevat geen echte examenvragen en kan geen voldoende garanderen.
 
@@ -1115,7 +1115,7 @@ De academie is onafhankelijk studiemateriaal op basis van openbare examendoelen.
 
 Het [MCPA-certificeringsprogramma](../../certifications/mcpa/README.md) is een gratis, open voorbereiding op het Model Context Protocol Associate-examen van de Agentic AI Foundation, aangeboden via Linux Foundation Training. De 34 lessen behandelen het toestandsloze protocol van 2026-07-28 in de vijf examendomeinen: `_meta` per verzoek en `server/discover` in plaats van de oude handshake, verzoeken met meerdere rondes, abonnementen, caching, de uitbreidingen voor taken en MCP Apps, OAuth-autorisatie en de register- en SDK-niveaus. Elke les bevat een uitvoerbaar practicum met alleen de standaardbibliotheek, waarvan het transcript op het actuele wire-formaat wordt gecontroleerd. Het traject bevat ook een diagnostische toets, een eindproject en drie volledige originele oefenexamens met de gepubliceerde verdeling van onderwerpen.
 
-Gebruik de [AI-gerichte GitHub-startgids](../../certifications/mcpa/GETTING_STARTED.md) met Claude Code, Codex, ChatGPT, Cursor of een andere agent. Voer `mcpa-certification` uit in Codex, `/mcpa-certification` in Claude Code of vraag een andere host om `mcpa-certification` te gebruiken. De skill maakt een blijvende route in `MCPA-CERTIFICATION.md`, onderwijst stap voor stap, voert de echte practica uit en geeft feedback op je resultaten. Hetzelfde leerprogramma staat op de [MCPA-trajectpagina](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Gebruik de [AI-gerichte GitHub-startgids](../../certifications/mcpa/GETTING_STARTED.md) met Claude Code, Codex, ChatGPT, Cursor of een andere agent. Voer `mcpa-certification` uit in Codex, `/mcpa-certification` in Claude Code of vraag een andere host om `mcpa-certification` te gebruiken. De skill maakt een blijvende route in `MCPA-CERTIFICATION.md`, onderwijst stap voor stap, voert de echte practica uit en geeft feedback op je resultaten. Hetzelfde leerprogramma staat op de [MCPA-trajectpagina](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Dit leerprogramma is onafhankelijk studiemateriaal op basis van openbare examendoelen. Het is niet verbonden aan de Agentic AI Foundation of de Linux Foundation, bevat geen echte examenvragen en kan geen voldoende garanderen.
 
@@ -1309,5 +1309,5 @@ MIT. Gebruik het zoals je wilt: fork het, geef er les mee, verkoop het of breng 
 Onderhouden door [Rohit Ghumare](https://github.com/iamabhishekpanda) en de community.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Melden / Voorstellen</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Melden / Voorstellen</a>
 </sub>

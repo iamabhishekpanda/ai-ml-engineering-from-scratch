@@ -47,7 +47,7 @@ fact, or official policy from memory.
 The website is an optional interactive view, not a dependency:
 
 ```text
-https://aiengineeringfromscratch.com/certifications.html
+https://iamabhishekpanda.com/certifications.html
 ```
 
 GitHub learners must be able to complete the full tutor loop without opening

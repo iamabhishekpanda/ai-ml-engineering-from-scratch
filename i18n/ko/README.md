@@ -9,7 +9,7 @@
 
 모델 내부 연산, 검색 파이프라인, 에이전트 런타임을 구현하세요. 테스트하고 실패를 분석하며 코드와 평가 결과를 보관하세요.
 
-**[학습 시작](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[학습 경로 선택](#learning-routes)** · **[실습 체험](#interactive-lab)** · **[프로젝트 만들기](#project-challenges)** · **[교육과정 둘러보기](#contents)**
+**[학습 시작](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[학습 경로 선택](#learning-routes)** · **[실습 체험](#interactive-lab)** · **[프로젝트 만들기](#project-challenges)** · **[교육과정 둘러보기](#contents)**
 
 무료이며 오픈 소스이고 MIT 라이선스로 제공됩니다. 웹사이트에서, 코딩 에이전트와 함께, 또는 로컬 코드를 실행하며 배우세요.
 
@@ -20,7 +20,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 수업"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20단계"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 별"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="웹사이트"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="웹사이트"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@
 
 | 경로 | 첫 수업 |
 |---|---|
-| 모델의 토대 | [환경 설정과 도구](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM 시스템 | [프롬프트 엔지니어링](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 에이전트와 전달 | [에이전트 루프](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 모델의 토대 | [환경 설정과 도구](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM 시스템 | [프롬프트 엔지니어링](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 에이전트와 전달 | [에이전트 루프](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[커리어 경로 비교](https://aiengineeringfromscratch.com/learning-paths.html) · [선수 지식과 학습 시간](#study-guide)
+[커리어 경로 비교](https://iamabhishekpanda.com/learning-paths.html) · [선수 지식과 학습 시간](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@
 20개의 시작점이 이차 손실 함수 위에서 경사 하강법에 따라 이동합니다. 그래프는 각 업데이트 후의 위치와 평균 손실을 보여 줍니다.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@
   </a>
 </p>
 
-[수업에서 학습률 조정](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [코드로 GD, 모멘텀, Adam 비교](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[수업에서 학습률 조정](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [코드로 GD, 모멘텀, Adam 비교](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **보관할 것:** 질의별 차이와 점수에 사용한 관련성 판정을 포함한 재현 가능한 비교 결과. 지표는 해당 판정에 대한 결과를 나타내며 답변의 정확성을 입증하지는 않습니다.
 
-[프로젝트 시작](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [참조 구현 살펴보기](../../projects/retrieval-evaluation-lab/solution/) · [자신의 입력으로 실행](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[프로젝트 시작](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [참조 구현 살펴보기](../../projects/retrieval-evaluation-lab/solution/) · [자신의 입력으로 실행](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **보관할 것:** 입력 추적, HTML 타임라인, JSON 성능 저하 보고서. 부모와 자식의 사용량을 중복 집계하지 않도록 각 스팬 자체가 사용한 토큰 수만 기록하세요.
 
-[프로젝트 시작](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [참조 구현 살펴보기](../../projects/agent-trace-debugger/solution/) · [시간 계산을 대화형으로 탐색](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[프로젝트 시작](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [참조 구현 살펴보기](../../projects/agent-trace-debugger/solution/) · [시간 계산을 대화형으로 탐색](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **보관할 것:** 요청된 작업과 정책 결정을 보여 주는 감사 기록. 승인은 한 번의 호출 안에서 한 번만 사용할 수 있습니다. 이 프로젝트는 영구적인 권한 부여나 운영체제 샌드박스를 제공하지 않습니다.
 
-[프로젝트 시작](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [참조 구현 살펴보기](../../projects/tool-call-firewall/solution/) · [승인 경계 탐색](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[프로젝트 시작](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [참조 구현 살펴보기](../../projects/tool-call-firewall/solution/) · [승인 경계 탐색](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[모든 프로젝트 보기](https://aiengineeringfromscratch.com/projects.html) · [커리어 실무 안내](../../learning-paths/CAREER-PRACTICE.md)
+[모든 프로젝트 보기](https://iamabhishekpanda.com/projects.html) · [커리어 실무 안내](../../learning-paths/CAREER-PRACTICE.md)
 
 ## 학습 방식 선택
 
 ### 웹사이트에서 학습
 
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com)에서 완료된 레슨을 열거나 [목차](#contents)에서 단계를 펼쳐 보세요. 설정이나 복제가 필요하지 않습니다.
+[iamabhishekpanda.com](https://iamabhishekpanda.com)에서 완료된 레슨을 열거나 [목차](#contents)에서 단계를 펼쳐 보세요. 설정이나 복제가 필요하지 않습니다.
 
 ### AI 튜터와 학습
 
@@ -194,9 +194,9 @@ python3 --version
 
 Model Context Protocol(MCP)만 배우려면 호스트에 맞는 MCP 호출 방법을 사용하세요. `MCP-LEARNING.md`를 만들고 무상태 요청, 전송 방식, 양방향 작업, 보안, 신뢰성, 레지스트리 거버넌스, 적합성 근거를 다루는 17개 레슨 경로를 따릅니다. 정확한 순서와 체크포인트는 [Model Context Protocol(MCP) 매니페스트](../../learning-paths/model-context-protocol.json)에 있습니다.
 
-Agent Skills만 배우려면 호스트에 맞는 Agent Skills 호출 방법을 사용하세요. `AGENT-SKILLS-LEARNING.md`를 만들고 계약, 탐색, 호출, 샌드박스 경계, 평가를 통한 출시, 실제 호스트 간 이식성을 다루는 일관된 5개 레슨 경로를 따릅니다. 웹에서는 [Agent Skills 경로](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)에서 시작할 수 있습니다.
+Agent Skills만 배우려면 호스트에 맞는 Agent Skills 호출 방법을 사용하세요. `AGENT-SKILLS-LEARNING.md`를 만들고 계약, 탐색, 호출, 샌드박스 경계, 평가를 통한 출시, 실제 호스트 간 이식성을 다루는 일관된 5개 레슨 경로를 따릅니다. 웹에서는 [Agent Skills 경로](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)에서 시작할 수 있습니다.
 
-설치 프로그램은 설정할 수 있는 호스트를 나열하고 설치 위치를 묻습니다. Node.js, `npx`, `python3`, 지원되는 호스트 또는 쓰기 가능한 범위가 아직 없다면 웹사이트를 이용하거나 `docs/en.md`를 직접 읽으세요. 이 경로로 개념을 익힐 수 있지만, 실제 호스트 검색, 호출, 스크립트, 제거 근거는 사전 점검을 실행할 수 있을 때까지 보류됩니다. [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com)에서 레슨을 읽을 수 있습니다.
+설치 프로그램은 설정할 수 있는 호스트를 나열하고 설치 위치를 묻습니다. Node.js, `npx`, `python3`, 지원되는 호스트 또는 쓰기 가능한 범위가 아직 없다면 웹사이트를 이용하거나 `docs/en.md`를 직접 읽으세요. 이 경로로 개념을 익힐 수 있지만, 실제 호스트 검색, 호출, 스크립트, 제거 근거는 사전 점검을 실행할 수 있을 때까지 보류됩니다. [iamabhishekpanda.com](https://iamabhishekpanda.com)에서 레슨을 읽을 수 있습니다.
 
 ### 학습 스킬
 
@@ -251,25 +251,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | 목표 | GitHub에서 학습 | 웹사이트에서 학습 |
 |---|---|---|
-| 입문자로서 기초를 모두 다지고 싶습니다 | [0단계: 설정 및 도구](../../phases/00-setup-and-tooling/) | [개발 환경](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Python을 알고 있으며 수학과 머신러닝 기초를 배우고 싶습니다 | [1단계: 수학 기초](../../phases/01-math-foundations/) | [선형대수 직관](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| 프로덕션용 LLM 애플리케이션을 만들고 싶습니다 | [11단계: LLM 엔지니어링](../../phases/11-llm-engineering/) | [프롬프트 엔지니어링](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 에이전트를 만들고 싶습니다 | [14단계: 에이전트 엔지니어링](../../phases/14-agent-engineering/) | [에이전트 루프](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| 실제 저장소에서 코딩 에이전트를 사용하고 싶습니다 | [에이전트 지원 엔지니어링 학습 경로](../../learning-paths/using-coding-agents.json) | [에이전트 지원 엔지니어링](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| 구현 전에 무엇을 만들지 올바르게 판단하고 싶습니다 | [제품 판단 및 전달 학습 경로](../../learning-paths/shaping-the-build.json) | [제품 판단 및 전달](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| 입문자로서 기초를 모두 다지고 싶습니다 | [0단계: 설정 및 도구](../../phases/00-setup-and-tooling/) | [개발 환경](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Python을 알고 있으며 수학과 머신러닝 기초를 배우고 싶습니다 | [1단계: 수학 기초](../../phases/01-math-foundations/) | [선형대수 직관](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| 프로덕션용 LLM 애플리케이션을 만들고 싶습니다 | [11단계: LLM 엔지니어링](../../phases/11-llm-engineering/) | [프롬프트 엔지니어링](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 에이전트를 만들고 싶습니다 | [14단계: 에이전트 엔지니어링](../../phases/14-agent-engineering/) | [에이전트 루프](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 실제 저장소에서 코딩 에이전트를 사용하고 싶습니다 | [에이전트 지원 엔지니어링 학습 경로](../../learning-paths/using-coding-agents.json) | [에이전트 지원 엔지니어링](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| 구현 전에 무엇을 만들지 올바르게 판단하고 싶습니다 | [제품 판단 및 전달 학습 경로](../../learning-paths/shaping-the-build.json) | [제품 판단 및 전달](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-어디서 시작해야 할지 모르겠다면 [`start-learning` 수준 진단 튜터](../../skills/start-learning/SKILL.md) 또는 [웹사이트 사전 요건 안내](https://aiengineeringfromscratch.com/prereqs.html)를 이용하세요.
+어디서 시작해야 할지 모르겠다면 [`start-learning` 수준 진단 튜터](../../skills/start-learning/SKILL.md) 또는 [웹사이트 사전 요건 안내](https://iamabhishekpanda.com/prereqs.html)를 이용하세요.
 
-4개 핵심 분야와 6개 진로를 [AI 엔지니어링 학습 경로](https://aiengineeringfromscratch.com/learning-paths.html)에서 비교해 보세요.
+4개 핵심 분야와 6개 진로를 [AI 엔지니어링 학습 경로](https://iamabhishekpanda.com/learning-paths.html)에서 비교해 보세요.
 
 <details>
 <summary>MCP, Agent Skills, 리버스 엔지니어링 집중 경로</summary>
 
 | 목표 | GitHub에서 학습 | 웹사이트에서 학습 |
 |---|---|---|
-| Model Context Protocol(MCP)로 구축하고 싶습니다 | [Model Context Protocol(MCP) 학습 경로](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol(MCP) 경로](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Agent Skills를 작성하고 배포하고 싶습니다 | [집중 Agent Skills 학습 경로](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 경로](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| 컴파일된 프로그램을 읽고 싶습니다 | [집중 리버스 엔지니어링 학습 경로](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [리버스 엔지니어링 경로](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Model Context Protocol(MCP)로 구축하고 싶습니다 | [Model Context Protocol(MCP) 학습 경로](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol(MCP) 경로](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Agent Skills를 작성하고 배포하고 싶습니다 | [집중 Agent Skills 학습 경로](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 경로](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| 컴파일된 프로그램을 읽고 싶습니다 | [집중 리버스 엔지니어링 학습 경로](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [리버스 엔지니어링 경로](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1093,7 +1093,7 @@ flowchart TB
 
 [Claude 인증 아카데미](../../certifications/claude/README.md)는 공식 Claude 인증 트랙 4종(Associate Foundations, Developer Foundations, Architect Foundations, Architect Professional)을 위한 무료 오픈소스 준비 과정입니다. 각 경로에는 시험 청사진에 맞춘 레슨, 실행 가능한 실습, 진단 평가, 캡스톤 작업, 전체 길이의 독창적인 모의시험이 포함됩니다.
 
-[AI 네이티브 GitHub 시작 안내서](../../certifications/claude/GETTING_STARTED.md)는 Claude Code, Codex, ChatGPT, Cursor 및 다른 에이전트에서 사용할 수 있습니다. Codex에서는 `claude-certification`을, Claude Code에서는 `/claude-certification`을 실행하세요. 다른 호스트에서는 `claude-certification`을 사용하라고 요청하면 됩니다. 안내서는 트랙을 선택하고 `CLAUDE-CERTIFICATION.md`에 지속적인 학습 경로를 만들며, 한 단계씩 가르치고 실제 실습을 실행한 뒤 산출물에 기반한 피드백을 제공합니다. 같은 교육과정은 [인증 웹사이트](https://aiengineeringfromscratch.com/certifications.html)에서도 이용할 수 있습니다.
+[AI 네이티브 GitHub 시작 안내서](../../certifications/claude/GETTING_STARTED.md)는 Claude Code, Codex, ChatGPT, Cursor 및 다른 에이전트에서 사용할 수 있습니다. Codex에서는 `claude-certification`을, Claude Code에서는 `/claude-certification`을 실행하세요. 다른 호스트에서는 `claude-certification`을 사용하라고 요청하면 됩니다. 안내서는 트랙을 선택하고 `CLAUDE-CERTIFICATION.md`에 지속적인 학습 경로를 만들며, 한 단계씩 가르치고 실제 실습을 실행한 뒤 산출물에 기반한 피드백을 제공합니다. 같은 교육과정은 [인증 웹사이트](https://iamabhishekpanda.com/certifications.html)에서도 이용할 수 있습니다.
 
 이 아카데미는 공개된 시험 목표에 기반한 독립 학습 자료입니다. Anthropic과 제휴하지 않으며, 실제 시험 문제를 재현하지 않고, 합격을 보장하지도 않습니다.
 
@@ -1104,7 +1104,7 @@ flowchart TB
 
 [MCPA 인증 교육과정](../../certifications/mcpa/README.md)은 Linux Foundation Training을 통해 제공되는 Agentic AI Foundation의 Model Context Protocol Associate 시험을 위한 무료 오픈소스 준비 과정입니다. 34개 레슨에서 2026-07-28 무상태 프로토콜을 다섯 시험 영역에 따라 학습합니다. 이전 핸드셰이크를 대신하는 요청별 `_meta`와 `server/discover`, 여러 차례 왕복하는 요청, 구독, 캐싱, Tasks 및 MCP Apps 확장, OAuth 권한 부여, 레지스트리와 SDK 계층을 다룹니다. 모든 레슨에는 실행 가능한 표준 라이브러리 실습이 있으며, 실행 기록이 현재 와이어 형식에 맞는지 검사합니다. 트랙에는 진단 평가, 캡스톤, 공개된 청사진의 배점 비율을 따르는 전체 길이의 독창적인 모의시험 3회도 포함됩니다.
 
-[AI 네이티브 GitHub 시작 안내서](../../certifications/mcpa/GETTING_STARTED.md)는 Claude Code, Codex, ChatGPT, Cursor 및 다른 에이전트에서 사용할 수 있습니다. Codex에서는 `mcpa-certification`을, Claude Code에서는 `/mcpa-certification`을 실행하세요. 다른 호스트에서는 `mcpa-certification`을 사용하라고 요청하면 됩니다. 안내서는 `MCPA-CERTIFICATION.md`에 지속적인 학습 경로를 만들고, 한 단계씩 가르치고, 실제 실습을 실행한 뒤 산출물에 기반한 피드백을 제공합니다. 같은 교육과정은 [MCPA 트랙 페이지](https://aiengineeringfromscratch.com/certification?id=mcpa-f)에서도 이용할 수 있습니다.
+[AI 네이티브 GitHub 시작 안내서](../../certifications/mcpa/GETTING_STARTED.md)는 Claude Code, Codex, ChatGPT, Cursor 및 다른 에이전트에서 사용할 수 있습니다. Codex에서는 `mcpa-certification`을, Claude Code에서는 `/mcpa-certification`을 실행하세요. 다른 호스트에서는 `mcpa-certification`을 사용하라고 요청하면 됩니다. 안내서는 `MCPA-CERTIFICATION.md`에 지속적인 학습 경로를 만들고, 한 단계씩 가르치고, 실제 실습을 실행한 뒤 산출물에 기반한 피드백을 제공합니다. 같은 교육과정은 [MCPA 트랙 페이지](https://iamabhishekpanda.com/certification?id=mcpa-f)에서도 이용할 수 있습니다.
 
 이 교육과정은 공개된 시험 목표에 기반한 독립 학습 자료입니다. Agentic AI Foundation 또는 Linux Foundation과 제휴하지 않으며, 실제 시험 문제를 재현하지 않고, 합격을 보장하지도 않습니다.
 
@@ -1298,5 +1298,5 @@ MIT. 원하는 대로 쓰세요. 포크하고, 가르치고, 팔고, 배포하�
 [Rohit Ghumare](https://github.com/iamabhishekpanda) 와 커뮤니티가 관리합니다.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">보고 / 제안</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">보고 / 제안</a>
 </sub>

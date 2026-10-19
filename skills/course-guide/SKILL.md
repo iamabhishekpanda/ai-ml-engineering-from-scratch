@@ -108,7 +108,7 @@ route to `learn-reverse-engineering`. Its source of truth is
 
 3. **Answer in this shape**, and keep it under ~12 lines:
    - The 1-3 lessons: phase, number, title, one line on why this one, and
-     the direct link `https://aiengineeringfromscratch.com/lesson?path=phases/<phase-dir>/<lesson-dir>`.
+     the direct link `https://iamabhishekpanda.com/lesson?path=phases/<phase-dir>/<lesson-dir>`.
    - Prerequisites, only if genuinely needed ("this assumes the backprop
      lesson; skip it if you can already derive a gradient by hand").
    - The next action, rendered with the host invocation contract: `learn` to

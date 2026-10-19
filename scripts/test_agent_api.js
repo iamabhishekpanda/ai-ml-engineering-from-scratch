@@ -150,7 +150,7 @@ test('MCP rejects malformed requests, unsafe origins, unsupported transport and 
 
 
 test('resource and MCP read lesson translations only for allowlisted languages', async () => {
-  const entry = { path: 'phases/01-a/01-x', kind: 'lesson', title: 'X', description: 'X lesson', url: 'https://aiengineeringfromscratch.com/lesson?path=phases%2F01-a%2F01-x', sourceUrl: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/phases/01-a/01-x/docs/en.md', translations: ['hi'], markdown: '# X\n' };
+  const entry = { path: 'phases/01-a/01-x', kind: 'lesson', title: 'X', description: 'X lesson', url: 'https://iamabhishekpanda.com/lesson?path=phases%2F01-a%2F01-x', sourceUrl: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/phases/01-a/01-x/docs/en.md', translations: ['hi'], markdown: '# X\n' };
   const read = path => (path === entry.path ? entry : null);
   const fetched = [];
   const readTranslation = (lang, lessonPath) => { fetched.push(`${lang}:${lessonPath}`); return Promise.resolve(lang === 'hi' ? '# एक्स\n' : null); };

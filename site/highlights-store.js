@@ -258,7 +258,7 @@
 
   function toMarkdown(state, selection, options) {
     options = options || {};
-    var origin = options.origin || 'https://aiengineeringfromscratch.com';
+    var origin = options.origin || 'https://iamabhishekpanda.com';
     var paths = selectionPaths(state, selection).sort();
     var out = ['# Highlights', ''];
     var count = 0;

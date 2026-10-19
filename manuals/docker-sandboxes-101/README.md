@@ -1,6 +1,6 @@
 # Docker Sandboxes and Docker Agent 101
 
-Docker Sandboxes at `sbx` v0.47.0 and Docker Agent at `docker-agent` v1.149.0, from the first sandbox to an agent that you serve and share. The web edition is at [aiengineeringfromscratch.com/manual-docker-sandboxes-101.html](https://aiengineeringfromscratch.com/manual-docker-sandboxes-101.html), and each release of the course attaches the PDF as `aiefs-manual-docker-sandboxes-101.pdf`.
+Docker Sandboxes at `sbx` v0.47.0 and Docker Agent at `docker-agent` v1.149.0, from the first sandbox to an agent that you serve and share. The web edition is at [iamabhishekpanda.com/manual-docker-sandboxes-101.html](https://iamabhishekpanda.com/manual-docker-sandboxes-101.html), and each release of the course attaches the PDF as `aiefs-manual-docker-sandboxes-101.pdf`.
 
 ## What is in it
 

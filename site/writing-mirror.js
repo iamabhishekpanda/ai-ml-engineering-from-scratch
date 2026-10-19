@@ -1,5 +1,5 @@
 const SOURCE_ORIGIN = 'https://rohitghumare.com';
-const COURSE_ORIGIN = 'https://aiengineeringfromscratch.com';
+const COURSE_ORIGIN = 'https://iamabhishekpanda.com';
 const COURSE_NAME = 'AI Engineering from Scratch';
 const ARTICLE_PATH = /^\/(?:blog|guides)\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/;
 const VOID_ELEMENTS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr']);

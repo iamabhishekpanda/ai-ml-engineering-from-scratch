@@ -69,7 +69,7 @@ function compose(ctx, image, { width, height, caption, note }) {
   ctx.textAlign = "right";
   ctx.fillText(right, width - 40 * u, height - 40 * u);
   ctx.fillStyle = accent;
-  ctx.fillText("aiengineeringfromscratch.com/inside-an-ai-agent", width - 40 * u, height - 20 * u);
+  ctx.fillText("iamabhishekpanda.com/inside-an-ai-agent", width - 40 * u, height - 20 * u);
   ctx.textAlign = "left";
 }
 

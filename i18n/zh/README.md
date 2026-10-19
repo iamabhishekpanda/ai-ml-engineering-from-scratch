@@ -1,4 +1,4 @@
-<p align="center"><sub>AI 辅助中文译文，以<a href="../../README.md">英文原文为准</a> · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center"><sub>AI 辅助中文译文，以<a href="../../README.md">英文原文为准</a> · <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a></sub></p>
 
 <p align="center">
   <picture>
@@ -11,7 +11,9 @@
 
 这是 **Abhishek Panda 的学习工作区**：一个独立维护、使用个人品牌的分支，用于通过从第一性原理构建重要组件来学习 AI 工程。
 
-**[开始学习](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[选择学习路径](#learning-routes)** · **[试做实验](#interactive-lab)** · **[构建项目](#project-challenges)** · **[浏览课程目录](#contents)**
+**维护者：**[Abhishek Panda](https://iamabhishekpanda.com) · **仓库：**[github.com/iamabhishekpanda/ai-ml-engineering-from-scratch](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch)
+
+**[开始学习](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[选择学习路径](#learning-routes)** · **[试做实验](#interactive-lab)** · **[构建项目](#project-challenges)** · **[浏览课程目录](#contents)**
 
 免费、开源、MIT 许可。你可以在网站学习、使用编程代理辅助学习，或在本地运行代码。
 
@@ -22,7 +24,7 @@
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 节课"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 个阶段"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星标"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
 </p>
 
 <details>
@@ -52,11 +54,11 @@
 
 | 路线 | 起始课程 |
 |---|---|
-| 模型基础 | [环境设置与工具](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM 系统 | [提示工程](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 智能体与交付 | [智能体循环](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 模型基础 | [环境设置与工具](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM 系统 | [提示工程](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 智能体与交付 | [智能体循环](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[比较职业路径](https://aiengineeringfromscratch.com/learning-paths.html) · [先修知识与学习时间](#study-guide)
+[比较职业路径](https://iamabhishekpanda.com/learning-paths.html) · [先修知识与学习时间](#study-guide)
 
 ## 接下来学习什么
 
@@ -79,6 +81,22 @@ flowchart LR
   E --> A
 ```
 
+## AI 解决方案架构师路径
+
+这条扩展路径连接模型知识与可部署、可运营的 AI 系统之间的生产架构能力。
+
+<p align="center">
+  <img src="../../assets/readme/ai-solution-architect-roadmap.svg" alt="从基础架构到 Azure 部署、LangChain 与 LangGraph 编排、LangSmith 评估和安全运营的 AI 解决方案架构师路线图" width="840">
+</p>
+
+1. **架构基础：**需求、取舍、API、数据契约、威胁模型和可观测性。
+2. **Azure 交付：**Azure Functions 或 Container Apps、Azure AI Foundry、Azure OpenAI、Blob Storage、Azure AI Search、Key Vault、身份、网络、监控和成本控制。
+3. **编排：**使用 LangChain 组合模型与工具边界，使用 LangGraph 构建持久化状态工作流，并明确重试和审批边。
+4. **评估与运营：**使用 LangSmith 追踪和数据集，建立离线回归门、提示词版本、延迟预算、红队检查和事件手册。
+5. **架构师结业项目：**设计、部署、测试、观测和保护一个生产级 RAG 或多智能体服务，并写出架构决策记录。
+
+详细顺序见 [docs/ai-solution-architect-roadmap.md](../../docs/ai-solution-architect-roadmap.md)。这些内容属于扩展路线，直到每个供应商专题进入主课程阶段目录。
+
 <a id="interactive-lab"></a>
 
 ### 梯度下降
@@ -86,7 +104,7 @@ flowchart LR
 20 个起点在二次损失函数上执行梯度下降。图中显示每次更新后的位置和平均损失。
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -100,7 +118,7 @@ flowchart LR
   </a>
 </p>
 
-[在课程中调整学习率](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [通过代码比较 GD、动量和 Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[在课程中调整学习率](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [通过代码比较 GD、动量和 Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -126,7 +144,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **保留：**可复现的比较结果，包括逐查询差值和评分使用的相关性标注。指标反映的是这些标注，并不能证明答案正确。
 
-[开始项目](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [查看参考实现](../../projects/retrieval-evaluation-lab/solution/) · [使用自己的输入运行](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[开始项目](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [查看参考实现](../../projects/retrieval-evaluation-lab/solution/) · [使用自己的输入运行](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -148,7 +166,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **保留：**输入追踪、HTML 时间线和 JSON 退化报告。每个跨度只记录自身独占的 token 用量，避免重复计算父子跨度的用量。
 
-[开始项目](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [查看参考实现](../../projects/agent-trace-debugger/solution/) · [交互探索耗时](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[开始项目](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [查看参考实现](../../projects/agent-trace-debugger/solution/) · [交互探索耗时](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -170,17 +188,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **保留：**显示请求操作和策略决策的审计凭据。批准只能在一次调用中使用一次；本项目不提供持久授权或操作系统沙盒。
 
-[开始项目](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [查看参考实现](../../projects/tool-call-firewall/solution/) · [探索批准边界](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[开始项目](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [查看参考实现](../../projects/tool-call-firewall/solution/) · [探索批准边界](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[浏览全部项目](https://aiengineeringfromscratch.com/projects.html) · [职业实践指南](../../learning-paths/CAREER-PRACTICE.md)
+[浏览全部项目](https://iamabhishekpanda.com/projects.html) · [职业实践指南](../../learning-paths/CAREER-PRACTICE.md)
 
 ## 选择学习方式
 
 ### 在网站上学习
 
-在 [课程网站](https://aiengineeringfromscratch.com)打开任意已完成课程，或从[课程目录](#contents)展开一个阶段。不需要安装，也不需要克隆。
+在 [课程网站](https://iamabhishekpanda.com)打开任意已完成课程，或从[课程目录](#contents)展开一个阶段。不需要安装，也不需要克隆。
 
 ### 使用 AI 导师
 
@@ -217,9 +235,9 @@ python3 --version
 
 只想学习 MCP？使用上表中对应宿主的调用方式。它会创建 `MCP-LEARNING.md`，带你沿着 17 节课的路线学习无状态请求、传输方式、双向交互、安全、可靠性、注册表治理和一致性证据。顺序与检查点见 [MCP 路线清单](../../learning-paths/model-context-protocol.json)。
 
-只想学习 Agent Skills？该路线会创建 `AGENT-SKILLS-LEARNING.md`，用五节课依次学习技能契约、发现、调用、沙盒边界，以及发布评估和真实宿主的可移植性。也可以从网站上的 [Agent Skills 路线](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)开始。
+只想学习 Agent Skills？该路线会创建 `AGENT-SKILLS-LEARNING.md`，用五节课依次学习技能契约、发现、调用、沙盒边界，以及发布评估和真实宿主的可移植性。也可以从网站上的 [Agent Skills 路线](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills)开始。
 
-安装器会列出它支持的宿主，并询问安装位置。如果你暂时没有 Node.js、`npx`、`python3`、受支持的宿主或可写入的安装目录，仍可在网站阅读课程，或手动打开 `docs/en.md`。这能帮助你学习概念；宿主发现、技能调用、脚本执行和卸载的真实证据，则要等环境就绪后再完成。[访问课程网站](https://aiengineeringfromscratch.com)。
+安装器会列出它支持的宿主，并询问安装位置。如果你暂时没有 Node.js、`npx`、`python3`、受支持的宿主或可写入的安装目录，仍可在网站阅读课程，或手动打开 `docs/en.md`。这能帮助你学习概念；宿主发现、技能调用、脚本执行和卸载的真实证据，则要等环境就绪后再完成。[访问课程网站](https://iamabhishekpanda.com)。
 
 ### 学习技能
 
@@ -274,25 +292,25 @@ python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 
 | 你的目标 | 在 GitHub 学习 | 在网站学习 |
 |---|---|---|
-| 我刚入门，需要完整的基础 | [阶段 0：环境与工具](../../phases/00-setup-and-tooling/) | [开发环境](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| 我会 Python，想补齐数学与机器学习基础 | [阶段 1：数学基础](../../phases/01-math-foundations/) | [线性代数直觉](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| 我想构建可用于生产环境的 LLM 应用 | [阶段 11：LLM 工程](../../phases/11-llm-engineering/) | [提示词工程](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| 我想构建智能体 | [阶段 14：智能体工程](../../phases/14-agent-engineering/) | [智能体循环](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| 我想用编程智能体处理真实仓库 | [智能体辅助工程路径](../../learning-paths/using-coding-agents.json) | [智能体辅助工程](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| 我想在动手前确定真正该构建什么 | [产品判断与交付路径](../../learning-paths/shaping-the-build.json) | [产品判断与交付](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| 我刚入门，需要完整的基础 | [阶段 0：环境与工具](../../phases/00-setup-and-tooling/) | [开发环境](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| 我会 Python，想补齐数学与机器学习基础 | [阶段 1：数学基础](../../phases/01-math-foundations/) | [线性代数直觉](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| 我想构建可用于生产环境的 LLM 应用 | [阶段 11：LLM 工程](../../phases/11-llm-engineering/) | [提示词工程](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| 我想构建智能体 | [阶段 14：智能体工程](../../phases/14-agent-engineering/) | [智能体循环](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| 我想用编程智能体处理真实仓库 | [智能体辅助工程路径](../../learning-paths/using-coding-agents.json) | [智能体辅助工程](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| 我想在动手前确定真正该构建什么 | [产品判断与交付路径](../../learning-paths/shaping-the-build.json) | [产品判断与交付](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-不确定从哪里开始？试试 [`start-learning` 入门测评导师](../../skills/start-learning/SKILL.md)，或查看[网站的先修知识指南](https://aiengineeringfromscratch.com/prereqs.html)。
+不确定从哪里开始？试试 [`start-learning` 入门测评导师](../../skills/start-learning/SKILL.md)，或查看[网站的先修知识指南](https://iamabhishekpanda.com/prereqs.html)。
 
-在 [AI 工程学习路径](https://aiengineeringfromscratch.com/learning-paths.html)中，对比四大核心领域和六条职业路线。
+在 [AI 工程学习路径](https://iamabhishekpanda.com/learning-paths.html)中，对比四大核心领域和六条职业路线。
 
 <details>
 <summary>MCP、Agent Skills 与逆向工程专项路径</summary>
 
 | 你的目标 | 在 GitHub 学习 | 在网站学习 |
 |---|---|---|
-| 我想用模型上下文协议（MCP）构建系统 | [MCP 学习路线](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [MCP 路径](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| 我想编写并发布 Agent Skills | [Agent Skills 专项路线](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 路径](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| 我想读懂编译后的程序 | [逆向工程专项路线](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [逆向工程路径](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| 我想用模型上下文协议（MCP）构建系统 | [MCP 学习路线](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [MCP 路径](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| 我想编写并发布 Agent Skills | [Agent Skills 专项路线](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills 路径](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| 我想读懂编译后的程序 | [逆向工程专项路线](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [逆向工程路径](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1115,7 +1133,7 @@ flowchart TB
 
 [Claude 认证学院](../../certifications/claude/README.md)是一套免费、开源的备考课程，覆盖四条官方认证路线：Associate Foundations、Developer Foundations、Architect Foundations 和 Architect Professional。每条路线都结合考试蓝图对应的课程、可运行实验、诊断测验、综合项目，以及一套原创的完整模拟试卷。
 
-可在 Claude Code、Codex、ChatGPT、Cursor 或其他智能体中使用 [GitHub 入门指南](../../certifications/claude/GETTING_STARTED.md)。在 Codex 中输入 `claude-certification`，在 Claude Code 中使用 `/claude-certification`，其他宿主则可直接要求使用 `claude-certification` 技能。它会帮你选路线，在 `CLAUDE-CERTIFICATION.md` 中保存持续更新的学习计划，逐步讲解课程、运行真实实验，并根据成果文件给出反馈。你也可以在[认证课程网站](https://aiengineeringfromscratch.com/certifications.html)学习同一套内容。
+可在 Claude Code、Codex、ChatGPT、Cursor 或其他智能体中使用 [GitHub 入门指南](../../certifications/claude/GETTING_STARTED.md)。在 Codex 中输入 `claude-certification`，在 Claude Code 中使用 `/claude-certification`，其他宿主则可直接要求使用 `claude-certification` 技能。它会帮你选路线，在 `CLAUDE-CERTIFICATION.md` 中保存持续更新的学习计划，逐步讲解课程、运行真实实验，并根据成果文件给出反馈。你也可以在[认证课程网站](https://iamabhishekpanda.com/certifications.html)学习同一套内容。
 
 这是一套依据公开考试目标编写的独立学习资料，与 Anthropic 没有关联；它不复现真实考试题目，也不能保证通过考试。
 
@@ -1126,7 +1144,7 @@ flowchart TB
 
 [MCPA 认证课程](../../certifications/mcpa/README.md)是针对 Agentic AI Foundation 的 Model Context Protocol Associate 考试编写的免费开源备考资料，该考试通过 Linux Foundation Training 提供。34 节课覆盖五个考试领域，并围绕 2026-07-28 版无状态协议展开：以每次请求的 `_meta` 和 `server/discover` 替代旧握手、多轮请求、订阅、缓存、tasks 与 MCP Apps 扩展、OAuth 授权，以及注册表和 SDK 分层。每节课都附有可运行的标准库实验，检查运行记录是否符合当前协议格式；整条路线还包含诊断测验、综合项目和三套按公开蓝图权重编排的原创完整模拟试卷。
 
-可在 Claude Code、Codex、ChatGPT、Cursor 或其他智能体中使用 [GitHub 入门指南](../../certifications/mcpa/GETTING_STARTED.md)。在 Codex 中输入 `mcpa-certification`，在 Claude Code 中使用 `/mcpa-certification`，其他宿主则可直接要求使用 `mcpa-certification` 技能。它会在 `MCPA-CERTIFICATION.md` 中保存学习路线，逐步讲解、运行实验，并根据成果给出反馈。[MCPA 网站路线](https://aiengineeringfromscratch.com/certification?id=mcpa-f)也提供相同课程。
+可在 Claude Code、Codex、ChatGPT、Cursor 或其他智能体中使用 [GitHub 入门指南](../../certifications/mcpa/GETTING_STARTED.md)。在 Codex 中输入 `mcpa-certification`，在 Claude Code 中使用 `/mcpa-certification`，其他宿主则可直接要求使用 `mcpa-certification` 技能。它会在 `MCPA-CERTIFICATION.md` 中保存学习路线，逐步讲解、运行实验，并根据成果给出反馈。[MCPA 网站路线](https://iamabhishekpanda.com/certification?id=mcpa-f)也提供相同课程。
 
 这是一套依据公开考试目标编写的独立资料，与 Agentic AI Foundation 或 Linux Foundation 没有关联；它不复现真实考试题目，也不能保证通过考试。
 
@@ -1299,26 +1317,12 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 任何规则失败都会让命令返回非零退出码。规则 L001–L010 检查目录结构、`docs/en.md` 是否存在且包含一级标题、`code/` 是否非空、`quiz.json` 是否符合当前 Schema（拒绝曾引发 #102 问题的旧 `q/choices/answer` 字段），以及课程文档中的相对链接。
 
-<a id="supporters"></a>
-
-## 赞助本项目
+## 课程概览
 
 <!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
 <p align="center"><sub><b>114,584</b> 位读者 &nbsp;·&nbsp; 近 30 天 <b>181,995</b> 次页面浏览 &nbsp;·&nbsp; 数据截至 2026-08-29</sub></p>
 <!-- STATS:END -->
 
-课程免费，采用 MIT 许可证，共有 542 节课。感谢所有让它持续开放的赞助方和支持者。[查看赞助方与支持者](../../BACKERS.md)。
-
-想支持项目？可了解[赞助方式](../../SPONSORS.md)，包括[硬件赞助](../../SPONSORS.md#hardware-lab-partner)，或[通过 GitHub 赞助](https://github.com/sponsors/rohitg00)。
-
-如果这份手册帮助了你，欢迎为仓库加星，支持项目持续更新。
-
 ## 许可证
 
 本项目采用 MIT 许可证。你可以复刻、教学、出售或发布；欢迎署名，但许可证不强制要求。
-
-由 [Rohit Ghumare](https://github.com/iamabhishekpanda) 与社区共同维护。
-
-<sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">反馈与建议</a>
-</sub>

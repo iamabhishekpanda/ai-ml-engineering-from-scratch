@@ -9,7 +9,7 @@
 
 Implementează mecanismele interne ale modelelor, fluxurile de regăsire a informațiilor și mediile de execuție pentru agenți. Testează-le, analizează erorile și păstrează codul și rezultatele evaluării.
 
-**[Începe să înveți](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Alege un parcurs](#learning-routes)** · **[Încearcă un laborator](#interactive-lab)** · **[Construiește un proiect](#project-challenges)** · **[Consultă programa](#contents)**
+**[Începe să înveți](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Alege un parcurs](#learning-routes)** · **[Încearcă un laborator](#interactive-lab)** · **[Construiește un proiect](#project-challenges)** · **[Consultă programa](#contents)**
 
 Gratuit, cu sursă deschisă, licență MIT. Învață pe site, cu un agent de programare sau rulând cod local.
 
@@ -20,7 +20,7 @@ Gratuit, cu sursă deschisă, licență MIT. Învață pe site, cu un agent de p
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 de lecții"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 de etape"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Stele GitHub"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Site web"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Site web"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Gratuit, cu sursă deschisă, licență MIT. Învață pe site, cu un agent de p
 
 | Traseu | Prima lecție |
 |---|---|
-| Fundamentele modelelor | [Configurare și instrumente](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Sisteme LLM | [Ingineria prompturilor](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Agenți și livrarea sistemelor | [Bucla agentului](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Fundamentele modelelor | [Configurare și instrumente](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Sisteme LLM | [Ingineria prompturilor](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agenți și livrarea sistemelor | [Bucla agentului](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Compară traseele profesionale](https://aiengineeringfromscratch.com/learning-paths.html) · [Cerințe preliminare și timp de studiu](#study-guide)
+[Compară traseele profesionale](https://iamabhishekpanda.com/learning-paths.html) · [Cerințe preliminare și timp de studiu](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Gratuit, cu sursă deschisă, licență MIT. Învață pe site, cu un agent de p
 Douăzeci de puncte de pornire urmează coborârea pe gradient pe o funcție de pierdere pătratică. Graficul arată pozițiile lor și pierderea medie după fiecare actualizare.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Douăzeci de puncte de pornire urmează coborârea pe gradient pe o funcție de 
   </a>
 </p>
 
-[Ajustează rata de învățare în lecție](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Compară în cod coborârea pe gradient, impulsul și Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Ajustează rata de învățare în lecție](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Compară în cod coborârea pe gradient, impulsul și Adam](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Păstrează:** o comparație reproductibilă cu diferențele pentru fiecare interogare și evaluările de relevanță folosite la calcularea scorurilor. Metricile descriu acele evaluări; nu stabilesc corectitudinea răspunsurilor.
 
-[Începe proiectul](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Inspectează referința](../../projects/retrieval-evaluation-lab/solution/) · [Rulează cu propriile date de intrare](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Începe proiectul](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Inspectează referința](../../projects/retrieval-evaluation-lab/solution/) · [Rulează cu propriile date de intrare](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Păstrează:** urma de intrare, o cronologie HTML și un raport de regresie JSON. Păstrează numărul propriu de tokenuri al fiecărui span, fără spanurile copil, pentru a nu număra de două ori consumul părinților și al copiilor.
 
-[Începe proiectul](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Inspectează referința](../../projects/agent-trace-debugger/solution/) · [Explorează timpii interactiv](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Începe proiectul](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Inspectează referința](../../projects/agent-trace-debugger/solution/) · [Explorează timpii interactiv](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Păstrează:** o înregistrare de audit cu operația solicitată și decizia politicii. Aprobările sunt de unică folosință în cadrul unei invocări; proiectul nu oferă autorizare persistentă sau un sandbox al sistemului de operare.
 
-[Începe proiectul](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Inspectează referința](../../projects/tool-call-firewall/solution/) · [Explorează limitele aprobării](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Începe proiectul](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Inspectează referința](../../projects/tool-call-firewall/solution/) · [Explorează limitele aprobării](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Răsfoiește toate proiectele](https://aiengineeringfromscratch.com/projects.html) · [Ghid de practică profesională](../../learning-paths/CAREER-PRACTICE.md)
+[Răsfoiește toate proiectele](https://iamabhishekpanda.com/projects.html) · [Ghid de practică profesională](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Alege cum să înveți
 
 ### Pe site
 
-Deschide o lecție finalizată pe [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) sau extinde o etapă din [cuprins](#contents). Fără configurare sau clonare.
+Deschide o lecție finalizată pe [iamabhishekpanda.com](https://iamabhishekpanda.com) sau extinde o etapă din [cuprins](#contents). Fără configurare sau clonare.
 
 ### Cu un îndrumător AI
 
@@ -194,9 +194,9 @@ Un test de plasare cu zece întrebări îți mapează cunoștințele la etapa de
 
 Vrei doar Model Context Protocol (MCP)? Folosește invocarea MCP pentru gazda ta. Aceasta creează `MCP-LEARNING.md` și urmează un traseu de 17 lecții despre cereri fără stare, transporturi, lucru bidirecțional, securitate, fiabilitate, guvernanța registrului și dovezi de conformitate. Ordinea exactă și punctele de control se află în [manifestul Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
 
-Vrei doar Agent Skills? Folosește invocarea Agent Skills pentru gazda ta. Creează `AGENT-SKILLS-LEARNING.md` și urmează un traseu coerent de cinci lecții: contract, descoperire, invocare, limitele mediului izolat, apoi evaluarea lansării și portabilitatea între gazde reale. Pe web începe cu [traseul Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+Vrei doar Agent Skills? Folosește invocarea Agent Skills pentru gazda ta. Creează `AGENT-SKILLS-LEARNING.md` și urmează un traseu coerent de cinci lecții: contract, descoperire, invocare, limitele mediului izolat, apoi evaluarea lansării și portabilitatea între gazde reale. Pe web începe cu [traseul Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
-Instalatorul enumeră gazdele pe care le poate configura și întreabă unde să instaleze. Dacă nu ai încă Node.js, `npx`, `python3`, o gazdă acceptată sau un domeniu în care poți scrie, folosește site-ul ori citește manual `docs/en.md`. Înveți astfel conceptele, dar dovezile de descoperire, invocare, scripturi și dezinstalare pe o gazdă reală rămân de strâns până când poți trece verificarea inițială. Citește lecțiile pe [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+Instalatorul enumeră gazdele pe care le poate configura și întreabă unde să instaleze. Dacă nu ai încă Node.js, `npx`, `python3`, o gazdă acceptată sau un domeniu în care poți scrie, folosește site-ul ori citește manual `docs/en.md`. Înveți astfel conceptele, dar dovezile de descoperire, invocare, scripturi și dezinstalare pe o gazdă reală rămân de strâns până când poți trece verificarea inițială. Citește lecțiile pe [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### Abilitățile de învățare
 
@@ -251,25 +251,25 @@ Nu trebuie să parcurgi toate cele 542 de lecții înainte să începi. Alege un
 
 | Obiectivul tău | Învață pe GitHub | Învață pe site |
 |---|---|---|
-| Sunt la început și vreau o bază completă | [Etapa 0: Configurare și instrumente](../../phases/00-setup-and-tooling/) | [Mediul de dezvoltare](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Cunosc Python și vreau bazele matematicii și ale ML | [Etapa 1: Fundamente matematice](../../phases/01-math-foundations/) | [Înțelegerea intuitivă a algebrei liniare](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Vreau să construiesc aplicații LLM pentru producție | [Etapa 11: Ingineria LLM](../../phases/11-llm-engineering/) | [Ingineria prompturilor](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Vreau să construiesc agenți | [Etapa 14: Ingineria agenților](../../phases/14-agent-engineering/) | [Bucla agentului](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Vreau să folosesc agenți de programare în depozite de cod reale | [Traseul de inginerie asistată de agenți](../../learning-paths/using-coding-agents.json) | [Inginerie asistată de agenți](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Vreau să stabilesc ce merită construit înainte de implementare | [Traseul de decizie și livrare a produsului](../../learning-paths/shaping-the-build.json) | [Decizie și livrare a produsului](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Sunt la început și vreau o bază completă | [Etapa 0: Configurare și instrumente](../../phases/00-setup-and-tooling/) | [Mediul de dezvoltare](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Cunosc Python și vreau bazele matematicii și ale ML | [Etapa 1: Fundamente matematice](../../phases/01-math-foundations/) | [Înțelegerea intuitivă a algebrei liniare](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Vreau să construiesc aplicații LLM pentru producție | [Etapa 11: Ingineria LLM](../../phases/11-llm-engineering/) | [Ingineria prompturilor](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Vreau să construiesc agenți | [Etapa 14: Ingineria agenților](../../phases/14-agent-engineering/) | [Bucla agentului](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Vreau să folosesc agenți de programare în depozite de cod reale | [Traseul de inginerie asistată de agenți](../../learning-paths/using-coding-agents.json) | [Inginerie asistată de agenți](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Vreau să stabilesc ce merită construit înainte de implementare | [Traseul de decizie și livrare a produsului](../../learning-paths/shaping-the-build.json) | [Decizie și livrare a produsului](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Nu știi de unde să începi? Folosește [tutorele `start-learning` pentru evaluarea nivelului](../../skills/start-learning/SKILL.md) sau [ghidul de cunoștințe necesare de pe site](https://aiengineeringfromscratch.com/prereqs.html).
+Nu știi de unde să începi? Folosește [tutorele `start-learning` pentru evaluarea nivelului](../../skills/start-learning/SKILL.md) sau [ghidul de cunoștințe necesare de pe site](https://iamabhishekpanda.com/prereqs.html).
 
-Compară patru domenii de bază și șase trasee profesionale în [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
+Compară patru domenii de bază și șase trasee profesionale în [AI Engineering Learning Paths](https://iamabhishekpanda.com/learning-paths.html).
 
 <details>
 <summary>Trasee specializate MCP, Agent Skills și inginerie inversă</summary>
 
 | Obiectivul tău | Învață pe GitHub | Învață pe site |
 |---|---|---|
-| Vreau să construiesc folosind Model Context Protocol (MCP) | [Ruta Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Traseul Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Vreau să scriu și să public Agent Skills | [Ruta dedicată Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Traseul Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Vreau să citesc programe compilate | [Ruta de inginerie inversă](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Traseul de inginerie inversă](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| Vreau să construiesc folosind Model Context Protocol (MCP) | [Ruta Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Traseul Model Context Protocol (MCP)](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Vreau să scriu și să public Agent Skills | [Ruta dedicată Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Traseul Agent Skills](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Vreau să citesc programe compilate | [Ruta de inginerie inversă](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Traseul de inginerie inversă](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ Cartea este o fotografie de moment; depozitul este ediția vie. Fiecare capitol 
 
 [Academia de certificare Claude](../../certifications/claude/README.md) este un program gratuit, cu sursă deschisă, pentru toate cele patru trasee oficiale: Associate Foundations, Developer Foundations, Architect Foundations și Architect Professional. Fiecare combină lecții aliniate programei examenului, laboratoare executabile, un diagnostic, un proiect final și un examen de practică original, complet.
 
-Folosește [ghidul de pornire GitHub cu AI](../../certifications/claude/GETTING_STARTED.md) în Claude Code, Codex, ChatGPT, Cursor sau alt agent. Rulează `claude-certification` în Codex, `/claude-certification` în Claude Code sau cere altei gazde să folosească `claude-certification`. Alege un traseu, creează un plan persistent în `CLAUDE-CERTIFICATION.md`, predă pas cu pas, rulează laboratoarele reale și oferă feedback bazat pe rezultate. Același program este disponibil pe [site-ul de certificare](https://aiengineeringfromscratch.com/certifications.html).
+Folosește [ghidul de pornire GitHub cu AI](../../certifications/claude/GETTING_STARTED.md) în Claude Code, Codex, ChatGPT, Cursor sau alt agent. Rulează `claude-certification` în Codex, `/claude-certification` în Claude Code sau cere altei gazde să folosească `claude-certification`. Alege un traseu, creează un plan persistent în `CLAUDE-CERTIFICATION.md`, predă pas cu pas, rulează laboratoarele reale și oferă feedback bazat pe rezultate. Același program este disponibil pe [site-ul de certificare](https://iamabhishekpanda.com/certifications.html).
 
 Academia este material de studiu independent bazat pe obiective publice de examen. Nu este afiliată cu Anthropic, nu reproduce întrebări din examene reale și nu poate garanta promovarea.
 
@@ -1103,7 +1103,7 @@ Academia este material de studiu independent bazat pe obiective publice de exame
 
 [Programul de certificare MCPA](../../certifications/mcpa/README.md) este o pregătire gratuită, cu sursă deschisă, pentru examenul Model Context Protocol Associate al Agentic AI Foundation, oferit prin Linux Foundation Training. Cele 34 de lecții predau protocolul fără stare 2026-07-28 în cele cinci domenii de examen: `_meta` per cerere și `server/discover` în locul vechii negocieri, cereri cu mai multe runde, abonamente, cache, extensiile de sarcini și MCP Apps, autorizare OAuth și nivelurile de registru și SDK. Fiecare lecție livrează un laborator executabil numai cu biblioteca standard, al cărui transcript este verificat pentru formatul actual al comunicației. Traseul adaugă un diagnostic, un proiect final și trei examene originale complete, cu distribuția întrebărilor conform ponderilor publicate.
 
-Folosește [ghidul de pornire GitHub cu AI](../../certifications/mcpa/GETTING_STARTED.md) în Claude Code, Codex, ChatGPT, Cursor sau alt agent. Rulează `mcpa-certification` în Codex, `/mcpa-certification` în Claude Code sau cere altei gazde să folosească `mcpa-certification`. Creează un traseu persistent în `MCPA-CERTIFICATION.md`, predă pas cu pas, rulează laboratoarele reale și oferă feedback pe baza rezultatelor. Același program este pe [pagina traseului MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+Folosește [ghidul de pornire GitHub cu AI](../../certifications/mcpa/GETTING_STARTED.md) în Claude Code, Codex, ChatGPT, Cursor sau alt agent. Rulează `mcpa-certification` în Codex, `/mcpa-certification` în Claude Code sau cere altei gazde să folosească `mcpa-certification`. Creează un traseu persistent în `MCPA-CERTIFICATION.md`, predă pas cu pas, rulează laboratoarele reale și oferă feedback pe baza rezultatelor. Același program este pe [pagina traseului MCPA](https://iamabhishekpanda.com/certification?id=mcpa-f).
 
 Acest program este material de studiu independent bazat pe obiective publice de examen. Nu este afiliat cu Agentic AI Foundation sau Linux Foundation, nu reproduce întrebări din examene reale și nu poate garanta promovarea.
 
@@ -1297,5 +1297,5 @@ MIT. Folosește materialul cum dorești: creează un fork, predă-l, vinde-l sau
 Întreținut de [Rohit Ghumare](https://github.com/iamabhishekpanda) și de comunitate.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Raportează / Sugerează</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Raportează / Sugerează</a>
 </sub>

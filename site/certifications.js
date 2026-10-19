@@ -439,7 +439,7 @@
     var desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute('content', description);
     var canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://aiengineeringfromscratch.com/certification?id=' + encodeURIComponent(track.id));
+    if (canonical) canonical.setAttribute('href', 'https://iamabhishekpanda.com/certification?id=' + encodeURIComponent(track.id));
   }
 
   function renderTrackNotFound(hero) {
@@ -447,7 +447,7 @@
     var description = document.querySelector('meta[name="description"]');
     if (description) description.setAttribute('content', 'Choose an available certification preparation track.');
     var canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://aiengineeringfromscratch.com/certifications.html');
+    if (canonical) canonical.setAttribute('href', 'https://iamabhishekpanda.com/certifications.html');
     var breadcrumb = document.getElementById('trackBreadcrumb');
     if (breadcrumb) breadcrumb.textContent = 'Not found';
     var main = document.getElementById('main');

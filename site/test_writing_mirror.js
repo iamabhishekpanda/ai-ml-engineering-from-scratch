@@ -125,7 +125,7 @@ test('absolute or versioned portfolio search is removed without removing unrelat
 });
 
 test('social sharing points at the canonical URL and names the course site', () => {
-  const result = mirrorArticle(fixture({ head: '<meta name="twitter:url" content="https://aiengineeringfromscratch.com/blog/example/"><meta property="og:site_name" content="Rohit Ghumare">' }), item, catalog);
+  const result = mirrorArticle(fixture({ head: '<meta name="twitter:url" content="https://iamabhishekpanda.com/blog/example/"><meta property="og:site_name" content="Rohit Ghumare">' }), item, catalog);
   assert.match(result, /name="twitter:url" content="https:\/\/rohitghumare.com\/blog\/example\/"/);
   assert.match(result, /property="og:url" content="https:\/\/rohitghumare.com\/blog\/example\/"/);
   assert.match(result, /rel="canonical" href="https:\/\/rohitghumare.com\/blog\/example\/"/);
@@ -154,9 +154,9 @@ test('structured breadcrumbs match the course navigation without altering articl
     assert.deepEqual(actual[0], article);
     assert.deepEqual(actual[2], faq);
     assert.deepEqual(actual[1].itemListElement, [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aiengineeringfromscratch.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Blogs & Guides', item: 'https://aiengineeringfromscratch.com/blogs' },
-      { '@type': 'ListItem', position: 3, name: title, item: 'https://aiengineeringfromscratch.com/blog/example/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iamabhishekpanda.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Blogs & Guides', item: 'https://iamabhishekpanda.com/blogs' },
+      { '@type': 'ListItem', position: 3, name: title, item: 'https://iamabhishekpanda.com/blog/example/' },
     ]);
     assert.ok(result.includes('<script>' + script + '</script>'));
     assert.ok(result.includes('<style>' + style + '</style>'));

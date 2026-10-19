@@ -6,7 +6,7 @@ This is an independent practice guide. A working portfolio records what you can 
 
 ## Check Your Starting Point
 
-If you are a beginner, start with [Software Engineering Fundamentals](https://aiengineeringfromscratch.com/learning-paths.html#software-fundamentals) and complete the prerequisites named by each lesson. The career routes are specialist overlays, not replacements for the underlying curriculum.
+If you are a beginner, start with [Software Engineering Fundamentals](https://iamabhishekpanda.com/learning-paths.html#software-fundamentals) and complete the prerequisites named by each lesson. The career routes are specialist overlays, not replacements for the underlying curriculum.
 
 If you have equivalent knowledge, demonstrate it on a small repository before skipping foundation lessons:
 
@@ -19,11 +19,11 @@ Revisit the corresponding foundation when you cannot explain or reproduce the re
 
 ## Follow a Sequence, Keep One Project
 
-1. Establish [software foundations](https://aiengineeringfromscratch.com/learning-paths.html#software-fundamentals). Keep a reproducible repository with one tested end-to-end behavior.
+1. Establish [software foundations](https://iamabhishekpanda.com/learning-paths.html#software-fundamentals). Keep a reproducible repository with one tested end-to-end behavior.
 2. Start [Product Judgment and Delivery](shaping-the-build.json) before building the feature. Observe a workflow, name the user outcome, record assumptions, and choose the smallest useful experiment.
 3. Apply [AI application foundations](building-and-deploying-ai-applications.json) to that experiment. Build the interface, grounding, evaluation, failure handling, and operational boundary the slice actually needs.
 4. Use [Agent-Assisted Engineering](using-coding-agents.json) during implementation. Frame bounded tasks, supply context, control tools, review the changes, and verify the running artifact independently.
-5. Follow your [specialist route](https://aiengineeringfromscratch.com/learning-paths.html#career-chooser) to deepen the same system. Add complexity only when the role's evidence requires it.
+5. Follow your [specialist route](https://iamabhishekpanda.com/learning-paths.html#career-chooser) to deepen the same system. Add complexity only when the role's evidence requires it.
 6. Close the product loop: gather feedback, brief a stakeholder, make one owned improvement, and rerun the relevant evaluation and cost comparison.
 
 Follow each route's listed lesson order and prerequisites. Shared lessons need one artifact applied well to this project, not duplicate completion records. Guided lesson minutes exclude your independent project and review time.

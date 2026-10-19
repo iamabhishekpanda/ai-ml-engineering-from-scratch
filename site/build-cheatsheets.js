@@ -11,7 +11,7 @@ const { versionHtml } = require('./version-assets');
 const topicMap = require('./cheatsheet-topics');
 const evidenceCheck = require('./cheatsheet-evidence');
 
-const ORIGIN = 'https://aiengineeringfromscratch.com';
+const ORIGIN = 'https://iamabhishekpanda.com';
 const REPO = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch';
 const ISSUES_URL = `${REPO}/issues`;
 const AUTHOR = 'Rohit Ghumare';
@@ -674,7 +674,7 @@ function posterMain(topic, year, neighbours) {
   }).join('');
   const head = `<header class="cs-poster-head"><div class="cs-title-block"><span class="cs-code" aria-hidden="true">${escapeHtml(topic.code)}</span><div><p class="cs-kicker"><a href="${BASE}">Cheat sheets</a></p><h1>${escapeHtml(topic.title)}</h1><p class="cs-sub">${placeholders(inline(topic.subtitle))}</p></div></div><div class="cs-head-side">${legendHtml(topic)}<p class="cs-actions"><button type="button" class="cs-print" data-print>Print</button><a href="${REPO}/blob/main/${TOPIC_DIR}/${topic.id}.md">Source</a></p></div></header>`;
   const pager = [neighbours.previous && `<a href="${neighbours.previous.href}" rel="prev">← ${escapeHtml(neighbours.previous.title)}</a>`, `<a href="${BASE}">All cheat sheets</a>`, neighbours.next && `<a href="${neighbours.next.href}" rel="next">${escapeHtml(neighbours.next.title)} →</a>`].filter(Boolean).join('');
-  const foot = `<footer class="cs-foot"><p class="cs-covers"><span>Covers</span>${sources}</p><nav class="cs-pager" aria-label="Cheat sheet navigation">${pager}</nav><p class="cs-stamp"><span>aiengineeringfromscratch.com${BASE}/${topic.id}</span><span>${copyLine(year)}</span><span>source ${topic.hash}</span></p></footer>`;
+  const foot = `<footer class="cs-foot"><p class="cs-covers"><span>Covers</span>${sources}</p><nav class="cs-pager" aria-label="Cheat sheet navigation">${pager}</nav><p class="cs-stamp"><span>iamabhishekpanda.com${BASE}/${topic.id}</span><span>${copyLine(year)}</span><span>source ${topic.hash}</span></p></footer>`;
   return `<main id="main" class="cs-page cs-poster">${head}${cols}${foot}</main>`;
 }
 
@@ -699,7 +699,7 @@ function indexMain(topics, year, phases) {
   const head = `<header class="cs-index-head"><p class="cs-kicker">AI Engineering from Scratch</p><h1>Cheat sheets</h1><p class="cs-sub">${topics.length} posters. Each poster holds the tasks, commands, code, diagrams, defaults and fixes that you use while you work. Every fact comes from a lesson, a manual or a project of this course.</p>${search}${filters}</header>`;
   const phaseList = byPhase ? `<section class="cs-index-section" aria-labelledby="by-phase"><h2 id="by-phase">By phase</h2><ul class="cs-by-phase">${byPhase}</ul></section>` : '';
   const how = '<section class="cs-index-section" aria-labelledby="how"><h2 id="how">How to use them</h2><ul class="cs-tips"><li>Each colour means one kind of block. Blue blocks are tasks and commands. Red blocks are fixes. The key is at the top of each poster.</li><li>Click a command to copy it. Replace each value in angle brackets, such as <code>&lt;model&gt;</code>.</li><li>Each block names the lesson or manual section that its facts come from. Open it when you need the reason.</li><li>Print a poster on one or two landscape pages. It fits A4 and Letter paper.</li></ul></section>';
-  return `<main id="main" class="cs-page cs-index">${head}${sections}${phaseList}${how}<footer class="cs-foot"><p class="cs-stamp"><span>aiengineeringfromscratch.com${BASE}</span><span>${copyLine(year)}</span></p></footer></main>`;
+  return `<main id="main" class="cs-page cs-index">${head}${sections}${phaseList}${how}<footer class="cs-foot"><p class="cs-stamp"><span>iamabhishekpanda.com${BASE}</span><span>${copyLine(year)}</span></p></footer></main>`;
 }
 
 function shell({ title, description, href, card, main, bodyClass, hue = 222 }, assets) {
@@ -1085,9 +1085,9 @@ function writeCheatsheets({ root = REPO_ROOT, siteDir = __dirname, edition } = {
 
 function printHtml(built) {
   const year = built.date.slice(0, 4);
-  const cover = `<section class="cs-cover"><div class="cs-cover-stamp"><span>AI Engineering from Scratch · Cheat sheets</span><span class="cs-cover-copy">${copyLine(year)}</span></div><h1>Cheat sheets</h1><p class="cs-sub">${built.topics.length} topic posters: tasks, commands, annotated code, diagrams, defaults and fixes.</p><ol class="cs-cover-list">${built.topics.map(topic => `<li style="--h:${topic.hue}"><span class="cs-code">${escapeHtml(topic.code)}</span>${escapeHtml(topic.title)}</li>`).join('')}</ol><div class="cs-cover-edition"><p>Edition ${escapeHtml(built.date)}. The newest edition is at the link below.</p><p><a href="${ORIGIN}${BASE}">aiengineeringfromscratch.com${BASE}</a> · <a href="${REPO}">source on GitHub</a></p></div></section>`;
+  const cover = `<section class="cs-cover"><div class="cs-cover-stamp"><span>AI Engineering from Scratch · Cheat sheets</span><span class="cs-cover-copy">${copyLine(year)}</span></div><h1>Cheat sheets</h1><p class="cs-sub">${built.topics.length} topic posters: tasks, commands, annotated code, diagrams, defaults and fixes.</p><ol class="cs-cover-list">${built.topics.map(topic => `<li style="--h:${topic.hue}"><span class="cs-code">${escapeHtml(topic.code)}</span>${escapeHtml(topic.title)}</li>`).join('')}</ol><div class="cs-cover-edition"><p>Edition ${escapeHtml(built.date)}. The newest edition is at the link below.</p><p><a href="${ORIGIN}${BASE}">iamabhishekpanda.com${BASE}</a> · <a href="${REPO}">source on GitHub</a></p></div></section>`;
   const posters = built.topics.map((topic, index) => `<section class="cs-print-topic" style="--h:${topic.hue}">${posterMain(topic, year, { previous: built.topics[index - 1], next: built.topics[index + 1] })}</section>`).join('');
-  const colophon = `<section class="cs-colophon"><p class="cs-kicker">About this edition</p><p>Cheat sheets, edition ${escapeHtml(built.date)}, by ${AUTHOR}. They are part of AI Engineering from Scratch, an open source course at <a href="${ORIGIN}">aiengineeringfromscratch.com</a>. The newest edition is always at <a href="${ORIGIN}${BASE}">aiengineeringfromscratch.com${BASE}</a>.</p><p>Each poster comes from one file in the <code>cheatsheets/</code> folder of the repository. Each block names the lessons and manual sections that hold its facts. The build checks that each flag, function name and default in a block appears in those files.</p><p>${copyLine(year)}. You can copy and share these sheets. Keep this page and the copyright line with them. Report an error at <a href="${ISSUES_URL}">${ISSUES_URL.replace('https://', '')}</a>.</p></section>`;
+  const colophon = `<section class="cs-colophon"><p class="cs-kicker">About this edition</p><p>Cheat sheets, edition ${escapeHtml(built.date)}, by ${AUTHOR}. They are part of AI Engineering from Scratch, an open source course at <a href="${ORIGIN}">iamabhishekpanda.com</a>. The newest edition is always at <a href="${ORIGIN}${BASE}">iamabhishekpanda.com${BASE}</a>.</p><p>Each poster comes from one file in the <code>cheatsheets/</code> folder of the repository. Each block names the lessons and manual sections that hold its facts. The build checks that each flag, function name and default in a block appears in those files.</p><p>${copyLine(year)}. You can copy and share these sheets. Keep this page and the copyright line with them. Report an error at <a href="${ISSUES_URL}">${ISSUES_URL.replace('https://', '')}</a>.</p></section>`;
   return `<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>

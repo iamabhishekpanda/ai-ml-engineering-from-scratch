@@ -5,7 +5,7 @@ const test = require('node:test');
 const { renderCollection } = require('../api/blogs');
 
 const template = fs.readFileSync(path.join(__dirname, 'blogs.html'), 'utf8');
-const origin = 'https://aiengineeringfromscratch.com';
+const origin = 'https://iamabhishekpanda.com';
 const item = { id: '/blog/example/', title: 'Inside an agent loop', description: 'Inspect the loop.', kind: 'blog' };
 
 function schemaFor(items) {

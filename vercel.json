@@ -3,6 +3,19 @@
   "outputDirectory": "site",
   "framework": null,
   "installCommand": "echo skip",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "aiengineeringfromscratch.com"
+        }
+      ],
+      "destination": "https://iamabhishekpanda.com/:path*",
+      "permanent": true
+    }
+  ],
   "routes": [
     {
       "src": "/blogs(?:\\.html)?/",

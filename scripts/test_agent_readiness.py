@@ -9,9 +9,9 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
-WEBSITE_ID = "https://aiengineeringfromscratch.com/#website"
-COURSE_ID = "https://aiengineeringfromscratch.com/#course"
-MAINTAINER_ID = "https://aiengineeringfromscratch.com/#maintainer"
+WEBSITE_ID = "https://iamabhishekpanda.com/#website"
+COURSE_ID = "https://iamabhishekpanda.com/#course"
+MAINTAINER_ID = "https://iamabhishekpanda.com/#maintainer"
 
 
 def load_json_ld(path: Path) -> list[dict]:
@@ -130,7 +130,7 @@ def main() -> None:
 
     openapi = json.loads((SITE / "openapi.json").read_text(encoding="utf-8"))
     assert openapi["openapi"].startswith("3.")
-    assert "https://aiengineeringfromscratch.com" in openapi["servers"][0]["url"]
+    assert "https://iamabhishekpanda.com" in openapi["servers"][0]["url"]
     paths = openapi["paths"]
     assert {
         "/llms.txt",
@@ -182,7 +182,7 @@ def main() -> None:
     assert all(entry["path"] == lesson_path for lesson_path, entry in lessons.items())
     assert all(
         entry["canonicalUrl"].startswith(
-            "https://aiengineeringfromscratch.com/lesson?path="
+            "https://iamabhishekpanda.com/lesson?path="
         )
         and "/lesson.html?" not in entry["canonicalUrl"]
         for entry in lessons.values()
@@ -194,7 +194,7 @@ def main() -> None:
     assert all(entry["id"] == track_id for track_id, entry in tracks.items())
     assert all(
         entry["canonicalUrl"].startswith(
-            "https://aiengineeringfromscratch.com/certification?id="
+            "https://iamabhishekpanda.com/certification?id="
         )
         and "/certification.html?" not in entry["canonicalUrl"]
         for entry in tracks.values()

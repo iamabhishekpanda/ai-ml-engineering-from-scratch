@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://aiengineeringfromscratch.com/manuals/manual.schema.json",
+  "$id": "https://iamabhishekpanda.com/manuals/manual.schema.json",
   "title": "Manual manifest",
   "description": "manual.json for one manual under manuals/<id>/. site/build-manuals.js enforces these rules on every build.",
   "type": "object",

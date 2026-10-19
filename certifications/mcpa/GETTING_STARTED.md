@@ -176,7 +176,7 @@ official outcome.
 ## Use the Website Too
 
 The same curriculum is available on the website at
-[aiengineeringfromscratch.com/certification?id=mcpa-f](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+[iamabhishekpanda.com/certification?id=mcpa-f](https://iamabhishekpanda.com/certification?id=mcpa-f).
 Use it for direct-manipulation figures, local browser progress, timers, and
 visual assessment remediation. GitHub remains the better surface when you want
 an AI tutor to run code, inspect artifacts, and preserve a detailed learning

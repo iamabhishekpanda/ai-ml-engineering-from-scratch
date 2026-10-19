@@ -11,8 +11,8 @@ exams.
 
 | Program | Credentials | Start with an AI tutor | Website |
 |---|---|---|---|
-| [Claude Certifications](claude/README.md) | All four Claude credentials published in the July 2026 exam guides | [Claude onboarding](claude/GETTING_STARTED.md) | [Claude tracks](https://aiengineeringfromscratch.com/certifications.html) |
-| [MCPA Certification](mcpa/README.md) | Model Context Protocol Associate, aligned to the MCP 2026-07-28 specification | [MCPA onboarding](mcpa/GETTING_STARTED.md) | [MCPA track](https://aiengineeringfromscratch.com/certification?id=mcpa-f) |
+| [Claude Certifications](claude/README.md) | All four Claude credentials published in the July 2026 exam guides | [Claude onboarding](claude/GETTING_STARTED.md) | [Claude tracks](https://iamabhishekpanda.com/certifications.html) |
+| [MCPA Certification](mcpa/README.md) | Model Context Protocol Associate, aligned to the MCP 2026-07-28 specification | [MCPA onboarding](mcpa/GETTING_STARTED.md) | [MCPA track](https://iamabhishekpanda.com/certification?id=mcpa-f) |
 
 Each onboarding guide works with Claude Code, Codex, ChatGPT, Cursor, or
 another agent: the tutor skill picks a route, teaches one lesson at a time,

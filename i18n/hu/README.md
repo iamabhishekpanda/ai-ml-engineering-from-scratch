@@ -9,7 +9,7 @@
 
 Valósítsd meg a modellek belső működését, a visszakeresési folyamatokat és az ágens-futtatókörnyezeteket. Teszteld őket, vizsgáld meg a hibákat, és őrizd meg a kódot és az értékelési eredményeket.
 
-**[Kezdj tanulni](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Válassz tanulási útvonalat](#learning-routes)** · **[Próbálj ki egy labort](#interactive-lab)** · **[Építs projektet](#project-challenges)** · **[Böngészd a tananyagot](#contents)**
+**[Kezdj tanulni](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Válassz tanulási útvonalat](#learning-routes)** · **[Próbálj ki egy labort](#interactive-lab)** · **[Építs projektet](#project-challenges)** · **[Böngészd a tananyagot](#contents)**
 
 Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló ügynökkel vagy helyben futtatott kóddal.
 
@@ -20,7 +20,7 @@ Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lecke"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 szakasz"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-csillagok"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Weboldal"></a>
+  <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Weboldal"></a>
 </p>
 
 <details>
@@ -50,11 +50,11 @@ Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló
 
 | Útvonal | Kezdő lecke |
 |---|---|
-| Modellek alapjai | [Beállítás és eszközök](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| LLM-rendszerek | [Prompttervezés](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ágensek és szállítás | [Az ágensciklus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Modellek alapjai | [Beállítás és eszközök](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-rendszerek | [Prompttervezés](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ágensek és szállítás | [Az ágensciklus](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
-[Hasonlítsd össze a szakmai útvonalakat](https://aiengineeringfromscratch.com/learning-paths.html) · [Előfeltételek és tanulási idő](#study-guide)
+[Hasonlítsd össze a szakmai útvonalakat](https://iamabhishekpanda.com/learning-paths.html) · [Előfeltételek és tanulási idő](#study-guide)
 
 <a id="interactive-lab"></a>
 
@@ -63,7 +63,7 @@ Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló
 Húsz kezdőpont követi a gradiensmódszert egy négyzetes veszteségfüggvényen. A grafikon minden frissítés után mutatja a helyzetüket és az átlagos veszteséget.
 
 <p align="center">
-  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+  <a href="https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
     <picture>
       <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
       <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
@@ -77,7 +77,7 @@ Húsz kezdőpont követi a gradiensmódszert egy négyzetes veszteségfüggvény
   </a>
 </p>
 
-[Módosítsd a tanulási rátát a leckében](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Hasonlítsd össze a GD-t, a momentumot és az Adamet a kódban](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+[Módosítsd a tanulási rátát a leckében](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Hasonlítsd össze a GD-t, a momentumot és az Adamet a kódban](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
 
 <a id="project-challenges"></a>
 
@@ -103,7 +103,7 @@ python3 scripts/project_test.py retrieval-evaluation-lab \
 
 **Őrizd meg:** a reprodukálható összehasonlítást a lekérdezésenkénti eltérésekkel és a pontozáshoz használt besorolásokkal. A mérőszámok ezeket a besorolásokat írják le; nem igazolják a válaszok helyességét.
 
-[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Vizsgáld meg a referenciát](../../projects/retrieval-evaluation-lab/solution/) · [Futtasd saját bemenetekkel](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
+[Kezdd el a projektet](https://iamabhishekpanda.com/project.html?id=retrieval-evaluation-lab) · [Vizsgáld meg a referenciát](../../projects/retrieval-evaluation-lab/solution/) · [Futtasd saját bemenetekkel](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
 </details>
 
@@ -125,7 +125,7 @@ python3 scripts/project_test.py agent-trace-debugger \
 
 **Őrizd meg:** a bemeneti nyomvonalat, a HTML-idővonalat és a JSON-regressziójelentést. Tartsd meg a spanenkénti kizárólagos tokenszámokat, hogy a szülő és a gyermek felhasználását ne számold kétszer.
 
-[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Vizsgáld meg a referenciát](../../projects/agent-trace-debugger/solution/) · [Vizsgáld az időzítést interaktívan](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+[Kezdd el a projektet](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger) · [Vizsgáld meg a referenciát](../../projects/agent-trace-debugger/solution/) · [Vizsgáld az időzítést interaktívan](https://iamabhishekpanda.com/project.html?id=agent-trace-debugger&stage=03-timing)
 
 </details>
 
@@ -147,17 +147,17 @@ python3 scripts/project_test.py tool-call-firewall \
 
 **Őrizd meg:** a kért műveletet és a szabályzati döntést rögzítő auditbizonylatot. A jóváhagyások egy meghíváson belül egyszer használhatók; ez a projekt nem biztosít tartós jogosultságkezelést vagy operációsrendszer-szintű homokozót.
 
-[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Vizsgáld meg a referenciát](../../projects/tool-call-firewall/solution/) · [Vizsgáld meg a jóváhagyás határait](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+[Kezdd el a projektet](https://iamabhishekpanda.com/project.html?id=tool-call-firewall) · [Vizsgáld meg a referenciát](../../projects/tool-call-firewall/solution/) · [Vizsgáld meg a jóváhagyás határait](https://iamabhishekpanda.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
 
 </details>
 
-[Böngészd az összes projektet](https://aiengineeringfromscratch.com/projects.html) · [Útmutató a szakmai gyakorláshoz](../../learning-paths/CAREER-PRACTICE.md)
+[Böngészd az összes projektet](https://iamabhishekpanda.com/projects.html) · [Útmutató a szakmai gyakorláshoz](../../learning-paths/CAREER-PRACTICE.md)
 
 ## Válaszd ki, hogyan tanulsz
 
 ### A weboldalon
 
-Nyiss meg egy elkészült leckét az [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) oldalon, vagy bonts ki egy szakaszt a [tartalomjegyzékben](#contents). Nem kell beállítás vagy klónozás.
+Nyiss meg egy elkészült leckét az [iamabhishekpanda.com](https://iamabhishekpanda.com) oldalon, vagy bonts ki egy szakaszt a [tartalomjegyzékben](#contents). Nem kell beállítás vagy klónozás.
 
 ### AI-oktatóval
 
@@ -194,9 +194,9 @@ Egy tízkérdéses szintfelmérő a tudásodhoz illő kezdőszakaszt választ, �
 
 Csak a Model Context Protocol (MCP) érdekel? Használd a gazdád MCP-meghívását. Ez létrehozza a `MCP-LEARNING.md` fájlt, és egy 17 leckés útvonalat követ az állapotmentes kéréseken, átvitelen, kétirányú munkán, biztonságon, megbízhatóságon, regiszterirányításon és megfelelőségi bizonyítékokon át. A pontos sorrend és az ellenőrzőpontok a [Model Context Protocol (MCP) jegyzékében](../../learning-paths/model-context-protocol.json) találhatók.
 
-Csak az Agent Skills érdekel? Használd a gazdád Agent Skills-meghívását. Ez létrehozza az `AGENT-SKILLS-LEARNING.md` fájlt, és öt összefüggő leckén vezet végig: szerződés, felderítés, meghívás, elszigetelési határok, majd kiadási értékelések és valódi gazdák közötti hordozhatóság. A weben az [Agent Skills útvonallal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) kezdj.
+Csak az Agent Skills érdekel? Használd a gazdád Agent Skills-meghívását. Ez létrehozza az `AGENT-SKILLS-LEARNING.md` fájlt, és öt összefüggő leckén vezet végig: szerződés, felderítés, meghívás, elszigetelési határok, majd kiadási értékelések és valódi gazdák közötti hordozhatóság. A weben az [Agent Skills útvonallal](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) kezdj.
 
-A telepítő felsorolja a beállítható gazdákat, és megkérdezi a telepítési helyet. Ha még nincs Node.js, `npx`, `python3`, támogatott gazda vagy írható hatókör, használd a weboldalt, vagy olvasd kézzel a `docs/en.md` fájlt. Így megtanulod a fogalmakat, de a valódi gazdán végzett felderítés, meghívás, szkriptfuttatás és eltávolítás bizonyítékai addig hiányoznak, amíg az előzetes ellenőrzés nem végezhető el. A leckék itt olvashatók: [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+A telepítő felsorolja a beállítható gazdákat, és megkérdezi a telepítési helyet. Ha még nincs Node.js, `npx`, `python3`, támogatott gazda vagy írható hatókör, használd a weboldalt, vagy olvasd kézzel a `docs/en.md` fájlt. Így megtanulod a fogalmakat, de a valódi gazdán végzett felderítés, meghívás, szkriptfuttatás és eltávolítás bizonyítékai addig hiányoznak, amíg az előzetes ellenőrzés nem végezhető el. A leckék itt olvashatók: [iamabhishekpanda.com](https://iamabhishekpanda.com).
 
 ### A tanulási képességek
 
@@ -251,25 +251,25 @@ Nem kell végignézned mind az 542 leckét, mielőtt elkezded. Válassz egy cél
 
 | A célod | Tanulás a GitHub felületén | Tanulás a weboldalon |
 |---|---|---|
-| Kezdő vagyok, és teljes alapozást szeretnék | [0. szakasz: Beállítás és eszközök](../../phases/00-setup-and-tooling/) | [Fejlesztői környezet](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Ismerem a Python nyelvet, és matematikai, illetve ML-alapokat szeretnék | [1. szakasz: Matematikai alapok](../../phases/01-math-foundations/) | [A lineáris algebra szemléletesen](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Éles környezetbe szánt LLM-alkalmazásokat szeretnék építeni | [11. szakasz: LLM-mérnökség](../../phases/11-llm-engineering/) | [Prompttervezés](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ágenseket szeretnék építeni | [14. szakasz: Ágensmérnökség](../../phases/14-agent-engineering/) | [Az ágensciklus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Programozóágenseket szeretnék használni valódi kódtárakon | [Ágensekkel támogatott fejlesztési útvonal](../../learning-paths/using-coding-agents.json) | [Ágensekkel támogatott fejlesztés](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| A megvalósítás előtt szeretném eldönteni, mit érdemes építeni | [Termékdöntési és megvalósítási útvonal](../../learning-paths/shaping-the-build.json) | [Termékdöntések és megvalósítás](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
+| Kezdő vagyok, és teljes alapozást szeretnék | [0. szakasz: Beállítás és eszközök](../../phases/00-setup-and-tooling/) | [Fejlesztői környezet](https://iamabhishekpanda.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Ismerem a Python nyelvet, és matematikai, illetve ML-alapokat szeretnék | [1. szakasz: Matematikai alapok](../../phases/01-math-foundations/) | [A lineáris algebra szemléletesen](https://iamabhishekpanda.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Éles környezetbe szánt LLM-alkalmazásokat szeretnék építeni | [11. szakasz: LLM-mérnökség](../../phases/11-llm-engineering/) | [Prompttervezés](https://iamabhishekpanda.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ágenseket szeretnék építeni | [14. szakasz: Ágensmérnökség](../../phases/14-agent-engineering/) | [Az ágensciklus](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Programozóágenseket szeretnék használni valódi kódtárakon | [Ágensekkel támogatott fejlesztési útvonal](../../learning-paths/using-coding-agents.json) | [Ágensekkel támogatott fejlesztés](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| A megvalósítás előtt szeretném eldönteni, mit érdemes építeni | [Termékdöntési és megvalósítási útvonal](../../learning-paths/shaping-the-build.json) | [Termékdöntések és megvalósítás](https://iamabhishekpanda.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Nem tudod, hol kezdd? Használd a [`start-learning` szintfelmérő tutort](../../skills/start-learning/SKILL.md) vagy a [weboldal előismereti útmutatóját](https://aiengineeringfromscratch.com/prereqs.html).
+Nem tudod, hol kezdd? Használd a [`start-learning` szintfelmérő tutort](../../skills/start-learning/SKILL.md) vagy a [weboldal előismereti útmutatóját](https://iamabhishekpanda.com/prereqs.html).
 
-Hasonlítsd össze a négy fő területet és a hat karrierutat az [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html) oldalon.
+Hasonlítsd össze a négy fő területet és a hat karrierutat az [AI Engineering Learning Paths](https://iamabhishekpanda.com/learning-paths.html) oldalon.
 
 <details>
 <summary>Célzott MCP-, Agent Skills- és visszafejtési útvonalak</summary>
 
 | A célod | Tanulás a GitHub felületén | Tanulás a weboldalon |
 |---|---|---|
-| A Model Context Protocol (MCP) használatával szeretnék fejleszteni | [Model Context Protocol (MCP) útvonal](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Agent Skills csomagokat szeretnék írni és kiadni | [Célzott Agent Skills útvonal](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Lefordított programokat szeretnék olvasni | [Visszafejtési útvonal](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Visszafejtési tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
+| A Model Context Protocol (MCP) használatával szeretnék fejleszteni | [Model Context Protocol (MCP) útvonal](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) tanulási útvonal](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Agent Skills csomagokat szeretnék írni és kiadni | [Célzott Agent Skills útvonal](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills tanulási útvonal](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Lefordított programokat szeretnék olvasni | [Visszafejtési útvonal](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Visszafejtési tanulási útvonal](https://iamabhishekpanda.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
 </details>
 
@@ -1092,7 +1092,7 @@ A könyv pillanatkép, a tároló élő kiadás. Minden fejezet a lecke animált
 
 A [Claude-tanúsítási akadémia](../../certifications/claude/README.md) ingyenes, nyílt forrású felkészülési program mind a négy hivatalos útvonalhoz: Associate Foundations, Developer Foundations, Architect Foundations és Architect Professional. Minden útvonal vizsgatervhez rendelt leckéket, futtatható gyakorlatokat, diagnosztikát, záróprojektet és teljes hosszúságú eredeti próbavizsgát egyesít.
 
-Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/claude/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `claude-certification`, Claude Code-ban a `/claude-certification` parancsot futtasd, vagy más gazdát kérj a `claude-certification` használatára. Kiválasztja az útvonalat, tartós tervet készít a `CLAUDE-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredményeket értékeli. Ugyanez a tananyag a [tanúsítási weboldalon](https://aiengineeringfromscratch.com/certifications.html) is elérhető.
+Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/claude/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `claude-certification`, Claude Code-ban a `/claude-certification` parancsot futtasd, vagy más gazdát kérj a `claude-certification` használatára. Kiválasztja az útvonalat, tartós tervet készít a `CLAUDE-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredményeket értékeli. Ugyanez a tananyag a [tanúsítási weboldalon](https://iamabhishekpanda.com/certifications.html) is elérhető.
 
 Az akadémia nyilvános vizsgacélokra épülő független tananyag. Nem áll kapcsolatban az Anthropickal, nem közöl valódi vizsgakérdéseket, és nem garantál sikeres vizsgát.
 
@@ -1103,7 +1103,7 @@ Az akadémia nyilvános vizsgacélokra épülő független tananyag. Nem áll ka
 
 Az [MCPA-tanúsítási tananyag](../../certifications/mcpa/README.md) ingyenes, nyílt forrású felkészülés az Agentic AI Foundation Model Context Protocol Associate vizsgájára, amelyet a Linux Foundation Training biztosít. A 34 lecke az állapotmentes 2026-07-28 protokollt tanítja az öt vizsgaterületen: kérésenkénti `_meta` és `server/discover` a régi kézfogás helyett, többfordulós kérések, feliratkozások, gyorsítótárazás, feladat- és MCP Apps-kiterjesztések, OAuth-jogosultságkezelés, valamint regiszter- és SDK-szintek. Minden lecke futtatható, standard könyvtáras gyakorlatot ad, amelynek átiratát az aktuális kommunikációs formátumhoz ellenőrzik. Az útvonal diagnosztikát, záróprojektet és három teljes eredeti próbavizsgát is tartalmaz, a közzétett témasúlyok szerinti kérdéseloszlással.
 
-Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/mcpa/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `mcpa-certification`, Claude Code-ban a `/mcpa-certification` parancsot futtasd, vagy más gazdát kérj a `mcpa-certification` használatára. Tartós útvonalat készít az `MCPA-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredmények alapján ad visszajelzést. Ugyanez a tananyag az [MCPA-útvonal oldalán](https://aiengineeringfromscratch.com/certification?id=mcpa-f) is elérhető.
+Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/mcpa/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `mcpa-certification`, Claude Code-ban a `/mcpa-certification` parancsot futtasd, vagy más gazdát kérj a `mcpa-certification` használatára. Tartós útvonalat készít az `MCPA-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredmények alapján ad visszajelzést. Ugyanez a tananyag az [MCPA-útvonal oldalán](https://iamabhishekpanda.com/certification?id=mcpa-f) is elérhető.
 
 Ez nyilvános vizsgacélokra épülő független tananyag. Nem kapcsolódik az Agentic AI Foundationhöz vagy a Linux Foundationhöz, nem közöl valódi vizsgakérdéseket, és nem garantál sikeres vizsgát.
 
@@ -1297,5 +1297,5 @@ MIT. Használd tetszés szerint: forkolhatod, taníthatod, eladhatod vagy kiadha
 Karbantartja [Rohit Ghumare](https://github.com/iamabhishekpanda) és a közösség.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Jelentés / Javaslat</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://iamabhishekpanda.com">iamabhishekpanda.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Jelentés / Javaslat</a>
 </sub>

@@ -375,7 +375,7 @@ def render(vol, md, chapters, pdf=False):
             "--include-in-header", str(ROOT / "book" / "theme.tex"),
             "--include-before-body", str(titlepage),
             "-M", f"title-meta={CONFIG['series']} Volume {vol['number']}: {vol['title']}",
-            "-M", "author-meta=aiengineeringfromscratch.com",
+            "-M", "author-meta=iamabhishekpanda.com",
             "-M", f"lang={BOOK_LANG}",
             "-V", "toc-title=Contents",
             "-V", "documentclass=book",

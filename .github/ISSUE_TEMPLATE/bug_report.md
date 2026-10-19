@@ -8,7 +8,7 @@ labels: bug
 ## Where
 
 - Phase / lesson: <!-- e.g. Phase 4 · 06-object-detection-yolo -->
-- File / URL: <!-- e.g. phases/04-computer-vision/06-object-detection-yolo/code/main.py or aiengineeringfromscratch.com/lesson.html?path=... -->
+- File / URL: <!-- e.g. phases/04-computer-vision/06-object-detection-yolo/code/main.py or iamabhishekpanda.com/lesson.html?path=... -->
 
 ## What's wrong
 
