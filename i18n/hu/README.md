@@ -19,7 +19,7 @@ Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-licenc"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lecke"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 szakasz"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-csillagok"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-csillagok"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Weboldal"></a>
 </p>
 
@@ -164,7 +164,7 @@ Nyiss meg egy elkészült leckét az [aiengineeringfromscratch.com](https://aien
 Ha a Node.js, az `npx` és egy képességeket támogató programozóágens már telepítve van, tutorrá alakíthatod az ágenst. A tutor telepítéséhez és olvasásához nem kell klónozni a tárolót. A célzott útvonalak futtatható gyakorlataihoz `python3` szükséges. Az Agent Skills gazdaalkalmazásos gyakorlataihoz kiválasztott gazda és írható felhasználói vagy projektbeli képességhatókör is kell.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Válassz gazdakörnyezetet és hatókört, amikor a telepítő kéri. Codexben a `start-learning`, Claude Code-ban a `/start-learning` parancsot használd, vagy kérd a gazdát, hogy név szerint használja a készséget.
@@ -220,7 +220,7 @@ A telepítő felsorolja a beállítható gazdákat, és megkérdezi a telepíté
 ### Futtass helyi kódot
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ A 31-46. leckék alkotják az [ágensekkel támogatott mérnöki útvonalat](../
 <details>
 <summary>Olvasd az alaptananyagot könyvként</summary>
 
-A `phases/` alatti, 20 szakaszos alaptananyag hatkötetes könyvsorozattá áll össze. A CI ugyanazokból a leckeforrásokból készít EPUB-ot és PDF-et, majd minden [GitHub-kiadáshoz](https://github.com/rohitg00/ai-engineering-from-scratch/releases) csatolja őket; az alábbi linkek mindig a legújabb kiadásra mutatnak. A kötetszám a sorozatbeli helyet jelzi, nem a verziót: minden példány dátumozott kiadásjelölést kap, a régebbi kiadások pedig továbbra is letölthetők saját kiadásukból.
+A `phases/` alatti, 20 szakaszos alaptananyag hatkötetes könyvsorozattá áll össze. A CI ugyanazokból a leckeforrásokból készít EPUB-ot és PDF-et, majd minden [GitHub-kiadáshoz](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases) csatolja őket; az alábbi linkek mindig a legújabb kiadásra mutatnak. A kötetszám a sorozatbeli helyet jelzi, nem a verziót: minden példány dátumozott kiadásjelölést kap, a régebbi kiadások pedig továbbra is letölthetők saját kiadásukból.
 
 A tanúsítási tananyagok szándékosan nem kerülnek a könyvekbe. AI-tutorállapotuk, futtatható gyakorlataik, interaktív ábráik, diagnosztikájuk és időzített próbavizsgáik teljes értékűen elérhetők GitHubon és a weboldalon.
 
 | Kötet | Cím | Szakaszok | Letöltés |
 |-----|-------|--------|----------|
-| 1 | Alapok · Matematika, eszközök és klasszikus gépi tanulás | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Mélytanulás · Hálózatok, látás és beszéd | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Nyelv · NLP-alapok és a transzformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Nagy nyelvi modellek · Generálás, megerősítés, előtanítás és mérnöki munka | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Ágensek · Multimodalitás, protokollok, autonómia és rajok | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Üzemi működés · Infrastruktúra, biztonság és záróprojektek | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Alapok · Matematika, eszközök és klasszikus gépi tanulás | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Mélytanulás · Hálózatok, látás és beszéd | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Nyelv · NLP-alapok és a transzformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Nagy nyelvi modellek · Generálás, megerősítés, előtanítás és mérnöki munka | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Ágensek · Multimodalitás, protokollok, autonómia és rajok | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Üzemi működés · Infrastruktúra, biztonság és záróprojektek | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 A könyv pillanatkép, a tároló élő kiadás. Minden fejezet a lecke animált ábráira, kvízére és futtatható kódjára mutató linkekkel zárul. Helyi összeállítás: `python3 scripts/build_book.py` (pandoc szükséges); a folyamat részletei a [book/README.md](../../book/README.md) fájlban vannak.
 
@@ -1294,8 +1294,8 @@ Ha segített ez a kézikönyv, adj csillagot a tárolónak. Ez életben tartja a
 
 MIT. Használd tetszés szerint: forkolhatod, taníthatod, eladhatod vagy kiadhatod. A forrás feltüntetését köszönjük, de nem kötelező.
 
-Karbantartja [Rohit Ghumare](https://github.com/rohitg00) és a közösség.
+Karbantartja [Rohit Ghumare](https://github.com/iamabhishekpanda) és a közösség.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Jelentés / Javaslat</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Jelentés / Javaslat</a>
 </sub>

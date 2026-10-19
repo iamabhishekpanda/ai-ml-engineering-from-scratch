@@ -19,7 +19,7 @@ Gratuit, open source, sous licence MIT. Apprenez sur le site, avec un agent de p
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Licence MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 leçons"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Étoiles GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Étoiles GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Site web"></a>
 </p>
 
@@ -164,7 +164,7 @@ Ouvrez la leçon de votre choix sur [aiengineeringfromscratch.com](https://aieng
 Si Node.js, `npx` et un agent de programmation compatible avec les skills sont déjà installés, vous pouvez en faire votre tuteur. Il n’est pas nécessaire de cloner le dépôt pour installer le tuteur ou consulter ses leçons. Les laboratoires des parcours ciblés nécessitent `python3`. Ceux d’Agent Skills requièrent aussi un hôte sélectionné et un emplacement utilisateur ou projet accessible en écriture.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Choisissez l’hôte et la portée lorsque l’installateur le demande. Utilisez `start-learning` dans Codex, `/start-learning` dans Claude Code ou demandez à votre hôte d’utiliser la skill par son nom.
@@ -220,7 +220,7 @@ L’installateur indique les hôtes qu’il peut configurer et vous demande où 
 ### Exécuter du code localement
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Les leçons 31 à 46 constituent le [parcours d’ingénierie assistée par des 
 <details>
 <summary>Lisez le cursus de base comme un livre</summary>
 
-Le cursus de base en 20 phases, dans `phases/`, est également publié sous forme d’une série de six livres. Les éditions EPUB et PDF sont générées par l’intégration continue à partir des mêmes leçons et jointes à chaque [publication GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases) ; les liens ci-dessous pointent toujours vers la dernière édition. Les numéros identifient les volumes, et non les versions : chaque exemplaire porte la date de son édition et les éditions précédentes restent téléchargeables depuis leur publication.
+Le cursus de base en 20 phases, dans `phases/`, est également publié sous forme d’une série de six livres. Les éditions EPUB et PDF sont générées par l’intégration continue à partir des mêmes leçons et jointes à chaque [publication GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases) ; les liens ci-dessous pointent toujours vers la dernière édition. Les numéros identifient les volumes, et non les versions : chaque exemplaire porte la date de son édition et les éditions précédentes restent téléchargeables depuis leur publication.
 
 Les programmes de certification ne sont pas transformés en livres : le tutorat IA, les laboratoires exécutables, les figures interactives, les diagnostics et les examens blancs chronométrés restent accessibles en priorité sur GitHub et sur le site.
 
 | Vol. | Titre | Phases | Télécharger |
 |-----|-------|--------|----------|
-| 1 | Fondements · Mathématiques, outils et apprentissage automatique classique | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Apprentissage profond · Réseaux, vision et parole | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Langage · Fondements du NLP et transformers | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Grands modèles de langage · Génération, renforcement, préentraînement et ingénierie | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodalité, protocoles, autonomie et essaims | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Production · Infrastructure, sécurité et projets de synthèse | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [Le format PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Fondements · Mathématiques, outils et apprentissage automatique classique | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Apprentissage profond · Réseaux, vision et parole | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Langage · Fondements du NLP et transformers | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Grands modèles de langage · Génération, renforcement, préentraînement et ingénierie | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agents · Multimodalité, protocoles, autonomie et essaims | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Production · Infrastructure, sécurité et projets de synthèse | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [Le format PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Le livre est un instantané ; ce dépôt est l’édition vivante. Chaque chapitre renvoie aux figures animées de la leçon, au quiz et au code exécutable. Pour générer les livres en local, exécutez `python3 scripts/build_book.py` (Pandoc est requis). Le pipeline est décrit dans [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Si ce manuel vous a aidé, ajoutez une étoile au dépôt. Cela contribue à fai
 
 MIT. Utilisez-le comme vous voulez : forkez-le, enseignez-le, vendez-le, publiez-le. L'attribution est appréciée, mais pas obligatoire.
 
-Maintenu par [Rohit Ghumare](https://github.com/rohitg00) et la communauté.
+Maintenu par [Rohit Ghumare](https://github.com/iamabhishekpanda) et la communauté.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Signaler un problème / Faire une suggestion</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Signaler un problème / Faire une suggestion</a>
 </sub>

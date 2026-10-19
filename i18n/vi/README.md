@@ -19,7 +19,7 @@ Miễn phí, mã nguồn mở, giấy phép MIT. Học trên trang web, cùng t�
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Giấy phép MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 bài học"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 giai đoạn"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sao GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sao GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Trang web"></a>
 </p>
 
@@ -164,7 +164,7 @@ Mở bất kỳ bài đã hoàn thành nào trên [aiengineeringfromscratch.com]
 Nếu bạn đã cài Node.js, `npx` và một tác tử lập trình hỗ trợ skill, bạn có thể dùng tác tử đó làm gia sư. Bạn không cần clone kho mã để cài đặt hay đọc nội dung gia sư. Các bài thực hành có thể chạy trong lộ trình chuyên biệt cần `python3`. Bài thực hành Agent Skills trên host còn cần một host đã chọn và phạm vi skill cấp người dùng hoặc dự án có quyền ghi.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Chọn host và phạm vi khi trình cài đặt hỏi. Dùng `start-learning` trong Codex, `/start-learning` trong Claude Code hoặc yêu cầu host dùng skill theo tên.
@@ -220,7 +220,7 @@ Trình cài đặt liệt kê các host có thể cấu hình và hỏi nơi cà
 ### Chạy mã cục bộ
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Các bài 31-46 tạo thành [lộ trình Kỹ thuật có Tác tử Hỗ trợ]
 <details>
 <summary>Đọc chương trình cốt lõi dưới dạng sách</summary>
 
-Chương trình cốt lõi 20 giai đoạn trong `phases/` được biên soạn thành bộ sách sáu tập. CI xây EPUB và PDF từ cùng nguồn bài học cốt lõi và đính kèm vào mỗi [bản phát hành GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases); các liên kết dưới đây luôn trỏ đến bản mới nhất. Số tập chỉ thứ tự trong bộ sách, không phải phiên bản: mỗi bản có ngày xuất bản và các ấn bản cũ vẫn tải được từ lần phát hành tương ứng.
+Chương trình cốt lõi 20 giai đoạn trong `phases/` được biên soạn thành bộ sách sáu tập. CI xây EPUB và PDF từ cùng nguồn bài học cốt lõi và đính kèm vào mỗi [bản phát hành GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); các liên kết dưới đây luôn trỏ đến bản mới nhất. Số tập chỉ thứ tự trong bộ sách, không phải phiên bản: mỗi bản có ngày xuất bản và các ấn bản cũ vẫn tải được từ lần phát hành tương ứng.
 
 Các chương trình chứng chỉ được chủ ý giữ ngoài bộ sách. Trạng thái gia sư AI, bài thực hành có thể chạy, hình tương tác, bài chẩn đoán và đề thi thử có giới hạn thời gian vẫn được hỗ trợ đầy đủ trên GitHub và trang web.
 
 | Tập | Tiêu đề | Giai đoạn | Tải xuống |
 |-----|-------|--------|----------|
-| 1 | Nền tảng · Toán học, công cụ và học máy cổ điển | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Học sâu · Mạng, thị giác và tiếng nói | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Ngôn ngữ · Nền tảng NLP và Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Mô hình ngôn ngữ lớn · Sinh, tăng cường, tiền huấn luyện và kỹ thuật | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Tác tử · Đa phương thức, giao thức, tự chủ và bầy đàn | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Triển khai thực tế · Hạ tầng, an toàn và đồ án | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Nền tảng · Toán học, công cụ và học máy cổ điển | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Học sâu · Mạng, thị giác và tiếng nói | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Ngôn ngữ · Nền tảng NLP và Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Mô hình ngôn ngữ lớn · Sinh, tăng cường, tiền huấn luyện và kỹ thuật | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Tác tử · Đa phương thức, giao thức, tự chủ và bầy đàn | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Triển khai thực tế · Hạ tầng, an toàn và đồ án | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Sách là ảnh chụp tại một thời điểm; kho mã này là phiên bản liên tục phát triển. Mỗi chương kết thúc bằng liên kết đến hình động, câu hỏi kiểm tra và mã có thể chạy của bài học. Tạo sách cục bộ bằng `python3 scripts/build_book.py` (cần pandoc); xem chi tiết pipeline trong [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Nếu cẩm nang này giúp ích cho bạn, hãy gắn sao cho kho mã. Điều 
 
 Giấy phép MIT. Bạn có thể fork, giảng dạy, bán hoặc phát hành tùy ý. Việc ghi nguồn được trân trọng nhưng không bắt buộc.
 
-Được duy trì bởi [Rohit Ghumare](https://github.com/rohitg00) và cộng đồng.
+Được duy trì bởi [Rohit Ghumare](https://github.com/iamabhishekpanda) và cộng đồng.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Báo lỗi / Đề xuất</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Báo lỗi / Đề xuất</a>
 </sub>

@@ -82,7 +82,7 @@
   }
 
   function repoFileUrl(path) {
-    return (DATA.repo || 'https://github.com/rohitg00/ai-engineering-from-scratch') + '/blob/main/' + path;
+    return (DATA.repo || 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch') + '/blob/main/' + path;
   }
 
   function contentUrl(path) {

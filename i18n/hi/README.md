@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="एमआईटी लाइसेंस"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 पाठ"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 चरण"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub सितारे"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub सितारे"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="वेबसाइट"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 अगर Node.js, `npx` और स्किल चला सकने वाला कोडिंग एजेंट पहले से स्थापित हैं, तो उस एजेंट को अपना ट्यूटर बना सकते हैं। ट्यूटर स्थापित करने या पढ़ने के लिए रिपॉज़िटरी क्लोन करना ज़रूरी नहीं। केंद्रित अध्ययन-पथ की प्रयोगशालाओं के लिए `python3` चाहिए। Agent Skills की प्रयोगशालाओं के लिए चुना हुआ होस्ट और उपयोगकर्ता या परियोजना के दायरे में लिखने योग्य स्किल फ़ोल्डर भी चाहिए।
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 इंस्टॉलर के पूछने पर होस्ट और दायरा चुनें। Codex में `start-learning`, Claude Code में `/start-learning` इस्तेमाल करें या अपने होस्ट से नाम के आधार पर स्किल उपयोग करने को कहें।
@@ -220,7 +220,7 @@ python3 --version
 ### स्थानीय कोड चलाएं
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1068,18 +1068,18 @@ flowchart TB
 <details>
 <summary>मुख्य पाठ्यक्रम को किताब की तरह पढ़ें</summary>
 
-`phases/` के अंतर्गत 20 चरणों वाला मुख्य पाठ्यक्रम छह खंडों की पुस्तक-श्रृंखला में संकलित होता है। CI उन्हीं मुख्य पाठ-स्रोतों से EPUB और PDF बनाता है और हर [GitHub रिलीज़](https://github.com/rohitg00/ai-engineering-from-scratch/releases) से जोड़ता है। नीचे के लिंक हमेशा नवीनतम रिलीज़ पर जाते हैं। खंड संख्या श्रृंखला में स्थान बताती है, संस्करण नहीं। हर प्रति पर उसके संस्करण की तारीख है और पुराने संस्करण उनकी रिलीज़ से डाउनलोड किए जा सकते हैं।
+`phases/` के अंतर्गत 20 चरणों वाला मुख्य पाठ्यक्रम छह खंडों की पुस्तक-श्रृंखला में संकलित होता है। CI उन्हीं मुख्य पाठ-स्रोतों से EPUB और PDF बनाता है और हर [GitHub रिलीज़](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases) से जोड़ता है। नीचे के लिंक हमेशा नवीनतम रिलीज़ पर जाते हैं। खंड संख्या श्रृंखला में स्थान बताती है, संस्करण नहीं। हर प्रति पर उसके संस्करण की तारीख है और पुराने संस्करण उनकी रिलीज़ से डाउनलोड किए जा सकते हैं।
 
 प्रमाणन पाठ्यक्रम जानबूझकर इन किताबों में शामिल नहीं किए गए हैं। AI ट्यूटर की सहेजी हुई स्थिति, चलने योग्य प्रयोगशालाएँ, संवादात्मक चित्र, निदान परीक्षाएँ और समय-सीमा वाली अभ्यास परीक्षाएँ GitHub और वेबसाइट पर ही उपलब्ध रहती हैं।
 
 | खंड | शीर्षक | चरण | डाउनलोड |
 |-----|-------|--------|----------|
-| 1 | बुनियाद · गणित, टूलिंग और शास्त्रीय मशीन लर्निंग | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | डीप लर्निंग · नेटवर्क, कंप्यूटर दृष्टि और वाक् | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | भाषा · NLP की बुनियाद और Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | बड़े भाषा मॉडल · जनरेशन, रीइन्फोर्समेंट, प्रीट्रेनिंग और इंजीनियरिंग | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | एजेंट · मल्टीमोडैलिटी, प्रोटोकॉल, स्वायत्तता और एजेंट समूह | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | उत्पादन · इन्फ्रास्ट्रक्चर, सुरक्षा और समापन परियोजनाएँ | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | बुनियाद · गणित, टूलिंग और शास्त्रीय मशीन लर्निंग | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | डीप लर्निंग · नेटवर्क, कंप्यूटर दृष्टि और वाक् | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | भाषा · NLP की बुनियाद और Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | बड़े भाषा मॉडल · जनरेशन, रीइन्फोर्समेंट, प्रीट्रेनिंग और इंजीनियरिंग | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | एजेंट · मल्टीमोडैलिटी, प्रोटोकॉल, स्वायत्तता और एजेंट समूह | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | उत्पादन · इन्फ्रास्ट्रक्चर, सुरक्षा और समापन परियोजनाएँ | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 किताब एक समय पर पाठ्यक्रम की स्थिति दिखाती है; यह रिपॉज़िटरी लगातार अद्यतन होने वाला संस्करण है। हर अध्याय के अंत में पाठ के एनिमेटेड चित्रों, क्विज़ और चलने योग्य कोड के लिंक हैं। स्थानीय रूप से `python3 scripts/build_book.py` चलाकर किताब बनाएँ (pandoc आवश्यक है); पाइपलाइन का विवरण [book/README.md](../../book/README.md) में है।
 
@@ -1292,8 +1292,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT। अपनी मर्ज़ी से इस्तेमाल करें: फ़ोर्क करें, सिखाएँ, बेचें या जारी करें। स्रोत का श्रेय देना अच्छा है, पर अनिवार्य नहीं।
 
-[Rohit Ghumare](https://github.com/rohitg00) और समुदाय इसका रखरखाव करते हैं।
+[Rohit Ghumare](https://github.com/iamabhishekpanda) और समुदाय इसका रखरखाव करते हैं।
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">रिपोर्ट / सुझाव</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">रिपोर्ट / सुझाव</a>
 </sub>

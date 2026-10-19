@@ -19,7 +19,7 @@ Gratis, åpen kildekode, MIT-lisens. Lær på nettstedet, med en kodeagent eller
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-lisens"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 leksjoner"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 faser"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-stjerner"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-stjerner"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Nettsted"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 Hvis Node.js, `npx` og en kodeagent som støtter ferdigheter allerede er installert, kan du gjøre kodeagenten til veilederen din. Du trenger ikke klone arkivet for å installere eller lese veilederen. Kjørbare øvelser i de fokuserte læringsløpene krever `python3`. Agent Skills-øvelser krever også et valgt vertsprogram og en ferdighetsmappe for brukeren eller prosjektet som du kan skrive til.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Velg vert og omfang når installasjonsprogrammet spør. Bruk `start-learning` i Codex, `/start-learning` i Claude Code, eller be verten bruke ferdigheten ved navn.
@@ -220,7 +220,7 @@ Installasjonsprogrammet viser hvilke vertsprogrammer det kan konfigurere, og sp�
 ### Kjør kode lokalt
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Leksjonene 31-46 utgjør [læringsløpet for agentstøttet utvikling](../../lear
 <details>
 <summary>Les grunnkurset som bok</summary>
 
-Grunnkursets 20 faser under `phases/` samles i en bokserie på seks bind. CI bygger EPUB og PDF fra de samme leksjonskildene og legger dem ved hver [GitHub-utgivelse](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Lenkene nedenfor peker alltid på den nyeste utgivelsen. Bindnumrene angir plasseringen i serien, ikke versjonsnumre: hvert eksemplar har et datert utgavestempel, og eldre utgaver kan fortsatt lastes ned fra sine respektive utgivelser.
+Grunnkursets 20 faser under `phases/` samles i en bokserie på seks bind. CI bygger EPUB og PDF fra de samme leksjonskildene og legger dem ved hver [GitHub-utgivelse](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases). Lenkene nedenfor peker alltid på den nyeste utgivelsen. Bindnumrene angir plasseringen i serien, ikke versjonsnumre: hvert eksemplar har et datert utgavestempel, og eldre utgaver kan fortsatt lastes ned fra sine respektive utgivelser.
 
 Sertifiseringskursene er bevisst utelatt fra bøkene. AI-veiledertilstanden, kjørbare øvelser, interaktive figurer, diagnostiske prøver og tidsbegrensede øvingseksamener blir på GitHub og nettstedet.
 
 | Bind | Tittel | Faser | Last ned |
 |-----|-------|--------|----------|
-| 1 | Grunnlag · Matematikk, verktøy og klassisk maskinlæring | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Dyp læring · Nettverk, bildeanalyse og tale | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Språk · NLP-grunnlag og Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Store språkmodeller · Generering, forsterkning, forhåndstrening og utvikling | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agenter · Multimodalitet, protokoller, autonomi og svermer | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Produksjon · Infrastruktur, sikkerhet og avsluttende prosjekter | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Grunnlag · Matematikk, verktøy og klassisk maskinlæring | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Dyp læring · Nettverk, bildeanalyse og tale | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Språk · NLP-grunnlag og Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Store språkmodeller · Generering, forsterkning, forhåndstrening og utvikling | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agenter · Multimodalitet, protokoller, autonomi og svermer | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Produksjon · Infrastruktur, sikkerhet og avsluttende prosjekter | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Boken er et øyeblikksbilde; arkivet er den levende utgaven. Hvert kapittel avsluttes med lenker til leksjonens animerte figurer, kunnskapstest og kjørbare kode. Bygg lokalt med `python3 scripts/build_book.py` (krever pandoc). Detaljer om byggeprosessen finnes i [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Hvis håndboken hjalp deg, gi arkivet en stjerne. Det holder prosjektet i live.
 
 MIT. Bruk materialet som du vil: lag en fork, undervis med det, selg det eller publiser det. Kildehenvisning verdsettes, men er ikke påkrevd.
 
-Vedlikeholdes av [Rohit Ghumare](https://github.com/rohitg00) og fellesskapet.
+Vedlikeholdes av [Rohit Ghumare](https://github.com/iamabhishekpanda) og fellesskapet.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Rapporter / foreslå</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Rapporter / foreslå</a>
 </sub>

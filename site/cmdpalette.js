@@ -574,7 +574,7 @@
         // Jump to the lesson that produced this artifact
         dest = r.lessonPath
           ? 'lesson?path=' + encodeURIComponent(r.lessonPath)
-          : ('https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + r.file);
+          : ('https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/' + r.file);
         var ak = (r.artKind || 'artifact');
         chip = ak.charAt(0).toUpperCase() + ak.slice(1);
         chipClass += ' cp-item-chip--alt';

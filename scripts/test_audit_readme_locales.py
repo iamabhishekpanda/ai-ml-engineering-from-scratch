@@ -84,7 +84,7 @@ class ReadmeLocaleAuditTest(unittest.TestCase):
 
     def test_changed_code_block(self):
         changed = self.chinese.replace(
-            "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git",
+            "git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git",
             "git clone https://github.com/example/broken.git",
             1,
         )

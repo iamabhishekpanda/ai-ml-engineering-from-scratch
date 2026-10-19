@@ -19,7 +19,7 @@ Gratis, open source, met MIT-licentie. Leer op de webpagina, met een programmeer
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-licentie"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lessen"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 fasen"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sterren op GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Sterren op GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webpagina"></a>
 </p>
 
@@ -164,7 +164,7 @@ Open een afgeronde les op [aiengineeringfromscratch.com](https://aiengineeringfr
 Als Node.js, `npx` en een programmeeragent die skills ondersteunt al zijn geïnstalleerd, kan je agent je tutor worden. Je hoeft de repository niet te klonen om de tutor te installeren of te lezen. Voor de uitvoerbare practica van gerichte leerroutes heb je `python3` nodig. Voor Agent Skills-practica heb je ook een gekozen host nodig en een beschrijfbare skillmap voor de gebruiker of het project.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Kies de host en het bereik wanneer het installatieprogramma erom vraagt. Gebruik `start-learning` in Codex, `/start-learning` in Claude Code of vraag je host de skill bij naam te gebruiken.
@@ -220,7 +220,7 @@ Het installatieprogramma toont de hosts die het kan configureren en vraagt waar 
 ### Voer code lokaal uit
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1082,18 +1082,18 @@ tot bewijs, risico, reikwijdte, meting, gefaseerde oplevering en eigenaarschap v
 <details>
 <summary>Lees het kernleerprogramma als boek</summary>
 
-Het kernleerprogramma van 20 fasen onder `phases/` wordt samengesteld tot een reeks van zes boeken. CI bouwt EPUB- en PDF-versies uit dezelfde lesbronnen en voegt ze toe aan elke [GitHub-release](https://github.com/rohitg00/ai-engineering-from-scratch/releases); de onderstaande links verwijzen steeds naar de nieuwste release. Deelnummers geven de plaats in de reeks aan, niet de versie: elk exemplaar heeft een gedateerde editieaanduiding en oudere edities blijven via hun release beschikbaar.
+Het kernleerprogramma van 20 fasen onder `phases/` wordt samengesteld tot een reeks van zes boeken. CI bouwt EPUB- en PDF-versies uit dezelfde lesbronnen en voegt ze toe aan elke [GitHub-release](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); de onderstaande links verwijzen steeds naar de nieuwste release. Deelnummers geven de plaats in de reeks aan, niet de versie: elk exemplaar heeft een gedateerde editieaanduiding en oudere edities blijven via hun release beschikbaar.
 
 Certificeringsprogramma’s worden bewust niet in de boeken opgenomen. Hun AI-tutorstatus, uitvoerbare practica, interactieve figuren, diagnostische toetsen en getimede oefenexamens blijven volledig beschikbaar op GitHub en de website.
 
 | Deel | Titel | Fasen | Ophalen |
 |-----|-------|--------|----------|
-| 1 | Grondslagen · Wiskunde, gereedschap en klassiek machinaal leren | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Diep leren · Netwerken, visie en spraak | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Taal · NLP-grondslagen en de transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Grote taalmodellen · Generatie, bekrachtiging, voortraining en engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodaliteit, protocollen, autonomie en zwermen | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Productie · Infrastructuur, veiligheid en eindprojecten | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Grondslagen · Wiskunde, gereedschap en klassiek machinaal leren | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Diep leren · Netwerken, visie en spraak | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Taal · NLP-grondslagen en de transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Grote taalmodellen · Generatie, bekrachtiging, voortraining en engineering | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agents · Multimodaliteit, protocollen, autonomie en zwermen | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Productie · Infrastructuur, veiligheid en eindprojecten | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Het boek is een momentopname; deze repository is de levende editie. Elk hoofdstuk eindigt met links naar de geanimeerde figuren, quiz en uitvoerbare code van de les. Bouw lokaal met `python3 scripts/build_book.py` (pandoc vereist); details van de pijplijn staan in [book/README.md](../../book/README.md).
 
@@ -1306,8 +1306,8 @@ Heeft deze handleiding je geholpen? Geef de repository een ster. Zo blijft het p
 
 MIT. Gebruik het zoals je wilt: fork het, geef er les mee, verkoop het of breng het uit. Naamsvermelding wordt gewaardeerd, maar is niet verplicht.
 
-Onderhouden door [Rohit Ghumare](https://github.com/rohitg00) en de community.
+Onderhouden door [Rohit Ghumare](https://github.com/iamabhishekpanda) en de community.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Melden / Voorstellen</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Melden / Voorstellen</a>
 </sub>

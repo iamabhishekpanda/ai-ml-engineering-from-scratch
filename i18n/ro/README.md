@@ -19,7 +19,7 @@ Gratuit, cu sursă deschisă, licență MIT. Învață pe site, cu un agent de p
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Licență MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 de lecții"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 de etape"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Stele GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Stele GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Site web"></a>
 </p>
 
@@ -164,7 +164,7 @@ Deschide o lecție finalizată pe [aiengineeringfromscratch.com](https://aiengin
 Dacă ai deja Node.js, `npx` și un agent de programare care acceptă abilități, îl poți folosi ca tutor. Nu trebuie să clonezi depozitul pentru a instala sau citi tutorul. Laboratoarele executabile ale traseelor specializate necesită `python3`. Laboratoarele Agent Skills necesită și o gazdă aleasă, plus un domeniu de abilități al utilizatorului sau proiectului în care se poate scrie.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Alege gazda și domeniul când instalatorul solicită acest lucru. Folosește `start-learning` în Codex, `/start-learning` în Claude Code sau cere gazdei să folosească abilitatea după nume.
@@ -220,7 +220,7 @@ Instalatorul enumeră gazdele pe care le poate configura și întreabă unde să
 ### Rulează cod local
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Lecțiile 31-46 formează [traseul de inginerie asistată de agenți](../../lear
 <details>
 <summary>Citește programul de bază sub formă de carte</summary>
 
-Programul de bază cu 20 de etape din `phases/` se compilează într-o serie de șase volume. CI generează EPUB și PDF din aceleași surse ale lecțiilor și le atașează fiecărei [lansări GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases); linkurile de mai jos duc mereu la cea mai recentă lansare. Numerele volumelor indică poziția în serie, nu versiunea: fiecare exemplar are data ediției, iar edițiile vechi rămân descărcabile din lansarea lor.
+Programul de bază cu 20 de etape din `phases/` se compilează într-o serie de șase volume. CI generează EPUB și PDF din aceleași surse ale lecțiilor și le atașează fiecărei [lansări GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); linkurile de mai jos duc mereu la cea mai recentă lansare. Numerele volumelor indică poziția în serie, nu versiunea: fiecare exemplar are data ediției, iar edițiile vechi rămân descărcabile din lansarea lor.
 
 Programele de certificare nu sunt convertite intenționat în cărți. Starea tutorului AI, laboratoarele executabile, figurile interactive, diagnosticele și simulările cronometrate rămân complet disponibile pe GitHub și pe site.
 
 | Volum | Titlu | Etape | Descarcă |
 |-----|-------|--------|----------|
-| 1 | Fundamente · Matematică, instrumente și învățare automată clasică | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Învățare profundă · Rețele, viziune și vorbire | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Limbaj · Bazele NLP și transformatorul | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Modele lingvistice mari · Generare, întărire, preantrenare și inginerie | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agenți · Multimodalitate, protocoale, autonomie și roiuri | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Producție · Infrastructură, siguranță și proiecte finale | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Fundamente · Matematică, instrumente și învățare automată clasică | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Învățare profundă · Rețele, viziune și vorbire | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Limbaj · Bazele NLP și transformatorul | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Modele lingvistice mari · Generare, întărire, preantrenare și inginerie | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agenți · Multimodalitate, protocoale, autonomie și roiuri | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Producție · Infrastructură, siguranță și proiecte finale | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Cartea este o fotografie de moment; depozitul este ediția vie. Fiecare capitol se încheie cu linkuri către figurile animate, testul și codul executabil al lecției. Construiește local cu `python3 scripts/build_book.py` (necesită pandoc); detaliile fluxului sunt în [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Dacă acest manual te-a ajutat, acordă o stea depozitului. Ajută proiectul să
 
 MIT. Folosește materialul cum dorești: creează un fork, predă-l, vinde-l sau publică-l. Menționarea autorului este apreciată, dar nu este obligatorie.
 
-Întreținut de [Rohit Ghumare](https://github.com/rohitg00) și de comunitate.
+Întreținut de [Rohit Ghumare](https://github.com/iamabhishekpanda) și de comunitate.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Raportează / Sugerează</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Raportează / Sugerează</a>
 </sub>

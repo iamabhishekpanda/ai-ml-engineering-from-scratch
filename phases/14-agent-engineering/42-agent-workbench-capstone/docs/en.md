@@ -204,7 +204,7 @@ Resolve `needs revision` findings before claiming the task complete. Leave unava
 
 ## Shipped Artifact
 
-Keep the reusable pack and your completed copy of [career-agent-evidence.md](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/14-agent-engineering/42-agent-workbench-capstone/outputs/career-agent-evidence.md). The template connects the task frame, execution plan, runtime receipts, review, recovery rehearsal, and handoff into one reviewable case study.
+Keep the reusable pack and your completed copy of [career-agent-evidence.md](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/phases/14-agent-engineering/42-agent-workbench-capstone/outputs/career-agent-evidence.md). The template connects the task frame, execution plan, runtime receipts, review, recovery rehearsal, and handoff into one reviewable case study.
 
 ## Key Terms
 
@@ -219,7 +219,7 @@ Keep the reusable pack and your completed copy of [career-agent-evidence.md](htt
 ## Further Reading
 
 - Phases 14 · 31 to 14 · 41 — every surface this pack bundles
-- [SkillKit](https://github.com/rohitg00/skillkit) — install this skill across 32 AI agents
+- [SkillKit](https://github.com/iamabhishekpanda/skillkit) — install this skill across 32 AI agents
 - [Nx Blog, Teach Your AI Agent How to Work in a Monorepo](https://nx.dev/blog/nx-ai-agent-skills) — single-source generator across six tools
 - [agents.md — the open spec](https://agents.md/) — what your pack's router must implement
 - [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) — reference implementation of a pack-equivalent

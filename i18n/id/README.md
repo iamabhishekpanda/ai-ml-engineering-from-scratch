@@ -19,7 +19,7 @@ Gratis, sumber terbuka, berlisensi MIT. Belajar melalui situs web, bersama agen 
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Lisensi MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 pelajaran"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 tahap"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Bintang GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Bintang GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Situs web"></a>
 </p>
 
@@ -164,7 +164,7 @@ Buka pelajaran yang sudah selesai di [aiengineeringfromscratch.com](https://aien
 Jika Node.js, `npx`, dan agen pemrograman yang mendukung skill sudah terpasang, agen pemrograman Anda dapat menjadi tutor. Anda tidak perlu mengklon repositori untuk memasang atau membaca tutor. Praktikum yang dapat dijalankan pada jalur khusus membutuhkan `python3`. Praktikum host Agent Skills juga membutuhkan host pilihan dan lingkup skill pengguna atau proyek yang dapat ditulis.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Pilih host dan cakupan saat penginstal menanyakannya. Gunakan `start-learning` di Codex, `/start-learning` di Claude Code, atau minta host menggunakan skill berdasarkan namanya.
@@ -220,7 +220,7 @@ Pemasang menampilkan host yang dapat dikonfigurasi dan menanyakan lokasi pemasan
 ### Jalankan kode lokal
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Pelajaran 31-46 membentuk [jalur Rekayasa Berbantuan Agen](../../learning-paths/
 <details>
 <summary>Baca kurikulum inti sebagai buku</summary>
 
-Kurikulum inti 20 tahap di bawah `phases/` dikompilasi menjadi seri buku enam jilid. EPUB dan PDF dibangun oleh CI dari sumber pelajaran inti yang sama dan dilampirkan pada setiap [rilis GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases); tautan di bawah selalu mengarah ke rilis terbaru. Nomor jilid menunjukkan urutan seri, bukan versi: setiap salinan memuat tanggal edisi, dan edisi sebelumnya tetap dapat diunduh dari rilis masing-masing.
+Kurikulum inti 20 tahap di bawah `phases/` dikompilasi menjadi seri buku enam jilid. EPUB dan PDF dibangun oleh CI dari sumber pelajaran inti yang sama dan dilampirkan pada setiap [rilis GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); tautan di bawah selalu mengarah ke rilis terbaru. Nomor jilid menunjukkan urutan seri, bukan versi: setiap salinan memuat tanggal edisi, dan edisi sebelumnya tetap dapat diunduh dari rilis masing-masing.
 
 Kurikulum sertifikasi sengaja tidak dikonversi menjadi buku. Status tutor AI, praktikum yang dapat dijalankan, gambar interaktif, tes diagnostik, dan simulasi ujian berbatas waktunya tetap tersedia sebagai fitur utama di GitHub dan situs web.
 
 | Jilid | Judul | Tahap | Unduh |
 |-----|-------|--------|----------|
-| 1 | Fondasi · Matematika, perkakas, dan pembelajaran mesin klasik | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Jaringan, penglihatan, dan ujaran | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Bahasa · Dasar NLP dan Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Model Bahasa Besar · Generasi, penguatan, prapelatihan, dan rekayasa | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agen · Multimodalitas, protokol, otonomi, dan kawanan | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Produksi · Infrastruktur, keselamatan, dan proyek akhir | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Fondasi · Matematika, perkakas, dan pembelajaran mesin klasik | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Deep Learning · Jaringan, penglihatan, dan ujaran | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Bahasa · Dasar NLP dan Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Model Bahasa Besar · Generasi, penguatan, prapelatihan, dan rekayasa | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agen · Multimodalitas, protokol, otonomi, dan kawanan | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Produksi · Infrastruktur, keselamatan, dan proyek akhir | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Buku merupakan potret pada suatu waktu; repositori ini merupakan edisi yang terus berkembang. Setiap bab diakhiri dengan tautan kembali ke gambar animasi, kuis, dan kode pelajaran yang dapat dijalankan. Bangun secara lokal dengan `python3 scripts/build_book.py` (membutuhkan pandoc); rincian pipeline ada di [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Jika panduan ini membantu Anda, beri bintang pada repositorinya. Itu membantu me
 
 MIT. Gunakan sesuka Anda: fork, ajarkan, jual, atau rilis. Atribusi dihargai, tetapi tidak diwajibkan.
 
-Dikelola oleh [Rohit Ghumare](https://github.com/rohitg00) dan komunitas.
+Dikelola oleh [Rohit Ghumare](https://github.com/iamabhishekpanda) dan komunitas.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Laporkan / Usulkan</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Laporkan / Usulkan</a>
 </sub>

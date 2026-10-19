@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="สัญญาอนุญาต MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 บทเรียน"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 ระยะ"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="ดาวบน GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="ดาวบน GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="เว็บไซต์"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 หากติดตั้ง Node.js, `npx` และเอเจนต์เขียนโค้ดที่รองรับสกิลแล้ว คุณเปลี่ยนเอเจนต์ให้เป็นผู้สอนได้ ไม่ต้องโคลนที่เก็บโค้ดเพื่อติดตั้งหรืออ่านเนื้อหาของผู้สอน แต่แล็บในเส้นทางเฉพาะด้านต้องใช้ `python3` ส่วนแล็บ Agent Skills ต้องเลือกโฮสต์และมีโฟลเดอร์สกิลระดับผู้ใช้หรือโครงการที่เขียนได้ด้วย
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 เลือกโฮสต์และขอบเขตเมื่อตัวติดตั้งถาม ใช้ `start-learning` ใน Codex, `/start-learning` ใน Claude Code หรือขอให้โฮสต์ใช้สกิลตามชื่อ
@@ -220,7 +220,7 @@ python3 --version
 ### รันโค้ดบนเครื่อง
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>อ่านหลักสูตรแกนหลักในรูปแบบหนังสือ</summary>
 
-หลักสูตรแกนหลัก 20 ระยะภายใต้ `phases/` ถูกรวมเป็นหนังสือหกเล่ม CI สร้าง EPUB และ PDF จากแหล่งบทเรียนเดียวกัน แล้วแนบใน[การเผยแพร่บน GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases) ทุกครั้ง ลิงก์ด้านล่างชี้ไปยังรุ่นล่าสุดเสมอ เลขเล่มบอกลำดับในชุด ไม่ใช่เวอร์ชัน แต่ละไฟล์มีวันที่ของฉบับ และฉบับเก่ายังคงดาวน์โหลดได้จากหน้าการเผยแพร่ของตน
+หลักสูตรแกนหลัก 20 ระยะภายใต้ `phases/` ถูกรวมเป็นหนังสือหกเล่ม CI สร้าง EPUB และ PDF จากแหล่งบทเรียนเดียวกัน แล้วแนบใน[การเผยแพร่บน GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases) ทุกครั้ง ลิงก์ด้านล่างชี้ไปยังรุ่นล่าสุดเสมอ เลขเล่มบอกลำดับในชุด ไม่ใช่เวอร์ชัน แต่ละไฟล์มีวันที่ของฉบับ และฉบับเก่ายังคงดาวน์โหลดได้จากหน้าการเผยแพร่ของตน
 
 หลักสูตรใบรับรองตั้งใจไม่รวมในหนังสือ สถานะผู้สอน AI แล็บที่รันได้ ภาพโต้ตอบ แบบประเมินพื้นฐาน และข้อสอบจำลองแบบจับเวลา ยังคงใช้งานเต็มรูปแบบบน GitHub และเว็บไซต์
 
 | เล่ม | ชื่อ | ระยะ | ดาวน์โหลด |
 |-----|-------|--------|----------|
-| 1 | พื้นฐาน · คณิตศาสตร์ เครื่องมือ และแมชชีนเลิร์นนิงแบบดั้งเดิม | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | ดีปเลิร์นนิง · โครงข่าย การมองเห็น และเสียงพูด | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | ภาษา · พื้นฐาน NLP และ Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | โมเดลภาษาขนาดใหญ่ · การสร้าง การเสริมกำลัง พรีเทรน และวิศวกรรม | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | เอเจนต์ · หลายโมดัลลิตี โพรโทคอล การทำงานอัตโนมัติ และฝูง | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | งานจริง · โครงสร้างพื้นฐาน ความปลอดภัย และโครงงานสรุป | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | พื้นฐาน · คณิตศาสตร์ เครื่องมือ และแมชชีนเลิร์นนิงแบบดั้งเดิม | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | ดีปเลิร์นนิง · โครงข่าย การมองเห็น และเสียงพูด | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | ภาษา · พื้นฐาน NLP และ Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | โมเดลภาษาขนาดใหญ่ · การสร้าง การเสริมกำลัง พรีเทรน และวิศวกรรม | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | เอเจนต์ · หลายโมดัลลิตี โพรโทคอล การทำงานอัตโนมัติ และฝูง | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | งานจริง · โครงสร้างพื้นฐาน ความปลอดภัย และโครงงานสรุป | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 หนังสือคือภาพของหลักสูตร ณ เวลาหนึ่ง ส่วนที่เก็บนี้คือฉบับที่ปรับปรุงต่อเนื่อง ทุกบทจบด้วยลิงก์ไปยังภาพเคลื่อนไหว แบบทดสอบ และโค้ดที่รันได้ สร้างในเครื่องด้วย `python3 scripts/build_book.py` โดยต้องมี pandoc ดูรายละเอียดกระบวนการใน [book/README.md](../../book/README.md)
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT ใช้ได้ตามต้องการ: ฟอร์ก สอน ขาย หรือเผยแพร่ ขอบคุณหากให้เครดิต แต่ไม่ได้บังคับ
 
-ดูแลโดย [Rohit Ghumare](https://github.com/rohitg00) และชุมชน
+ดูแลโดย [Rohit Ghumare](https://github.com/iamabhishekpanda) และชุมชน
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">รายงาน / เสนอแนะ</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">รายงาน / เสนอแนะ</a>
 </sub>

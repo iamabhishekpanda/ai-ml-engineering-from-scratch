@@ -923,7 +923,7 @@ test('learning path manifests preserve route order and use canonical lesson titl
       { path: 'phases/13-tools-and-protocols/23-capstone-tool-ecosystem' },
     ],
   }));
-  const github = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
+  const github = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/';
   const phases = [{
     id: 13,
     name: 'Tools and Protocols',
@@ -969,7 +969,7 @@ test('learning path manifests reject duplicate and unresolved prerequisite check
       name: 'Skills and Agent SDKs',
       type: 'Build',
       lang: 'Python',
-      url: 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '/',
+      url: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/' + lessonPath + '/',
     }],
   }];
   const manifestFile = path.join(root, 'learning-paths', 'agent-skills.json');
@@ -1004,7 +1004,7 @@ test('learning path manifests reject invalid prerequisite path graphs', t => {
     'phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure',
     'phases/13-tools-and-protocols/25-skill-invocation-and-routing',
   ];
-  const github = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
+  const github = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/';
   const phases = [{
     id: 13,
     name: 'Tools and Protocols',
@@ -1710,7 +1710,7 @@ test('exact Agent Skills search ranks the focused path before individual lessons
     lessons: [{
       name: 'Agent Skills: Portable Contract and Runtime Boundary',
       summary: 'Learn agent skills.',
-      url: 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/',
+      url: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/',
     }],
   }];
 

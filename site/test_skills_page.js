@@ -37,7 +37,7 @@ test('the page lists every skill with its install command and source link', () =
   const html = fs.readFileSync(path.join(__dirname, 'skills.html'), 'utf8');
   for (const name of Object.keys(loadSkills())) {
     assert.match(html, new RegExp(`id="${name}"`), name);
-    assert.ok(html.includes(`npx skills add rohitg00/ai-engineering-from-scratch --skill ${name}`), name);
+    assert.ok(html.includes(`npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch --skill ${name}`), name);
     assert.ok(html.includes(`/blob/main/skills/${name}/SKILL.md`), name);
   }
   assert.ok(html.includes('og/page/skills.png'));

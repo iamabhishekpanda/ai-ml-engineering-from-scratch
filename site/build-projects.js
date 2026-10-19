@@ -179,7 +179,7 @@ function buildData(options = {}) {
     for (const id of route.projects) ensure(readyIds.has(id), `learning-paths/${route.id}: ${id} is not a ready project`);
     return { id: route.id, title: route.title, projects: route.projects.slice() };
   });
-  return { generated: new Date().toISOString().slice(0, 10), repo: 'https://github.com/rohitg00/ai-engineering-from-scratch', levels: LEVELS, projects, planned, roles };
+  return { generated: new Date().toISOString().slice(0, 10), repo: 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch', levels: LEVELS, projects, planned, roles };
 }
 
 function bundleContent(data, root, outDir) {

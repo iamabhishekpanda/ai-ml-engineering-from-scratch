@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT 授權條款"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 堂課"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 個階段"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星標"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星標"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="網站"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 如果已安裝 Node.js、`npx` 和支援 Agent Skills 的程式開發代理程式，就能讓代理程式充當你的課程導師。安裝和閱讀導師技能不要求先複製儲存庫；要執行專項路線的實驗，則需要 `python3`。Agent Skills 的主機實驗還需要選定主機，並有可寫入的使用者級或專案級技能目錄。
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 安裝程式詢問時，選擇宿主與安裝範圍。在 Codex 中使用 `start-learning`，在 Claude Code 中使用 `/start-learning`，或讓宿主依名稱使用該技能。
@@ -220,7 +220,7 @@ python3 --version
 ### 執行本機程式碼
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>將核心課程當作一本書來讀</summary>
 
-`phases/` 下的 20 個階段可編成六卷電子書。CI 使用同一份課程源檔案建置 EPUB 和 PDF，並把它們附在每次 [GitHub 發佈](https://github.com/rohitg00/ai-engineering-from-scratch/releases)中；下錶連結始終指向最新版本。卷號表示系列順序，不是版本號；每份檔案都標注編制日期，舊版本仍可從歷史發佈頁下載。
+`phases/` 下的 20 個階段可編成六卷電子書。CI 使用同一份課程源檔案建置 EPUB 和 PDF，並把它們附在每次 [GitHub 發佈](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)中；下錶連結始終指向最新版本。卷號表示系列順序，不是版本號；每份檔案都標注編制日期，舊版本仍可從歷史發佈頁下載。
 
 認證課程不會編入這套電子書。它們的 AI 導師進度、可執行實驗、交互圖示、診斷測驗和限時模擬考試仍保留在 GitHub 與課程網站上。
 
 | 卷 | 主題 | 階段 | 下載 |
 |---|---|---|---|
-| 1 | 基礎：數學、工具與經典機器學習 | 00–02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | 深度學習：神經網路、視覺與語音 | 03、04、06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | 語言：自然語言處理基礎與 Transformer | 05、07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | 大語言模型：生成、強化學習、預訓練與工程實踐 | 08–11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | 代理程式：多模態、協定、自主系統與群體協作 | 12–16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | 生產實踐：基礎設施、安全與綜合專案 | 17–19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | 基礎：數學、工具與經典機器學習 | 00–02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | 深度學習：神經網路、視覺與語音 | 03、04、06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | 語言：自然語言處理基礎與 Transformer | 05、07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | 大語言模型：生成、強化學習、預訓練與工程實踐 | 08–11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | 代理程式：多模態、協定、自主系統與群體協作 | 12–16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | 生產實踐：基礎設施、安全與綜合專案 | 17–19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 電子書是一份階段性快照，儲存庫則持續更新。每章末尾都有連結，可以回到對應課程的動畫圖示、測驗和可執行程式碼。要在本地建置，請安裝 pandoc 後執行 `python3 scripts/build_book.py`；建置流程見 [book/README.md](../../book/README.md)。
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 本專案採用 MIT 授權條款。你可以建立分支、教學、出售或發佈；歡迎署名，但授權條款不強制要求。
 
-由 [Rohit Ghumare](https://github.com/rohitg00) 與社群共同維護。
+由 [Rohit Ghumare](https://github.com/iamabhishekpanda) 與社群共同維護。
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">反饋與建議</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">反饋與建議</a>
 </sub>

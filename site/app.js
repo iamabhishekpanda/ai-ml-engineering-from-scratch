@@ -46,9 +46,16 @@
 
   function updateThemeIcon() {
     var icon = document.getElementById('themeIcon');
-    if (!icon) return;
     var theme = root.getAttribute('data-theme');
-    icon.textContent = theme === 'light' ? 'N' : 'D';
+    var button = document.getElementById('themeToggle');
+    var nextTheme = theme === 'light' ? 'dark' : 'light';
+    var label = 'Switch to ' + nextTheme + ' theme';
+    if (icon) icon.textContent = nextTheme.toUpperCase();
+    if (button) {
+      button.setAttribute('aria-label', label);
+      button.setAttribute('title', label);
+      button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    }
   }
 
   function initThemeToggle() {

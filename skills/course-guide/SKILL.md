@@ -41,7 +41,7 @@ README: every phase has a table listing each lesson's number, title, type
 repo is cloned; otherwise fetch:
 
 ```text
-https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/README.md
+https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/main/README.md
 ```
 
 For term definitions, the glossary lives at `glossary/terms.md` (same rule:

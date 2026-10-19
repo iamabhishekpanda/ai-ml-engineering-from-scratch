@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="رخصة MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 درساً"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 مرحلة"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="نجوم GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="نجوم GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="الموقع الإلكتروني"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 إذا كان Node.js و`npx` ووكيل برمجي يدعم المهارات مثبتة لديك، فيمكن لوكيلك أن يصبح معلّمك. لا تحتاج إلى استنساخ المستودع لتثبيت المعلّم أو قراءته. تتطلب مختبرات المسارات المركّزة `python3`؛ وتتطلب مختبرات Agent Skills أيضًا مضيفًا محددًا ونطاق مهارات للمستخدم أو المشروع قابلًا للكتابة.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 اختر المضيف والنطاق عندما يطلب برنامج التثبيت ذلك. استخدم `start-learning` في Codex أو `/start-learning` في Claude Code أو اطلب من المضيف استخدام المهارة باسمها.
@@ -220,7 +220,7 @@ python3 --version
 ### شغّل الشيفرة محليًا
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>اقرأ المنهج الأساسي كسلسلة كتب</summary>
 
-يتحوّل المنهج الأساسي ذو المراحل العشرين في `phases/` إلى سلسلة من ستة مجلدات. تنشئ CI نسختي EPUB وPDF من مصادر الدروس الأساسية نفسها وتضيفهما إلى كل [إصدار على GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases)؛ وتشير الروابط أدناه دائمًا إلى أحدث إصدار. أرقام المجلدات تحدد ترتيب السلسلة، لا الإصدارات: تحمل كل نسخة تاريخ إصدار، ويمكن تنزيل النسخ الأقدم من إصداراتها.
+يتحوّل المنهج الأساسي ذو المراحل العشرين في `phases/` إلى سلسلة من ستة مجلدات. تنشئ CI نسختي EPUB وPDF من مصادر الدروس الأساسية نفسها وتضيفهما إلى كل [إصدار على GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)؛ وتشير الروابط أدناه دائمًا إلى أحدث إصدار. أرقام المجلدات تحدد ترتيب السلسلة، لا الإصدارات: تحمل كل نسخة تاريخ إصدار، ويمكن تنزيل النسخ الأقدم من إصداراتها.
 
 لا تُحوّل مناهج الشهادات عمدًا إلى كتب. وتظل حالة معلّم الذكاء الاصطناعي والمختبرات القابلة للتشغيل والرسوم التفاعلية والتشخيص والاختبارات التدريبية المحددة بزمن متاحة على GitHub والموقع.
 
 | المجلد | العنوان | المراحل | التنزيل |
 |-----|-------|--------|----------|
-| 1 | الأسس · الرياضيات والأدوات وتعلّم الآلة التقليدي | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | التعلّم العميق · الشبكات والرؤية والكلام | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | اللغة · أسس NLP وTransformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | النماذج اللغوية الكبيرة · التوليد والتعلّم المعزّز والتدريب المسبق والهندسة | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | الوكلاء · تعدد الوسائط والبروتوكولات والاستقلالية والأسراب | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | الإنتاج · البنية التحتية والسلامة والمشاريع الختامية | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | الأسس · الرياضيات والأدوات وتعلّم الآلة التقليدي | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | التعلّم العميق · الشبكات والرؤية والكلام | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | اللغة · أسس NLP وTransformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | النماذج اللغوية الكبيرة · التوليد والتعلّم المعزّز والتدريب المسبق والهندسة | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | الوكلاء · تعدد الوسائط والبروتوكولات والاستقلالية والأسراب | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | الإنتاج · البنية التحتية والسلامة والمشاريع الختامية | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 الكتاب لقطة ثابتة، أما هذا المستودع فهو الإصدار المتجدد. ينتهي كل فصل بروابط إلى الرسوم المتحركة والاختبار والشيفرة القابلة للتشغيل الخاصة بالدرس. أنشئ الكتاب محليًا بتشغيل `python3 scripts/build_book.py` (يتطلب pandoc)؛ والتفاصيل في [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT. استخدمه كيفما تشاء: أنشئ fork أو درّسه أو بِعه أو أطلقه. يُستحسن ذكر المصدر، لكنه غير إلزامي.
 
-يتولى [Rohit Ghumare](https://github.com/rohitg00) والمجتمع صيانة المشروع.
+يتولى [Rohit Ghumare](https://github.com/iamabhishekpanda) والمجتمع صيانة المشروع.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">تقرير / اقتراح</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">تقرير / اقتراح</a>
 </sub>

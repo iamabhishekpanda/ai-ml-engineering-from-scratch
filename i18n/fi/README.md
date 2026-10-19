@@ -19,7 +19,7 @@ Maksuton, avoin lähdekoodi, MIT-lisenssi. Opi verkkosivustolla, koodausagentin 
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-lisenssi"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 oppituntia"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 vaihetta"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-tähdet"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-tähdet"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Verkkosivusto"></a>
 </p>
 
@@ -164,7 +164,7 @@ Avaa valmis oppitunti sivustolla [aiengineeringfromscratch.com](https://aiengine
 Jos Node.js, `npx` ja taitoja tukeva koodausagentti on jo asennettu, agentistasi tulee opettajasi. Opettajan asentaminen tai lukeminen ei vaadi tietovaraston kloonaamista. Rajattujen opintopolkujen suoritettavat harjoitukset tarvitsevat `python3`-komennon. Agent Skills -harjoitukset tarvitsevat lisäksi valitun isäntäsovelluksen sekä käyttäjän tai projektin taitohakemiston, johon voi kirjoittaa.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Valitse isäntäympäristö ja laajuus asennusohjelman kysyessä. Käytä Codexissa `start-learning`-komentoa, Claude Codessa `/start-learning`-komentoa tai pyydä ympäristöä käyttämään taitoa nimeltä.
@@ -220,7 +220,7 @@ Asennusohjelma näyttää tukemansa isäntäsovellukset ja kysyy asennuspaikkaa.
 ### Suorita koodia paikallisesti
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Oppitunnit 31-46 muodostavat [agenttiavusteisen ohjelmistokehityksen polun](../.
 <details>
 <summary>Lue peruskurssi kirjana</summary>
 
-Hakemiston `phases/` 20-vaiheinen peruskurssi kootaan kuusiosaiseksi kirjasarjaksi. CI tuottaa EPUB- ja PDF-tiedostot samoista oppituntien lähteistä ja liittää ne jokaiseen [GitHub-julkaisuun](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Alla olevat linkit osoittavat aina uusimpaan julkaisuun. Osanumerot kertovat paikan sarjassa, eivät versiota: jokaisessa kappaleessa on päivätty painosmerkintä, ja vanhat painokset ovat edelleen ladattavissa omista julkaisuistaan.
+Hakemiston `phases/` 20-vaiheinen peruskurssi kootaan kuusiosaiseksi kirjasarjaksi. CI tuottaa EPUB- ja PDF-tiedostot samoista oppituntien lähteistä ja liittää ne jokaiseen [GitHub-julkaisuun](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases). Alla olevat linkit osoittavat aina uusimpaan julkaisuun. Osanumerot kertovat paikan sarjassa, eivät versiota: jokaisessa kappaleessa on päivätty painosmerkintä, ja vanhat painokset ovat edelleen ladattavissa omista julkaisuistaan.
 
 Sertifiointikursseja ei tarkoituksella muuteta kirjoiksi. Niiden AI-opettajan tila, suoritettavat harjoitukset, vuorovaikutteiset kuvat, lähtötasotestit ja ajastetut harjoituskokeet säilyvät GitHubissa ja verkkosivustolla.
 
 | Osa | Nimi | Vaiheet | Lataa |
 |-----|-------|--------|----------|
-| 1 | Perusteet · Matematiikka, työkalut ja klassinen koneoppiminen | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Syväoppiminen · Verkot, konenäkö ja puhe | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Kieli · NLP:n perusteet ja Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Suuret kielimallit · Generointi, vahvistusoppiminen, esikoulutus ja kehitys | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agentit · Multimodaalisuus, protokollat, autonomia ja parvet | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Tuotanto · Infrastruktuuri, turvallisuus ja lopputyöt | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Perusteet · Matematiikka, työkalut ja klassinen koneoppiminen | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Syväoppiminen · Verkot, konenäkö ja puhe | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Kieli · NLP:n perusteet ja Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Suuret kielimallit · Generointi, vahvistusoppiminen, esikoulutus ja kehitys | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agentit · Multimodaalisuus, protokollat, autonomia ja parvet | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Tuotanto · Infrastruktuuri, turvallisuus ja lopputyöt | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Kirja on tilannekuva; tämä tietovarasto on elävä painos. Jokainen luku päättyy linkkeihin oppitunnin animoituihin kuviin, testiin ja suoritettavaan koodiin. Kokoa kirja paikallisesti komennolla `python3 scripts/build_book.py` (pandoc vaaditaan). Kokoamisputken tiedot ovat tiedostossa [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Jos käsikirjasta oli apua, anna tietovarastolle tähti. Se pitää projektin el
 
 MIT. Käytä materiaalia miten haluat: haarauta, opeta, myy tai julkaise. Lähteen mainitseminen on suotavaa, mutta ei pakollista.
 
-Ylläpidosta vastaavat [Rohit Ghumare](https://github.com/rohitg00) ja yhteisö.
+Ylläpidosta vastaavat [Rohit Ghumare](https://github.com/iamabhishekpanda) ja yhteisö.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Ilmoita / ehdota</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Ilmoita / ehdota</a>
 </sub>

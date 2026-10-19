@@ -8,7 +8,7 @@ const SKILLS = path.join(ROOT, 'skills');
 const OUT = path.join(__dirname, 'skills.html');
 const MARKDOWN = path.join(__dirname, 'skills.md');
 const ORIGIN = 'https://aiengineeringfromscratch.com';
-const REPO = 'rohitg00/ai-engineering-from-scratch';
+const REPO = 'iamabhishekpanda/ai-ml-engineering-from-scratch';
 const GITHUB = `https://github.com/${REPO}`;
 const AGENTS = 'Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that reads SKILL.md';
 

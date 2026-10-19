@@ -28,7 +28,7 @@ from: phases/13-tools-and-protocols/22-skills-and-agent-sdks/docs/en.md, phases/
 
 | Command | What it does |
 |---|---|
-| `npx skills add rohitg00/ai-engineering-from-scratch --skill skill-contract-reviewer --full-depth` | Installs the nested bundle with references, script and asset |
+| `npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch --skill skill-contract-reviewer --full-depth` | Installs the nested bundle with references, script and asset |
 | `/skill-contract-reviewer <request>` | Explicit invocation in a host with `/skill-name` syntax |
 | `/skills` | Picks a skill by name in the Codex interface |
 | `python3 <SKILL_ROOT>/scripts/check_skill.py <TARGET_ROOT>/my-first-skill` | Runs the bundled validator. Show argv, cwd and exit code |

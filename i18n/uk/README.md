@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Ліцензія MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 уроків"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 етапів"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Зірки GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Зірки GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Вебсайт"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 Якщо Node.js, `npx` і агент для програмування з підтримкою навичок уже встановлені, агент може стати вашим викладачем. Для встановлення або читання матеріалів не потрібно клонувати репозиторій. Виконувані лабораторні роботи спеціалізованих маршрутів потребують `python3`. Для лабораторних робіт Agent Skills також потрібні вибраний хост і доступний для запису каталог навичок користувача або проєкту.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Оберіть хост і область, коли запитає інсталятор. Використовуйте `start-learning` у Codex, `/start-learning` у Claude Code або попросіть хост використати навичку за назвою.
@@ -220,7 +220,7 @@ python3 --version
 ### Запустіть код локально
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>Читайте основний курс як книжку</summary>
 
-Основний курс із 20 етапів у `phases/` збирається в книжкову серію із шести томів. CI створює EPUB і PDF з тих самих джерел уроків і додає їх до кожного [випуску GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Посилання нижче завжди ведуть до найновішого випуску. Номери томів визначають місце в серії, а не версію: кожна копія має дату видання, а старі видання залишаються доступними у відповідних випусках.
+Основний курс із 20 етапів у `phases/` збирається в книжкову серію із шести томів. CI створює EPUB і PDF з тих самих джерел уроків і додає їх до кожного [випуску GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases). Посилання нижче завжди ведуть до найновішого випуску. Номери томів визначають місце в серії, а не версію: кожна копія має дату видання, а старі видання залишаються доступними у відповідних випусках.
 
 Сертифікаційні програми навмисно не включено до книжок. Стан їхніх AI-викладачів, виконувані лабораторні роботи, інтерактивні ілюстрації, діагностичні тести й тренувальні іспити з обмеженням часу залишаються доступними в GitHub і на сайті.
 
 | Том | Назва | Етапи | Завантажити |
 |-----|-------|--------|----------|
-| 1 | Основи · Математика, інструменти й класичне машинне навчання | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Глибоке навчання · Мережі, зір і мовлення | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Мова · Основи NLP і Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Великі мовні моделі · Генерація, підкріплення, попереднє навчання й інженерія | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Агенти · Мультимодальність, протоколи, автономність і рої | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Експлуатація · Інфраструктура, безпека й підсумкові проєкти | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Основи · Математика, інструменти й класичне машинне навчання | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Глибоке навчання · Мережі, зір і мовлення | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Мова · Основи NLP і Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Великі мовні моделі · Генерація, підкріплення, попереднє навчання й інженерія | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Агенти · Мультимодальність, протоколи, автономність і рої | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Експлуатація · Інфраструктура, безпека й підсумкові проєкти | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Книжка є знімком стану, а цей репозиторій є живим виданням. Кожен розділ завершується посиланнями на анімовані ілюстрації, тест і виконуваний код уроку. Зберіть локально командою `python3 scripts/build_book.py` (потрібен pandoc). Подробиці процесу є в [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT. Використовуйте як завгодно: робіть форки, викладайте, продавайте або публікуйте. Зазначення авторства вітається, але не є обов’язковим.
 
-Підтримують [Rohit Ghumare](https://github.com/rohitg00) і спільнота.
+Підтримують [Rohit Ghumare](https://github.com/iamabhishekpanda) і спільнота.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Повідомити / запропонувати</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Повідомити / запропонувати</a>
 </sub>

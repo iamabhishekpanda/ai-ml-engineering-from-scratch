@@ -2,7 +2,7 @@
   'use strict';
 
   var KEY = 'aifs:star-nudge';
-  var REPO_URL = 'https://github.com/rohitg00/ai-engineering-from-scratch';
+  var REPO_URL = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch';
   var DAY = 24 * 60 * 60 * 1000;
   var RULES = {
     activeSeconds: 180,

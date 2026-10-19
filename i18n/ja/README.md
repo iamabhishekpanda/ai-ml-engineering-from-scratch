@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MITライセンス"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 授業"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20段階"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHubのスター"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHubのスター"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="ウェブサイト"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 Node.js、`npx`、スキルに対応したコーディングエージェントがすでにインストールされていれば、エージェントをチューターとして使えます。チューターをインストールしたり読んだりするだけなら、リポジトリのクローンは不要です。学習パスを絞った実行可能なラボには`python3`が必要です。Agent Skillsのホストラボには、利用するホストの選択と、書き込み可能なユーザーまたはプロジェクトのスキル領域も必要です。
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 インストーラーの質問に応じてホストと適用範囲を選びます。Codex では `start-learning`、Claude Code では `/start-learning` を使うか、ホストにスキル名を指定して使用を依頼します。
@@ -220,7 +220,7 @@ Agent Skillsだけを学ぶ場合は、ホストに対応したAgent Skillsの�
 ### コードをローカルで実行する
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1071,18 +1071,18 @@ flowchart TB
 <details>
 <summary>コアカリキュラムを本として読む</summary>
 
-`phases/`にある20フェーズのコアカリキュラムは、全6巻の書籍シリーズになります。EPUBとPDFは同じコアレッスンのソースからCIで生成され、[GitHubの各リリース](https://github.com/rohitg00/ai-engineering-from-scratch/releases)に添付されます。以下のリンクは常に最新リリースを指します。巻番号はシリーズ内の番号であり、版番号ではありません。各巻には日付入りの版表示があり、以前の版も各リリースから引き続きダウンロードできます。
+`phases/`にある20フェーズのコアカリキュラムは、全6巻の書籍シリーズになります。EPUBとPDFは同じコアレッスンのソースからCIで生成され、[GitHubの各リリース](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)に添付されます。以下のリンクは常に最新リリースを指します。巻番号はシリーズ内の番号であり、版番号ではありません。各巻には日付入りの版表示があり、以前の版も各リリースから引き続きダウンロードできます。
 
 認定カリキュラムは意図的に書籍化していません。AIチューターの状態、実行可能なラボ、対話型図表、診断、時間制限付き模擬試験は、GitHubとウェブサイトでそのまま利用できます。
 
 | 巻 | タイトル | フェーズ | ダウンロード |
 |---|---|---|---|
-| 1 | 基礎 — 数学、ツール、古典的機械学習 | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | ディープラーニング — ネットワーク、ビジョン、音声 | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | 言語 — NLPの基礎とTransformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | 大規模言語モデル — 生成、強化学習、事前学習、エンジニアリング | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | エージェント — マルチモーダル、プロトコル、自律性、スウォーム | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | 本番運用 — インフラ、安全性、総合プロジェクト | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | 基礎 — 数学、ツール、古典的機械学習 | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | ディープラーニング — ネットワーク、ビジョン、音声 | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | 言語 — NLPの基礎とTransformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | 大規模言語モデル — 生成、強化学習、事前学習、エンジニアリング | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | エージェント — マルチモーダル、プロトコル、自律性、スウォーム | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | 本番運用 — インフラ、安全性、総合プロジェクト | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 書籍はある時点のスナップショットで、このリポジトリは更新が続く版です。各章の末尾には、レッスンのアニメーション図、クイズ、実行可能なコードへのリンクがあります。`python3 scripts/build_book.py`でローカル生成できます（pandocが必要です）。パイプラインの詳細は[book/README.md](../../book/README.md)をご覧ください。
 
@@ -1295,8 +1295,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT。好きなように使ってください。フォークする、教える、売る、公開する。クレジットは歓迎しますが、必須ではありません。
 
-[Rohit Ghumare](https://github.com/rohitg00) とコミュニティが保守しています。
+[Rohit Ghumare](https://github.com/iamabhishekpanda) とコミュニティが保守しています。
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">報告/提案</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">報告/提案</a>
 </sub>

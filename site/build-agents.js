@@ -3,7 +3,7 @@ const path = require('node:path');
 const { ORIGIN, PAGES } = require('../lib/agent-content');
 
 const ROOT = path.join(__dirname, '..');
-const REPO = 'https://github.com/rohitg00/ai-engineering-from-scratch';
+const REPO = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch';
 
 function pageMarkdown(html, filename) {
   const content = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1] || '';

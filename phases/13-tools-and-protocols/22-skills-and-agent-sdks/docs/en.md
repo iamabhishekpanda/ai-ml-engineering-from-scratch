@@ -88,7 +88,7 @@ No output and exit code 0 means the file exists.
 Stay in `agent-skills-first-run` and run:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch --skill skill-contract-reviewer --full-depth
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch --skill skill-contract-reviewer --full-depth
 ```
 
 Choose the agent host and scope you are using. The installer should list

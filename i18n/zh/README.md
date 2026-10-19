@@ -9,6 +9,8 @@
 
 实现模型内部机制、检索流水线和智能体运行时。测试它们，分析故障，并保留代码和评估结果。
 
+这是 **Abhishek Panda 的学习工作区**：一个独立维护、使用个人品牌的分支，用于通过从第一性原理构建重要组件来学习 AI 工程。
+
 **[开始学习](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[选择学习路径](#learning-routes)** · **[试做实验](#interactive-lab)** · **[构建项目](#project-challenges)** · **[浏览课程目录](#contents)**
 
 免费、开源、MIT 许可。你可以在网站学习、使用编程代理辅助学习，或在本地运行代码。
@@ -19,7 +21,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT 许可证"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 节课"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 个阶段"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星标"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星标"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
 </p>
 
@@ -55,6 +57,27 @@
 | 智能体与交付 | [智能体循环](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
 
 [比较职业路径](https://aiengineeringfromscratch.com/learning-paths.html) · [先修知识与学习时间](#study-guide)
+
+## 接下来学习什么
+
+完成基础知识后，按以下顺序学习，并在每一步交付一个小成果：
+
+1. **数学与 Python：**向量、导数、概率、NumPy，以及整洁的实验笔记本。
+2. **神经网络：**从零实现前向传播、反向传播、优化器和一个小型分类器。
+3. **语言模型：**分词、嵌入、注意力、Transformer、训练循环和评估。
+4. **AI 系统：**检索、工具调用、智能体循环、结构化输出、追踪和回归测试。
+5. **生产实践：**API、批处理、缓存、可观测性、安全、部署和成本感知的评估。
+
+最好的下一个项目，是让当前概念可观察的最小项目：绘制损失曲线、混淆矩阵、注意力可视化，或智能体追踪。
+
+```mermaid
+flowchart LR
+  A[Learn the idea] --> B[Implement the smallest version]
+  B --> C[Plot or trace what happened]
+  C --> D[Test an edge case]
+  D --> E[Ship a tiny project]
+  E --> A
+```
 
 <a id="interactive-lab"></a>
 
@@ -164,7 +187,7 @@ python3 scripts/project_test.py tool-call-firewall \
 如果已安装 Node.js、`npx` 和支持 Agent Skills 的编程智能体，就能让智能体充当你的课程导师。安装和阅读导师技能不要求先克隆仓库；要运行专项路线的实验，则需要 `python3`。Agent Skills 的宿主实验还需要选定宿主，并有可写入的用户级或项目级技能目录。
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 安装程序询问时，选择宿主和安装范围。在 Codex 中使用 `start-learning`，在 Claude Code 中使用 `/start-learning`，或让宿主按名称使用该技能。
@@ -220,7 +243,7 @@ python3 --version
 ### 运行本地代码
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1093,18 @@ flowchart TB
 <details>
 <summary>将核心课程当作一本书来读</summary>
 
-`phases/` 下的 20 个阶段可编成六卷电子书。CI 使用同一份课程源文件构建 EPUB 和 PDF，并把它们附在每次 [GitHub 发布](https://github.com/rohitg00/ai-engineering-from-scratch/releases)中；下表链接始终指向最新版本。卷号表示系列顺序，不是版本号；每份文件都标注编制日期，旧版本仍可从历史发布页下载。
+`phases/` 下的 20 个阶段可编成六卷电子书。CI 使用同一份课程源文件构建 EPUB 和 PDF，并把它们附在每次 [GitHub 发布](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)中；下表链接始终指向最新版本。卷号表示系列顺序，不是版本号；每份文件都标注编制日期，旧版本仍可从历史发布页下载。
 
 认证课程不会编入这套电子书。它们的 AI 导师进度、可运行实验、交互图示、诊断测验和限时模拟考试仍保留在 GitHub 与课程网站上。
 
 | 卷 | 主题 | 阶段 | 下载 |
 |---|---|---|---|
-| 1 | 基础：数学、工具与经典机器学习 | 00–02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | 深度学习：神经网络、视觉与语音 | 03、04、06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | 语言：自然语言处理基础与 Transformer | 05、07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | 大语言模型：生成、强化学习、预训练与工程实践 | 08–11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | 智能体：多模态、协议、自主系统与群体协作 | 12–16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | 生产实践：基础设施、安全与综合项目 | 17–19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | 基础：数学、工具与经典机器学习 | 00–02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | 深度学习：神经网络、视觉与语音 | 03、04、06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | 语言：自然语言处理基础与 Transformer | 05、07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | 大语言模型：生成、强化学习、预训练与工程实践 | 08–11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | 智能体：多模态、协议、自主系统与群体协作 | 12–16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | 生产实践：基础设施、安全与综合项目 | 17–19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 电子书是一份阶段性快照，仓库则持续更新。每章末尾都有链接，可以回到对应课程的动画图示、测验和可运行代码。要在本地构建，请安装 pandoc 后运行 `python3 scripts/build_book.py`；构建流程见 [book/README.md](../../book/README.md)。
 
@@ -1294,8 +1317,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 本项目采用 MIT 许可证。你可以复刻、教学、出售或发布；欢迎署名，但许可证不强制要求。
 
-由 [Rohit Ghumare](https://github.com/rohitg00) 与社区共同维护。
+由 [Rohit Ghumare](https://github.com/iamabhishekpanda) 与社区共同维护。
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">反馈与建议</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">反馈与建议</a>
 </sub>

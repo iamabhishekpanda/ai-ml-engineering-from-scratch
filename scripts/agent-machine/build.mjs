@@ -144,7 +144,7 @@ const html = `<!DOCTYPE html>
         <a href="roadmap.html">Roadmap</a>
         <a href="glossary.html">Glossary</a>
         <a href="about.html">About</a>
-        <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener" class="header-github">GitHub <span class="star-count" data-loading="true" aria-label="GitHub stars">…</span></a>
+        <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch" target="_blank" rel="noopener" class="header-github">GitHub <span class="star-count" data-loading="true" aria-label="GitHub stars">…</span></a>
       </nav>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" type="button"><span class="theme-icon" id="themeIcon">N</span></button>
     </div>
@@ -277,11 +277,11 @@ ${STUDIO ? STUDIO_PANEL : `          <a class="am-btn am-poster" href="anatomy/i
     <div class="container footer-inner">
       <p>© 2026 · open source · free forever</p>
       <div class="footer-links">
-        <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch" target="_blank" rel="noopener">GitHub</a>
         <a href="about.html">About</a>
         <a href="catalog.html">Catalog</a>
         <a href="glossary.html">Glossary</a>
-        <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose" target="_blank" rel="noopener">Report</a>
+        <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose" target="_blank" rel="noopener">Report</a>
         <a href="sponsors.html">Sponsor us</a>
       </div>
     </div>

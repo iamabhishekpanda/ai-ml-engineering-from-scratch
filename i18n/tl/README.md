@@ -19,7 +19,7 @@ Libre, open source, lisensiyang MIT. Matuto sa websayt, kasama ang isang coding 
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Lisensiyang MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 aralin"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 yugto"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Mga star sa GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Mga star sa GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Websayt"></a>
 </p>
 
@@ -164,7 +164,7 @@ Buksan ang anumang kumpletong aralin sa [aiengineeringfromscratch.com](https://a
 Kung naka-install na ang Node.js, `npx`, at isang coding agent na sumusuporta sa skill, maaari nang maging tutor ang coding agent mo. Hindi kailangan ng clone ng repository upang i-install o basahin ang tutor. Kailangan ng `python3` ang mga napapatakbong lab sa mga nakatuong landas. Kailangan din ng mga lab ng Agent Skills ang napiling host at saklaw ng skill sa user o proyekto na maaaring sulatan.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Piliin ang host at saklaw kapag tinanong ng installer. Gamitin ang `start-learning` sa Codex, `/start-learning` sa Claude Code, o hilingin sa host na gamitin ang skill ayon sa pangalan.
@@ -220,7 +220,7 @@ Inililista ng installer ang mga host na kaya nitong i-configure at nagtatanong k
 ### Magpatakbo ng lokal na code
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Binubuo ng mga aralin 31-46 ang [landas ng Engineering na may Tulong ng Agent](.
 <details>
 <summary>Basahin ang pangunahing kurikulum bilang aklat</summary>
 
-Ang pangunahing kurikulum na may 20 yugto sa `phases/` ay binubuo bilang serye ng anim na tomo. Ginagawa ng CI ang EPUB at PDF mula sa parehong pinagmulang aralin at ikinakabit sa bawat [release sa GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases); palaging tumuturo sa pinakabagong release ang mga link sa ibaba. Ang numero ng tomo ay pagkakasunod sa serye, hindi bersiyon: may petsa ng edisyon ang bawat kopya, at maaari pa ring i-download ang mga lumang edisyon mula sa kani-kanilang release.
+Ang pangunahing kurikulum na may 20 yugto sa `phases/` ay binubuo bilang serye ng anim na tomo. Ginagawa ng CI ang EPUB at PDF mula sa parehong pinagmulang aralin at ikinakabit sa bawat [release sa GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); palaging tumuturo sa pinakabagong release ang mga link sa ibaba. Ang numero ng tomo ay pagkakasunod sa serye, hindi bersiyon: may petsa ng edisyon ang bawat kopya, at maaari pa ring i-download ang mga lumang edisyon mula sa kani-kanilang release.
 
 Sadyang hindi ginagawang aklat ang mga kurikulum ng sertipikasyon. Nananatiling ganap na suportado sa GitHub at website ang state ng AI tutor, mga lab na napapatakbo, interaktibong larawan, panimulang pagsusuri, at mga mock exam na may takdang oras.
 
 | Tomo | Pamagat | Mga yugto | I-download |
 |-----|-------|--------|----------|
-| 1 | Pundasyon · Matematika, mga kasangkapan at klasikal na machine learning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Mga network, vision at pagsasalita | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Wika · Mga pundasyon ng NLP at Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Malalaking Language Model · Paglikha, reinforcement, pre-training at engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Mga Agent · Multimodality, protocol, awtonomiya at swarm | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Aktuwal na Paggamit · Imprastruktura, kaligtasan at pangwakas na proyekto | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Pundasyon · Matematika, mga kasangkapan at klasikal na machine learning | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Deep Learning · Mga network, vision at pagsasalita | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Wika · Mga pundasyon ng NLP at Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Malalaking Language Model · Paglikha, reinforcement, pre-training at engineering | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Mga Agent · Multimodality, protocol, awtonomiya at swarm | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Aktuwal na Paggamit · Imprastruktura, kaligtasan at pangwakas na proyekto | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Ang aklat ay larawan sa isang sandali; ang repository na ito ang patuloy na umuunlad na edisyon. Nagtatapos ang bawat kabanata sa mga link pabalik sa mga animated na larawan, pagsusulit, at napapatakbong code ng aralin. Buuin nang lokal gamit ang `python3 scripts/build_book.py` (kailangan ang pandoc); nasa [book/README.md](../../book/README.md) ang detalye ng pipeline.
 
@@ -1294,8 +1294,8 @@ Kung nakatulong sa iyo ang manwal na ito, bigyan ng star ang repository. Nakatut
 
 MIT. Gamitin ayon sa gusto mo: i-fork, ituro, ibenta, o ilabas. Pinahahalagahan ang pagkilala sa may-akda, pero hindi ito kailangan.
 
-Pinananatili ni [Rohit Ghumare](https://github.com/rohitg00) at ng komunidad.
+Pinananatili ni [Rohit Ghumare](https://github.com/iamabhishekpanda) at ng komunidad.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Mag-ulat / Magmungkahi</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Mag-ulat / Magmungkahi</a>
 </sub>

@@ -98,7 +98,7 @@ Add a runtime timeout signal and confirm that it routes to the runtime rather th
 
 ## Practice Lab: Own a Decision After a Setback
 
-Choose one workflow from your career route's portfolio project. Carry it through one decision, a small experiment, and a review. Keep the evidence in the [career delivery template](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/14-agent-engineering/54-build-the-feedback-ratchet/outputs/career-delivery-evidence.md).
+Choose one workflow from your career route's portfolio project. Carry it through one decision, a small experiment, and a review. Keep the evidence in the [career delivery template](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/phases/14-agent-engineering/54-build-the-feedback-ratchet/outputs/career-delivery-evidence.md).
 
 The Python lab generates example backlog actions. It does not observe users, measure an intervention, or prove career readiness. Completing its run is preparation for this exercise.
 
@@ -156,7 +156,7 @@ At review, decide whether to keep, revise, or retire that improvement. Record th
 
 ## Shipped Artifact
 
-Copy [career-delivery-evidence.md](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/14-agent-engineering/54-build-the-feedback-ratchet/outputs/career-delivery-evidence.md) into your own project and complete it with evidence links. Keep the checked-in template reusable. Include the decision brief, interaction walkthrough, measurement comparison, and owned follow-up with your career portfolio artifact.
+Copy [career-delivery-evidence.md](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/phases/14-agent-engineering/54-build-the-feedback-ratchet/outputs/career-delivery-evidence.md) into your own project and complete it with evidence links. Keep the checked-in template reusable. Include the decision brief, interaction walkthrough, measurement comparison, and owned follow-up with your career portfolio artifact.
 
 ## Verify It
 

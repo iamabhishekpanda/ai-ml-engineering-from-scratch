@@ -37,7 +37,7 @@ portable certification tutor skill at
 [../../skills/mcpa-certification/SKILL.md](../../skills/mcpa-certification/SKILL.md):
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Then ask your agent to run:

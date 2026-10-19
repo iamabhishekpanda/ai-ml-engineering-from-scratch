@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT 라이선스"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 수업"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20단계"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 별"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 별"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="웹사이트"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 Node.js, `npx`, 스킬을 지원하는 코딩 에이전트가 이미 설치되어 있다면 코딩 에이전트를 튜터로 사용할 수 있습니다. 튜터를 설치하거나 읽는 데 저장소 복제는 필요하지 않습니다. 특정 학습 경로의 실습을 실행하려면 `python3`가 필요합니다. Agent Skills 호스트 실습에는 사용할 호스트를 선택하고 쓰기 가능한 사용자 또는 프로젝트 스킬 범위를 지정해야 합니다.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 설치 프로그램이 물으면 호스트와 범위를 선택하세요. Codex에서는 `start-learning`, Claude Code에서는 `/start-learning`을 사용하거나 호스트에 스킬 이름으로 사용을 요청하세요.
@@ -220,7 +220,7 @@ Agent Skills만 배우려면 호스트에 맞는 Agent Skills 호출 방법을 �
 ### 로컬 코드 실행
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1071,18 +1071,18 @@ flowchart TB
 <details>
 <summary>코어 교육과정을 책으로 읽기</summary>
 
-`phases/`의 20단계 코어 교육과정은 6권짜리 시리즈로 만들어집니다. EPUB과 PDF는 같은 코어 레슨 소스에서 CI가 빌드해 [GitHub 릴리스](https://github.com/rohitg00/ai-engineering-from-scratch/releases)마다 첨부합니다. 아래 링크는 항상 최신 릴리스로 연결됩니다. 권 번호는 시리즈 순서이며 버전이 아닙니다. 각 책에는 날짜가 표시된 판 정보가 있고 이전 판도 해당 릴리스에서 계속 내려받을 수 있습니다.
+`phases/`의 20단계 코어 교육과정은 6권짜리 시리즈로 만들어집니다. EPUB과 PDF는 같은 코어 레슨 소스에서 CI가 빌드해 [GitHub 릴리스](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases)마다 첨부합니다. 아래 링크는 항상 최신 릴리스로 연결됩니다. 권 번호는 시리즈 순서이며 버전이 아닙니다. 각 책에는 날짜가 표시된 판 정보가 있고 이전 판도 해당 릴리스에서 계속 내려받을 수 있습니다.
 
 인증 교육과정은 책으로 만들지 않습니다. AI 튜터 상태, 실행 가능한 실습, 상호작용형 그림, 진단 평가, 시간 제한 모의시험은 GitHub와 웹사이트에서 계속 핵심 기능으로 제공됩니다.
 
 | 권 | 제목 | 단계 | 다운로드 |
 |---|---|---|---|
-| 1 | 기초 — 수학, 도구, 고전 머신러닝 | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | 딥러닝 — 신경망, 비전, 음성 | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | 언어 — NLP 기초와 트랜스포머 | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | 대규모 언어 모델 — 생성, 강화학습, 사전 학습, 엔지니어링 | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | 에이전트 — 멀티모달, 프로토콜, 자율성, 스웜 | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | 프로덕션 — 인프라, 안전성, 캡스톤 | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | 기초 — 수학, 도구, 고전 머신러닝 | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | 딥러닝 — 신경망, 비전, 음성 | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | 언어 — NLP 기초와 트랜스포머 | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | 대규모 언어 모델 — 생성, 강화학습, 사전 학습, 엔지니어링 | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | 에이전트 — 멀티모달, 프로토콜, 자율성, 스웜 | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | 프로덕션 — 인프라, 안전성, 캡스톤 | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 책은 특정 시점의 스냅샷이고 이 저장소는 계속 갱신되는 판입니다. 각 장은 레슨의 애니메이션 그림, 퀴즈, 실행 가능한 코드로 연결됩니다. `python3 scripts/build_book.py`로 로컬에서 만들 수 있습니다(pandoc 필요). 파이프라인 세부 정보는 [book/README.md](../../book/README.md)를 참조하세요.
 
@@ -1295,8 +1295,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT. 원하는 대로 쓰세요. 포크하고, 가르치고, 팔고, 배포하세요. 출처 표기는 환영하지만 필수는 아닙니다.
 
-[Rohit Ghumare](https://github.com/rohitg00) 와 커뮤니티가 관리합니다.
+[Rohit Ghumare](https://github.com/iamabhishekpanda) 와 커뮤니티가 관리합니다.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">보고 / 제안</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">보고 / 제안</a>
 </sub>

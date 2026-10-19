@@ -3,7 +3,7 @@
 
   var root = document.documentElement;
   var assessmentTimer = null;
-  var GITHUB_BLOB_BASE = 'https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/';
+  var GITHUB_BLOB_BASE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/';
 
   function esc(value) {
     var div = document.createElement('div');

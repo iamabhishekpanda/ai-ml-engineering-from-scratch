@@ -79,7 +79,7 @@ test('translateText swaps only the trimmed core and keeps surrounding whitespace
 });
 
 test('dictionaries come from the translations branch, English and unknown languages resolve to none', async () => {
-  assert.equal(i18n.TRANSLATIONS_BASE, 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/translations/i18n/');
+  assert.equal(i18n.TRANSLATIONS_BASE, 'https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/translations/i18n/');
   assert.equal(i18n.dictionaryFor('en'), null);
   assert.equal(i18n.dictionaryFor(''), null);
   i18n.preload('zh', { Contents: '目录' });

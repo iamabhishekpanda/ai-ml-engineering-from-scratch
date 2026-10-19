@@ -40,7 +40,7 @@ The route source of truth is `learning-paths/reverse-engineering.json`. Prefer
 local files when this repository is cloned. Otherwise fetch each file from:
 
 ```text
-https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/<path>
+https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/main/<path>
 ```
 
 Read the manifest before choosing a lesson. Follow `lessons` by `order`. The

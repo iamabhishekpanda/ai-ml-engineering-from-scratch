@@ -19,7 +19,7 @@ Zdarma, s otevřeným zdrojovým kódem, pod licencí MIT. Učte se na webu, s p
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Licence MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lekcí"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 fází"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Hvězdičky na GitHubu"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Hvězdičky na GitHubu"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webové stránky"></a>
 </p>
 
@@ -164,7 +164,7 @@ Otevřete dokončenou lekci na [aiengineeringfromscratch.com](https://aiengineer
 Máte-li už Node.js, `npx` a programovacího agenta podporujícího dovednosti, můžete ho použít jako tutora. K instalaci ani čtení tutora nepotřebujete klon repozitáře. Spustitelná cvičení zaměřených cest vyžadují `python3`. Cvičení Agent Skills navíc potřebují vybraného hostitele a zapisovatelný uživatelský nebo projektový rozsah dovedností.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Vyberte hostitele a rozsah, až se instalátor zeptá. Použijte `start-learning` v Codexu, `/start-learning` v Claude Code nebo požádejte hostitele o použití dovednosti podle názvu.
@@ -220,7 +220,7 @@ Instalátor uvede podporované hostitele a zeptá se na místo instalace. Pokud 
 ### Spustit kód místně
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Lekce 31-46 tvoří [cestu inženýrství s podporou agentů](../../learning-pat
 <details>
 <summary>Čtěte základní program jako knihu</summary>
 
-Základní program s 20 fázemi pod `phases/` se sestavuje do šestidílné knižní řady. CI vytváří EPUB a PDF ze stejných zdrojů lekcí a přikládá je ke každému [vydání na GitHubu](https://github.com/rohitg00/ai-engineering-from-scratch/releases); odkazy níže vždy vedou k nejnovějšímu vydání. Čísla svazků označují pořadí v řadě, nikoli verze. Každý výtisk nese datum edice a starší edice zůstávají dostupné u svých vydání.
+Základní program s 20 fázemi pod `phases/` se sestavuje do šestidílné knižní řady. CI vytváří EPUB a PDF ze stejných zdrojů lekcí a přikládá je ke každému [vydání na GitHubu](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases); odkazy níže vždy vedou k nejnovějšímu vydání. Čísla svazků označují pořadí v řadě, nikoli verze. Každý výtisk nese datum edice a starší edice zůstávají dostupné u svých vydání.
 
 Certifikační programy se záměrně nepřevádějí do knih. Stav AI tutora, spustitelná cvičení, interaktivní obrázky, diagnostika a časované zkoušky zůstávají plně dostupné na GitHubu a webu.
 
 | Svazek | Název | Fáze | Stáhnout |
 |-----|-------|--------|----------|
-| 1 | Základy · Matematika, nástroje a klasické strojové učení | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Hluboké učení · Sítě, vidění a řeč | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Jazyk · Základy NLP a transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Velké jazykové modely · Generování, posilování, předtrénování a inženýrství | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agenti · Multimodalita, protokoly, autonomie a roje | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Produkce · Infrastruktura, bezpečnost a závěrečné projekty | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Základy · Matematika, nástroje a klasické strojové učení | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Hluboké učení · Sítě, vidění a řeč | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Jazyk · Základy NLP a transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Velké jazykové modely · Generování, posilování, předtrénování a inženýrství | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agenti · Multimodalita, protokoly, autonomie a roje | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Produkce · Infrastruktura, bezpečnost a závěrečné projekty | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Kniha je snímek, repozitář živá edice. Každá kapitola končí odkazy na animované obrázky, kvíz a spustitelný kód lekce. Místní sestavení spustíte pomocí `python3 scripts/build_book.py` (vyžaduje pandoc); podrobnosti pipeline jsou v [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ Pokud vám příručka pomohla, dejte repozitáři hvězdičku. Pomáhá to udr�
 
 MIT. Používejte podle libosti: vytvořte fork, vyučujte, prodávejte nebo vydávejte. Uvedení autora potěší, ale není povinné.
 
-Spravují [Rohit Ghumare](https://github.com/rohitg00) a komunita.
+Spravují [Rohit Ghumare](https://github.com/iamabhishekpanda) a komunita.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Nahlásit / Navrhnout</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Nahlásit / Navrhnout</a>
 </sub>

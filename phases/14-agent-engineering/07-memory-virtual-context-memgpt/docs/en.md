@@ -159,4 +159,4 @@ Open-source implementations pick different points of attack:
 - [Zep (getzep/zep)](https://github.com/getzep/zep) — temporal knowledge-graph memory from the taxonomy table
 - [Mem0 (mem0ai/mem0)](https://github.com/mem0ai/mem0) — the extraction pipeline behind Lesson 09's hybrid store
 - [LangMem (langchain-ai/langmem)](https://github.com/langchain-ai/langmem) — background extraction of facts and behavioral rules
-- [agentmemory (rohitg00/agentmemory)](https://github.com/rohitg00/agentmemory) — session capture consolidated into typed, searchable records
+- [agentmemory (rohitg00/agentmemory)](https://github.com/iamabhishekpanda/agentmemory) — session capture consolidated into typed, searchable records

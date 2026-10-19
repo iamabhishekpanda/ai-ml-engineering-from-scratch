@@ -19,7 +19,7 @@ Modellerin iç mekanizmalarını, bilgi erişim işlem hatlarını ve ajan çal�
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT Lisansı"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 ders"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 aşama"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub yıldızları"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub yıldızları"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Web sitesi"></a>
 </p>
 
@@ -164,7 +164,7 @@ Tamamlanmış dersleri [aiengineeringfromscratch.com](https://aiengineeringfroms
 Node.js, `npx` ve Agent Skills destekleyen bir kodlama ajanı zaten yüklüyse, ajanınızı ders eğitmenine dönüştürebilirsiniz. Eğitmen becerilerini yüklemek veya okumak için depoyu klonlamanız gerekmez. Odaklı yol laboratuvarlarını çalıştırmak için `python3` gerekir. Agent Skills laboratuvarlarında ayrıca bir host seçmeniz ve kullanıcı ya da proje kapsamında yazılabilir bir beceri dizini sağlamanız gerekir.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Yükleyici sorduğunda host ve kapsamı seçin. Codex'te `start-learning`, Claude Code'da `/start-learning` kullanın veya hostunuzdan beceriyi adıyla kullanmasını isteyin.
@@ -220,7 +220,7 @@ Yükleyici, yapılandırabildiği hostları listeler ve yükleme konumunu sorar.
 ### Yerel kod çalıştırın
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ Her Aşama 14 çalışma tezgâhı dersi (31–42), ajana ders belgelerini açma
 <details>
 <summary>Temel müfredatı kitap olarak okuyun</summary>
 
-20 aşamalı temel müfredat, `phases/` içeriğinden üretilen altı ciltlik EPUB ve PDF kitap serisine dönüştürülüyor. CI, kitapları derslerin kullandığı aynı kaynaklardan oluşturur; her cilt [GitHub sürümlerinde](https://github.com/rohitg00/ai-engineering-from-scratch/releases) yayımlanır ve aşağıdaki bağlantılar her zaman en son dosyalara gider. Cilt numaraları serideki yeri gösterir, baskı sürümünü değil. Her indirme tarihli bir baskıdır; önceki baskılar yayımlandıktan sonra da indirilebilir kalır.
+20 aşamalı temel müfredat, `phases/` içeriğinden üretilen altı ciltlik EPUB ve PDF kitap serisine dönüştürülüyor. CI, kitapları derslerin kullandığı aynı kaynaklardan oluşturur; her cilt [GitHub sürümlerinde](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases) yayımlanır ve aşağıdaki bağlantılar her zaman en son dosyalara gider. Cilt numaraları serideki yeri gösterir, baskı sürümünü değil. Her indirme tarihli bir baskıdır; önceki baskılar yayımlandıktan sonra da indirilebilir kalır.
 
 Sertifika programları bilerek kitap biçimine dönüştürülmüyor. AI eğitmeninin durum takibi, çalıştırılabilir laboratuvarlar, etkileşimli çizimler, tanılama ve süreli deneme sınavları GitHub’da ve web sitesinde birinci sınıf içerik olarak kalır.
 
 | Cilt | Başlık | Aşamalar | İndir |
 |-----|-------|--------|----------|
-| 1 | Temeller · Matematik, Araçlar ve Klasik Makine Öğrenimi | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Derin Öğrenme · Ağlar, Görüntü ve Konuşma | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Dil · NLP Temelleri ve Transformer’lar | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Büyük Dil Modelleri · Üretken Yapay Zekâ, Güçlendirme, Ön Eğitim ve Mühendislik | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Ajanlar · Çok Modluluk, Protokoller, Özerklik ve Sürü Sistemleri | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Üretim Ortamı · Altyapı, Güvenlik ve Bitirme Projeleri | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Temeller · Matematik, Araçlar ve Klasik Makine Öğrenimi | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Derin Öğrenme · Ağlar, Görüntü ve Konuşma | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Dil · NLP Temelleri ve Transformer’lar | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Büyük Dil Modelleri · Üretken Yapay Zekâ, Güçlendirme, Ön Eğitim ve Mühendislik | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Ajanlar · Çok Modluluk, Protokoller, Özerklik ve Sürü Sistemleri | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Üretim Ortamı · Altyapı, Güvenlik ve Bitirme Projeleri | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Kitaplar müfredatın anlık görüntüsünü, depo ise güncel sürümünü sunar. Her bölüm; derslerdeki hareketli şekillere, sınavlara ve çalıştırılabilir koda bağlantılarla sona erer. `python3 scripts/build_book.py` komutunu çalıştırın (Pandoc gerekir). Ayrıntılar için [book/README.md](../../book/README.md) sayfasına bakın.
 
@@ -1294,8 +1294,8 @@ Bu başvuru kılavuzu size yardımcı olduysa depoya yıldız verin; bu, projeni
 
 MIT. İstediğiniz gibi kullanın: fork'layın, öğretin, satın, yayımlayın. Atıf makbule geçer ama zorunlu değildir.
 
-[Rohit Ghumare](https://github.com/rohitg00) ve topluluk tarafından sürdürülmektedir.
+[Rohit Ghumare](https://github.com/iamabhishekpanda) ve topluluk tarafından sürdürülmektedir.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Bildirim / Öneri</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Bildirim / Öneri</a>
 </sub>

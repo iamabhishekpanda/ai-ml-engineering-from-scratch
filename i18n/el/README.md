@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Άδεια MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 μαθήματα"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 φάσεις"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Αστέρια στο GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Αστέρια στο GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Ιστότοπος"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 Αν έχεις ήδη Node.js, `npx` και έναν πράκτορα προγραμματισμού που υποστηρίζει δεξιότητες, μπορεί να γίνει εκπαιδευτής. Δεν χρειάζεται κλωνοποίηση του αποθετηρίου για εγκατάσταση ή ανάγνωση του εκπαιδευτή. Τα εκτελέσιμα εργαστήρια των ειδικών διαδρομών απαιτούν `python3`. Τα εργαστήρια Agent Skills απαιτούν επίσης επιλεγμένη εφαρμογή φιλοξενίας και εγγράψιμο πεδίο δεξιοτήτων χρήστη ή έργου.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 Επιλέξτε εφαρμογή φιλοξενίας και πεδίο όταν το ζητήσει ο εγκαταστάτης. Χρησιμοποιήστε `start-learning` στο Codex, `/start-learning` στο Claude Code ή ζητήστε από την εφαρμογή να χρησιμοποιήσει τη δεξιότητα με το όνομά της.
@@ -220,7 +220,7 @@ python3 --version
 ### Εκτελέστε κώδικα τοπικά
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>Διάβασε τον βασικό κορμό ως βιβλίο</summary>
 
-Ο βασικός κορμός 20 φάσεων στο `phases/` μετατρέπεται σε σειρά έξι τόμων. Το CI παράγει EPUB και PDF από τις ίδιες πηγές μαθημάτων και τα επισυνάπτει σε κάθε [έκδοση GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Οι παρακάτω σύνδεσμοι οδηγούν πάντα στη νεότερη έκδοση. Οι αριθμοί τόμων δηλώνουν σειρά, όχι εκδόσεις: κάθε αντίτυπο φέρει ημερομηνία έκδοσης, ενώ παλαιότερες εκδόσεις παραμένουν διαθέσιμες από την αντίστοιχη κυκλοφορία.
+Ο βασικός κορμός 20 φάσεων στο `phases/` μετατρέπεται σε σειρά έξι τόμων. Το CI παράγει EPUB και PDF από τις ίδιες πηγές μαθημάτων και τα επισυνάπτει σε κάθε [έκδοση GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases). Οι παρακάτω σύνδεσμοι οδηγούν πάντα στη νεότερη έκδοση. Οι αριθμοί τόμων δηλώνουν σειρά, όχι εκδόσεις: κάθε αντίτυπο φέρει ημερομηνία έκδοσης, ενώ παλαιότερες εκδόσεις παραμένουν διαθέσιμες από την αντίστοιχη κυκλοφορία.
 
 Τα προγράμματα πιστοποίησης σκόπιμα δεν μετατρέπονται σε βιβλία. Η κατάσταση του εκπαιδευτή ΤΝ, τα εκτελέσιμα εργαστήρια, τα διαδραστικά σχήματα, τα διαγνωστικά τεστ και οι χρονομετρημένες εξετάσεις παραμένουν πλήρως διαθέσιμα στο GitHub και στον ιστότοπο.
 
 | Τόμος | Τίτλος | Φάσεις | Λήψη |
 |-----|-------|--------|----------|
-| 1 | Θεμέλια · Μαθηματικά, εργαλεία και κλασική μηχανική μάθηση | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Βαθιά μάθηση · Δίκτυα, όραση και ομιλία | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Γλώσσα · Θεμέλια NLP και ο Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Μεγάλα γλωσσικά μοντέλα · Παραγωγή, ενίσχυση, προεκπαίδευση και μηχανική | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Πράκτορες · Πολυτροπικότητα, πρωτόκολλα, αυτονομία και σμήνη | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Παραγωγή · Υποδομή, ασφάλεια και ολοκληρωμένα έργα | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Θεμέλια · Μαθηματικά, εργαλεία και κλασική μηχανική μάθηση | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Βαθιά μάθηση · Δίκτυα, όραση και ομιλία | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Γλώσσα · Θεμέλια NLP και ο Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Μεγάλα γλωσσικά μοντέλα · Παραγωγή, ενίσχυση, προεκπαίδευση και μηχανική | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Πράκτορες · Πολυτροπικότητα, πρωτόκολλα, αυτονομία και σμήνη | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Παραγωγή · Υποδομή, ασφάλεια και ολοκληρωμένα έργα | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 Το βιβλίο είναι στιγμιότυπο, το αποθετήριο η ζωντανή έκδοση. Κάθε κεφάλαιο τελειώνει με συνδέσμους στα κινούμενα σχήματα, στο τεστ και στον εκτελέσιμο κώδικα του μαθήματος. Τοπική δημιουργία με `python3 scripts/build_book.py` (απαιτείται pandoc)· λεπτομέρειες ροής στο [book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT. Χρησιμοποίησέ το όπως θέλεις: κάνε fork, δίδαξέ το, πούλησέ το ή κυκλοφόρησέ το. Η αναφορά δημιουργού είναι ευπρόσδεκτη, αλλά δεν απαιτείται.
 
-Συντηρείται από τον [Rohit Ghumare](https://github.com/rohitg00) και την κοινότητα.
+Συντηρείται από τον [Rohit Ghumare](https://github.com/iamabhishekpanda) και την κοινότητα.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Αναφορά / Πρόταση</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">Αναφορά / Πρόταση</a>
 </sub>

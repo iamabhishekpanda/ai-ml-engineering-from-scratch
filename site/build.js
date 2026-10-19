@@ -113,8 +113,8 @@ const FIGURE_PROVIDER_ORDER = [
   'figures-claude-certifications.js',
 ];
 
-const GITHUB_BASE = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
-const GITHUB_BLOB_BASE = 'https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/';
+const GITHUB_BASE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/tree/main/';
+const GITHUB_BLOB_BASE = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/blob/main/';
 const SITE_ORIGIN = 'https://aiengineeringfromscratch.com';
 
 // GITHUB_BASE lesson url -> site path "phases/<phase>/<lesson>"
@@ -2443,13 +2443,13 @@ function hubLlms(hubs) {
 }
 
 function writeLlms(phases, glossaryCount, artifactCount, certifications, lessonManifest, hubs) {
-  const rawOrigin = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/' + resolveRef();
+  const rawOrigin = 'https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/' + resolveRef();
   let total = 0;
   phases.forEach(p => { total += p.lessons.filter(l => lessonPath(l.url)).length; });
   let out = `# AI Engineering from Scratch\n\n`;
   out += `> A free, open-source curriculum that builds every core AI algorithm by hand — ${total} lessons across ${phases.length} phases, from linear algebra to autonomous agents. Python, TypeScript, Rust, Julia.\n\n`;
   out += `Canonical site: ${SITE_ORIGIN}\n`;
-  out += `Source: https://github.com/rohitg00/ai-engineering-from-scratch\n`;
+  out += `Source: https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch\n`;
   out += `Glossary terms: ${glossaryCount} · Reusable outputs (prompts/skills/agents): ${artifactCount}\n\n`;
   out += `## Developer resources\n`;
   out += `- [Developer documentation](${SITE_ORIGIN}/developer.html) — machine-readable site contracts and integration notes\n`;
@@ -2492,7 +2492,7 @@ function writeLlms(phases, glossaryCount, artifactCount, certifications, lessonM
       if (track.summary) out += ` — ${track.summary}`;
       out += `\n`;
     }
-    const certRawOrigin = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/' + resolveRef();
+    const certRawOrigin = 'https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/' + resolveRef();
     for (const lesson of Object.values(certifications.lessonsByPath)) {
       out += `- [${lesson.name}](${SITE_ORIGIN}/lesson?path=${encodeURIComponent(lesson.path)}) · [raw](${certRawOrigin}/${lesson.path}/docs/en.md)`;
       if (lesson.summary) out += ` — ${lesson.summary}`;

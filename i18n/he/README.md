@@ -19,7 +19,7 @@
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="רישיון MIT"></a>
   <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 שיעורים"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 שלבים"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="כוכבים ב-GitHub"></a>
+  <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="כוכבים ב-GitHub"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="אתר האינטרנט"></a>
 </p>
 
@@ -164,7 +164,7 @@ python3 scripts/project_test.py tool-call-firewall \
 אם Node.js, הפקודה `npx` וסוכן תכנות שתומך במיומנויות כבר מותקנים, תוכלו להפוך את הסוכן למורה. אין צורך לשכפל את המאגר כדי להתקין את המורה או לקרוא את תוכנו. המעבדות המעשיות במסלולים הממוקדים דורשות `python3`. מעבדות Agent Skills דורשות גם יישום מארח שנבחר מראש ותיקיית מיומנויות ברמת המשתמש או הפרויקט עם הרשאת כתיבה.
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add iamabhishekpanda/ai-ml-engineering-from-scratch
 ```
 
 בחרו מארח והיקף כאשר תוכנית ההתקנה שואלת. השתמשו ב-`start-learning` ב-Codex, ב-`/start-learning` ב-Claude Code או בקשו מהמארח להשתמש במיומנות בשמה.
@@ -220,7 +220,7 @@ python3 --version
 ### הריצו קוד מקומי
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -1070,18 +1070,18 @@ flowchart TB
 <details>
 <summary>קראו את תוכנית הליבה כספר</summary>
 
-תוכנית הליבה בת 20 השלבים תחת `phases/` נאספת לסדרת ספרים בת שישה כרכים. CI בונה קובצי EPUB ו-PDF מאותם מקורות שיעורים ומצרף אותם לכל [פרסום גרסה ב-GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases). הקישורים שלהלן תמיד מפנים לפרסום העדכני ביותר. מספרי הכרכים מציינים את מיקומם בסדרה, לא גרסאות: כל עותק נושא חותמת מהדורה מתוארכת, ומהדורות ישנות נשארות זמינות להורדה מהפרסומים שלהן.
+תוכנית הליבה בת 20 השלבים תחת `phases/` נאספת לסדרת ספרים בת שישה כרכים. CI בונה קובצי EPUB ו-PDF מאותם מקורות שיעורים ומצרף אותם לכל [פרסום גרסה ב-GitHub](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases). הקישורים שלהלן תמיד מפנים לפרסום העדכני ביותר. מספרי הכרכים מציינים את מיקומם בסדרה, לא גרסאות: כל עותק נושא חותמת מהדורה מתוארכת, ומהדורות ישנות נשארות זמינות להורדה מהפרסומים שלהן.
 
 תוכניות ההסמכה אינן נכללות בספרים בכוונה. מצב מורה ה-AI, המעבדות הניתנות להרצה, התרשימים האינטראקטיביים, מבחני האבחון ובחינות התרגול המתוזמנות שלהן נשארים ב-GitHub ובאתר.
 
 | כרך | כותרת | שלבים | הורדה |
 |-----|-------|--------|----------|
-| 1 | יסודות · מתמטיקה, כלי עבודה ולמידת מכונה קלאסית | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | למידה עמוקה · רשתות, ראייה ודיבור | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | שפה · יסודות NLP וה-Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | מודלי שפה גדולים · יצירה, חיזוק, קדם-אימון והנדסה | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | סוכנים · ריבוי אופנויות, פרוטוקולים, אוטונומיה ונחילים | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | ייצור · תשתית, בטיחות ופרויקטים מסכמים | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | יסודות · מתמטיקה, כלי עבודה ולמידת מכונה קלאסית | 00-02 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | למידה עמוקה · רשתות, ראייה ודיבור | 03, 04, 06 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | שפה · יסודות NLP וה-Transformer | 05, 07 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | מודלי שפה גדולים · יצירה, חיזוק, קדם-אימון והנדסה | 08-11 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | סוכנים · ריבוי אופנויות, פרוטוקולים, אוטונומיה ונחילים | 12-16 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | ייצור · תשתית, בטיחות ופרויקטים מסכמים | 17-19 | [EPUB](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 הספר הוא תמונת מצב; המאגר הוא המהדורה החיה. כל פרק מסתיים בקישורים לתרשימים המונפשים, לבוחן ולקוד הניתן להרצה של השיעור. לבנייה מקומית הריצו `python3 scripts/build_book.py` (נדרש pandoc). פרטי תהליך הבנייה נמצאים ב-[book/README.md](../../book/README.md).
 
@@ -1294,8 +1294,8 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 
 MIT. השתמשו בחומר כרצונכם: צרו פיצול, למדו בעזרתו, מכרו או פרסמו אותו. ציון המקור מוערך אך אינו חובה.
 
-מתוחזק בידי [Rohit Ghumare](https://github.com/rohitg00) והקהילה.
+מתוחזק בידי [Rohit Ghumare](https://github.com/iamabhishekpanda) והקהילה.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">דיווח / הצעה</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/issues/new/choose">דיווח / הצעה</a>
 </sub>

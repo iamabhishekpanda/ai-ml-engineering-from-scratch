@@ -117,7 +117,7 @@ translation records and appears as `translations` in catalog and resource result
 - Markdown: request the reader page with `Accept: text/markdown`, or call
   `/api/v1/resource?path=<lesson path>&lang=<code>`. The MCP `read_resource` tool
   accepts the same optional `lang`.
-- Raw source: `https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/translations/i18n/<code>/<lesson path>/docs/<code>.md`.
+- Raw source: `https://raw.githubusercontent.com/iamabhishekpanda/ai-ml-engineering-from-scratch/translations/i18n/<code>/<lesson path>/docs/<code>.md`.
 - Sitemaps: `/sitemap-index.xml` lists one sitemap per language.
 
 `lang` must be `en` or one of the codes above. Any other value returns 400. A lesson

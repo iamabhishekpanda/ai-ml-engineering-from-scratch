@@ -12,7 +12,7 @@ const topicMap = require('./cheatsheet-topics');
 const evidenceCheck = require('./cheatsheet-evidence');
 
 const ORIGIN = 'https://aiengineeringfromscratch.com';
-const REPO = 'https://github.com/rohitg00/ai-engineering-from-scratch';
+const REPO = 'https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch';
 const ISSUES_URL = `${REPO}/issues`;
 const AUTHOR = 'Rohit Ghumare';
 const LICENSE = 'MIT license';
