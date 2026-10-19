@@ -81,22 +81,6 @@ flowchart LR
   E --> A
 ```
 
-## AI 解决方案架构师路径
-
-这条扩展路径连接模型知识与可部署、可运营的 AI 系统之间的生产架构能力。
-
-<p align="center">
-  <img src="../../assets/readme/ai-solution-architect-roadmap.svg" alt="从基础架构到 Azure 部署、LangChain 与 LangGraph 编排、LangSmith 评估和安全运营的 AI 解决方案架构师路线图" width="840">
-</p>
-
-1. **架构基础：**需求、取舍、API、数据契约、威胁模型和可观测性。
-2. **Azure 交付：**Azure Functions 或 Container Apps、Azure AI Foundry、Azure OpenAI、Blob Storage、Azure AI Search、Key Vault、身份、网络、监控和成本控制。
-3. **编排：**使用 LangChain 组合模型与工具边界，使用 LangGraph 构建持久化状态工作流，并明确重试和审批边。
-4. **评估与运营：**使用 LangSmith 追踪和数据集，建立离线回归门、提示词版本、延迟预算、红队检查和事件手册。
-5. **架构师结业项目：**设计、部署、测试、观测和保护一个生产级 RAG 或多智能体服务，并写出架构决策记录。
-
-详细顺序见 [docs/ai-solution-architect-roadmap.md](../../docs/ai-solution-architect-roadmap.md)。这些内容属于扩展路线，直到每个供应商专题进入主课程阶段目录。
-
 <a id="interactive-lab"></a>
 
 ### 梯度下降
@@ -1340,3 +1324,9 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 ## 许可证
 
 本项目采用 MIT 许可证。你可以复刻、教学、出售或发布；欢迎署名，但许可证不强制要求。
+
+## 学习路线图
+
+<p align="center">
+  <a href="../../docs/ai-solution-architect-roadmap.md"><img src="../../assets/readme/ai-solution-architect-roadmap.svg" alt="从架构基础、Azure 交付、LangChain 与 LangGraph 编排、LangSmith 评估到生产结业项目的动画学习路线图" width="840"></a>
+</p>

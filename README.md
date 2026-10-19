@@ -112,22 +112,6 @@ flowchart LR
   E --> A
 ```
 
-## AI Solution Architect path
-
-This extension closes the production architecture gaps between model knowledge and deployable systems.
-
-<p align="center">
-  <img src="assets/readme/ai-solution-architect-roadmap.svg" alt="AI Solution Architect roadmap from foundations through Azure deployment, LangChain and LangGraph orchestration, LangSmith evaluation, and secure operations" width="840">
-</p>
-
-1. **Architecture foundations:** requirements, trade-offs, APIs, data contracts, threat models, and observability.
-2. **Azure delivery:** Azure Functions or Container Apps, Azure AI Foundry, Azure OpenAI, Blob Storage, Azure AI Search, Key Vault, identity, networking, monitoring, and cost controls.
-3. **Orchestration:** LangChain for composable model and tool boundaries, LangGraph for durable stateful workflows, and explicit retry and approval edges.
-4. **Evaluation and operations:** LangSmith traces and datasets, offline regression gates, prompt/version management, latency budgets, red-team checks, and incident playbooks.
-5. **Architect capstone:** design, deploy, test, observe, and defend a production RAG or multi-agent service with a written architecture decision record.
-
-The detailed sequence is in [docs/ai-solution-architect-roadmap.md](docs/ai-solution-architect-roadmap.md). It is an extension roadmap until each provider-specific lesson is added to the main phase catalog.
-
 <a id="interactive-lab"></a>
 
 ### Gradient descent
@@ -1479,3 +1463,9 @@ relative links inside lesson docs.
 
 MIT. Use it however you want — fork it, teach it, sell it, ship it. Attribution appreciated,
 not required.
+
+## Study roadmap
+
+<p align="center">
+  <a href="docs/ai-solution-architect-roadmap.md"><img src="assets/readme/ai-solution-architect-roadmap.svg" alt="Animated study roadmap from architecture foundations through Azure delivery, LangChain and LangGraph orchestration, LangSmith evaluation, and the production capstone" width="840"></a>
+</p>
