@@ -600,9 +600,9 @@ test('build-time SEO manifests cover every readable lesson and expose canonical 
     assert.ok(entry.seoTitle.length <= 60);
     assert.ok(entry.description.length <= 160);
     assert.ok(entry.excerpt.split(/\s+/).length <= 220);
-    assert.match(entry.canonicalUrl, /^https:\/\/aiengineeringfromscratch\.com\/lesson\?path=/);
+    assert.match(entry.canonicalUrl, /^https:\/\/iamabhishekpanda\.com\/lesson\?path=/);
     assert.doesNotMatch(entry.canonicalUrl, /lesson\.html|[&?](?:track|learningPath)=/);
-    assert.match(entry.sourceUrl, /^https:\/\/github\.com\/rohitg00\/ai-engineering-from-scratch\//);
+    assert.match(entry.sourceUrl, /^https:\/\/github\.com\/iamabhishekpanda\/ai-ml-engineering-from-scratch\//);
     assert.ok(['course', 'certification'].includes(entry.context.kind));
     assert.deepEqual(entry.learningPathIds, (expectedLearningPathIds.get(lessonPath) || []).sort());
     assert.deepEqual(entry.fromTrackIds, (expectedFromTrackIds.get(lessonPath) || []).sort());
@@ -634,7 +634,7 @@ test('build-time SEO manifests cover every readable lesson and expose canonical 
     assert.ok(track.seoTitle.length <= 60);
     assert.ok(track.description.length <= 160);
     assert.ok(track.excerpt.split(/\s+/).length <= 220);
-    assert.match(track.canonicalUrl, /^https:\/\/aiengineeringfromscratch\.com\/certification\?id=/);
+    assert.match(track.canonicalUrl, /^https:\/\/iamabhishekpanda\.com\/certification\?id=/);
     assert.doesNotMatch(track.canonicalUrl, /certification\.html/);
     assert.ok(track.lessons.length > 0);
     for (const lesson of track.lessons) {
@@ -1475,16 +1475,16 @@ test('homepage preserves live GitHub CTAs and the motion-aware learner marquee',
   const learnerStyles = homepage.match(/\/\* Learner organization index \*\/([\s\S]*?)\.masthead-install-caption/);
 
   assert.ok(mastheadCta, 'prominent masthead CTA row is missing');
-  assert.match(mastheadCta[0], /<span>Start the Course<\/span>/);
+  assert.match(mastheadCta[0], /<span>Explore Curriculum<\/span>/);
   assert.match(mastheadCta[0], /href="learning-paths\.html"[\s\S]*?<span>Explore Learning Paths<\/span>/);
   assert.doesNotMatch(mastheadCta[0], /Start (?:MCP Engineering|Agent Skills)/i);
   assert.match(
     mastheadCta[0],
-    /<a class="masthead-btn" href="https:\/\/github\.com\/rohitg00\/ai-engineering-from-scratch"[^>]*aria-label="Star ai-engineering-from-scratch on GitHub"[^>]*>[\s\S]*?<span>Star on GitHub<\/span>[\s\S]*?<span class="masthead-btn-count" data-gh-stars="rohitg00\/ai-engineering-from-scratch" data-loading="true">/
+    /<a class="masthead-btn" href="https:\/\/github\.com\/iamabhishekpanda\/ai-ml-engineering-from-scratch"[^>]*aria-label="Star ai-engineering-from-scratch on GitHub"[^>]*>[\s\S]*?<span>Star on GitHub<\/span>[\s\S]*?<span class="masthead-btn-count" data-gh-stars="iamabhishekpanda\/ai-ml-engineering-from-scratch" data-loading="true">/
   );
   assert.match(
     mastheadCta[0],
-    /<a class="masthead-btn" href="https:\/\/github\.com\/rohitg00"[^>]*aria-label="Follow Rohit Ghumare on GitHub"[^>]*>[\s\S]*?<span>Follow @rohitg00<\/span>/
+    /<a class="masthead-btn" href="https:\/\/github\.com\/iamabhishekpanda"[^>]*aria-label="Follow Rohit Ghumare on GitHub"[^>]*>[\s\S]*?<span>Follow @rohitg00<\/span>/
   );
   assert.match(homepage, /<script src="header\.js\?v=[^"]+" defer><\/script>/);
   assert.match(headerSource, /\[data-gh-stars="' \+ REPO \+ '"\]/);
@@ -1573,7 +1573,7 @@ test('shared header keeps its menu at desktop widths without hiding GitHub stars
   assert.match(headerSource, /nav\.hidden = !open;/);
   assert.match(headerSource, /var NARROW_HEADER_QUERY = '\(max-width: 820px\)'/);
   assert.match(headerSource, /priorityNav\.className = 'header-priority-nav'/);
-  assert.match(headerSource, /label !== 'contents' && label !== 'catalog' && label !== 'learning paths'/);
+  assert.match(headerSource, /label !== 'contents' && label !== 'catalog' && label !== 'curriculum' && label !== 'learning paths'/);
   assert.match(headerSource, /ensureNavigationLink\(nav, 'learning-paths\.html', 'Learning Paths', ''\)/);
   assert.match(headerSource, /if \(isNarrow\) restorePriorityLinks\(\);[\s\S]*?else movePriorityLinksOut\(\)/);
 

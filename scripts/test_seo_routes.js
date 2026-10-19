@@ -203,7 +203,7 @@ test('lesson route renders unique crawlable HTML with a path-only canonical', fu
   assert.equal(response.statusCode, 200);
   assert.match(response.headers['cache-control'], /s-maxage=86400/);
   assert.match(response.body, /<title>Vectors &amp; Matrices - AI Engineering from Scratch<\/title>/);
-  assert.match(response.body, /rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/lesson\?path=phases%2F01-math%2F01-vectors"/);
+  assert.match(response.body, /rel="canonical" href="https:\/\/iamabhishekpanda\.com\/lesson\?path=phases%2F01-math%2F01-vectors"/);
   assert.doesNotMatch(response.body, /canonical"[^>]+learningPath=/);
   assert.equal((response.body.match(/<h1(?:\s|>)/g) || []).length, 1);
   assert.match(response.body, /<h1>Vectors &amp; &lt;Matrices&gt; - Math Foundations<\/h1>/);
@@ -239,7 +239,7 @@ test('lesson route serves every certification program and keeps its track naviga
   });
 
   assert.equal(response.statusCode, 200);
-  assert.match(response.body, /rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/lesson\?path=certifications%2Fmcpa%2Flessons%2F01-discovery"/);
+  assert.match(response.body, /rel="canonical" href="https:\/\/iamabhishekpanda\.com\/lesson\?path=certifications%2Fmcpa%2Flessons%2F01-discovery"/);
   assert.match(response.body, /path=certifications%2Fmcpa%2Flessons%2F02-tools&amp;track=mcpa-example/);
 });
 
@@ -506,7 +506,7 @@ test('lesson route serves the full lesson body, headings, and code to crawlers',
   assert.ok(visibleWords(region) > 1500, 'full lesson text');
   assert.ok(visibleWords(region) > 5 * visibleWords(fallbackRegion(summary.body)), 'much longer than the summary fallback');
   assert.deepEqual(JSON.parse(embeddedMarkdown(full.body)), { path: PERCEPTRON, lang: 'en', markdown });
-  assert.match(full.body, /<link rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/lesson\?path=phases%2F03-deep-learning-core%2F01-the-perceptron">/);
+  assert.match(full.body, /<link rel="canonical" href="https:\/\/iamabhishekpanda\.com\/lesson\?path=phases%2F03-deep-learning-core%2F01-the-perceptron">/);
   assert.match(full.body, /"@type":"LearningResource"/);
 });
 
@@ -660,7 +660,7 @@ test('certification route renders a crawlable track with an id-only canonical', 
 
   assert.equal(response.statusCode, 200);
   assert.match(response.headers['cache-control'], /s-maxage=86400/);
-  assert.match(response.body, /rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/certification\?id=claude-example"/);
+  assert.match(response.body, /rel="canonical" href="https:\/\/iamabhishekpanda\.com\/certification\?id=claude-example"/);
   assert.doesNotMatch(response.body, /canonical"[^>]+result=/);
   assert.equal((response.body.match(/<h1(?:\s|>)/g) || []).length, 1);
   assert.match(response.body, /"@type":"Course"/);
@@ -774,7 +774,7 @@ test('deployment routes extensionless pages through handlers and redirects legac
   assert.equal((certificationTemplate.match(/AIFS:CERTIFICATION-FALLBACK:START/g) || []).length, 1);
   assert.doesNotMatch(lessonTemplate, /lesson\.html\?path=/);
   assert.doesNotMatch(certificationsScript, /lesson\.html\?path=|certification\.html\?id=/);
-  assert.match(certificationsScript, /aiengineeringfromscratch\.com\/certification\?id=/);
+  assert.match(certificationsScript, /iamabhishekpanda\.com\/certification\?id=/);
 });
 
 test('site runtime sources use canonical lesson and certification routes', function () {
@@ -916,7 +916,7 @@ test('translated lesson pages render the translation with a self canonical, href
   const hindi = await invokeAsync(handler, { method: 'GET', url: `/lesson?path=${encodeURIComponent(PERCEPTRON)}&lang=hi` });
   assert.equal(hindi.statusCode, 200);
   assert.match(hindi.body, /<html lang="hi" dir="ltr" data-theme="light">/);
-  assert.match(hindi.body, /<link rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/lesson\?path=phases%2F03-deep-learning-core%2F01-the-perceptron&amp;lang=hi">/);
+  assert.match(hindi.body, /<link rel="canonical" href="https:\/\/iamabhishekpanda\.com\/lesson\?path=phases%2F03-deep-learning-core%2F01-the-perceptron&amp;lang=hi">/);
   assert.match(hindi.body, /<meta property="og:url" content="[^"]+&amp;lang=hi">/);
   assert.match(hindi.body, /<meta property="og:locale" content="hi_IN">/);
   assert.match(hindi.body, /<title>पर्सेप्ट्रोन \| AI Engineering from Scratch<\/title>/);
@@ -1115,7 +1115,7 @@ test('translation coverage comes from translation records and never fails the bu
   fs.writeFileSync(path.join(site, 'sitemap-lessons-fa.xml'), 'stale');
   assert.deepEqual(build.writeLanguageSitemaps(manifest, site), ['sitemap-lessons-hi.xml', 'sitemap-lessons-ar.xml']);
   assert.equal(fs.existsSync(path.join(site, 'sitemap-lessons-fa.xml')), false);
-  assert.match(fs.readFileSync(path.join(site, 'sitemap-lessons-hi.xml'), 'utf8'), /<loc>https:\/\/aiengineeringfromscratch\.com\/lesson\?path=phases%2F01-a%2F01-x&amp;lang=hi<\/loc>/);
+  assert.match(fs.readFileSync(path.join(site, 'sitemap-lessons-hi.xml'), 'utf8'), /<loc>https:\/\/iamabhishekpanda\.com\/lesson\?path=phases%2F01-a%2F01-x&amp;lang=hi<\/loc>/);
   const index = fs.readFileSync(path.join(site, 'sitemap-index.xml'), 'utf8');
   assert.deepEqual(Array.from(index.matchAll(/<loc>([^<]+)<\/loc>/g), function (match) { return match[1]; }), [
     'https://iamabhishekpanda.com/sitemap.xml',
@@ -1160,7 +1160,7 @@ test('llms.txt and the API docs state the translation languages and URL pattern'
   }
   assert.match(docs, /`\/lesson\?path=<lesson path>&lang=<code>`/);
   const robots = fs.readFileSync(path.join(ROOT, 'site', 'robots.txt'), 'utf8');
-  assert.match(robots, /^Sitemap: https:\/\/aiengineeringfromscratch\.com\/sitemap-index\.xml$/m);
+  assert.match(robots, /^Sitemap: https:\/\/iamabhishekpanda\.com\/sitemap-index\.xml$/m);
 });
 
 test('a language with index false stays out of hreflang and the lesson sitemaps, and its pages are noindex', async function (t) {
@@ -1317,7 +1317,7 @@ test('lesson and certification heads point at their own versioned cards', async 
   const assets = makeAssets();
   const lessons = lessonApi.createHandler({ loadAssets: function () { return assets.lesson; } });
   const english = metaTags(invoke(lessons, { method: 'GET', url: '/lesson?path=phases%2F01-math%2F01-vectors', query: { path: 'phases/01-math/01-vectors' } }).body);
-  assert.match(english['og:image'], /^https:\/\/aiengineeringfromscratch\.com\/og\/lesson\/phases\/01-math\/01-vectors\.png\?v=[0-9a-f]{12}$/);
+  assert.match(english['og:image'], /^https:\/\/iamabhishekpanda\.com\/og\/lesson\/phases\/01-math\/01-vectors\.png\?v=[0-9a-f]{12}$/);
   assert.equal(english['twitter:image'], english['og:image']);
   assert.equal(english['og:image:width'], '1200');
   assert.equal(english['og:image:height'], '630');
@@ -1334,7 +1334,7 @@ test('lesson and certification heads point at their own versioned cards', async 
 
   const tracks = certificationApi.createHandler({ loadAssets: function () { return assets.certification; } });
   const track = metaTags(invoke(tracks, { method: 'GET', url: '/certification?id=claude-example', query: { id: 'claude-example' } }).body);
-  assert.match(track['og:image'], /^https:\/\/aiengineeringfromscratch\.com\/og\/track\/claude-example\.png\?v=[0-9a-f]{12}$/);
+  assert.match(track['og:image'], /^https:\/\/iamabhishekpanda\.com\/og\/track\/claude-example\.png\?v=[0-9a-f]{12}$/);
   assert.equal(track['twitter:image'], track['og:image']);
 });
 
@@ -1499,7 +1499,7 @@ test('glossary term pages lead with the question, mirror visible FAQ text, and l
     assert.match(page.html, /<base href="\/">/);
     assert.match(page.html, /<link rel="stylesheet" href="\/hubs\.css\?v=[0-9a-f]{16}">/);
     assert.match(page.html, /<script src="\/header\.js\?v=[0-9a-f]{16}" defer><\/script>/);
-    assert.match(page.markdown, /^# What (?:is|are) .+\?\n\nCanonical page: https:\/\/aiengineeringfromscratch\.com\/glossary\//);
+    assert.match(page.markdown, /^# What (?:is|are) .+\?\n\nCanonical page: https:\/\/iamabhishekpanda\.com\/glossary\//);
     assert.doesNotMatch(page.markdown, /<script|<!DOCTYPE/i);
   }
   const adamw = hubs.termPages.find(function (page) { return page.name === 'adamw'; });
@@ -1598,7 +1598,7 @@ test('translated lesson pages keep the hub breadcrumb but leave out the English 
   assert.match(english.body, /<nav class="lesson-hub-links"/);
   assert.match(hindi.body, /<html lang="hi"/);
   assert.doesNotMatch(hindi.body, /<nav class="lesson-hub-links"/);
-  assert.match(hindi.body, /"item":"https:\/\/aiengineeringfromscratch\.com\/phase\/deep-learning-core"/);
+  assert.match(hindi.body, /"item":"https:\/\/iamabhishekpanda\.com\/phase\/deep-learning-core"/);
 });
 
 test('lesson route breadcrumbs point to the phase hub and list the terms the lesson teaches', function () {

@@ -343,6 +343,10 @@
       "destination": "/learning-paths.html"
     },
     {
+      "source": "/curriculum",
+      "destination": "/curriculum.html"
+    },
+    {
       "source": "/certifications",
       "has": [
         {
@@ -469,7 +473,7 @@
       ]
     },
     {
-      "source": "/(blogs|glossary|catalog|certifications|certification|assessment|path|prereqs|roadmap|about|developer|docs|contact|privacy|sponsors|projects|project|learning-paths|developers|api|manuals|manual-[a-z0-9-]+)",
+      "source": "/(blogs|glossary|catalog|curriculum|certifications|certification|assessment|path|prereqs|roadmap|about|developer|docs|contact|privacy|sponsors|projects|project|learning-paths|developers|api|manuals|manual-[a-z0-9-]+)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -619,7 +623,7 @@
       "permanent": true
     },
     {
-      "source": "/:page(about|catalog|glossary|roadmap|developer|contact|privacy|sponsors|projects|project|learning-paths|certifications|assessment|inside-an-ai-agent|skills|how-to-learn|highlights).html",
+      "source": "/:page(about|catalog|curriculum|glossary|roadmap|developer|contact|privacy|sponsors|projects|project|learning-paths|certifications|assessment|inside-an-ai-agent|skills|how-to-learn|highlights).html",
       "destination": "/:page",
       "permanent": true
     },

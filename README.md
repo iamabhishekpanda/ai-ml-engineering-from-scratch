@@ -330,7 +330,7 @@ run the implementation for the language you are learning.
 
 ## Choose a learning path
 
-You do not need to scan 542 lessons before beginning. Pick one goal. Each link
+You do not need to scan 556 lessons before beginning. Pick one goal. Each link
 opens the same curriculum on GitHub or the website, and both versions use the
 same lesson code.
 
@@ -411,7 +411,6 @@ flowchart TB
   P15 --> P18["Phase 18 — Ethics &amp; Alignment"]
   P18 --> P19["Phase 19 — Capstone Projects"]
   P17 --> P19
-  P18 --> P19
   P19 --> P20["Phase 20 — Azure AI Engineering"]
 ```
 

@@ -94,7 +94,7 @@ function runtimeRouteLinks(filename) {
 
 test('plain static preview rewrites every route-producing site surface', () => {
   const surfaces = [
-    ['index.html', /Start the Course/],
+    ['index.html', /Explore Curriculum/],
     ['catalog.html', /data-generated-discovery="lesson"/],
     ['lesson.html', /lesson-nav-btn next/],
     ['certifications.html', /certification\?id=/],
@@ -152,8 +152,8 @@ test('deployed routes and canonical SEO URLs remain extensionless', () => {
 
   const lesson = fs.readFileSync(path.join(__dirname, 'lesson.html'), 'utf8');
   const certification = fs.readFileSync(path.join(__dirname, 'certification.html'), 'utf8');
-  assert.match(lesson, /<link rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/lesson">/);
-  assert.match(certification, /<link rel="canonical" href="https:\/\/aiengineeringfromscratch\.com\/certification">/);
+  assert.match(lesson, /<link rel="canonical" href="https:\/\/iamabhishekpanda\.com\/lesson">/);
+  assert.match(certification, /<link rel="canonical" href="https:\/\/iamabhishekpanda\.com\/certification">/);
   assert.doesNotMatch(lesson, /rel="canonical"[^>]+lesson\.html/);
   assert.doesNotMatch(certification, /rel="canonical"[^>]+certification\.html/);
 });

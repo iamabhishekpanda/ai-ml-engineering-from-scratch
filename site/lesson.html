@@ -8,10 +8,10 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- AIFS:LESSON-SEO:START -->
   <title>Lesson - AI Engineering from Scratch</title>
-  <meta name="description" content="A lesson from the AI Engineering from Scratch curriculum. 542 lessons across 20 phases, four languages, every algorithm built from raw math.">
+  <meta name="description" content="A lesson from the AI Engineering from Scratch curriculum. 556 lessons across 21 phases, four languages, every algorithm built from raw math.">
   <link rel="canonical" href="https://iamabhishekpanda.com/lesson">
   <meta property="og:title" content="AI Engineering from Scratch · Lesson">
-  <meta property="og:description" content="542 lessons. 20 phases. Write the backprop, the tokenizer, the attention mechanism, and the agent loop by hand.">
+  <meta property="og:description" content="556 lessons. 21 phases. Write the backprop, the tokenizer, the attention mechanism, and the agent loop by hand.">
   <meta property="og:image" content="https://iamabhishekpanda.com/og/page/home.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -22,7 +22,7 @@
   <meta property="og:url" content="https://iamabhishekpanda.com/lesson">
   <meta property="og:type" content="article">
   <meta name="twitter:title" content="AI Engineering from Scratch">
-  <meta name="twitter:description" content="542 lessons. 20 phases. Build it from raw math, by hand.">
+  <meta name="twitter:description" content="556 lessons. 21 phases. Build it from raw math, by hand.">
   <!-- AIFS:LESSON-SEO:END -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -3579,7 +3579,7 @@
 
         if (typeof PHASES === 'undefined') return;
 
-        var html = '';
+        var html = '<div class="sidebar-phase-nav"><a href="curriculum.html">&larr; Full curriculum</a></div>';
 
         var prevPhaseIdx = currentPhaseIndex > 0 ? currentPhaseIndex - 1 : -1;
         var nextPhaseIdx = (currentPhaseIndex >= 0 && currentPhaseIndex < PHASES.length - 1) ? currentPhaseIndex + 1 : -1;
@@ -3850,7 +3850,7 @@
         }
         return certificationLesson
           ? 'Independent, open-source certification preparation built around practical engineering decisions.'
-          : '542 lessons. 20 phases. Build it from raw math, by hand.';
+          : '556 lessons. 21 phases. Build it from raw math, by hand.';
       }
 
       function updateLessonSeo(title, md) {

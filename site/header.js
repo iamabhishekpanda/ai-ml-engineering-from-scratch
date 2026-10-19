@@ -37,7 +37,7 @@
     var boundary = href.search(/[?#]/);
     var pathname = boundary < 0 ? href : href.slice(0, boundary);
     var suffix = boundary < 0 ? '' : href.slice(boundary);
-    var pages = '(index|about|catalog|glossary|roadmap|developer|contact|privacy|sponsors|projects|project|learning-paths|certifications|certification|assessment|lesson|blogs|manuals|manual-[a-z0-9-]+|inside-an-ai-agent|skills|how-to-learn|highlights)';
+    var pages = '(index|about|catalog|curriculum|glossary|roadmap|developer|contact|privacy|sponsors|projects|project|learning-paths|certifications|certification|assessment|lesson|blogs|manuals|manual-[a-z0-9-]+|inside-an-ai-agent|skills|how-to-learn|highlights)';
     if (isStaticPreview(locationValue)) {
       return pathname.replace(new RegExp('(^|/)' + pages + '$'), '$1$2.html') + suffix;
     }
@@ -268,6 +268,7 @@
   }
 
   function addNavigationLinks(nav) {
+    ensureNavigationLink(nav, 'curriculum.html', 'Curriculum', '');
     ensureNavigationLink(nav, 'learning-paths.html', 'Learning Paths', '');
     ensureNavigationLink(nav, 'how-to-learn.html', 'How to Learn', '');
     ensureNavigationLink(nav, 'projects.html', 'Projects', '');
@@ -315,7 +316,7 @@
     });
     routeLinks.forEach(function (link) {
       var label = link.textContent.trim().toLowerCase();
-      if (label !== 'contents' && label !== 'catalog' && label !== 'learning paths') return;
+      if (label !== 'contents' && label !== 'catalog' && label !== 'curriculum' && label !== 'learning paths') return;
       var marker = document.createComment('header-priority-' + label);
       nav.insertBefore(marker, link);
       priorityEntries.push({ link: link, marker: marker });
@@ -440,6 +441,7 @@
     var footers = document.querySelectorAll('.footer-links');
     for (var j = 0; j < footers.length; j++) {
       ensureNavigationLink(footers[j], '/blogs', 'Blogs & Guides', '');
+      ensureNavigationLink(footers[j], 'curriculum.html', 'Curriculum', '');
       ensureNavigationLink(footers[j], 'skills.html', 'Skills', '');
       ensureNavigationLink(footers[j], 'highlights.html', 'My Highlights', '');
     }
