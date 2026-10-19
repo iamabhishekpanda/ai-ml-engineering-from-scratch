@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="architect-roadmap-title architect-roadmap-desc" font-family="JetBrains Mono, ui-monospace, monospace" fill="var(--m-ink, #1a1a1a)">
   <title id="architect-roadmap-title">AI Solution Architect roadmap</title>
-  <desc id="architect-roadmap-desc">A five-stage study flow from architecture foundations through Azure AI delivery, LangChain and LangGraph orchestration, LangSmith evaluation, and a production capstone.</desc>
+  <desc id="architect-roadmap-desc">A five-stage study flow from architecture foundations through Azure AI delivery, LangChain and LangGraph orchestration, LangSmith evaluation, and a production capstone. A moving marker visits each stage and green ticks mark completed stages.</desc>
   <defs>
     <marker id="architect-roadmap-head-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--m-blue-ink, #3553ff)"/>
     </marker>
+    <path id="architect-roadmap-walk" d="M 58 218 H 592" fill="none"/>
   </defs>
   <rect x="20" y="20" width="600" height="320" fill="var(--m-paper, #fafaf5)" stroke="var(--m-ink, #1a1a1a)" stroke-width="1.5"/>
   <path d="M 40 72 H 600" stroke="var(--m-blue-ink, #3553ff)" stroke-width="1" stroke-dasharray="5 4"/>
@@ -16,6 +17,9 @@
     <text x="12" y="49" font-size="11">Architecture</text>
     <text x="12" y="66" font-size="11">requirements</text>
     <text x="12" y="83" font-size="11">and threats</text>
+    <path d="M 76 66 l 5 6 l 11 -13" fill="none" stroke="var(--m-green-ink, #16834b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" begin="1.1s" dur="0.25s" values="0;1" fill="freeze"/>
+    </path>
   </g>
   <path d="M 142 146 H 166" stroke="var(--m-blue-ink, #3553ff)" stroke-width="1.2" marker-end="url(#architect-roadmap-head-blue)"/>
 
@@ -25,6 +29,9 @@
     <text x="12" y="49" font-size="11">Azure AI</text>
     <text x="12" y="66" font-size="11">delivery</text>
     <text x="12" y="83" font-size="11">and identity</text>
+    <path d="M 76 66 l 5 6 l 11 -13" fill="none" stroke="var(--m-green-ink, #16834b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" begin="2.3s" dur="0.25s" values="0;1" fill="freeze"/>
+    </path>
   </g>
   <path d="M 270 146 H 294" stroke="var(--m-blue-ink, #3553ff)" stroke-width="1.2" marker-end="url(#architect-roadmap-head-blue)"/>
 
@@ -34,6 +41,9 @@
     <text x="12" y="49" font-size="11">LangChain</text>
     <text x="12" y="66" font-size="11">and</text>
     <text x="12" y="83" font-size="11">LangGraph</text>
+    <path d="M 76 66 l 5 6 l 11 -13" fill="none" stroke="var(--m-green-ink, #16834b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" begin="3.5s" dur="0.25s" values="0;1" fill="freeze"/>
+    </path>
   </g>
   <path d="M 398 146 H 422" stroke="var(--m-blue-ink, #3553ff)" stroke-width="1.2" marker-end="url(#architect-roadmap-head-blue)"/>
 
@@ -43,6 +53,9 @@
     <text x="12" y="49" font-size="11">LangSmith</text>
     <text x="12" y="66" font-size="11">traces and</text>
     <text x="12" y="83" font-size="11">evaluations</text>
+    <path d="M 76 66 l 5 6 l 11 -13" fill="none" stroke="var(--m-green-ink, #16834b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" begin="4.7s" dur="0.25s" values="0;1" fill="freeze"/>
+    </path>
   </g>
   <path d="M 526 146 H 550" stroke="var(--m-blue-ink, #3553ff)" stroke-width="1.2" marker-end="url(#architect-roadmap-head-blue)"/>
 
@@ -52,9 +65,17 @@
     <text x="11" y="51" font-size="11">Ship</text>
     <text x="11" y="68" font-size="11">and</text>
     <text x="11" y="85" font-size="11">defend</text>
+    <path d="M 22 66 l 5 6 l 11 -13" fill="none" stroke="var(--m-green-ink, #16834b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+      <animate attributeName="opacity" begin="5.9s" dur="0.25s" values="0;1" fill="freeze"/>
+    </path>
   </g>
 
   <path d="M 64 248 H 576" stroke="var(--m-ink, #1a1a1a)" stroke-width="1" stroke-dasharray="1.5 3.5" stroke-linecap="round"/>
+  <circle r="6" fill="var(--m-blue-ink, #3553ff)">
+    <animateMotion dur="6.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#architect-roadmap-walk"/>
+    </animateMotion>
+  </circle>
   <text x="64" y="278" font-family="Source Serif 4, Georgia, serif" font-size="13">Read left to right. Every stage produces evidence for the next stage.</text>
   <text x="64" y="302" font-family="Source Serif 4, Georgia, serif" font-size="13">The capstone must deploy, evaluate, observe, secure, and recover.</text>
 </svg>

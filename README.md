@@ -15,11 +15,11 @@ This is **Abhishek Panda's learning workspace**: an independently maintained, br
 
 Free, open source, MIT. Learn on the website, with a coding agent, or by running local code.
 
-> 542 lessons. 20 phases. Python, TypeScript, Rust, Julia.
+> 556 lessons. 20 phases. Python, TypeScript, Rust, Julia.
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lessons"></a>
+  <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-556-3553ff?style=flat-square&labelColor=fafaf5" alt="556 lessons"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
   <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
@@ -437,7 +437,7 @@ flowchart TB
 Twenty phases. Click any phase to expand its lesson list.
 
 <a id="phase-0"></a>
-### Phase 0: Setup & Tooling `13 lessons`
+### Phase 0: Setup & Tooling `27 lessons`
 > Get your environment ready for everything that follows.
 
 | # | Lesson | Type | Lang |
@@ -455,6 +455,20 @@ Twenty phases. Click any phase to expand its lesson list.
 | 11 | [Linux for AI](phases/00-setup-and-tooling/11-linux-for-ai/) | Learn | — |
 | 12 | [Debugging & Profiling](phases/00-setup-and-tooling/12-debugging-and-profiling/) | Build | Python |
 | 13 | [Python for AI Engineering](phases/00-setup-and-tooling/13-python-for-ai-engineering/) | Build | Python |
+| 14 | [Azure AI Engineering Fundamentals](phases/00-setup-and-tooling/14-azure-fundamentals/) | Learn | Python |
+| 15 | [Azure Identity & Networking](phases/00-setup-and-tooling/15-azure-identity-and-networking/) | Build | Python |
+| 16 | [Azure OpenAI](phases/00-setup-and-tooling/16-azure-openai/) | Build | Python |
+| 17 | [Azure AI Foundry](phases/00-setup-and-tooling/17-azure-ai-foundry/) | Build | Python |
+| 18 | [Azure AI Search](phases/00-setup-and-tooling/18-azure-ai-search/) | Build | Python |
+| 19 | [Azure Storage & Data Contracts](phases/00-setup-and-tooling/19-azure-storage-and-data/) | Build | Python |
+| 20 | [Azure Container Apps](phases/00-setup-and-tooling/20-azure-container-apps/) | Build | Python |
+| 21 | [Azure Functions for AI Workloads](phases/00-setup-and-tooling/21-azure-functions/) | Build | Python |
+| 22 | [Azure Observability](phases/00-setup-and-tooling/22-azure-observability/) | Build | Python |
+| 23 | [Azure Security & Secrets](phases/00-setup-and-tooling/23-azure-security-and-secrets/) | Build | Python |
+| 24 | [Azure Prompt Operations](phases/00-setup-and-tooling/24-azure-prompt-ops/) | Build | Python |
+| 25 | [Azure RAG Deployment](phases/00-setup-and-tooling/25-azure-rag-deployment/) | Build | Python |
+| 26 | [Azure Agent Deployment](phases/00-setup-and-tooling/26-azure-agent-deployment/) | Build | Python |
+| 27 | [Azure AI Architecture Capstone](phases/00-setup-and-tooling/27-azure-architecture-capstone/) | Build | Python |
 
 <details id="phase-1">
 <summary><b>Phase 1 — Math Foundations</b> &nbsp;<code>22 lessons</code>&nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
@@ -1458,7 +1472,7 @@ relative links inside lesson docs.
 ## Curriculum snapshot
 
 <!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
+<!-- <p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p> -->
 <!-- STATS:END -->
 
 ## License

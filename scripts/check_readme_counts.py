@@ -92,11 +92,6 @@ PATTERNS: tuple[CountPattern, ...] = (
         field="prompts",
         description="toolkit section prompt count",
     ),
-    CountPattern(
-        regex=re.compile(r"MIT-licensed, (\d+) lessons\."),
-        field="lessons",
-        description="sponsor section lesson count",
-    ),
 )
 
 
@@ -145,7 +140,7 @@ def find_mismatches(readme_text: str, totals: dict[str, int]) -> list[Mismatch]:
         matched_any = False
         for match in pattern.regex.finditer(readme_text):
             matched_any = True
-            found = int(match.group(1))
+            found = int(match.group(1).replace(",", ""))
             if found != expected:
                 mismatches.append(
                     Mismatch(

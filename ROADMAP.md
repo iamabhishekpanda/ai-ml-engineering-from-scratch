@@ -8,7 +8,7 @@ Total estimated time: ~332 hours, at your own pace.
 
 **Legend:** ✅ Complete &nbsp;·&nbsp; 🚧 In Progress &nbsp;·&nbsp; ⬚ Planned
 
-## Phase 0: Setup & Tooling — ✅ (~16 hours)
+## Phase 0: Setup & Tooling — ✅ (~30 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -25,6 +25,20 @@ Total estimated time: ~332 hours, at your own pace.
 | 11 | Linux for AI | ✅ | ~45 min |
 | 12 | Debugging & Profiling | ✅ | ~75 min |
 | 13 | Python for AI Engineering | ✅ | ~120 min |
+| 14 | Azure AI Engineering Fundamentals | ✅ | ~60 min |
+| 15 | Azure Identity & Networking | ✅ | ~60 min |
+| 16 | Azure OpenAI | ✅ | ~60 min |
+| 17 | Azure AI Foundry | ✅ | ~60 min |
+| 18 | Azure AI Search | ✅ | ~60 min |
+| 19 | Azure Storage & Data Contracts | ✅ | ~60 min |
+| 20 | Azure Container Apps | ✅ | ~60 min |
+| 21 | Azure Functions for AI Workloads | ✅ | ~60 min |
+| 22 | Azure Observability | ✅ | ~60 min |
+| 23 | Azure Security & Secrets | ✅ | ~60 min |
+| 24 | Azure Prompt Operations | ✅ | ~60 min |
+| 25 | Azure RAG Deployment | ✅ | ~75 min |
+| 26 | Azure Agent Deployment | ✅ | ~75 min |
+| 27 | Azure AI Architecture Capstone | ✅ | ~120 min |
 
 ## Phase 1: Math Foundations — ✅ (~23 hours)
 

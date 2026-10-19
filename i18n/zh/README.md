@@ -17,11 +17,11 @@
 
 免费、开源、MIT 许可。你可以在网站学习、使用编程代理辅助学习，或在本地运行代码。
 
-> 542 节课. 20 个阶段. Python, TypeScript, Rust, Julia.
+> 556 节课. 20 个阶段. Python, TypeScript, Rust, Julia.
 
 <p align="center">
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT 许可证"></a>
-  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 节课"></a>
+  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-556-3553ff?style=flat-square&labelColor=fafaf5" alt="556 节课"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 个阶段"></a>
   <a href="https://github.com/iamabhishekpanda/ai-ml-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/iamabhishekpanda/ai-ml-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub 星标"></a>
   <a href="https://iamabhishekpanda.com"><img src="https://img.shields.io/badge/web-iamabhishekpanda.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
@@ -374,7 +374,7 @@ flowchart TB
 课程共分 20 个阶段；点击任一阶段即可展开其课程列表。
 
 <a id="phase-0"></a>
-### 阶段 0：环境与工具 `13 节课`
+### 阶段 0：环境与工具 `27 节课`
 > 配好学习后续所有内容所需的环境与工具。
 
 | # | 课程 | 类型 | 语言 |
@@ -392,6 +392,20 @@ flowchart TB
 | 11 | [用于 AI 的 Linux](../../phases/00-setup-and-tooling/11-linux-for-ai/) | 学习 | — |
 | 12 | [调试与性能分析](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | 构建 | Python |
 | 13 | [面向 AI 工程的 Python](../../phases/00-setup-and-tooling/13-python-for-ai-engineering/) | 构建 | Python |
+| 14 | [Azure AI 工程基础](../../phases/00-setup-and-tooling/14-azure-fundamentals/) | 学习 | Python |
+| 15 | [Azure 身份与网络](../../phases/00-setup-and-tooling/15-azure-identity-and-networking/) | 构建 | Python |
+| 16 | [Azure 模型服务](../../phases/00-setup-and-tooling/16-azure-openai/) | 构建 | Python |
+| 17 | [Azure 人工智能工作台](../../phases/00-setup-and-tooling/17-azure-ai-foundry/) | 构建 | Python |
+| 18 | [Azure 搜索服务](../../phases/00-setup-and-tooling/18-azure-ai-search/) | 构建 | Python |
+| 19 | [Azure 存储与数据契约](../../phases/00-setup-and-tooling/19-azure-storage-and-data/) | 构建 | Python |
+| 20 | [Azure 容器应用](../../phases/00-setup-and-tooling/20-azure-container-apps/) | 构建 | Python |
+| 21 | [用于 AI 工作负载的 Azure Functions](../../phases/00-setup-and-tooling/21-azure-functions/) | 构建 | Python |
+| 22 | [Azure 可观测性](../../phases/00-setup-and-tooling/22-azure-observability/) | 构建 | Python |
+| 23 | [Azure 安全与密钥](../../phases/00-setup-and-tooling/23-azure-security-and-secrets/) | 构建 | Python |
+| 24 | [Azure 提示词运营](../../phases/00-setup-and-tooling/24-azure-prompt-ops/) | 构建 | Python |
+| 25 | [Azure RAG 部署](../../phases/00-setup-and-tooling/25-azure-rag-deployment/) | 构建 | Python |
+| 26 | [Azure 智能体部署](../../phases/00-setup-and-tooling/26-azure-agent-deployment/) | 构建 | Python |
+| 27 | [Azure AI 架构师结业项目](../../phases/00-setup-and-tooling/27-azure-architecture-capstone/) | 构建 | Python |
 
 <details id="phase-1">
 <summary><b>阶段 1 — 数学基础</b> &nbsp;<code>22 节课</code>&nbsp; <em>用代码建立理解 AI 算法所需的数学直觉。</em></summary>
@@ -1320,7 +1334,7 @@ python3 scripts/audit_lessons.py --json    # CI-friendly output
 ## 课程概览
 
 <!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> 位读者 &nbsp;·&nbsp; 近 30 天 <b>181,995</b> 次页面浏览 &nbsp;·&nbsp; 数据截至 2026-08-29</sub></p>
+<!-- <p align="center"><sub><b>114,584</b> 位读者 &nbsp;·&nbsp; 近 30 天 <b>181,995</b> 次页面浏览 &nbsp;·&nbsp; 数据截至 2026-08-29</sub></p> -->
 <!-- STATS:END -->
 
 ## 许可证
