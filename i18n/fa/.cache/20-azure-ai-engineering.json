@@ -1,0 +1,16 @@
+{
+  "phases/20-azure-ai-engineering/14-azure-fundamentals/docs/en.md": "e04c97b790c91fbf37f91c787e385feaab3c28bee3f5c11d3931b51a69748aa7",
+  "phases/20-azure-ai-engineering/15-azure-identity-and-networking/docs/en.md": "9e6ee684b1cdcf712156249293b85b29d10ee2fa4a0d8b1a1b160ef7aa01f40a",
+  "phases/20-azure-ai-engineering/16-azure-openai/docs/en.md": "33c04227035958c3c363db9b0822b2d1da63c8434ab740487a6f176aca56f375",
+  "phases/20-azure-ai-engineering/17-azure-ai-foundry/docs/en.md": "0c2a9f491f79b636b5272e68f2f11da0f01a20417038a9291c9e1ca1910f3ca6",
+  "phases/20-azure-ai-engineering/18-azure-ai-search/docs/en.md": "32786618eab837918d5995e42a4fc82c1d724bffbefe02fcaa57753f35ca3d0d",
+  "phases/20-azure-ai-engineering/19-azure-storage-and-data/docs/en.md": "d04c9c0ba605b0165127a4997049c51a483cb07d9c2244bd275adfab15f046b5",
+  "phases/20-azure-ai-engineering/20-azure-container-apps/docs/en.md": "3bc74e4663789a60b467ef8230015f5b3e68f51bf9fca484367976f7e121c186",
+  "phases/20-azure-ai-engineering/21-azure-functions/docs/en.md": "4cd74dffbdef0fba3fd79844e24eb8f3f6d1d9120108652a117eb6e91661b532",
+  "phases/20-azure-ai-engineering/22-azure-observability/docs/en.md": "edb118fdb7e0872ec8262742ab6c77c2c4837259efdb976a2b4c37ba77db50d9",
+  "phases/20-azure-ai-engineering/23-azure-security-and-secrets/docs/en.md": "e60df2286a8f6139198b76c0bc13ee731b1baa771a817a1da64acb8333c9a021",
+  "phases/20-azure-ai-engineering/24-azure-prompt-ops/docs/en.md": "86148c12cdbcf0b9d14b15a7c9f62d2b2c754c67008852da886e83fb75022ec1",
+  "phases/20-azure-ai-engineering/25-azure-rag-deployment/docs/en.md": "f8fbde0e6e83713614acd18d904c88a6981f089fa6ec98edf9cf13fc7d0bb424",
+  "phases/20-azure-ai-engineering/26-azure-agent-deployment/docs/en.md": "af8ff3b74aa23b23c2009822f23e9c3d9a74f5352f233c49f9def93f9991e002",
+  "phases/20-azure-ai-engineering/27-azure-architecture-capstone/docs/en.md": "46c74f7c9e93d772b1fccc043336252fd623dab2d56d82cad2846e8e5c5c0f6d"
+}
